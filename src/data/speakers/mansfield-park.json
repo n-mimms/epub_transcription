@@ -1,0 +1,4026 @@
+{
+  "schemaVersion": 1,
+  "bookId": "mansfield-park",
+  "source": {
+    "encoder": "google-gemini-3.1-flash-lite",
+    "generatedAt": "2026-05-15T20:08:06.461Z",
+    "bookJsonSha256": "6359125cee9284e6859dc8af7a3cfa0376c45b26315861063685ad56898c238e"
+  },
+  "chunks": {
+    "0:8": [
+      "Mrs. Norris",
+      "Lady Bertram",
+      "Lady Bertram"
+    ],
+    "0:12": [
+      "Mrs. Norris"
+    ],
+    "0:13": [
+      "Sir Thomas Bertram",
+      "Sir Thomas Bertram"
+    ],
+    "0:14": [
+      "Mrs. Norris"
+    ],
+    "0:15": [
+      "Sir Thomas Bertram"
+    ],
+    "0:18": [
+      "Mrs. Norris"
+    ],
+    "0:20": [
+      "Lady Bertram",
+      "Lady Bertram"
+    ],
+    "0:21": [
+      "Mrs. Norris",
+      "Mrs. Norris"
+    ],
+    "0:23": [
+      "Mrs. Norris",
+      "Mrs. Norris"
+    ],
+    "0:24": [
+      "Sir Thomas Bertram",
+      "Sir Thomas Bertram"
+    ],
+    "0:25": [
+      "Mrs. Norris",
+      "Mrs. Norris"
+    ],
+    "0:26": [
+      "Lady Bertram",
+      "Lady Bertram"
+    ],
+    "0:27": [
+      "Mrs. Norris",
+      "Mrs. Norris"
+    ],
+    "1:5": [
+      "Mrs. Norris",
+      "Mrs. Norris"
+    ],
+    "1:10": [
+      "Mrs. Norris",
+      "Mrs. Norris",
+      "Mrs. Norris"
+    ],
+    "1:11": [
+      "Mrs. Norris",
+      "Mrs. Norris"
+    ],
+    "1:12": [
+      "Mrs. Norris",
+      "Mrs. Norris",
+      "Mrs. Norris",
+      "Mrs. Norris",
+      "Mrs. Norris"
+    ],
+    "1:13": [
+      "Mrs. Norris"
+    ],
+    "1:14": [
+      "Mrs. Norris"
+    ],
+    "1:15": [
+      "Mrs. Norris"
+    ],
+    "1:16": [
+      "Mrs. Norris"
+    ],
+    "1:17": [
+      "Mrs. Norris"
+    ],
+    "1:18": [
+      "Mrs. Norris"
+    ],
+    "1:19": [
+      "Mrs. Norris"
+    ],
+    "1:23": [
+      "Mrs. Norris"
+    ],
+    "1:25": [
+      "Mrs. Norris"
+    ],
+    "1:26": [
+      "Mrs. Norris",
+      "Mrs. Norris"
+    ],
+    "1:27": [
+      "Mrs. Norris"
+    ],
+    "1:28": [
+      "Mrs. Norris",
+      "Mrs. Norris"
+    ],
+    "1:29": [
+      "Mrs. Norris"
+    ],
+    "1:30": [
+      "Mrs. Norris"
+    ],
+    "1:31": [
+      "Mrs. Norris"
+    ],
+    "1:34": [
+      "Mrs. Norris"
+    ],
+    "2:2": [
+      "Sir Thomas Bertram",
+      "Sir Thomas Bertram"
+    ],
+    "2:4": [
+      "Tom Bertram"
+    ],
+    "2:6": [
+      "Lady Bertram"
+    ],
+    "2:7": [
+      "Fanny Price"
+    ],
+    "2:8": [
+      "Mrs. Norris"
+    ],
+    "2:10": [
+      "Fanny Price"
+    ],
+    "2:11": [
+      "Mrs. Norris"
+    ],
+    "2:12": [
+      "Fanny Price"
+    ],
+    "2:13": [
+      "Mrs. Norris"
+    ],
+    "2:14": [
+      "Fanny Price"
+    ],
+    "2:15": [
+      "Mrs. Norris"
+    ],
+    "2:17": [
+      "Fanny Price",
+      "Fanny Price"
+    ],
+    "2:18": [
+      "Edmund Bertram"
+    ],
+    "2:19": [
+      "Fanny Price"
+    ],
+    "2:20": [
+      "Edmund Bertram"
+    ],
+    "2:21": [
+      "Fanny Price"
+    ],
+    "2:22": [
+      "Edmund Bertram"
+    ],
+    "2:23": [
+      "Fanny Price"
+    ],
+    "2:24": [
+      "Edmund Bertram"
+    ],
+    "2:25": [
+      "Fanny Price"
+    ],
+    "2:26": [
+      "Edmund Bertram"
+    ],
+    "2:27": [
+      "Fanny Price"
+    ],
+    "2:28": [
+      "Edmund Bertram"
+    ],
+    "2:29": [
+      "Fanny Price",
+      "Fanny Price"
+    ],
+    "2:30": [
+      "Fanny Price"
+    ],
+    "2:31": [
+      "Fanny Price"
+    ],
+    "2:32": [
+      "Fanny Price"
+    ],
+    "2:33": [
+      "Fanny Price"
+    ],
+    "2:34": [
+      "Fanny Price"
+    ],
+    "2:35": [
+      "Fanny Price"
+    ],
+    "2:36": [
+      "Fanny Price"
+    ],
+    "2:39": [
+      "Fanny Price"
+    ],
+    "2:40": [
+      "Fanny Price"
+    ],
+    "2:41": [
+      "Fanny Price"
+    ],
+    "2:42": [
+      "Fanny Price"
+    ],
+    "2:43": [
+      "Fanny Price"
+    ],
+    "2:44": [
+      "Fanny Price"
+    ],
+    "2:45": [
+      "Fanny Price"
+    ],
+    "2:46": [
+      "Fanny Price"
+    ],
+    "2:47": [
+      "Fanny Price"
+    ],
+    "2:48": [
+      "Fanny Price"
+    ],
+    "2:49": [
+      "Fanny Price"
+    ],
+    "2:50": [
+      "Fanny Price"
+    ],
+    "2:51": [
+      "Fanny Price"
+    ],
+    "2:52": [
+      "Fanny Price"
+    ],
+    "2:53": [
+      "Fanny Price"
+    ],
+    "2:54": [
+      "Fanny Price"
+    ],
+    "2:55": [
+      "Fanny Price"
+    ],
+    "2:56": [
+      "Mrs. Norris",
+      "Mrs. Norris"
+    ],
+    "2:60": [
+      "Fanny Price"
+    ],
+    "2:65": [
+      "Mrs. Norris"
+    ],
+    "2:66": [
+      "Fanny Price",
+      "Fanny Price",
+      "Fanny Price"
+    ],
+    "3:6": [
+      "Mrs. Norris",
+      "Mrs. Norris"
+    ],
+    "3:7": [
+      "Edmund Bertram"
+    ],
+    "3:8": [
+      "Edmund Bertram"
+    ],
+    "3:12": [
+      "Mrs. Norris"
+    ],
+    "3:18": [
+      "Edmund Bertram"
+    ],
+    "3:27": [
+      "Mrs. Grant",
+      "Mrs. Grant"
+    ],
+    "3:29": [
+      "Mary Crawford",
+      "Mary Crawford"
+    ],
+    "3:30": [
+      "Mrs. Grant"
+    ],
+    "3:31": [
+      "Mary Crawford"
+    ],
+    "3:32": [
+      "Mrs. Grant"
+    ],
+    "3:33": [
+      "Mrs. Grant",
+      "Mrs. Grant"
+    ],
+    "3:35": [
+      "Mrs. Grant"
+    ],
+    "4:2": [
+      "Maria Bertram"
+    ],
+    "4:3": [
+      "Henry Crawford",
+      "Henry Crawford"
+    ],
+    "4:4": [
+      "Mary Crawford"
+    ],
+    "4:5": [
+      "Henry Crawford"
+    ],
+    "4:6": [
+      "Mary Crawford"
+    ],
+    "4:7": [
+      "Henry Crawford"
+    ],
+    "4:8": [
+      "Mary Crawford"
+    ],
+    "4:9": [
+      "Henry Crawford"
+    ],
+    "4:10": [
+      "Mary Crawford"
+    ],
+    "4:11": [
+      "Henry Crawford"
+    ],
+    "4:12": [
+      "Mary Crawford"
+    ],
+    "4:13": [
+      "Henry Crawford"
+    ],
+    "4:14": [
+      "Mary Crawford"
+    ],
+    "4:15": [
+      "Mary Crawford"
+    ],
+    "4:16": [
+      "Henry Crawford"
+    ],
+    "4:17": [
+      "Mary Crawford"
+    ],
+    "4:18": [
+      "Henry Crawford"
+    ],
+    "4:19": [
+      "Mary Crawford"
+    ],
+    "4:20": [
+      "Mrs. Grant"
+    ],
+    "4:21": [
+      "Mary Crawford"
+    ],
+    "4:22": [
+      "Mrs. Grant"
+    ],
+    "4:23": [
+      "Mary Crawford"
+    ],
+    "4:24": [
+      "Mrs. Grant"
+    ],
+    "4:30": [
+      "Mary Crawford",
+      "Mary Crawford"
+    ],
+    "4:31": [
+      "Mary Crawford"
+    ],
+    "4:33": [
+      "Mary Crawford"
+    ],
+    "4:34": [
+      "Mary Crawford"
+    ],
+    "4:35": [
+      "Mary Crawford"
+    ],
+    "4:37": [
+      "Mary Crawford"
+    ],
+    "4:38": [
+      "Mary Crawford"
+    ],
+    "4:39": [
+      "Mary Crawford",
+      "Mary Crawford"
+    ],
+    "4:40": [
+      "Mary Crawford",
+      "Mary Crawford"
+    ],
+    "4:41": [
+      "Mary Crawford",
+      "Mary Crawford"
+    ],
+    "4:42": [
+      "Mary Crawford"
+    ],
+    "4:43": [
+      "Mary Crawford"
+    ],
+    "4:44": [
+      "Mary Crawford"
+    ],
+    "4:45": [
+      "Edmund Bertram",
+      "Edmund Bertram"
+    ],
+    "4:46": [
+      "Mary Crawford"
+    ],
+    "5:0": [
+      "Tom Bertram"
+    ],
+    "5:2": [
+      "Mr. Rushworth",
+      "Mr. Rushworth"
+    ],
+    "5:3": [
+      "Mrs. Norris",
+      "Mrs. Norris"
+    ],
+    "5:4": [
+      "Mrs. Norris"
+    ],
+    "5:5": [
+      "Mrs. Grant",
+      "Mrs. Grant"
+    ],
+    "5:6": [
+      "Mr. Rushworth",
+      "Mr. Rushworth"
+    ],
+    "5:7": [
+      "Maria Bertram",
+      "Maria Bertram"
+    ],
+    "5:8": [
+      "Mr. Rushworth"
+    ],
+    "5:9": [
+      "Mrs. Norris"
+    ],
+    "5:10": [
+      "Mr. Rushworth"
+    ],
+    "5:11": [
+      "Dr. Grant",
+      "Dr. Grant"
+    ],
+    "5:12": [
+      "Mr. Rushworth"
+    ],
+    "5:13": [
+      "Dr. Grant",
+      "Dr. Grant"
+    ],
+    "5:14": [
+      "Mrs. Grant",
+      "Mrs. Grant"
+    ],
+    "5:16": [
+      "Dr. Grant"
+    ],
+    "5:17": [
+      "Lady Bertram",
+      "Lady Bertram"
+    ],
+    "5:19": [
+      "Dr. Grant"
+    ],
+    "5:20": [
+      "Lady Bertram"
+    ],
+    "5:22": [
+      "Dr. Grant"
+    ],
+    "5:23": [
+      "Lady Bertram"
+    ],
+    "5:24": [
+      "Dr. Grant"
+    ],
+    "5:25": [
+      "Lady Bertram"
+    ],
+    "5:26": [
+      "Dr. Grant"
+    ],
+    "5:27": [
+      "Mary Crawford",
+      "Mary Crawford"
+    ],
+    "5:28": [
+      "Dr. Grant"
+    ],
+    "5:29": [
+      "Mary Crawford"
+    ],
+    "5:30": [
+      "Dr. Grant",
+      "Dr. Grant"
+    ],
+    "5:31": [
+      "Mary Crawford"
+    ],
+    "5:32": [
+      "Fanny Price"
+    ],
+    "5:33": [
+      "Mary Crawford"
+    ],
+    "5:35": [
+      "Fanny Price",
+      "Fanny Price",
+      "Fanny Price"
+    ],
+    "5:36": [
+      "Mary Crawford"
+    ],
+    "5:37": [
+      "Fanny Price"
+    ],
+    "5:38": [
+      "Mary Crawford"
+    ],
+    "5:39": [
+      "Fanny Price"
+    ],
+    "5:40": [
+      "Mary Crawford"
+    ],
+    "5:41": [
+      "Fanny Price"
+    ],
+    "5:43": [
+      "Mary Crawford",
+      "Mary Crawford"
+    ],
+    "5:44": [
+      "Fanny Price"
+    ],
+    "5:45": [
+      "Mary Crawford"
+    ],
+    "5:46": [
+      "Fanny Price",
+      "Fanny Price"
+    ],
+    "5:47": [
+      "Edmund Bertram",
+      "Edmund Bertram"
+    ],
+    "5:48": [
+      "Fanny Price"
+    ],
+    "5:50": [
+      "Edmund Bertram",
+      "Edmund Bertram"
+    ],
+    "5:51": [
+      "Fanny Price",
+      "Fanny Price"
+    ],
+    "5:52": [
+      "Edmund Bertram"
+    ],
+    "5:53": [
+      "Fanny Price"
+    ],
+    "5:56": [
+      "Edmund Bertram"
+    ],
+    "5:57": [
+      "Fanny Price",
+      "Fanny Price"
+    ],
+    "5:58": [
+      "Julia Bertram"
+    ],
+    "5:59": [
+      "Fanny Price"
+    ],
+    "5:60": [
+      "Julia Bertram",
+      "Julia Bertram"
+    ],
+    "5:62": [
+      "Fanny Price"
+    ],
+    "6:0": [
+      "Edmund Bertram",
+      "Edmund Bertram"
+    ],
+    "6:1": [
+      "Fanny Price"
+    ],
+    "6:2": [
+      "Edmund Bertram"
+    ],
+    "6:3": [
+      "Fanny Price"
+    ],
+    "6:4": [
+      "Edmund Bertram"
+    ],
+    "6:5": [
+      "Fanny Price"
+    ],
+    "6:6": [
+      "Edmund Bertram"
+    ],
+    "6:7": [
+      "Fanny Price",
+      "Fanny Price"
+    ],
+    "6:8": [
+      "Fanny Price"
+    ],
+    "6:9": [
+      "Fanny Price"
+    ],
+    "6:10": [
+      "Fanny Price"
+    ],
+    "6:23": [
+      "Mary Crawford",
+      "Mary Crawford"
+    ],
+    "6:24": [
+      "Fanny Price",
+      "Fanny Price"
+    ],
+    "6:25": [
+      "Mary Crawford",
+      "Mary Crawford"
+    ],
+    "6:27": [
+      "Fanny Price",
+      "Fanny Price"
+    ],
+    "6:29": [
+      "Julia Bertram",
+      "Julia Bertram"
+    ],
+    "6:30": [
+      "Maria Bertram",
+      "Maria Bertram"
+    ],
+    "6:32": [
+      "Julia Bertram"
+    ],
+    "6:33": [
+      "Maria Bertram",
+      "Maria Bertram"
+    ],
+    "6:34": [
+      "Fanny Price",
+      "Fanny Price"
+    ],
+    "6:37": [
+      "Maria Bertram"
+    ],
+    "6:38": [
+      "Mrs. Norris",
+      "Mrs. Norris"
+    ],
+    "6:40": [
+      "Maria Bertram"
+    ],
+    "6:41": [
+      "Mrs. Norris"
+    ],
+    "6:42": [
+      "Edmund Bertram",
+      "Edmund Bertram"
+    ],
+    "6:44": [
+      "Mrs. Norris",
+      "Mrs. Norris"
+    ],
+    "6:45": [
+      "Edmund Bertram"
+    ],
+    "6:46": [
+      "Mrs. Norris"
+    ],
+    "6:47": [
+      "Mrs. Norris",
+      "Mrs. Norris"
+    ],
+    "6:48": [
+      "Mrs. Norris",
+      "Mrs. Norris"
+    ],
+    "6:49": [
+      "Mrs. Norris"
+    ],
+    "6:50": [
+      "Mrs. Norris"
+    ],
+    "6:51": [
+      "Mrs. Norris",
+      "Mrs. Norris"
+    ],
+    "6:52": [
+      "Lady Bertram",
+      "Lady Bertram"
+    ],
+    "6:53": [
+      "Edmund Bertram",
+      "Edmund Bertram"
+    ],
+    "6:55": [
+      "Lady Bertram",
+      "Lady Bertram"
+    ],
+    "6:56": [
+      "Edmund Bertram"
+    ],
+    "6:57": [
+      "Lady Bertram"
+    ],
+    "6:58": [
+      "Edmund Bertram"
+    ],
+    "6:59": [
+      "Mrs. Norris",
+      "Mrs. Norris"
+    ],
+    "6:60": [
+      "Edmund Bertram"
+    ],
+    "6:61": [
+      "Mrs. Norris",
+      "Mrs. Norris"
+    ],
+    "6:62": [
+      "Edmund Bertram",
+      "Edmund Bertram"
+    ],
+    "7:3": [
+      "Mrs. Norris"
+    ],
+    "7:4": [
+      "Mr. Rushworth"
+    ],
+    "7:5": [
+      "Mrs. Norris",
+      "Mrs. Norris"
+    ],
+    "7:6": [
+      "Mrs. Norris"
+    ],
+    "7:9": [
+      "Edmund Bertram",
+      "Edmund Bertram"
+    ],
+    "7:10": [
+      "Julia Bertram",
+      "Julia Bertram"
+    ],
+    "7:11": [
+      "Maria Bertram",
+      "Maria Bertram"
+    ],
+    "7:12": [
+      "Mrs. Norris",
+      "Mrs. Norris"
+    ],
+    "7:13": [
+      "Maria Bertram",
+      "Maria Bertram"
+    ],
+    "7:14": [
+      "Edmund Bertram",
+      "Edmund Bertram"
+    ],
+    "7:15": [
+      "Maria Bertram",
+      "Maria Bertram"
+    ],
+    "7:16": [
+      "Edmund Bertram"
+    ],
+    "7:17": [
+      "Maria Bertram",
+      "Maria Bertram"
+    ],
+    "7:18": [
+      "Edmund Bertram",
+      "Edmund Bertram"
+    ],
+    "7:19": [
+      "Maria Bertram"
+    ],
+    "7:20": [
+      "Edmund Bertram"
+    ],
+    "7:21": [
+      "Maria Bertram",
+      "Maria Bertram"
+    ],
+    "7:22": [
+      "Edmund Bertram"
+    ],
+    "7:24": [
+      "Maria Bertram"
+    ],
+    "7:25": [
+      "Maria Bertram",
+      "Maria Bertram"
+    ],
+    "7:26": [
+      "Julia Bertram"
+    ],
+    "7:27": [
+      "Maria Bertram"
+    ],
+    "7:30": [
+      "Julia Bertram"
+    ],
+    "7:33": [
+      "Maria Bertram"
+    ],
+    "7:34": [
+      "Julia Bertram",
+      "Julia Bertram"
+    ],
+    "7:35": [
+      "Maria Bertram",
+      "Maria Bertram"
+    ],
+    "7:36": [
+      "Julia Bertram"
+    ],
+    "7:37": [
+      "Maria Bertram",
+      "Maria Bertram"
+    ],
+    "7:38": [
+      "Julia Bertram"
+    ],
+    "8:0": [
+      "Henry Crawford"
+    ],
+    "8:5": [
+      "Maria Bertram",
+      "Maria Bertram"
+    ],
+    "8:6": [
+      "Maria Bertram",
+      "Maria Bertram"
+    ],
+    "8:7": [
+      "Maria Bertram"
+    ],
+    "8:8": [
+      "Maria Bertram"
+    ],
+    "8:9": [
+      "Maria Bertram"
+    ],
+    "8:10": [
+      "Mary Crawford"
+    ],
+    "8:12": [
+      "Fanny Price",
+      "Fanny Price"
+    ],
+    "8:13": [
+      "Mary Crawford",
+      "Mary Crawford"
+    ],
+    "8:14": [
+      "Edmund Bertram",
+      "Edmund Bertram"
+    ],
+    "8:16": [
+      "Mary Crawford"
+    ],
+    "8:17": [
+      "Edmund Bertram"
+    ],
+    "8:18": [
+      "Mary Crawford"
+    ],
+    "8:19": [
+      "Edmund Bertram"
+    ],
+    "8:20": [
+      "Mary Crawford"
+    ],
+    "8:21": [
+      "Edmund Bertram"
+    ],
+    "8:22": [
+      "Mary Crawford"
+    ],
+    "8:23": [
+      "Edmund Bertram"
+    ],
+    "8:25": [
+      "Mary Crawford"
+    ],
+    "8:26": [
+      "Julia Bertram",
+      "Julia Bertram"
+    ],
+    "8:27": [
+      "Mary Crawford"
+    ],
+    "8:28": [
+      "Mary Crawford",
+      "Mary Crawford"
+    ],
+    "8:29": [
+      "Mary Crawford"
+    ],
+    "8:30": [
+      "Mary Crawford"
+    ],
+    "8:32": [
+      "Mary Crawford",
+      "Mary Crawford"
+    ],
+    "8:34": [
+      "Maria Bertram",
+      "Maria Bertram"
+    ],
+    "8:35": [
+      "Mary Crawford",
+      "Mary Crawford"
+    ],
+    "8:36": [
+      "Maria Bertram",
+      "Maria Bertram"
+    ],
+    "8:39": [
+      "Mary Crawford",
+      "Mary Crawford"
+    ],
+    "8:40": [
+      "Maria Bertram"
+    ],
+    "8:41": [
+      "Mary Crawford"
+    ],
+    "8:42": [
+      "Maria Bertram"
+    ],
+    "8:43": [
+      "Edmund Bertram",
+      "Edmund Bertram"
+    ],
+    "8:44": [
+      "Maria Bertram"
+    ],
+    "8:45": [
+      "Edmund Bertram"
+    ],
+    "8:46": [
+      "Maria Bertram"
+    ],
+    "8:47": [
+      "Edmund Bertram"
+    ],
+    "8:48": [
+      "Maria Bertram"
+    ],
+    "8:49": [
+      "Edmund Bertram"
+    ],
+    "8:50": [
+      "Maria Bertram"
+    ],
+    "8:52": [
+      "Edmund Bertram"
+    ],
+    "8:53": [
+      "Fanny Price"
+    ],
+    "8:54": [
+      "Mary Crawford",
+      "Mary Crawford"
+    ],
+    "8:55": [
+      "Fanny Price"
+    ],
+    "8:56": [
+      "Mary Crawford",
+      "Mary Crawford"
+    ],
+    "8:57": [
+      "Fanny Price"
+    ],
+    "8:58": [
+      "Mary Crawford"
+    ],
+    "8:59": [
+      "Fanny Price"
+    ],
+    "8:60": [
+      "Mary Crawford"
+    ],
+    "8:61": [
+      "Edmund Bertram",
+      "Edmund Bertram",
+      "Edmund Bertram"
+    ],
+    "8:62": [
+      "Mary Crawford",
+      "Mary Crawford",
+      "Mary Crawford"
+    ],
+    "8:63": [
+      "Edmund Bertram"
+    ],
+    "8:64": [
+      "Mary Crawford"
+    ],
+    "8:65": [
+      "Edmund Bertram"
+    ],
+    "8:66": [
+      "Mary Crawford"
+    ],
+    "8:67": [
+      "Edmund Bertram"
+    ],
+    "8:68": [
+      "Edmund Bertram",
+      "Edmund Bertram"
+    ],
+    "8:69": [
+      "Edmund Bertram"
+    ],
+    "8:71": [
+      "Edmund Bertram",
+      "Edmund Bertram"
+    ],
+    "8:72": [
+      "Edmund Bertram"
+    ],
+    "8:73": [
+      "Edmund Bertram"
+    ],
+    "8:74": [
+      "Edmund Bertram"
+    ],
+    "8:75": [
+      "Fanny Price",
+      "Fanny Price"
+    ],
+    "8:76": [
+      "Edmund Bertram",
+      "Edmund Bertram"
+    ],
+    "8:77": [
+      "Fanny Price"
+    ],
+    "8:78": [
+      "Edmund Bertram",
+      "Edmund Bertram"
+    ],
+    "9:1": [
+      "Maria Bertram",
+      "Maria Bertram",
+      "Maria Bertram",
+      "Maria Bertram"
+    ],
+    "9:4": [
+      "Henry Crawford"
+    ],
+    "9:5": [
+      "Maria Bertram"
+    ],
+    "9:6": [
+      "Henry Crawford",
+      "Henry Crawford"
+    ],
+    "9:7": [
+      "Maria Bertram"
+    ],
+    "9:8": [
+      "Henry Crawford"
+    ],
+    "9:9": [
+      "Maria Bertram"
+    ],
+    "9:10": [
+      "Henry Crawford"
+    ],
+    "9:11": [
+      "Maria Bertram"
+    ],
+    "9:12": [
+      "Henry Crawford",
+      "Henry Crawford",
+      "Henry Crawford"
+    ],
+    "9:13": [
+      "Maria Bertram"
+    ],
+    "9:14": [
+      "Henry Crawford"
+    ],
+    "9:15": [
+      "Maria Bertram",
+      "Maria Bertram"
+    ],
+    "9:16": [
+      "Henry Crawford"
+    ],
+    "9:17": [
+      "Maria Bertram"
+    ],
+    "9:18": [
+      "Henry Crawford"
+    ],
+    "9:19": [
+      "Fanny Price",
+      "Fanny Price"
+    ],
+    "9:20": [
+      "Maria Bertram"
+    ],
+    "9:22": [
+      "Julia Bertram"
+    ],
+    "9:24": [
+      "Julia Bertram",
+      "Julia Bertram"
+    ],
+    "9:25": [
+      "Fanny Price"
+    ],
+    "9:26": [
+      "Julia Bertram"
+    ],
+    "9:28": [
+      "Julia Bertram"
+    ],
+    "9:29": [
+      "Fanny Price"
+    ],
+    "9:30": [
+      "Julia Bertram"
+    ],
+    "9:32": [
+      "Fanny Price"
+    ],
+    "9:33": [
+      "Mr. Rushworth",
+      "Mr. Rushworth"
+    ],
+    "9:35": [
+      "Fanny Price",
+      "Fanny Price"
+    ],
+    "9:36": [
+      "Mr. Rushworth"
+    ],
+    "9:37": [
+      "Fanny Price"
+    ],
+    "9:38": [
+      "Mr. Rushworth"
+    ],
+    "9:39": [
+      "Mr. Rushworth"
+    ],
+    "9:40": [
+      "Fanny Price"
+    ],
+    "9:41": [
+      "Mr. Rushworth"
+    ],
+    "9:43": [
+      "Mr. Rushworth"
+    ],
+    "9:44": [
+      "Fanny Price"
+    ],
+    "9:45": [
+      "Mr. Rushworth",
+      "Fanny Price"
+    ],
+    "9:46": [
+      "Mr. Rushworth",
+      "Mr. Rushworth"
+    ],
+    "9:52": [
+      "Henry Crawford"
+    ],
+    "9:54": [
+      "Mrs. Norris",
+      "Mrs. Norris"
+    ],
+    "9:55": [
+      "Mrs. Norris"
+    ],
+    "9:56": [
+      "Mrs. Norris"
+    ],
+    "9:57": [
+      "Maria Bertram"
+    ],
+    "9:58": [
+      "Mrs. Norris"
+    ],
+    "10:3": [
+      "Mary Crawford"
+    ],
+    "10:5": [
+      "Mary Crawford"
+    ],
+    "10:6": [
+      "Edmund Bertram"
+    ],
+    "10:7": [
+      "Mary Crawford"
+    ],
+    "10:8": [
+      "Edmund Bertram"
+    ],
+    "10:9": [
+      "Mary Crawford",
+      "Mary Crawford"
+    ],
+    "10:10": [
+      "Edmund Bertram",
+      "Edmund Bertram"
+    ],
+    "10:11": [
+      "Edmund Bertram"
+    ],
+    "10:12": [
+      "Edmund Bertram"
+    ],
+    "10:13": [
+      "Edmund Bertram"
+    ],
+    "10:14": [
+      "Edmund Bertram"
+    ],
+    "10:15": [
+      "Fanny Price"
+    ],
+    "10:16": [
+      "Edmund Bertram"
+    ],
+    "10:17": [
+      "Fanny Price",
+      "Fanny Price"
+    ],
+    "10:18": [
+      "Edmund Bertram"
+    ],
+    "10:19": [
+      "Edmund Bertram",
+      "Edmund Bertram"
+    ],
+    "10:20": [
+      "Edmund Bertram"
+    ],
+    "10:21": [
+      "Edmund Bertram"
+    ],
+    "10:22": [
+      "Edmund Bertram"
+    ],
+    "10:23": [
+      "Edmund Bertram"
+    ],
+    "10:24": [
+      "Edmund Bertram"
+    ],
+    "10:25": [
+      "Edmund Bertram"
+    ],
+    "10:26": [
+      "Edmund Bertram"
+    ],
+    "10:27": [
+      "Mary Crawford",
+      "Mary Crawford"
+    ],
+    "10:28": [
+      "Edmund Bertram"
+    ],
+    "10:29": [
+      "Fanny Price"
+    ],
+    "10:30": [
+      "Edmund Bertram"
+    ],
+    "10:31": [
+      "Fanny Price"
+    ],
+    "10:32": [
+      "Edmund Bertram",
+      "Edmund Bertram"
+    ],
+    "10:33": [
+      "Fanny Price"
+    ],
+    "10:34": [
+      "Edmund Bertram",
+      "Edmund Bertram",
+      "Edmund Bertram"
+    ],
+    "10:35": [
+      "Fanny Price",
+      "Fanny Price"
+    ],
+    "10:36": [
+      "Edmund Bertram"
+    ],
+    "10:37": [
+      "Fanny Price"
+    ],
+    "10:38": [
+      "Edmund Bertram"
+    ],
+    "10:39": [
+      "Fanny Price"
+    ],
+    "10:40": [
+      "Edmund Bertram"
+    ],
+    "10:41": [
+      "Fanny Price"
+    ],
+    "10:42": [
+      "Edmund Bertram",
+      "Edmund Bertram"
+    ],
+    "11:5": [
+      "Fanny Price",
+      "Fanny Price"
+    ],
+    "11:6": [
+      "Edmund Bertram",
+      "Edmund Bertram"
+    ],
+    "11:7": [
+      "Fanny Price"
+    ],
+    "11:8": [
+      "Edmund Bertram"
+    ],
+    "11:9": [
+      "Fanny Price",
+      "Fanny Price"
+    ],
+    "11:10": [
+      "Edmund Bertram"
+    ],
+    "11:13": [
+      "Mrs. Norris",
+      "Mrs. Norris"
+    ],
+    "11:14": [
+      "Mrs. Norris",
+      "Mrs. Norris"
+    ],
+    "11:15": [
+      "Mrs. Norris"
+    ],
+    "11:17": [
+      "Mrs. Norris"
+    ],
+    "11:19": [
+      "Mrs. Norris"
+    ],
+    "11:20": [
+      "Mrs. Norris"
+    ],
+    "11:21": [
+      "Mrs. Norris"
+    ],
+    "11:22": [
+      "Mrs. Norris"
+    ],
+    "11:23": [
+      "Mrs. Norris"
+    ],
+    "11:24": [
+      "Mrs. Norris",
+      "Mrs. Norris"
+    ],
+    "11:25": [
+      "Mrs. Norris",
+      "Mrs. Norris"
+    ],
+    "11:26": [
+      "Mrs. Norris",
+      "Mrs. Norris",
+      "Mrs. Norris"
+    ],
+    "11:27": [
+      "Mrs. Norris",
+      "Mrs. Norris",
+      "Mrs. Norris"
+    ],
+    "11:29": [
+      "Mrs. Norris",
+      "Mrs. Norris"
+    ],
+    "12:2": [
+      "Mr. Yates"
+    ],
+    "12:3": [
+      "Mr. Yates"
+    ],
+    "12:4": [
+      "Maria Bertram",
+      "Julia Bertram"
+    ],
+    "12:5": [
+      "Mr. Yates"
+    ],
+    "12:6": [
+      "Tom Bertram",
+      "Tom Bertram"
+    ],
+    "12:7": [
+      "Henry Crawford",
+      "Henry Crawford"
+    ],
+    "12:8": [
+      "Henry Crawford",
+      "Henry Crawford"
+    ],
+    "12:9": [
+      "Tom Bertram",
+      "Tom Bertram"
+    ],
+    "12:10": [
+      "Mr. Yates",
+      "Mr. Yates"
+    ],
+    "12:11": [
+      "Maria Bertram",
+      "Maria Bertram"
+    ],
+    "12:12": [
+      "Edmund Bertram",
+      "Edmund Bertram"
+    ],
+    "12:13": [
+      "Julia Bertram",
+      "Julia Bertram"
+    ],
+    "12:14": [
+      "Edmund Bertram"
+    ],
+    "12:17": [
+      "Julia Bertram"
+    ],
+    "12:18": [
+      "Edmund Bertram"
+    ],
+    "12:19": [
+      "Julia Bertram"
+    ],
+    "12:20": [
+      "Edmund Bertram"
+    ],
+    "12:22": [
+      "Julia Bertram"
+    ],
+    "12:25": [
+      "Tom Bertram",
+      "Tom Bertram"
+    ],
+    "12:26": [
+      "Julia Bertram",
+      "Julia Bertram"
+    ],
+    "12:27": [
+      "Tom Bertram",
+      "Tom Bertram"
+    ],
+    "12:28": [
+      "Julia Bertram"
+    ],
+    "12:29": [
+      "Tom Bertram"
+    ],
+    "12:30": [
+      "Julia Bertram"
+    ],
+    "12:31": [
+      "Tom Bertram",
+      "Tom Bertram"
+    ],
+    "12:32": [
+      "Julia Bertram",
+      "Julia Bertram"
+    ],
+    "12:33": [
+      "Tom Bertram",
+      "Tom Bertram"
+    ],
+    "12:34": [
+      "Julia Bertram"
+    ],
+    "12:35": [
+      "Tom Bertram"
+    ],
+    "12:36": [
+      "Edmund Bertram",
+      "Edmund Bertram"
+    ],
+    "12:38": [
+      "Tom Bertram"
+    ],
+    "12:39": [
+      "Edmund Bertram"
+    ],
+    "12:40": [
+      "Tom Bertram"
+    ],
+    "12:41": [
+      "Edmund Bertram"
+    ],
+    "12:43": [
+      "Tom Bertram"
+    ],
+    "12:44": [
+      "Edmund Bertram"
+    ],
+    "13:3": [
+      "Maria Bertram"
+    ],
+    "13:5": [
+      "Tom Bertram",
+      "Tom Bertram"
+    ],
+    "13:7": [
+      "Tom Bertram"
+    ],
+    "13:10": [
+      "Tom Bertram",
+      "Tom Bertram"
+    ],
+    "13:11": [
+      "Tom Bertram",
+      "Tom Bertram"
+    ],
+    "13:13": [
+      "Tom Bertram",
+      "Tom Bertram",
+      "Tom Bertram"
+    ],
+    "13:15": [
+      "Tom Bertram"
+    ],
+    "13:16": [
+      "Mr. Yates",
+      "Mr. Yates"
+    ],
+    "13:17": [
+      "Tom Bertram"
+    ],
+    "13:18": [
+      "Henry Crawford",
+      "Henry Crawford"
+    ],
+    "13:19": [
+      "Tom Bertram"
+    ],
+    "13:20": [
+      "Henry Crawford",
+      "Henry Crawford"
+    ],
+    "13:21": [
+      "Tom Bertram"
+    ],
+    "13:22": [
+      "Henry Crawford"
+    ],
+    "13:23": [
+      "Julia Bertram",
+      "Julia Bertram"
+    ],
+    "13:24": [
+      "Henry Crawford"
+    ],
+    "14:3": [
+      "Mr. Rushworth",
+      "Mr. Rushworth"
+    ],
+    "14:5": [
+      "Edmund Bertram"
+    ],
+    "14:6": [
+      "Mr. Yates",
+      "Mr. Yates"
+    ],
+    "14:7": [
+      "Mr. Yates"
+    ],
+    "14:8": [
+      "Mr. Yates",
+      "Mr. Yates"
+    ],
+    "14:9": [
+      "Edmund Bertram"
+    ],
+    "14:10": [
+      "Mr. Yates"
+    ],
+    "14:11": [
+      "Edmund Bertram"
+    ],
+    "14:12": [
+      "Maria Bertram",
+      "Maria Bertram"
+    ],
+    "14:13": [
+      "Edmund Bertram",
+      "Edmund Bertram"
+    ],
+    "14:14": [
+      "Maria Bertram"
+    ],
+    "14:15": [
+      "Edmund Bertram"
+    ],
+    "14:16": [
+      "Lady Bertram",
+      "Lady Bertram"
+    ],
+    "14:17": [
+      "Edmund Bertram",
+      "Edmund Bertram"
+    ],
+    "14:18": [
+      "Lady Bertram"
+    ],
+    "14:19": [
+      "Maria Bertram",
+      "Maria Bertram"
+    ],
+    "14:20": [
+      "Edmund Bertram",
+      "Edmund Bertram"
+    ],
+    "14:21": [
+      "Maria Bertram"
+    ],
+    "14:22": [
+      "Mrs. Norris"
+    ],
+    "14:24": [
+      "Maria Bertram"
+    ],
+    "14:28": [
+      "Mrs. Norris",
+      "Mrs. Norris",
+      "Mrs. Norris",
+      "Mrs. Norris",
+      "Mrs. Norris"
+    ],
+    "14:29": [
+      "Maria Bertram"
+    ],
+    "14:30": [
+      "Mrs. Norris"
+    ],
+    "14:31": [
+      "Mr. Rushworth",
+      "Mr. Rushworth"
+    ],
+    "14:32": [
+      "Mary Crawford",
+      "Mary Crawford"
+    ],
+    "14:33": [
+      "Mr. Rushworth",
+      "Mr. Rushworth"
+    ],
+    "14:34": [
+      "Mary Crawford",
+      "Mary Crawford"
+    ],
+    "14:35": [
+      "Tom Bertram",
+      "Tom Bertram"
+    ],
+    "14:36": [
+      "Mr. Yates",
+      "Mr. Yates"
+    ],
+    "14:37": [
+      "Tom Bertram"
+    ],
+    "14:39": [
+      "Mr. Yates",
+      "Mr. Yates"
+    ],
+    "14:40": [
+      "Tom Bertram",
+      "Tom Bertram"
+    ],
+    "14:41": [
+      "Mr. Yates",
+      "Mr. Yates",
+      "Mr. Yates"
+    ],
+    "14:43": [
+      "Tom Bertram",
+      "Tom Bertram"
+    ],
+    "14:44": [
+      "Mr. Yates",
+      "Mr. Yates"
+    ],
+    "14:46": [
+      "Tom Bertram",
+      "Tom Bertram"
+    ],
+    "14:48": [
+      "Mr. Yates"
+    ],
+    "14:49": [
+      "Fanny Price",
+      "Fanny Price"
+    ],
+    "14:50": [
+      "Mr. Yates"
+    ],
+    "14:51": [
+      "Mr. Rushworth",
+      "Mr. Rushworth"
+    ],
+    "14:52": [
+      "Fanny Price",
+      "Fanny Price"
+    ],
+    "14:53": [
+      "Mr. Rushworth"
+    ],
+    "14:54": [
+      "Fanny Price"
+    ],
+    "14:55": [
+      "Mr. Rushworth"
+    ],
+    "14:56": [
+      "Fanny Price",
+      "Fanny Price"
+    ],
+    "14:57": [
+      "Edmund Bertram",
+      "Edmund Bertram"
+    ],
+    "14:58": [
+      "Mrs. Norris",
+      "Mrs. Norris"
+    ],
+    "14:59": [
+      "Edmund Bertram",
+      "Edmund Bertram"
+    ],
+    "14:61": [
+      "Mrs. Norris",
+      "Mrs. Norris"
+    ],
+    "14:62": [
+      "Edmund Bertram"
+    ],
+    "14:63": [
+      "Mrs. Norris"
+    ],
+    "14:64": [
+      "Mary Crawford",
+      "Mary Crawford"
+    ],
+    "15:8": [
+      "Fanny Price"
+    ],
+    "15:9": [
+      "Edmund Bertram"
+    ],
+    "15:10": [
+      "Fanny Price"
+    ],
+    "15:11": [
+      "Edmund Bertram"
+    ],
+    "15:12": [
+      "Fanny Price"
+    ],
+    "15:13": [
+      "Edmund Bertram"
+    ],
+    "15:14": [
+      "Fanny Price"
+    ],
+    "15:15": [
+      "Edmund Bertram"
+    ],
+    "15:17": [
+      "Edmund Bertram",
+      "Edmund Bertram"
+    ],
+    "15:18": [
+      "Fanny Price",
+      "Fanny Price"
+    ],
+    "15:20": [
+      "Edmund Bertram"
+    ],
+    "15:21": [
+      "Fanny Price"
+    ],
+    "15:22": [
+      "Edmund Bertram"
+    ],
+    "15:23": [
+      "Fanny Price"
+    ],
+    "15:24": [
+      "Edmund Bertram"
+    ],
+    "15:25": [
+      "Fanny Price"
+    ],
+    "15:26": [
+      "Edmund Bertram"
+    ],
+    "15:27": [
+      "Fanny Price"
+    ],
+    "15:28": [
+      "Edmund Bertram"
+    ],
+    "15:29": [
+      "Fanny Price"
+    ],
+    "15:30": [
+      "Fanny Price"
+    ],
+    "15:31": [
+      "Fanny Price"
+    ],
+    "15:33": [
+      "Fanny Price",
+      "Fanny Price"
+    ],
+    "15:34": [
+      "Fanny Price"
+    ],
+    "16:1": [
+      "Maria Bertram"
+    ],
+    "16:2": [
+      "Tom Bertram",
+      "Tom Bertram"
+    ],
+    "16:3": [
+      "Tom Bertram"
+    ],
+    "16:4": [
+      "Tom Bertram"
+    ],
+    "16:5": [
+      "Tom Bertram"
+    ],
+    "16:12": [
+      "Tom Bertram"
+    ],
+    "16:13": [
+      "Tom Bertram",
+      "Tom Bertram"
+    ],
+    "16:14": [
+      "Tom Bertram"
+    ],
+    "16:15": [
+      "Tom Bertram"
+    ],
+    "16:16": [
+      "Tom Bertram"
+    ],
+    "16:17": [
+      "Mary Crawford"
+    ],
+    "16:22": [
+      "Tom Bertram"
+    ],
+    "16:23": [
+      "Mary Crawford"
+    ],
+    "16:24": [
+      "Tom Bertram"
+    ],
+    "17:5": [
+      "Mr. Rushworth"
+    ],
+    "17:8": [
+      "Mrs. Norris",
+      "Mrs. Norris"
+    ],
+    "17:10": [
+      "Lady Bertram"
+    ],
+    "17:11": [
+      "Mrs. Norris"
+    ],
+    "17:12": [
+      "Fanny Price",
+      "Fanny Price"
+    ],
+    "17:13": [
+      "Mrs. Norris",
+      "Mrs. Norris"
+    ],
+    "17:17": [
+      "Mary Crawford"
+    ],
+    "17:19": [
+      "Mary Crawford"
+    ],
+    "17:21": [
+      "Mary Crawford",
+      "Mary Crawford"
+    ],
+    "17:22": [
+      "Mary Crawford"
+    ],
+    "17:24": [
+      "Mary Crawford"
+    ],
+    "17:31": [
+      "Mary Crawford",
+      "Mary Crawford"
+    ],
+    "17:32": [
+      "Mary Crawford",
+      "Mary Crawford"
+    ],
+    "17:34": [
+      "Henry Crawford"
+    ],
+    "17:35": [
+      "Maria Bertram",
+      "Maria Bertram"
+    ],
+    "17:37": [
+      "Henry Crawford"
+    ],
+    "18:0": [
+      null
+    ],
+    "18:1": [
+      "Julia Bertram"
+    ],
+    "18:2": [
+      "Mr. Rushworth"
+    ],
+    "18:7": [
+      "Mr. Yates"
+    ],
+    "18:9": [
+      "Sir Thomas Bertram"
+    ],
+    "18:16": [
+      "Mrs. Norris"
+    ],
+    "18:17": [
+      "Sir Thomas Bertram",
+      "Sir Thomas Bertram"
+    ],
+    "18:18": [
+      "Mrs. Norris"
+    ],
+    "18:19": [
+      "Lady Bertram"
+    ],
+    "18:20": [
+      "Sir Thomas Bertram"
+    ],
+    "18:21": [
+      "Lady Bertram"
+    ],
+    "18:22": [
+      "Tom Bertram"
+    ],
+    "18:23": [
+      "Tom Bertram"
+    ],
+    "18:25": [
+      "Edmund Bertram"
+    ],
+    "18:26": [
+      "Maria Bertram",
+      "Maria Bertram"
+    ],
+    "18:28": [
+      "Tom Bertram",
+      "Tom Bertram"
+    ],
+    "18:32": [
+      "Maria Bertram"
+    ],
+    "18:34": [
+      "Tom Bertram",
+      "Tom Bertram"
+    ],
+    "18:36": [
+      "Tom Bertram",
+      "Tom Bertram"
+    ],
+    "18:38": [
+      "Tom Bertram",
+      "Tom Bertram"
+    ],
+    "18:39": [
+      "Tom Bertram"
+    ],
+    "18:40": [
+      "Sir Thomas Bertram",
+      "Sir Thomas Bertram",
+      "Sir Thomas Bertram",
+      "Sir Thomas Bertram"
+    ],
+    "18:41": [
+      "Tom Bertram"
+    ],
+    "18:42": [
+      "Sir Thomas Bertram"
+    ],
+    "18:44": [
+      "Mr. Rushworth",
+      "Mr. Rushworth"
+    ],
+    "18:45": [
+      "Sir Thomas Bertram"
+    ],
+    "19:0": [
+      "Edmund Bertram",
+      "Edmund Bertram"
+    ],
+    "19:4": [
+      "Mrs. Norris",
+      "Mrs. Norris"
+    ],
+    "19:5": [
+      "Sir Thomas Bertram"
+    ],
+    "19:7": [
+      "Mrs. Norris"
+    ],
+    "19:8": [
+      "Sir Thomas Bertram"
+    ],
+    "19:9": [
+      "Mrs. Grant"
+    ],
+    "19:18": [
+      "Mrs. Grant",
+      "Mrs. Grant"
+    ],
+    "19:19": [
+      "Mrs. Grant",
+      "Mrs. Grant"
+    ],
+    "19:20": [
+      "Mrs. Grant"
+    ],
+    "19:21": [
+      "Mrs. Grant"
+    ],
+    "19:22": [
+      "Mrs. Grant"
+    ],
+    "19:23": [
+      "Mrs. Grant"
+    ],
+    "20:1": [
+      "Edmund Bertram",
+      "Edmund Bertram"
+    ],
+    "20:2": [
+      "Fanny Price",
+      "Fanny Price"
+    ],
+    "20:3": [
+      "Fanny Price",
+      "Fanny Price"
+    ],
+    "20:4": [
+      "Fanny Price",
+      "Fanny Price"
+    ],
+    "20:5": [
+      "Fanny Price",
+      "Fanny Price"
+    ],
+    "20:7": [
+      "Fanny Price"
+    ],
+    "20:8": [
+      "Fanny Price"
+    ],
+    "20:9": [
+      "Fanny Price"
+    ],
+    "20:10": [
+      "Fanny Price"
+    ],
+    "20:11": [
+      "Fanny Price"
+    ],
+    "20:12": [
+      "Fanny Price"
+    ],
+    "20:14": [
+      "Fanny Price"
+    ],
+    "20:15": [
+      "Fanny Price",
+      "Fanny Price"
+    ],
+    "20:16": [
+      "Fanny Price"
+    ],
+    "20:18": [
+      "Fanny Price"
+    ],
+    "20:19": [
+      "Fanny Price"
+    ],
+    "21:0": [
+      "Mary Crawford"
+    ],
+    "21:5": [
+      "Mary Crawford",
+      "Mary Crawford"
+    ],
+    "21:7": [
+      "Mary Crawford",
+      "Mary Crawford"
+    ],
+    "21:8": [
+      "Fanny Price",
+      "Fanny Price"
+    ],
+    "21:9": [
+      "Mary Crawford"
+    ],
+    "21:13": [
+      "Fanny Price",
+      "Fanny Price"
+    ],
+    "21:14": [
+      "Mary Crawford"
+    ],
+    "21:16": [
+      "Fanny Price"
+    ],
+    "21:17": [
+      "Mary Crawford",
+      "Mary Crawford"
+    ],
+    "21:18": [
+      "Fanny Price",
+      "Fanny Price"
+    ],
+    "21:19": [
+      "Mary Crawford",
+      "Mary Crawford"
+    ],
+    "21:20": [
+      "Fanny Price"
+    ],
+    "21:21": [
+      "Mary Crawford",
+      "Mary Crawford",
+      "Mary Crawford"
+    ],
+    "21:23": [
+      "Fanny Price"
+    ],
+    "21:24": [
+      "Mary Crawford",
+      "Mary Crawford"
+    ],
+    "21:25": [
+      "Fanny Price",
+      "Fanny Price"
+    ],
+    "21:26": [
+      "Fanny Price",
+      "Fanny Price"
+    ],
+    "21:27": [
+      "Fanny Price"
+    ],
+    "21:29": [
+      "Mary Crawford",
+      "Mary Crawford"
+    ],
+    "21:30": [
+      "Edmund Bertram",
+      "Edmund Bertram"
+    ],
+    "21:31": [
+      "Mrs. Grant",
+      "Mrs. Grant"
+    ],
+    "21:32": [
+      "Edmund Bertram",
+      "Edmund Bertram"
+    ],
+    "21:33": [
+      "Mary Crawford",
+      "Mary Crawford"
+    ],
+    "21:34": [
+      "Edmund Bertram"
+    ],
+    "21:35": [
+      "Mary Crawford",
+      "Mary Crawford"
+    ],
+    "21:36": [
+      "Edmund Bertram"
+    ],
+    "21:37": [
+      "Mary Crawford"
+    ],
+    "21:38": [
+      "Edmund Bertram"
+    ],
+    "21:39": [
+      "Mary Crawford"
+    ],
+    "21:40": [
+      "Edmund Bertram"
+    ],
+    "21:41": [
+      "Mary Crawford"
+    ],
+    "21:42": [
+      "Edmund Bertram"
+    ],
+    "21:43": [
+      "Mary Crawford"
+    ],
+    "21:44": [
+      "Edmund Bertram"
+    ],
+    "21:45": [
+      "Mary Crawford"
+    ],
+    "21:46": [
+      "Edmund Bertram"
+    ],
+    "21:47": [
+      "Mary Crawford",
+      "Mary Crawford"
+    ],
+    "21:48": [
+      "Edmund Bertram",
+      "Edmund Bertram"
+    ],
+    "21:50": [
+      "Mary Crawford"
+    ],
+    "21:52": [
+      "Mrs. Grant",
+      "Mrs. Grant",
+      "Mrs. Grant"
+    ],
+    "21:53": [
+      "Dr. Grant",
+      "Dr. Grant"
+    ],
+    "22:0": [
+      "Lady Bertram",
+      "Lady Bertram"
+    ],
+    "22:1": [
+      "Edmund Bertram",
+      "Edmund Bertram"
+    ],
+    "22:2": [
+      "Fanny Price"
+    ],
+    "22:3": [
+      "Fanny Price"
+    ],
+    "22:4": [
+      "Fanny Price"
+    ],
+    "22:5": [
+      "Fanny Price"
+    ],
+    "22:6": [
+      "Fanny Price"
+    ],
+    "22:7": [
+      "Fanny Price"
+    ],
+    "22:8": [
+      "Fanny Price"
+    ],
+    "22:9": [
+      "Fanny Price"
+    ],
+    "22:10": [
+      "Fanny Price"
+    ],
+    "22:11": [
+      "Fanny Price"
+    ],
+    "22:12": [
+      "Sir Thomas Bertram"
+    ],
+    "22:13": [
+      "Fanny Price"
+    ],
+    "22:14": [
+      "Sir Thomas Bertram",
+      "Sir Thomas Bertram"
+    ],
+    "22:15": [
+      "Fanny Price"
+    ],
+    "22:16": [
+      "Sir Thomas Bertram",
+      "Sir Thomas Bertram"
+    ],
+    "22:17": [
+      "Sir Thomas Bertram",
+      "Sir Thomas Bertram"
+    ],
+    "22:18": [
+      "Sir Thomas Bertram"
+    ],
+    "22:19": [
+      "Sir Thomas Bertram"
+    ],
+    "22:20": [
+      "Sir Thomas Bertram"
+    ],
+    "22:21": [
+      "Sir Thomas Bertram"
+    ],
+    "22:22": [
+      "Sir Thomas Bertram"
+    ],
+    "22:24": [
+      "Sir Thomas Bertram"
+    ],
+    "22:25": [
+      "Sir Thomas Bertram",
+      "Sir Thomas Bertram"
+    ],
+    "22:27": [
+      "Sir Thomas Bertram"
+    ],
+    "22:30": [
+      "Sir Thomas Bertram"
+    ],
+    "22:32": [
+      "Sir Thomas Bertram"
+    ],
+    "22:33": [
+      "Sir Thomas Bertram"
+    ],
+    "22:34": [
+      "Sir Thomas Bertram"
+    ],
+    "22:35": [
+      "Sir Thomas Bertram"
+    ],
+    "22:36": [
+      "Mrs. Norris",
+      "Mrs. Norris"
+    ],
+    "22:37": [
+      "Sir Thomas Bertram",
+      "Sir Thomas Bertram"
+    ],
+    "22:38": [
+      "Mrs. Norris"
+    ],
+    "22:39": [
+      "Sir Thomas Bertram"
+    ],
+    "22:42": [
+      "Edmund Bertram",
+      "Edmund Bertram"
+    ],
+    "22:43": [
+      "Sir Thomas Bertram"
+    ],
+    "22:44": [
+      "Edmund Bertram"
+    ],
+    "22:46": [
+      "Edmund Bertram",
+      "Edmund Bertram",
+      "Edmund Bertram"
+    ],
+    "22:51": [
+      "Edmund Bertram"
+    ],
+    "22:52": [
+      "Edmund Bertram"
+    ],
+    "22:53": [
+      "Edmund Bertram"
+    ],
+    "22:54": [
+      "Edmund Bertram"
+    ],
+    "22:55": [
+      "Henry Crawford",
+      "Henry Crawford",
+      "Henry Crawford",
+      "Henry Crawford"
+    ],
+    "22:57": [
+      "Edmund Bertram",
+      "Edmund Bertram"
+    ],
+    "22:58": [
+      "Henry Crawford"
+    ],
+    "22:59": [
+      "Edmund Bertram",
+      "Edmund Bertram"
+    ],
+    "22:60": [
+      "Henry Crawford"
+    ],
+    "22:61": [
+      "Edmund Bertram"
+    ],
+    "22:62": [
+      "Henry Crawford"
+    ],
+    "22:63": [
+      "Edmund Bertram",
+      "Edmund Bertram"
+    ],
+    "22:64": [
+      "Henry Crawford"
+    ],
+    "22:65": [
+      "Edmund Bertram"
+    ],
+    "22:67": [
+      "Henry Crawford",
+      "Henry Crawford"
+    ],
+    "22:68": [
+      "Edmund Bertram",
+      "Edmund Bertram"
+    ],
+    "22:69": [
+      "Henry Crawford",
+      "Henry Crawford"
+    ],
+    "23:0": [
+      "Henry Crawford"
+    ],
+    "23:1": [
+      "Mary Crawford"
+    ],
+    "23:2": [
+      "Henry Crawford"
+    ],
+    "23:3": [
+      "Mary Crawford"
+    ],
+    "23:4": [
+      "Henry Crawford"
+    ],
+    "23:5": [
+      "Mary Crawford"
+    ],
+    "23:6": [
+      "Henry Crawford"
+    ],
+    "23:7": [
+      "Mary Crawford"
+    ],
+    "23:8": [
+      "Henry Crawford",
+      "Henry Crawford"
+    ],
+    "23:9": [
+      "Mary Crawford",
+      "Mary Crawford"
+    ],
+    "23:21": [
+      "Henry Crawford"
+    ],
+    "23:24": [
+      "Mary Crawford"
+    ],
+    "24:2": [
+      "Mrs. Norris"
+    ],
+    "24:5": [
+      "Lady Bertram"
+    ],
+    "24:7": [
+      "Lady Bertram",
+      "Lady Bertram"
+    ],
+    "24:12": [
+      "Mrs. Grant"
+    ],
+    "24:13": [
+      "Lady Bertram"
+    ],
+    "24:14": [
+      "Henry Crawford",
+      "Henry Crawford"
+    ],
+    "24:15": [
+      "Henry Crawford"
+    ],
+    "24:16": [
+      "Edmund Bertram",
+      "Edmund Bertram"
+    ],
+    "24:17": [
+      "Henry Crawford"
+    ],
+    "24:18": [
+      "Edmund Bertram"
+    ],
+    "24:19": [
+      "Henry Crawford"
+    ],
+    "24:20": [
+      "Edmund Bertram"
+    ],
+    "24:22": [
+      "Edmund Bertram",
+      "Edmund Bertram"
+    ],
+    "24:23": [
+      "Edmund Bertram"
+    ],
+    "24:24": [
+      "Edmund Bertram"
+    ],
+    "24:26": [
+      "Edmund Bertram"
+    ],
+    "24:27": [
+      "Edmund Bertram",
+      "Edmund Bertram"
+    ],
+    "24:28": [
+      "Edmund Bertram"
+    ],
+    "24:31": [
+      "Edmund Bertram"
+    ],
+    "24:32": [
+      "Edmund Bertram",
+      "Edmund Bertram"
+    ],
+    "24:33": [
+      "Edmund Bertram",
+      "Edmund Bertram"
+    ],
+    "24:34": [
+      "Edmund Bertram",
+      "Edmund Bertram"
+    ],
+    "24:35": [
+      "Mary Crawford",
+      "Mary Crawford"
+    ],
+    "24:36": [
+      "Edmund Bertram",
+      "Edmund Bertram"
+    ],
+    "24:37": [
+      "Mary Crawford"
+    ],
+    "24:38": [
+      "Edmund Bertram"
+    ],
+    "24:39": [
+      "Mary Crawford"
+    ],
+    "24:40": [
+      "Edmund Bertram"
+    ],
+    "24:45": [
+      "Mary Crawford"
+    ],
+    "24:46": [
+      "Edmund Bertram"
+    ],
+    "24:48": [
+      "Mary Crawford"
+    ],
+    "24:49": [
+      "Sir Thomas Bertram"
+    ],
+    "24:50": [
+      "Mary Crawford"
+    ],
+    "24:52": [
+      "Sir Thomas Bertram",
+      "Sir Thomas Bertram"
+    ],
+    "24:54": [
+      "Edmund Bertram",
+      "Edmund Bertram"
+    ],
+    "24:59": [
+      "William Price",
+      "William Price"
+    ],
+    "24:60": [
+      "Edmund Bertram"
+    ],
+    "24:61": [
+      "William Price"
+    ],
+    "24:62": [
+      "Edmund Bertram",
+      "Edmund Bertram"
+    ],
+    "24:63": [
+      "William Price"
+    ],
+    "24:64": [
+      "Edmund Bertram"
+    ],
+    "24:66": [
+      "William Price"
+    ],
+    "24:67": [
+      "Edmund Bertram"
+    ],
+    "24:68": [
+      "William Price",
+      "William Price"
+    ],
+    "24:69": [
+      "Edmund Bertram"
+    ],
+    "24:70": [
+      "Henry Crawford",
+      "Henry Crawford",
+      "Henry Crawford"
+    ],
+    "24:73": [
+      "Edmund Bertram"
+    ],
+    "25:0": [
+      "Sir Thomas Bertram"
+    ],
+    "25:1": [
+      "Mrs. Norris",
+      "Mrs. Norris"
+    ],
+    "25:2": [
+      "Sir Thomas Bertram",
+      "Sir Thomas Bertram"
+    ],
+    "25:5": [
+      "Mrs. Norris"
+    ],
+    "25:8": [
+      "Sir Thomas Bertram"
+    ],
+    "25:10": [
+      "Mrs. Norris"
+    ],
+    "25:13": [
+      "Sir Thomas Bertram",
+      "Sir Thomas Bertram"
+    ],
+    "25:14": [
+      "Mrs. Norris",
+      "Mrs. Norris",
+      "Mrs. Norris"
+    ],
+    "25:15": [
+      "Sir Thomas Bertram"
+    ],
+    "25:19": [
+      "Mary Crawford",
+      "Mary Crawford"
+    ],
+    "25:21": [
+      "Sir Thomas Bertram",
+      "Sir Thomas Bertram"
+    ],
+    "25:23": [
+      "Mary Crawford",
+      "Mary Crawford"
+    ],
+    "25:24": [
+      "Mary Crawford",
+      "Mary Crawford"
+    ],
+    "25:25": [
+      "Mary Crawford",
+      "Mary Crawford",
+      "Mary Crawford"
+    ],
+    "25:27": [
+      "Mary Crawford",
+      "Mary Crawford"
+    ],
+    "26:1": [
+      "Edmund Bertram",
+      "Edmund Bertram"
+    ],
+    "26:2": [
+      "Fanny Price"
+    ],
+    "26:4": [
+      "Fanny Price",
+      "Fanny Price"
+    ],
+    "26:5": [
+      "Edmund Bertram"
+    ],
+    "26:6": [
+      "Fanny Price"
+    ],
+    "26:7": [
+      "Fanny Price"
+    ],
+    "26:8": [
+      "Edmund Bertram"
+    ],
+    "26:9": [
+      "Edmund Bertram"
+    ],
+    "26:11": [
+      "Edmund Bertram"
+    ],
+    "26:12": [
+      "Fanny Price",
+      "Fanny Price"
+    ],
+    "26:13": [
+      "Fanny Price"
+    ],
+    "26:14": [
+      "Fanny Price"
+    ],
+    "26:16": [
+      "Fanny Price",
+      "Fanny Price"
+    ],
+    "26:20": [
+      "Fanny Price"
+    ],
+    "26:21": [
+      "Fanny Price"
+    ],
+    "26:29": [
+      "Fanny Price"
+    ],
+    "26:30": [
+      "Fanny Price",
+      "Fanny Price"
+    ],
+    "26:31": [
+      "Fanny Price"
+    ],
+    "26:32": [
+      "Fanny Price"
+    ],
+    "26:34": [
+      "Fanny Price",
+      "Fanny Price",
+      "Fanny Price"
+    ],
+    "26:35": [
+      "Fanny Price",
+      "Fanny Price",
+      "Fanny Price"
+    ],
+    "26:36": [
+      "Fanny Price"
+    ],
+    "26:37": [
+      "Fanny Price",
+      "Fanny Price"
+    ],
+    "26:38": [
+      "Fanny Price"
+    ],
+    "26:39": [
+      "Fanny Price"
+    ],
+    "26:40": [
+      "Fanny Price"
+    ],
+    "26:41": [
+      "Fanny Price"
+    ],
+    "26:42": [
+      "Fanny Price"
+    ],
+    "26:44": [
+      "Edmund Bertram"
+    ],
+    "26:45": [
+      "Fanny Price"
+    ],
+    "26:46": [
+      "Edmund Bertram"
+    ],
+    "27:1": [
+      "Lady Bertram",
+      "Lady Bertram"
+    ],
+    "27:2": [
+      "Mrs. Norris",
+      "Mrs. Norris"
+    ],
+    "27:3": [
+      "Lady Bertram"
+    ],
+    "27:11": [
+      "Mrs. Norris"
+    ],
+    "27:13": [
+      "Lady Bertram"
+    ],
+    "27:14": [
+      "Mrs. Norris"
+    ],
+    "27:18": [
+      "Lady Bertram",
+      "Lady Bertram"
+    ],
+    "27:19": [
+      "Mrs. Norris"
+    ],
+    "27:20": [
+      "Lady Bertram"
+    ],
+    "27:22": [
+      "Mary Crawford",
+      "Mary Crawford"
+    ],
+    "27:24": [
+      "Lady Bertram",
+      "Lady Bertram"
+    ],
+    "27:28": [
+      "William Price",
+      "William Price"
+    ],
+    "27:29": [
+      "Sir Thomas Bertram",
+      "Sir Thomas Bertram"
+    ],
+    "27:30": [
+      "William Price"
+    ],
+    "27:31": [
+      "Sir Thomas Bertram"
+    ],
+    "27:32": [
+      "William Price"
+    ],
+    "27:33": [
+      "Fanny Price",
+      "Fanny Price"
+    ],
+    "27:34": [
+      "William Price"
+    ],
+    "27:35": [
+      "Fanny Price"
+    ],
+    "27:36": [
+      "William Price",
+      "William Price",
+      "William Price"
+    ],
+    "27:38": [
+      "Fanny Price",
+      "Fanny Price"
+    ],
+    "28:3": [
+      "Lady Bertram"
+    ],
+    "28:4": [
+      "Lady Bertram"
+    ],
+    "28:5": [
+      "Lady Bertram",
+      "Lady Bertram"
+    ],
+    "28:6": [
+      "Lady Bertram"
+    ],
+    "28:9": [
+      "Sir Thomas Bertram",
+      "Sir Thomas Bertram",
+      "Sir Thomas Bertram"
+    ],
+    "28:10": [
+      "Lady Bertram",
+      "Lady Bertram"
+    ],
+    "28:11": [
+      "Sir Thomas Bertram",
+      "Sir Thomas Bertram"
+    ],
+    "28:12": [
+      "Lady Bertram"
+    ],
+    "28:13": [
+      "Lady Bertram",
+      "Lady Bertram"
+    ],
+    "28:14": [
+      "Lady Bertram"
+    ],
+    "28:15": [
+      "Lady Bertram"
+    ],
+    "28:21": [
+      "Lady Bertram"
+    ],
+    "28:22": [
+      "Lady Bertram",
+      "Lady Bertram"
+    ],
+    "28:23": [
+      "Lady Bertram"
+    ],
+    "28:24": [
+      "Lady Bertram"
+    ],
+    "28:25": [
+      "Lady Bertram"
+    ],
+    "28:26": [
+      "Lady Bertram"
+    ],
+    "28:27": [
+      "Lady Bertram"
+    ],
+    "28:28": [
+      "Lady Bertram"
+    ],
+    "28:29": [
+      "Lady Bertram"
+    ],
+    "28:30": [
+      "Lady Bertram"
+    ],
+    "28:31": [
+      "Mary Crawford",
+      "Mary Crawford"
+    ],
+    "28:32": [
+      "Lady Bertram"
+    ],
+    "28:33": [
+      "Mary Crawford"
+    ],
+    "28:34": [
+      "Lady Bertram",
+      "Lady Bertram"
+    ],
+    "28:35": [
+      "Mary Crawford"
+    ],
+    "28:37": [
+      "Lady Bertram",
+      "Lady Bertram"
+    ],
+    "28:38": [
+      "Mary Crawford",
+      "Mary Crawford"
+    ],
+    "28:39": [
+      "Mary Crawford",
+      "Mary Crawford"
+    ],
+    "28:40": [
+      "Mary Crawford"
+    ],
+    "28:41": [
+      "Mary Crawford"
+    ],
+    "29:1": [
+      "Mary Crawford"
+    ],
+    "29:2": [
+      "Mary Crawford"
+    ],
+    "29:4": [
+      "Mary Crawford",
+      "Mary Crawford"
+    ],
+    "29:6": [
+      "Mary Crawford",
+      "Mary Crawford"
+    ],
+    "29:7": [
+      "Mary Crawford",
+      "Mary Crawford"
+    ],
+    "29:8": [
+      "Mary Crawford",
+      "Mary Crawford"
+    ],
+    "29:10": [
+      "Henry Crawford",
+      "Henry Crawford"
+    ],
+    "29:11": [
+      "Mary Crawford"
+    ],
+    "29:12": [
+      "Henry Crawford"
+    ],
+    "29:13": [
+      "Mary Crawford"
+    ],
+    "29:14": [
+      "Henry Crawford"
+    ],
+    "29:15": [
+      "Mary Crawford"
+    ],
+    "29:18": [
+      "Henry Crawford",
+      "Henry Crawford"
+    ],
+    "29:20": [
+      "Mary Crawford",
+      "Mary Crawford"
+    ],
+    "29:21": [
+      "Henry Crawford"
+    ],
+    "29:22": [
+      "Mary Crawford",
+      "Mary Crawford"
+    ],
+    "29:24": [
+      "Henry Crawford",
+      "Henry Crawford"
+    ],
+    "29:26": [
+      "Mary Crawford"
+    ],
+    "29:27": [
+      "Henry Crawford"
+    ],
+    "29:28": [
+      "Mary Crawford"
+    ],
+    "29:29": [
+      "Henry Crawford"
+    ],
+    "29:30": [
+      "Mary Crawford"
+    ],
+    "29:32": [
+      "Henry Crawford",
+      "Henry Crawford"
+    ],
+    "29:33": [
+      "Mary Crawford",
+      "Mary Crawford"
+    ],
+    "29:34": [
+      "Henry Crawford"
+    ],
+    "29:35": [
+      "Mary Crawford"
+    ],
+    "29:36": [
+      "Henry Crawford"
+    ],
+    "29:37": [
+      "Mary Crawford"
+    ],
+    "30:0": [
+      "Lady Bertram"
+    ],
+    "30:1": [
+      "Henry Crawford"
+    ],
+    "30:4": [
+      "Henry Crawford"
+    ],
+    "30:6": [
+      "Henry Crawford"
+    ],
+    "30:7": [
+      "Fanny Price",
+      "Fanny Price"
+    ],
+    "30:9": [
+      "Fanny Price",
+      "Fanny Price"
+    ],
+    "30:10": [
+      "Fanny Price"
+    ],
+    "30:11": [
+      "Fanny Price"
+    ],
+    "30:13": [
+      "Fanny Price",
+      "Fanny Price"
+    ],
+    "30:26": [
+      "Fanny Price"
+    ],
+    "30:27": [
+      "Lady Bertram",
+      "Lady Bertram"
+    ],
+    "30:28": [
+      "Mrs. Norris",
+      "Mrs. Norris"
+    ],
+    "30:29": [
+      "Lady Bertram"
+    ],
+    "30:31": [
+      "Mrs. Norris",
+      "Mrs. Norris"
+    ],
+    "30:32": [
+      "Lady Bertram"
+    ],
+    "30:36": [
+      "Mrs. Norris"
+    ],
+    "30:37": [
+      "Fanny Price",
+      "Fanny Price"
+    ],
+    "30:42": [
+      "Mrs. Norris",
+      "Mrs. Norris"
+    ],
+    "30:43": [
+      "Fanny Price"
+    ],
+    "31:4": [
+      "Sir Thomas Bertram"
+    ],
+    "31:6": [
+      "Fanny Price"
+    ],
+    "31:7": [
+      "Sir Thomas Bertram"
+    ],
+    "31:8": [
+      "Fanny Price"
+    ],
+    "31:9": [
+      "Sir Thomas Bertram"
+    ],
+    "31:10": [
+      "Fanny Price"
+    ],
+    "31:11": [
+      "Sir Thomas Bertram"
+    ],
+    "31:12": [
+      "Sir Thomas Bertram"
+    ],
+    "31:14": [
+      "Sir Thomas Bertram"
+    ],
+    "31:17": [
+      "Sir Thomas Bertram"
+    ],
+    "31:18": [
+      "Fanny Price"
+    ],
+    "31:19": [
+      "Sir Thomas Bertram",
+      "Sir Thomas Bertram"
+    ],
+    "31:20": [
+      "Fanny Price",
+      "Fanny Price"
+    ],
+    "31:22": [
+      "Sir Thomas Bertram",
+      "Sir Thomas Bertram"
+    ],
+    "31:23": [
+      "Fanny Price"
+    ],
+    "31:24": [
+      "Sir Thomas Bertram"
+    ],
+    "31:25": [
+      "Fanny Price"
+    ],
+    "31:26": [
+      "Sir Thomas Bertram"
+    ],
+    "31:27": [
+      "Fanny Price"
+    ],
+    "31:28": [
+      "Sir Thomas Bertram",
+      "Sir Thomas Bertram"
+    ],
+    "31:29": [
+      "Fanny Price"
+    ],
+    "31:30": [
+      "Sir Thomas Bertram",
+      "Sir Thomas Bertram"
+    ],
+    "31:31": [
+      "Fanny Price"
+    ],
+    "31:32": [
+      "Sir Thomas Bertram",
+      "Sir Thomas Bertram"
+    ],
+    "31:33": [
+      "Fanny Price"
+    ],
+    "31:35": [
+      "Sir Thomas Bertram",
+      "Sir Thomas Bertram",
+      "Sir Thomas Bertram"
+    ],
+    "31:36": [
+      "Fanny Price"
+    ],
+    "31:37": [
+      "Sir Thomas Bertram"
+    ],
+    "31:38": [
+      "Fanny Price"
+    ],
+    "31:39": [
+      "Sir Thomas Bertram"
+    ],
+    "31:43": [
+      "Fanny Price",
+      "Fanny Price"
+    ],
+    "31:45": [
+      "Sir Thomas Bertram",
+      "Sir Thomas Bertram"
+    ],
+    "31:46": [
+      "Fanny Price"
+    ],
+    "31:47": [
+      "Sir Thomas Bertram",
+      "Sir Thomas Bertram"
+    ],
+    "31:48": [
+      "Fanny Price"
+    ],
+    "31:49": [
+      "Sir Thomas Bertram"
+    ],
+    "31:52": [
+      "Fanny Price"
+    ],
+    "31:53": [
+      "Sir Thomas Bertram",
+      "Sir Thomas Bertram"
+    ],
+    "31:54": [
+      "Fanny Price"
+    ],
+    "31:58": [
+      "Sir Thomas Bertram",
+      "Sir Thomas Bertram"
+    ],
+    "31:60": [
+      "Fanny Price",
+      "Fanny Price"
+    ],
+    "31:61": [
+      "Sir Thomas Bertram"
+    ],
+    "31:62": [
+      "Mrs. Norris",
+      "Mrs. Norris"
+    ],
+    "31:66": [
+      "Sir Thomas Bertram",
+      "Sir Thomas Bertram",
+      "Sir Thomas Bertram"
+    ],
+    "31:67": [
+      "Mrs. Norris",
+      "Mrs. Norris"
+    ],
+    "32:16": [
+      "Sir Thomas Bertram"
+    ],
+    "32:17": [
+      "Fanny Price",
+      "Fanny Price"
+    ],
+    "32:18": [
+      "Sir Thomas Bertram"
+    ],
+    "32:19": [
+      "Fanny Price"
+    ],
+    "32:27": [
+      "Sir Thomas Bertram",
+      "Sir Thomas Bertram",
+      "Sir Thomas Bertram"
+    ],
+    "32:29": [
+      "Fanny Price"
+    ],
+    "32:30": [
+      "Sir Thomas Bertram"
+    ],
+    "32:32": [
+      "Fanny Price",
+      "Fanny Price",
+      "Fanny Price"
+    ],
+    "33:10": [
+      "Lady Bertram",
+      "Lady Bertram",
+      "Lady Bertram"
+    ],
+    "33:11": [
+      "Henry Crawford",
+      "Henry Crawford"
+    ],
+    "33:14": [
+      "Edmund Bertram",
+      "Edmund Bertram"
+    ],
+    "33:15": [
+      "Henry Crawford",
+      "Henry Crawford"
+    ],
+    "33:16": [
+      "Edmund Bertram",
+      "Edmund Bertram"
+    ],
+    "33:17": [
+      "Henry Crawford"
+    ],
+    "33:19": [
+      "Edmund Bertram",
+      "Edmund Bertram"
+    ],
+    "33:21": [
+      "Henry Crawford",
+      "Henry Crawford"
+    ],
+    "33:22": [
+      "Edmund Bertram",
+      "Edmund Bertram",
+      "Edmund Bertram"
+    ],
+    "33:25": [
+      "Edmund Bertram",
+      "Edmund Bertram"
+    ],
+    "33:27": [
+      "Edmund Bertram",
+      "Edmund Bertram",
+      "Edmund Bertram",
+      "Edmund Bertram",
+      "Edmund Bertram"
+    ],
+    "33:28": [
+      "Edmund Bertram"
+    ],
+    "33:30": [
+      "Edmund Bertram"
+    ],
+    "33:32": [
+      "Edmund Bertram"
+    ],
+    "33:33": [
+      "Edmund Bertram",
+      "Edmund Bertram",
+      "Edmund Bertram"
+    ],
+    "33:35": [
+      "Edmund Bertram",
+      "Edmund Bertram"
+    ],
+    "33:36": [
+      "Edmund Bertram"
+    ],
+    "33:37": [
+      "Edmund Bertram"
+    ],
+    "33:38": [
+      "Edmund Bertram",
+      "Edmund Bertram"
+    ],
+    "33:40": [
+      "Edmund Bertram"
+    ],
+    "33:41": [
+      "Fanny Price",
+      "Fanny Price"
+    ],
+    "33:43": [
+      "Henry Crawford"
+    ],
+    "33:44": [
+      "Fanny Price",
+      "Fanny Price"
+    ],
+    "34:4": [
+      "Edmund Bertram"
+    ],
+    "34:5": [
+      "Edmund Bertram",
+      "Edmund Bertram",
+      "Edmund Bertram"
+    ],
+    "34:7": [
+      "Edmund Bertram",
+      "Edmund Bertram"
+    ],
+    "34:8": [
+      "Fanny Price"
+    ],
+    "34:9": [
+      "Edmund Bertram"
+    ],
+    "34:10": [
+      "Fanny Price"
+    ],
+    "34:11": [
+      "Edmund Bertram"
+    ],
+    "34:12": [
+      "Fanny Price"
+    ],
+    "34:13": [
+      "Edmund Bertram"
+    ],
+    "34:14": [
+      "Fanny Price"
+    ],
+    "34:15": [
+      "Edmund Bertram"
+    ],
+    "34:17": [
+      "Edmund Bertram",
+      "Edmund Bertram"
+    ],
+    "34:18": [
+      "Fanny Price",
+      "Edmund Bertram"
+    ],
+    "34:19": [
+      "Fanny Price",
+      "Fanny Price"
+    ],
+    "34:21": [
+      "Edmund Bertram"
+    ],
+    "34:22": [
+      "Fanny Price",
+      "Fanny Price"
+    ],
+    "34:24": [
+      "Fanny Price"
+    ],
+    "34:26": [
+      "Fanny Price"
+    ],
+    "34:27": [
+      "Edmund Bertram",
+      "Edmund Bertram"
+    ],
+    "34:28": [
+      "Fanny Price",
+      "Fanny Price"
+    ],
+    "34:29": [
+      "Edmund Bertram"
+    ],
+    "34:30": [
+      "Fanny Price"
+    ],
+    "34:32": [
+      "Edmund Bertram"
+    ],
+    "34:33": [
+      "Fanny Price"
+    ],
+    "34:34": [
+      "Edmund Bertram"
+    ],
+    "34:35": [
+      "Fanny Price",
+      "Fanny Price"
+    ],
+    "34:36": [
+      "Edmund Bertram"
+    ],
+    "34:38": [
+      "Fanny Price"
+    ],
+    "34:39": [
+      "Edmund Bertram"
+    ],
+    "34:40": [
+      "Fanny Price"
+    ],
+    "34:41": [
+      "Edmund Bertram"
+    ],
+    "34:42": [
+      "Fanny Price"
+    ],
+    "34:43": [
+      "Edmund Bertram"
+    ],
+    "34:44": [
+      "Edmund Bertram",
+      "Edmund Bertram"
+    ],
+    "34:45": [
+      "Edmund Bertram"
+    ],
+    "34:46": [
+      "Edmund Bertram"
+    ],
+    "34:47": [
+      "Fanny Price"
+    ],
+    "34:48": [
+      "Edmund Bertram"
+    ],
+    "34:50": [
+      "Fanny Price"
+    ],
+    "34:52": [
+      "Edmund Bertram"
+    ],
+    "34:53": [
+      "Fanny Price"
+    ],
+    "34:54": [
+      "Edmund Bertram"
+    ],
+    "34:55": [
+      "Fanny Price"
+    ],
+    "34:56": [
+      "Edmund Bertram"
+    ],
+    "34:57": [
+      "Fanny Price"
+    ],
+    "34:58": [
+      "Edmund Bertram"
+    ],
+    "35:3": [
+      "Edmund Bertram"
+    ],
+    "35:4": [
+      "Mary Crawford"
+    ],
+    "35:5": [
+      "Mary Crawford"
+    ],
+    "35:6": [
+      "Mary Crawford",
+      "Mary Crawford",
+      "Mary Crawford"
+    ],
+    "35:9": [
+      "Mary Crawford",
+      "Mary Crawford",
+      "Mary Crawford",
+      "Mary Crawford"
+    ],
+    "35:10": [
+      "Mary Crawford",
+      "Mary Crawford"
+    ],
+    "35:11": [
+      "Fanny Price"
+    ],
+    "35:12": [
+      "Mary Crawford"
+    ],
+    "35:14": [
+      "Mary Crawford"
+    ],
+    "35:19": [
+      "Mary Crawford"
+    ],
+    "35:21": [
+      "Mary Crawford"
+    ],
+    "35:22": [
+      "Fanny Price"
+    ],
+    "35:23": [
+      "Mary Crawford"
+    ],
+    "35:24": [
+      "Fanny Price",
+      "Fanny Price"
+    ],
+    "35:25": [
+      "Fanny Price"
+    ],
+    "35:26": [
+      "Fanny Price"
+    ],
+    "35:27": [
+      "Fanny Price"
+    ],
+    "35:29": [
+      "Fanny Price",
+      "Fanny Price"
+    ],
+    "35:31": [
+      "Fanny Price"
+    ],
+    "35:32": [
+      "Fanny Price"
+    ],
+    "35:33": [
+      "Fanny Price"
+    ],
+    "35:35": [
+      "Fanny Price"
+    ],
+    "36:9": [
+      "Sir Thomas Bertram"
+    ],
+    "36:18": [
+      "Lady Bertram",
+      "Lady Bertram"
+    ],
+    "36:19": [
+      "Mrs. Price"
+    ],
+    "36:23": [
+      "William Price",
+      "William Price"
+    ],
+    "36:30": [
+      "Edmund Bertram"
+    ],
+    "37:7": [
+      null,
+      null
+    ],
+    "37:11": [
+      "Mrs. Price"
+    ],
+    "37:13": [
+      "William Price"
+    ],
+    "37:15": [
+      "Mrs. Price"
+    ],
+    "37:16": [
+      "Mrs. Price"
+    ],
+    "37:18": [
+      "Mrs. Price",
+      "Mrs. Price"
+    ],
+    "37:19": [
+      "Susan Price",
+      "Susan Price"
+    ],
+    "37:22": [
+      "Susan Price"
+    ],
+    "37:23": [
+      "William Price",
+      "William Price",
+      "William Price"
+    ],
+    "37:31": [
+      "Susan Price"
+    ],
+    "37:33": [
+      "William Price",
+      "William Price"
+    ],
+    "37:39": [
+      "Susan Price",
+      "Susan Price"
+    ],
+    "37:40": [
+      "Mrs. Price",
+      "Mrs. Price"
+    ],
+    "37:42": [
+      "Fanny Price",
+      "Fanny Price"
+    ],
+    "37:43": [
+      "Mrs. Price"
+    ],
+    "37:45": [
+      "Mrs. Price"
+    ],
+    "37:46": [
+      "Mrs. Price",
+      "Mrs. Price"
+    ],
+    "38:1": [
+      "William Price"
+    ],
+    "39:0": [
+      "Mary Crawford"
+    ],
+    "39:3": [
+      "Mary Crawford"
+    ],
+    "39:5": [
+      null
+    ],
+    "40:3": [
+      "Fanny Price"
+    ],
+    "40:8": [
+      "Fanny Price"
+    ],
+    "40:9": [
+      "Henry Crawford",
+      "Henry Crawford"
+    ],
+    "40:10": [
+      "Mrs. Price"
+    ],
+    "40:15": [
+      "Mr. Price"
+    ],
+    "40:23": [
+      "Henry Crawford",
+      "Henry Crawford"
+    ],
+    "41:8": [
+      "Henry Crawford"
+    ],
+    "41:9": [
+      "Fanny Price"
+    ],
+    "41:10": [
+      "Henry Crawford"
+    ],
+    "41:11": [
+      "Fanny Price"
+    ],
+    "41:12": [
+      "Henry Crawford"
+    ],
+    "41:13": [
+      "Fanny Price"
+    ],
+    "41:14": [
+      "Henry Crawford"
+    ],
+    "41:15": [
+      "Fanny Price"
+    ],
+    "41:16": [
+      "Henry Crawford"
+    ],
+    "41:17": [
+      "Henry Crawford",
+      "Henry Crawford"
+    ],
+    "41:19": [
+      "Henry Crawford",
+      "Henry Crawford"
+    ],
+    "41:21": [
+      "Henry Crawford"
+    ],
+    "41:22": [
+      "Henry Crawford"
+    ],
+    "41:23": [
+      "Fanny Price"
+    ],
+    "41:24": [
+      "Henry Crawford"
+    ],
+    "41:25": [
+      "Fanny Price"
+    ],
+    "41:26": [
+      "Henry Crawford"
+    ],
+    "41:27": [
+      "Fanny Price"
+    ],
+    "41:28": [
+      "Henry Crawford"
+    ],
+    "41:29": [
+      "Fanny Price"
+    ],
+    "41:30": [
+      "Henry Crawford"
+    ],
+    "42:3": [
+      "Mary Crawford"
+    ],
+    "42:5": [
+      "Mary Crawford"
+    ],
+    "43:9": [
+      "Edmund Bertram"
+    ],
+    "43:10": [
+      "Fanny Price",
+      "Fanny Price"
+    ],
+    "43:11": [
+      "Fanny Price",
+      "Fanny Price"
+    ],
+    "43:12": [
+      "Fanny Price"
+    ],
+    "43:17": [
+      "Lady Bertram"
+    ],
+    "43:20": [
+      "Lady Bertram"
+    ],
+    "43:21": [
+      "Lady Bertram"
+    ],
+    "43:23": [
+      "Lady Bertram"
+    ],
+    "43:25": [
+      "Mrs. Price"
+    ],
+    "44:5": [
+      "Edmund Bertram"
+    ],
+    "44:8": [
+      "Fanny Price"
+    ],
+    "44:9": [
+      "Lady Bertram",
+      "Fanny Price"
+    ],
+    "44:19": [
+      "Mary Crawford"
+    ],
+    "44:21": [
+      "Mary Crawford"
+    ],
+    "44:23": [
+      "Fanny Price"
+    ],
+    "45:2": [
+      "Mary Crawford"
+    ],
+    "45:9": [
+      "Mr. Price"
+    ],
+    "45:10": [
+      "Fanny Price"
+    ],
+    "45:11": [
+      "Mr. Price"
+    ],
+    "45:12": [
+      "Fanny Price"
+    ],
+    "45:13": [
+      "Mr. Price",
+      "Mr. Price"
+    ],
+    "45:14": [
+      "Fanny Price"
+    ],
+    "45:15": [
+      "Fanny Price",
+      "Fanny Price"
+    ],
+    "45:17": [
+      "Mr. Price",
+      "Mr. Price"
+    ],
+    "45:18": [
+      "Mrs. Price",
+      "Mrs. Price"
+    ],
+    "45:25": [
+      "Mrs. Price"
+    ],
+    "45:31": [
+      "Mrs. Price"
+    ],
+    "45:32": [
+      "Mrs. Price"
+    ],
+    "45:37": [
+      "Mrs. Price"
+    ],
+    "45:41": [
+      "Mrs. Price"
+    ],
+    "46:23": [
+      "Edmund Bertram"
+    ],
+    "46:24": [
+      "Edmund Bertram"
+    ],
+    "46:25": [
+      "Fanny Price",
+      "Fanny Price"
+    ],
+    "46:26": [
+      "Fanny Price"
+    ],
+    "46:28": [
+      "Fanny Price",
+      "Fanny Price"
+    ],
+    "46:29": [
+      "Fanny Price",
+      "Fanny Price"
+    ],
+    "46:30": [
+      "Fanny Price"
+    ],
+    "46:31": [
+      "Fanny Price"
+    ],
+    "46:32": [
+      "Fanny Price"
+    ],
+    "46:33": [
+      "Fanny Price"
+    ],
+    "46:34": [
+      "Fanny Price"
+    ],
+    "46:35": [
+      "Fanny Price"
+    ],
+    "46:36": [
+      "Fanny Price"
+    ],
+    "46:40": [
+      "Fanny Price"
+    ]
+  }
+}

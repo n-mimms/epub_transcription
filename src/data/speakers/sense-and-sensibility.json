@@ -1,0 +1,3571 @@
+{
+  "schemaVersion": 1,
+  "bookId": "sense-and-sensibility",
+  "source": {
+    "encoder": "google-gemini-3.1-flash-lite",
+    "generatedAt": "2026-05-16T10:02:32.786Z",
+    "bookJsonSha256": "3319b96dbc798d63ce8cab9fda1a71604a997527b7368ad9e1ba23f6508a1166"
+  },
+  "chunks": {
+    "0:9": [
+      "John Dashwood"
+    ],
+    "1:3": [
+      "John Dashwood",
+      "John Dashwood"
+    ],
+    "1:4": [
+      "Fanny Dashwood"
+    ],
+    "1:5": [
+      "John Dashwood"
+    ],
+    "1:6": [
+      "Fanny Dashwood",
+      "Fanny Dashwood"
+    ],
+    "1:7": [
+      "John Dashwood",
+      "John Dashwood"
+    ],
+    "1:8": [
+      "Fanny Dashwood"
+    ],
+    "1:9": [
+      "John Dashwood"
+    ],
+    "1:10": [
+      "Fanny Dashwood"
+    ],
+    "1:11": [
+      "John Dashwood",
+      "John Dashwood"
+    ],
+    "1:12": [
+      "Fanny Dashwood",
+      "Fanny Dashwood"
+    ],
+    "1:13": [
+      "John Dashwood"
+    ],
+    "1:14": [
+      "Fanny Dashwood"
+    ],
+    "1:15": [
+      "John Dashwood"
+    ],
+    "1:17": [
+      "Fanny Dashwood",
+      "Fanny Dashwood"
+    ],
+    "1:18": [
+      "John Dashwood"
+    ],
+    "1:21": [
+      "John Dashwood",
+      "John Dashwood"
+    ],
+    "1:22": [
+      "Fanny Dashwood"
+    ],
+    "1:23": [
+      "John Dashwood"
+    ],
+    "1:26": [
+      "John Dashwood",
+      "John Dashwood"
+    ],
+    "1:27": [
+      "Fanny Dashwood",
+      "Fanny Dashwood"
+    ],
+    "1:28": [
+      "John Dashwood"
+    ],
+    "1:29": [
+      "Fanny Dashwood"
+    ],
+    "2:8": [
+      "Mrs. Dashwood",
+      "Mrs. Dashwood"
+    ],
+    "2:9": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "2:10": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "2:11": [
+      "Elinor Dashwood"
+    ],
+    "2:12": [
+      "Elinor Dashwood"
+    ],
+    "2:15": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "2:16": [
+      "Elinor Dashwood"
+    ],
+    "2:17": [
+      "Elinor Dashwood"
+    ],
+    "2:18": [
+      "Marianne Dashwood"
+    ],
+    "2:20": [
+      "Elinor Dashwood"
+    ],
+    "2:21": [
+      "Marianne Dashwood"
+    ],
+    "2:22": [
+      "Elinor Dashwood"
+    ],
+    "3:0": [
+      "Marianne Dashwood",
+      "Marianne Dashwood"
+    ],
+    "3:1": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "3:3": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "3:5": [
+      "Elinor Dashwood"
+    ],
+    "3:6": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "3:8": [
+      "Elinor Dashwood"
+    ],
+    "3:10": [
+      "Elinor Dashwood"
+    ],
+    "3:12": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "3:14": [
+      "Elinor Dashwood"
+    ],
+    "3:15": [
+      "Elinor Dashwood"
+    ],
+    "3:18": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "4:0": [
+      "Edward Ferrars"
+    ],
+    "4:1": [
+      "Mrs. Dashwood",
+      "Mrs. Dashwood"
+    ],
+    "4:8": [
+      "Marianne Dashwood",
+      "Marianne Dashwood"
+    ],
+    "5:4": [
+      "Mrs. Dashwood"
+    ],
+    "7:4": [
+      "Marianne Dashwood"
+    ],
+    "7:5": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "7:6": [
+      "Elinor Dashwood"
+    ],
+    "7:7": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "7:8": [
+      "Elinor Dashwood"
+    ],
+    "7:9": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "7:10": [
+      "Marianne Dashwood",
+      "Marianne Dashwood"
+    ],
+    "7:11": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "7:12": [
+      "Marianne Dashwood",
+      "Marianne Dashwood"
+    ],
+    "7:13": [
+      "Elinor Dashwood"
+    ],
+    "7:14": [
+      "Marianne Dashwood",
+      "Marianne Dashwood"
+    ],
+    "7:15": [
+      "Mrs. Dashwood",
+      "Mrs. Dashwood"
+    ],
+    "7:16": [
+      "Marianne Dashwood"
+    ],
+    "7:17": [
+      "Mrs. Dashwood"
+    ],
+    "7:18": [
+      "Marianne Dashwood"
+    ],
+    "8:5": [
+      "Marianne Dashwood",
+      "Marianne Dashwood"
+    ],
+    "8:14": [
+      "Sir John Middleton",
+      "Sir John Middleton"
+    ],
+    "8:15": [
+      "Mrs. Dashwood"
+    ],
+    "8:16": [
+      "Sir John Middleton"
+    ],
+    "8:17": [
+      "Mrs. Dashwood"
+    ],
+    "8:18": [
+      "Sir John Middleton"
+    ],
+    "8:19": [
+      "Marianne Dashwood",
+      "Marianne Dashwood"
+    ],
+    "8:21": [
+      "Sir John Middleton",
+      "Sir John Middleton"
+    ],
+    "8:23": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "8:24": [
+      "Sir John Middleton"
+    ],
+    "8:25": [
+      "Mrs. Dashwood",
+      "Mrs. Dashwood"
+    ],
+    "8:26": [
+      "Sir John Middleton",
+      "Sir John Middleton"
+    ],
+    "8:27": [
+      "Marianne Dashwood",
+      "Marianne Dashwood"
+    ],
+    "8:28": [
+      "Sir John Middleton"
+    ],
+    "8:29": [
+      "Marianne Dashwood"
+    ],
+    "8:30": [
+      "Sir John Middleton",
+      "Sir John Middleton"
+    ],
+    "8:31": [
+      "Marianne Dashwood",
+      "Marianne Dashwood"
+    ],
+    "8:33": [
+      "Sir John Middleton"
+    ],
+    "9:5": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "9:6": [
+      "Marianne Dashwood",
+      "Marianne Dashwood"
+    ],
+    "9:7": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "9:16": [
+      "John Willoughby",
+      "John Willoughby"
+    ],
+    "9:17": [
+      "Marianne Dashwood"
+    ],
+    "9:18": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "9:19": [
+      "John Willoughby",
+      "John Willoughby"
+    ],
+    "9:20": [
+      "Elinor Dashwood"
+    ],
+    "9:21": [
+      "John Willoughby"
+    ],
+    "9:22": [
+      "Elinor Dashwood"
+    ],
+    "9:23": [
+      "Marianne Dashwood",
+      "Marianne Dashwood"
+    ],
+    "9:24": [
+      "Elinor Dashwood"
+    ],
+    "9:25": [
+      "John Willoughby",
+      "John Willoughby"
+    ],
+    "9:26": [
+      "Elinor Dashwood"
+    ],
+    "9:27": [
+      "John Willoughby"
+    ],
+    "9:28": [
+      "Marianne Dashwood",
+      "Marianne Dashwood"
+    ],
+    "9:29": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "9:30": [
+      "John Willoughby",
+      "John Willoughby"
+    ],
+    "10:9": [
+      "Colonel Brandon"
+    ],
+    "10:10": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "10:11": [
+      "Elinor Dashwood"
+    ],
+    "10:12": [
+      "Elinor Dashwood"
+    ],
+    "10:13": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "10:14": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "10:16": [
+      "Elinor Dashwood"
+    ],
+    "10:17": [
+      "Elinor Dashwood"
+    ],
+    "10:18": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "11:1": [
+      "Marianne Dashwood",
+      "Marianne Dashwood"
+    ],
+    "11:3": [
+      "Marianne Dashwood",
+      "Marianne Dashwood"
+    ],
+    "11:5": [
+      "John Willoughby"
+    ],
+    "11:8": [
+      "Margaret Dashwood",
+      "Margaret Dashwood"
+    ],
+    "11:9": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "11:10": [
+      "Elinor Dashwood"
+    ],
+    "11:11": [
+      "Elinor Dashwood"
+    ],
+    "11:12": [
+      "Elinor Dashwood"
+    ],
+    "11:14": [
+      "Elinor Dashwood"
+    ],
+    "11:17": [
+      "Elinor Dashwood"
+    ],
+    "11:18": [
+      "Margaret Dashwood",
+      "Margaret Dashwood"
+    ],
+    "11:20": [
+      "Mrs. Jennings",
+      "Mrs. Jennings"
+    ],
+    "11:21": [
+      "Margaret Dashwood"
+    ],
+    "11:22": [
+      "Mrs. Jennings"
+    ],
+    "11:23": [
+      "Margaret Dashwood"
+    ],
+    "11:24": [
+      "Marianne Dashwood",
+      "Marianne Dashwood"
+    ],
+    "11:25": [
+      "Margaret Dashwood"
+    ],
+    "11:26": [
+      "Marianne Dashwood"
+    ],
+    "12:3": [
+      "Sir John Middleton"
+    ],
+    "12:5": [
+      "Lady Middleton",
+      "Lady Middleton"
+    ],
+    "12:7": [
+      "Mrs. Jennings"
+    ],
+    "12:8": [
+      "Lady Middleton"
+    ],
+    "12:9": [
+      "Mrs. Jennings"
+    ],
+    "12:10": [
+      "Lady Middleton"
+    ],
+    "12:11": [
+      "Mrs. Jennings"
+    ],
+    "12:12": [
+      "Lady Middleton",
+      "Lady Middleton"
+    ],
+    "12:13": [
+      "Mrs. Jennings"
+    ],
+    "12:14": [
+      "Lady Middleton"
+    ],
+    "12:15": [
+      "Mrs. Jennings"
+    ],
+    "12:16": [
+      "Lady Middleton"
+    ],
+    "12:17": [
+      "Mrs. Jennings"
+    ],
+    "12:18": [
+      "Lady Middleton",
+      "Lady Middleton"
+    ],
+    "12:19": [
+      "Mrs. Jennings",
+      "Mrs. Jennings"
+    ],
+    "12:20": [
+      "Lady Middleton",
+      "Lady Middleton"
+    ],
+    "12:22": [
+      "Marianne Dashwood",
+      "Marianne Dashwood"
+    ],
+    "12:24": [
+      "Sir John Middleton",
+      "Sir John Middleton"
+    ],
+    "12:25": [
+      "Marianne Dashwood"
+    ],
+    "12:26": [
+      "Mrs. Jennings",
+      "Mrs. Jennings"
+    ],
+    "12:27": [
+      "John Willoughby",
+      "John Willoughby"
+    ],
+    "12:28": [
+      "Mrs. Jennings"
+    ],
+    "12:29": [
+      "John Willoughby"
+    ],
+    "12:30": [
+      "Marianne Dashwood"
+    ],
+    "12:31": [
+      "Sir John Middleton",
+      "Sir John Middleton"
+    ],
+    "12:33": [
+      "Marianne Dashwood"
+    ],
+    "12:34": [
+      "Sir John Middleton",
+      "Sir John Middleton"
+    ],
+    "12:35": [
+      "Marianne Dashwood"
+    ],
+    "12:36": [
+      "Sir John Middleton",
+      "Sir John Middleton"
+    ],
+    "12:37": [
+      "Mrs. Jennings",
+      "Mrs. Jennings"
+    ],
+    "12:38": [
+      "Sir John Middleton"
+    ],
+    "12:40": [
+      "Sir John Middleton"
+    ],
+    "12:41": [
+      "Sir John Middleton"
+    ],
+    "12:42": [
+      "Sir John Middleton"
+    ],
+    "12:43": [
+      "Sir John Middleton"
+    ],
+    "12:45": [
+      "Sir John Middleton"
+    ],
+    "12:46": [
+      "Sir John Middleton"
+    ],
+    "12:47": [
+      "Sir John Middleton"
+    ],
+    "12:49": [
+      "Mrs. Jennings",
+      "Mrs. Jennings"
+    ],
+    "12:52": [
+      "Mrs. Jennings"
+    ],
+    "12:53": [
+      "Mrs. Jennings"
+    ],
+    "12:54": [
+      "Mrs. Jennings"
+    ],
+    "12:55": [
+      "Marianne Dashwood"
+    ],
+    "12:56": [
+      "Mrs. Jennings",
+      "Mrs. Jennings"
+    ],
+    "12:57": [
+      "Marianne Dashwood"
+    ],
+    "12:58": [
+      "Mrs. Jennings"
+    ],
+    "12:60": [
+      "Marianne Dashwood"
+    ],
+    "12:61": [
+      "Mrs. Jennings"
+    ],
+    "12:62": [
+      "John Willoughby",
+      "John Willoughby"
+    ],
+    "12:63": [
+      "Mrs. Jennings"
+    ],
+    "12:67": [
+      "John Willoughby"
+    ],
+    "12:68": [
+      "Mrs. Jennings"
+    ],
+    "12:69": [
+      "John Willoughby"
+    ],
+    "12:70": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "12:71": [
+      "John Willoughby"
+    ],
+    "12:72": [
+      "Elinor Dashwood"
+    ],
+    "12:73": [
+      "John Willoughby"
+    ],
+    "12:74": [
+      "Elinor Dashwood"
+    ],
+    "13:1": [
+      "Mrs. Jennings"
+    ],
+    "13:7": [
+      "John Willoughby",
+      "John Willoughby"
+    ],
+    "13:8": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "13:9": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "13:10": [
+      "Elinor Dashwood"
+    ],
+    "13:11": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "13:12": [
+      "Elinor Dashwood"
+    ],
+    "13:13": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "13:14": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "13:15": [
+      "John Willoughby",
+      "John Willoughby"
+    ],
+    "13:17": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "13:20": [
+      "John Willoughby",
+      "John Willoughby"
+    ],
+    "13:22": [
+      "Mrs. Dashwood",
+      "Mrs. Dashwood"
+    ],
+    "14:2": [
+      "Mrs. Dashwood",
+      "Mrs. Dashwood"
+    ],
+    "14:3": [
+      "Mrs. Dashwood",
+      "Mrs. Dashwood"
+    ],
+    "14:4": [
+      "Mrs. Dashwood"
+    ],
+    "14:5": [
+      "Mrs. Dashwood"
+    ],
+    "14:6": [
+      "Mrs. Dashwood"
+    ],
+    "14:7": [
+      "Mrs. Dashwood"
+    ],
+    "14:8": [
+      "Mrs. Dashwood"
+    ],
+    "14:9": [
+      "Mrs. Dashwood"
+    ],
+    "14:10": [
+      "Mrs. Dashwood"
+    ],
+    "14:11": [
+      "Mrs. Dashwood"
+    ],
+    "14:13": [
+      "Mrs. Dashwood"
+    ],
+    "14:14": [
+      "John Willoughby",
+      "John Willoughby"
+    ],
+    "14:15": [
+      "Mrs. Dashwood"
+    ],
+    "14:21": [
+      "John Willoughby",
+      "John Willoughby"
+    ],
+    "14:22": [
+      "Mrs. Dashwood"
+    ],
+    "14:23": [
+      "John Willoughby"
+    ],
+    "14:24": [
+      "Mrs. Dashwood"
+    ],
+    "14:27": [
+      "John Willoughby"
+    ],
+    "14:28": [
+      "Mrs. Dashwood"
+    ],
+    "14:29": [
+      "John Willoughby"
+    ],
+    "14:30": [
+      "Mrs. Dashwood"
+    ],
+    "14:31": [
+      "John Willoughby"
+    ],
+    "14:32": [
+      "Mrs. Dashwood"
+    ],
+    "14:33": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "14:34": [
+      "Mrs. Dashwood"
+    ],
+    "14:35": [
+      "Elinor Dashwood"
+    ],
+    "14:36": [
+      "Mrs. Dashwood"
+    ],
+    "14:37": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "14:38": [
+      "Mrs. Dashwood"
+    ],
+    "14:39": [
+      "Elinor Dashwood"
+    ],
+    "14:40": [
+      "Mrs. Dashwood"
+    ],
+    "14:41": [
+      "Elinor Dashwood"
+    ],
+    "14:42": [
+      "Mrs. Dashwood"
+    ],
+    "14:43": [
+      "Elinor Dashwood"
+    ],
+    "14:45": [
+      "Mrs. Dashwood"
+    ],
+    "15:5": [
+      "Mrs. Dashwood",
+      "Mrs. Dashwood"
+    ],
+    "15:7": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "15:8": [
+      "Mrs. Dashwood"
+    ],
+    "15:11": [
+      "Mrs. Dashwood"
+    ],
+    "15:12": [
+      "Marianne Dashwood",
+      "Marianne Dashwood"
+    ],
+    "15:17": [
+      "Marianne Dashwood"
+    ],
+    "15:18": [
+      "Marianne Dashwood"
+    ],
+    "15:19": [
+      "Marianne Dashwood",
+      "Marianne Dashwood"
+    ],
+    "15:25": [
+      "Marianne Dashwood"
+    ],
+    "15:27": [
+      "Elinor Dashwood"
+    ],
+    "15:28": [
+      "Marianne Dashwood"
+    ],
+    "15:29": [
+      "Marianne Dashwood"
+    ],
+    "15:30": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "15:31": [
+      "Marianne Dashwood",
+      "Marianne Dashwood"
+    ],
+    "15:32": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "15:33": [
+      "Marianne Dashwood",
+      "Marianne Dashwood",
+      "Marianne Dashwood"
+    ],
+    "15:34": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "15:35": [
+      "Marianne Dashwood"
+    ],
+    "15:36": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "15:37": [
+      "Marianne Dashwood"
+    ],
+    "15:38": [
+      "Elinor Dashwood"
+    ],
+    "15:39": [
+      "Marianne Dashwood",
+      "Marianne Dashwood"
+    ],
+    "15:40": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "15:41": [
+      "Marianne Dashwood",
+      "Marianne Dashwood"
+    ],
+    "16:2": [
+      "Mrs. Dashwood",
+      "Mrs. Dashwood"
+    ],
+    "16:3": [
+      "Edward Ferrars"
+    ],
+    "16:4": [
+      "Mrs. Dashwood"
+    ],
+    "16:5": [
+      "Edward Ferrars"
+    ],
+    "16:6": [
+      "Mrs. Dashwood"
+    ],
+    "16:7": [
+      "Edward Ferrars"
+    ],
+    "16:8": [
+      "Marianne Dashwood",
+      "Marianne Dashwood"
+    ],
+    "16:9": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "16:10": [
+      "Marianne Dashwood",
+      "Marianne Dashwood"
+    ],
+    "16:11": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "16:12": [
+      "Marianne Dashwood"
+    ],
+    "16:13": [
+      "Elinor Dashwood"
+    ],
+    "16:14": [
+      "Marianne Dashwood",
+      "Marianne Dashwood"
+    ],
+    "16:16": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "16:17": [
+      "Marianne Dashwood"
+    ],
+    "16:18": [
+      "Margaret Dashwood",
+      "Margaret Dashwood"
+    ],
+    "16:19": [
+      "Marianne Dashwood"
+    ],
+    "16:20": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "16:21": [
+      "Margaret Dashwood",
+      "Margaret Dashwood"
+    ],
+    "16:23": [
+      "Mrs. Dashwood",
+      "Mrs. Dashwood"
+    ],
+    "16:24": [
+      "Margaret Dashwood",
+      "Margaret Dashwood"
+    ],
+    "16:25": [
+      "Edward Ferrars",
+      "Edward Ferrars"
+    ],
+    "16:26": [
+      "Margaret Dashwood"
+    ],
+    "16:27": [
+      "Edward Ferrars"
+    ],
+    "16:28": [
+      "Margaret Dashwood"
+    ],
+    "16:29": [
+      "Edward Ferrars"
+    ],
+    "16:30": [
+      "Margaret Dashwood"
+    ],
+    "16:31": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "16:32": [
+      "Margaret Dashwood"
+    ],
+    "16:33": [
+      "Marianne Dashwood",
+      "Marianne Dashwood"
+    ],
+    "16:34": [
+      "Margaret Dashwood",
+      "Margaret Dashwood"
+    ],
+    "16:35": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "16:36": [
+      "Margaret Dashwood",
+      "Margaret Dashwood"
+    ],
+    "16:37": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "16:38": [
+      "Marianne Dashwood",
+      "Marianne Dashwood"
+    ],
+    "16:39": [
+      "Elinor Dashwood"
+    ],
+    "16:40": [
+      "Marianne Dashwood",
+      "Marianne Dashwood"
+    ],
+    "16:41": [
+      "Elinor Dashwood"
+    ],
+    "16:42": [
+      "Marianne Dashwood",
+      "Marianne Dashwood"
+    ],
+    "16:43": [
+      "Elinor Dashwood"
+    ],
+    "16:44": [
+      "Edward Ferrars",
+      "Edward Ferrars"
+    ],
+    "16:45": [
+      "Marianne Dashwood",
+      "Marianne Dashwood"
+    ],
+    "16:46": [
+      "Edward Ferrars"
+    ],
+    "16:47": [
+      "Marianne Dashwood"
+    ],
+    "16:48": [
+      "Edward Ferrars",
+      "Edward Ferrars"
+    ],
+    "16:49": [
+      "Marianne Dashwood"
+    ],
+    "17:2": [
+      "Edward Ferrars",
+      "Edward Ferrars"
+    ],
+    "17:5": [
+      "Marianne Dashwood",
+      "Marianne Dashwood"
+    ],
+    "17:6": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "17:7": [
+      "Marianne Dashwood",
+      "Marianne Dashwood"
+    ],
+    "17:8": [
+      "Edward Ferrars",
+      "Edward Ferrars"
+    ],
+    "17:11": [
+      "Marianne Dashwood",
+      "Marianne Dashwood"
+    ],
+    "17:12": [
+      "Edward Ferrars"
+    ],
+    "17:17": [
+      "Marianne Dashwood",
+      "Marianne Dashwood"
+    ],
+    "17:18": [
+      "Edward Ferrars",
+      "Edward Ferrars"
+    ],
+    "17:19": [
+      "Marianne Dashwood",
+      "Marianne Dashwood"
+    ],
+    "17:20": [
+      "Edward Ferrars"
+    ],
+    "17:21": [
+      "Sir John Middleton",
+      "Sir John Middleton"
+    ],
+    "17:22": [
+      "Edward Ferrars"
+    ],
+    "17:23": [
+      "Sir John Middleton"
+    ],
+    "17:24": [
+      "Edward Ferrars"
+    ],
+    "17:25": [
+      "Sir John Middleton"
+    ],
+    "17:26": [
+      "Edward Ferrars"
+    ],
+    "17:27": [
+      "Sir John Middleton"
+    ],
+    "17:29": [
+      "Edward Ferrars"
+    ],
+    "17:30": [
+      "Sir John Middleton"
+    ],
+    "18:4": [
+      "Mrs. Dashwood",
+      "Mrs. Dashwood"
+    ],
+    "18:5": [
+      "Mrs. Dashwood"
+    ],
+    "18:7": [
+      "Mrs. Dashwood",
+      "Mrs. Dashwood"
+    ],
+    "18:8": [
+      "Mrs. Dashwood",
+      "Mrs. Dashwood"
+    ],
+    "18:9": [
+      "Mrs. Dashwood"
+    ],
+    "18:10": [
+      "Edward Ferrars",
+      "Edward Ferrars"
+    ],
+    "18:16": [
+      "Mrs. Dashwood",
+      "Mrs. Dashwood"
+    ],
+    "18:17": [
+      "Edward Ferrars"
+    ],
+    "18:18": [
+      "Mrs. Dashwood"
+    ],
+    "18:20": [
+      "Edward Ferrars"
+    ],
+    "18:21": [
+      "Mrs. Dashwood"
+    ],
+    "18:22": [
+      "Edward Ferrars"
+    ],
+    "18:26": [
+      "Mrs. Dashwood"
+    ],
+    "18:28": [
+      "Edward Ferrars",
+      "Edward Ferrars"
+    ],
+    "18:31": [
+      "Mrs. Jennings",
+      "Mrs. Jennings"
+    ],
+    "18:33": [
+      "Mrs. Jennings"
+    ],
+    "18:35": [
+      "Mrs. Jennings"
+    ],
+    "18:36": [
+      "Sir John Middleton",
+      "Sir John Middleton"
+    ],
+    "18:38": [
+      "Mrs. Jennings"
+    ],
+    "18:40": [
+      "Sir John Middleton"
+    ],
+    "18:43": [
+      "Marianne Dashwood",
+      "Marianne Dashwood"
+    ],
+    "18:44": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "19:1": [
+      "Charlotte Palmer",
+      "Charlotte Palmer"
+    ],
+    "19:3": [
+      "Charlotte Palmer",
+      "Charlotte Palmer"
+    ],
+    "19:5": [
+      "Charlotte Palmer",
+      "Charlotte Palmer"
+    ],
+    "19:7": [
+      "Charlotte Palmer",
+      "Charlotte Palmer"
+    ],
+    "19:9": [
+      "Sir John Middleton",
+      "Sir John Middleton"
+    ],
+    "19:11": [
+      "Charlotte Palmer",
+      "Charlotte Palmer"
+    ],
+    "19:12": [
+      "Sir John Middleton"
+    ],
+    "19:13": [
+      "Charlotte Palmer"
+    ],
+    "19:14": [
+      "Mr. Palmer"
+    ],
+    "19:16": [
+      "Charlotte Palmer",
+      "Charlotte Palmer"
+    ],
+    "19:18": [
+      "Mr. Palmer",
+      "Mr. Palmer"
+    ],
+    "19:19": [
+      "Charlotte Palmer"
+    ],
+    "19:20": [
+      "Mrs. Jennings",
+      "Mrs. Jennings"
+    ],
+    "19:21": [
+      "Mr. Palmer"
+    ],
+    "19:22": [
+      "Mrs. Jennings",
+      "Mrs. Jennings"
+    ],
+    "19:23": [
+      "Mr. Palmer"
+    ],
+    "19:24": [
+      "Mrs. Jennings",
+      "Mrs. Jennings"
+    ],
+    "19:26": [
+      "Mr. Palmer",
+      "Mr. Palmer"
+    ],
+    "19:28": [
+      "Charlotte Palmer",
+      "Charlotte Palmer",
+      "Charlotte Palmer"
+    ],
+    "19:29": [
+      "Mr. Palmer",
+      "Mr. Palmer"
+    ],
+    "19:30": [
+      "Charlotte Palmer",
+      "Charlotte Palmer"
+    ],
+    "19:32": [
+      "Mr. Palmer"
+    ],
+    "19:34": [
+      "Charlotte Palmer",
+      "Charlotte Palmer"
+    ],
+    "19:36": [
+      "Mr. Palmer",
+      "Mr. Palmer"
+    ],
+    "19:37": [
+      "Charlotte Palmer",
+      "Charlotte Palmer"
+    ],
+    "19:38": [
+      "Mr. Palmer"
+    ],
+    "19:40": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "19:41": [
+      "Mr. Palmer"
+    ],
+    "19:43": [
+      "Charlotte Palmer",
+      "Charlotte Palmer"
+    ],
+    "19:44": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "19:45": [
+      "Charlotte Palmer"
+    ],
+    "19:46": [
+      "Elinor Dashwood"
+    ],
+    "19:47": [
+      "Charlotte Palmer"
+    ],
+    "19:48": [
+      "Elinor Dashwood"
+    ],
+    "19:49": [
+      "Charlotte Palmer"
+    ],
+    "19:50": [
+      "Elinor Dashwood"
+    ],
+    "19:51": [
+      "Charlotte Palmer"
+    ],
+    "19:52": [
+      "Elinor Dashwood"
+    ],
+    "19:53": [
+      "Charlotte Palmer"
+    ],
+    "19:54": [
+      "Elinor Dashwood"
+    ],
+    "19:55": [
+      "Charlotte Palmer"
+    ],
+    "19:56": [
+      "Elinor Dashwood"
+    ],
+    "19:57": [
+      "Charlotte Palmer"
+    ],
+    "19:59": [
+      "Charlotte Palmer",
+      "Charlotte Palmer"
+    ],
+    "19:60": [
+      "Charlotte Palmer"
+    ],
+    "19:61": [
+      "Charlotte Palmer",
+      "Charlotte Palmer"
+    ],
+    "19:62": [
+      "Charlotte Palmer"
+    ],
+    "19:63": [
+      "Charlotte Palmer"
+    ],
+    "20:5": [
+      "Sir John Middleton",
+      "Sir John Middleton"
+    ],
+    "20:10": [
+      "Lady Middleton",
+      "Lady Middleton"
+    ],
+    "20:11": [
+      "Lady Middleton"
+    ],
+    "20:12": [
+      "Lady Middleton",
+      "Lady Middleton"
+    ],
+    "20:15": [
+      "Lucy Steele",
+      "Lucy Steele"
+    ],
+    "20:16": [
+      "Marianne Dashwood",
+      "Marianne Dashwood"
+    ],
+    "20:17": [
+      "Lucy Steele"
+    ],
+    "20:19": [
+      "Marianne Dashwood",
+      "Marianne Dashwood"
+    ],
+    "20:21": [
+      "Lucy Steele"
+    ],
+    "20:22": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "20:23": [
+      "Lucy Steele",
+      "Lucy Steele"
+    ],
+    "20:24": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "20:25": [
+      "Lucy Steele"
+    ],
+    "20:27": [
+      "Lucy Steele"
+    ],
+    "20:28": [
+      "Lucy Steele"
+    ],
+    "20:29": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "20:30": [
+      "Lucy Steele"
+    ],
+    "20:31": [
+      "Lucy Steele",
+      "Lucy Steele"
+    ],
+    "20:32": [
+      "Lucy Steele"
+    ],
+    "20:33": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "20:34": [
+      "Lucy Steele"
+    ],
+    "20:35": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "20:39": [
+      "Lucy Steele",
+      "Lucy Steele"
+    ],
+    "20:42": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "20:43": [
+      "Lucy Steele",
+      "Lucy Steele"
+    ],
+    "20:44": [
+      "Lucy Steele",
+      "Lucy Steele"
+    ],
+    "20:45": [
+      "Lucy Steele"
+    ],
+    "21:3": [
+      "Lucy Steele",
+      "Lucy Steele"
+    ],
+    "21:5": [
+      "Lucy Steele",
+      "Lucy Steele"
+    ],
+    "21:6": [
+      "Lucy Steele",
+      "Lucy Steele"
+    ],
+    "21:7": [
+      "Lucy Steele",
+      "Lucy Steele"
+    ],
+    "21:9": [
+      "Lucy Steele"
+    ],
+    "21:10": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "21:11": [
+      "Lucy Steele"
+    ],
+    "21:13": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "21:14": [
+      "Lucy Steele",
+      "Lucy Steele",
+      "Lucy Steele"
+    ],
+    "21:16": [
+      "Lucy Steele",
+      "Lucy Steele"
+    ],
+    "21:17": [
+      "Lucy Steele"
+    ],
+    "21:18": [
+      "Lucy Steele"
+    ],
+    "21:19": [
+      "Lucy Steele"
+    ],
+    "21:20": [
+      "Lucy Steele"
+    ],
+    "21:22": [
+      "Lucy Steele",
+      "Lucy Steele"
+    ],
+    "21:23": [
+      "Lucy Steele"
+    ],
+    "21:24": [
+      "Lucy Steele"
+    ],
+    "21:25": [
+      "Lucy Steele"
+    ],
+    "21:26": [
+      "Elinor Dashwood"
+    ],
+    "21:27": [
+      "Lucy Steele"
+    ],
+    "21:28": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "21:29": [
+      "Lucy Steele",
+      "Lucy Steele"
+    ],
+    "21:30": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "21:31": [
+      "Lucy Steele"
+    ],
+    "21:33": [
+      "Elinor Dashwood"
+    ],
+    "21:34": [
+      "Lucy Steele",
+      "Lucy Steele"
+    ],
+    "21:36": [
+      "Lucy Steele",
+      "Lucy Steele"
+    ],
+    "21:37": [
+      "Lucy Steele"
+    ],
+    "21:38": [
+      "Lucy Steele",
+      "Lucy Steele"
+    ],
+    "21:39": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "21:41": [
+      "Lucy Steele"
+    ],
+    "21:44": [
+      "Lucy Steele",
+      "Lucy Steele",
+      "Lucy Steele"
+    ],
+    "21:45": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "21:46": [
+      "Lucy Steele",
+      "Lucy Steele"
+    ],
+    "21:47": [
+      "Elinor Dashwood"
+    ],
+    "21:48": [
+      "Lucy Steele"
+    ],
+    "21:49": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "21:50": [
+      "Lucy Steele"
+    ],
+    "21:51": [
+      "Elinor Dashwood"
+    ],
+    "21:52": [
+      "Lucy Steele",
+      "Lucy Steele"
+    ],
+    "21:54": [
+      "Lucy Steele",
+      "Lucy Steele"
+    ],
+    "21:55": [
+      "Elinor Dashwood"
+    ],
+    "22:15": [
+      "Lady Middleton",
+      "Lady Middleton"
+    ],
+    "22:16": [
+      "Lady Middleton"
+    ],
+    "22:17": [
+      "Lady Middleton"
+    ],
+    "22:19": [
+      "Lady Middleton"
+    ],
+    "22:21": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "22:23": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "22:24": [
+      "Lucy Steele",
+      "Lucy Steele"
+    ],
+    "22:25": [
+      "Lucy Steele",
+      "Lucy Steele"
+    ],
+    "22:26": [
+      "Lady Middleton",
+      "Lady Middleton"
+    ],
+    "23:1": [
+      "Elinor Dashwood"
+    ],
+    "23:2": [
+      "Lucy Steele",
+      "Lucy Steele"
+    ],
+    "23:3": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "23:4": [
+      "Lucy Steele",
+      "Lucy Steele"
+    ],
+    "23:5": [
+      "Lucy Steele"
+    ],
+    "23:6": [
+      "Lucy Steele"
+    ],
+    "23:7": [
+      "Lucy Steele"
+    ],
+    "23:9": [
+      "Lucy Steele",
+      "Lucy Steele"
+    ],
+    "23:11": [
+      "Lucy Steele"
+    ],
+    "23:12": [
+      "Lucy Steele",
+      "Lucy Steele"
+    ],
+    "23:13": [
+      "Lucy Steele",
+      "Lucy Steele"
+    ],
+    "23:14": [
+      "Lucy Steele"
+    ],
+    "23:15": [
+      "Lucy Steele"
+    ],
+    "23:17": [
+      "Elinor Dashwood"
+    ],
+    "23:18": [
+      "Lucy Steele"
+    ],
+    "23:19": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "23:20": [
+      "Lucy Steele",
+      "Lucy Steele"
+    ],
+    "23:21": [
+      "Mrs. Jennings",
+      "Mrs. Jennings"
+    ],
+    "23:22": [
+      "Lucy Steele",
+      "Lucy Steele"
+    ],
+    "23:24": [
+      "Mrs. Jennings"
+    ],
+    "23:25": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "23:26": [
+      "Mrs. Jennings"
+    ],
+    "23:27": [
+      "Elinor Dashwood"
+    ],
+    "23:29": [
+      "Mrs. Jennings"
+    ],
+    "23:30": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "23:31": [
+      "Lucy Steele",
+      "Lucy Steele"
+    ],
+    "23:32": [
+      "Elinor Dashwood"
+    ],
+    "23:33": [
+      "Lucy Steele",
+      "Lucy Steele"
+    ],
+    "23:35": [
+      "Elinor Dashwood"
+    ],
+    "23:36": [
+      "Lucy Steele"
+    ],
+    "23:37": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "23:38": [
+      "Lucy Steele"
+    ],
+    "23:39": [
+      "Elinor Dashwood"
+    ],
+    "24:2": [
+      "Mrs. Jennings"
+    ],
+    "24:3": [
+      "Sir John Middleton",
+      "Sir John Middleton"
+    ],
+    "24:4": [
+      "Mrs. Jennings",
+      "Mrs. Jennings"
+    ],
+    "24:5": [
+      "Marianne Dashwood",
+      "Marianne Dashwood"
+    ],
+    "24:9": [
+      "Mrs. Jennings",
+      "Mrs. Jennings"
+    ],
+    "24:10": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "24:12": [
+      "Mrs. Dashwood",
+      "Mrs. Dashwood"
+    ],
+    "24:13": [
+      "Elinor Dashwood"
+    ],
+    "24:14": [
+      "Mrs. Dashwood",
+      "Mrs. Dashwood"
+    ],
+    "24:15": [
+      "Marianne Dashwood",
+      "Marianne Dashwood"
+    ],
+    "24:17": [
+      "Mrs. Dashwood",
+      "Mrs. Dashwood"
+    ],
+    "24:18": [
+      "Marianne Dashwood"
+    ],
+    "25:5": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "25:6": [
+      "Marianne Dashwood"
+    ],
+    "25:8": [
+      "Elinor Dashwood"
+    ],
+    "25:10": [
+      "Marianne Dashwood"
+    ],
+    "25:13": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "25:15": [
+      "Marianne Dashwood",
+      "Marianne Dashwood"
+    ],
+    "25:16": [
+      "Elinor Dashwood"
+    ],
+    "25:17": [
+      "Marianne Dashwood"
+    ],
+    "25:18": [
+      "Elinor Dashwood"
+    ],
+    "25:19": [
+      "Marianne Dashwood"
+    ],
+    "25:23": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "25:27": [
+      "Marianne Dashwood",
+      "Marianne Dashwood",
+      "Marianne Dashwood"
+    ],
+    "25:29": [
+      "Elinor Dashwood"
+    ],
+    "25:30": [
+      "Marianne Dashwood",
+      "Marianne Dashwood"
+    ],
+    "26:0": [
+      "Mrs. Jennings",
+      "Mrs. Jennings"
+    ],
+    "26:1": [
+      "Marianne Dashwood",
+      "Marianne Dashwood"
+    ],
+    "26:2": [
+      "Mrs. Jennings",
+      "Mrs. Jennings",
+      "Mrs. Jennings"
+    ],
+    "26:3": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "26:4": [
+      "Mrs. Jennings"
+    ],
+    "26:5": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "26:8": [
+      "Mrs. Jennings"
+    ],
+    "26:13": [
+      "Marianne Dashwood",
+      "Marianne Dashwood",
+      "Marianne Dashwood"
+    ],
+    "26:16": [
+      "Marianne Dashwood"
+    ],
+    "26:17": [
+      "Marianne Dashwood"
+    ],
+    "26:19": [
+      "Marianne Dashwood"
+    ],
+    "26:20": [
+      "Elinor Dashwood"
+    ],
+    "26:21": [
+      "Marianne Dashwood"
+    ],
+    "26:22": [
+      "Elinor Dashwood"
+    ],
+    "26:23": [
+      "Marianne Dashwood"
+    ],
+    "26:24": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "26:25": [
+      "Marianne Dashwood",
+      "Marianne Dashwood"
+    ],
+    "26:30": [
+      "Elinor Dashwood"
+    ],
+    "26:31": [
+      "Elinor Dashwood"
+    ],
+    "26:32": [
+      "Elinor Dashwood"
+    ],
+    "26:33": [
+      "Elinor Dashwood"
+    ],
+    "26:35": [
+      "Mrs. Jennings",
+      "Mrs. Jennings"
+    ],
+    "26:36": [
+      "Marianne Dashwood"
+    ],
+    "26:37": [
+      "Mrs. Jennings"
+    ],
+    "26:39": [
+      "Marianne Dashwood",
+      "Marianne Dashwood"
+    ],
+    "26:40": [
+      "Mrs. Jennings"
+    ],
+    "26:41": [
+      "Marianne Dashwood",
+      "Marianne Dashwood"
+    ],
+    "26:42": [
+      "Mrs. Jennings"
+    ],
+    "26:43": [
+      "Marianne Dashwood"
+    ],
+    "26:44": [
+      "Mrs. Jennings"
+    ],
+    "26:47": [
+      "Marianne Dashwood"
+    ],
+    "27:3": [
+      "Marianne Dashwood",
+      "Marianne Dashwood"
+    ],
+    "27:4": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "27:6": [
+      "Elinor Dashwood"
+    ],
+    "27:8": [
+      "Elinor Dashwood"
+    ],
+    "27:9": [
+      "Marianne Dashwood",
+      "Marianne Dashwood"
+    ],
+    "27:10": [
+      "Elinor Dashwood"
+    ],
+    "27:12": [
+      "Marianne Dashwood",
+      "Marianne Dashwood"
+    ],
+    "27:13": [
+      "Elinor Dashwood"
+    ],
+    "28:1": [
+      "Elinor Dashwood"
+    ],
+    "28:2": [
+      "Marianne Dashwood",
+      "Marianne Dashwood"
+    ],
+    "28:8": [
+      "Mrs. Jennings"
+    ],
+    "28:9": [
+      "Elinor Dashwood"
+    ],
+    "28:10": [
+      "Mrs. Jennings"
+    ],
+    "28:11": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "28:20": [
+      "Elinor Dashwood"
+    ],
+    "28:24": [
+      "Elinor Dashwood"
+    ],
+    "28:25": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "28:26": [
+      "Elinor Dashwood"
+    ],
+    "28:28": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "28:29": [
+      "Marianne Dashwood",
+      "Marianne Dashwood"
+    ],
+    "28:30": [
+      "Elinor Dashwood"
+    ],
+    "28:31": [
+      "Marianne Dashwood",
+      "Marianne Dashwood"
+    ],
+    "28:32": [
+      "Elinor Dashwood"
+    ],
+    "28:33": [
+      "Marianne Dashwood",
+      "Marianne Dashwood"
+    ],
+    "28:34": [
+      "Elinor Dashwood"
+    ],
+    "28:35": [
+      "Marianne Dashwood"
+    ],
+    "28:36": [
+      "Elinor Dashwood"
+    ],
+    "28:37": [
+      "Marianne Dashwood",
+      "Marianne Dashwood"
+    ],
+    "28:38": [
+      "Elinor Dashwood"
+    ],
+    "28:39": [
+      "Marianne Dashwood"
+    ],
+    "28:40": [
+      "Elinor Dashwood"
+    ],
+    "28:41": [
+      "Marianne Dashwood"
+    ],
+    "28:42": [
+      "Elinor Dashwood"
+    ],
+    "28:43": [
+      "Marianne Dashwood"
+    ],
+    "28:56": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "28:57": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "28:58": [
+      "Elinor Dashwood"
+    ],
+    "28:60": [
+      "Elinor Dashwood"
+    ],
+    "28:61": [
+      "Elinor Dashwood"
+    ],
+    "28:62": [
+      "Elinor Dashwood"
+    ],
+    "28:63": [
+      "Elinor Dashwood"
+    ],
+    "28:64": [
+      "Marianne Dashwood",
+      "Marianne Dashwood"
+    ],
+    "28:65": [
+      "Elinor Dashwood"
+    ],
+    "28:66": [
+      "Marianne Dashwood"
+    ],
+    "28:68": [
+      "Elinor Dashwood"
+    ],
+    "28:69": [
+      "Marianne Dashwood"
+    ],
+    "28:70": [
+      "Elinor Dashwood"
+    ],
+    "28:72": [
+      "Marianne Dashwood"
+    ],
+    "28:73": [
+      "Elinor Dashwood"
+    ],
+    "28:74": [
+      "Marianne Dashwood"
+    ],
+    "28:75": [
+      "Elinor Dashwood"
+    ],
+    "28:76": [
+      "Marianne Dashwood"
+    ],
+    "29:1": [
+      "Mrs. Jennings"
+    ],
+    "29:5": [
+      "Marianne Dashwood"
+    ],
+    "29:9": [
+      "Mrs. Jennings",
+      "Mrs. Jennings"
+    ],
+    "29:10": [
+      "Mrs. Jennings"
+    ],
+    "29:11": [
+      "Mrs. Jennings"
+    ],
+    "29:12": [
+      "Mrs. Jennings"
+    ],
+    "29:13": [
+      "Mrs. Jennings"
+    ],
+    "29:14": [
+      "Mrs. Jennings"
+    ],
+    "29:15": [
+      "Mrs. Jennings",
+      "Mrs. Jennings"
+    ],
+    "29:16": [
+      "Mrs. Jennings"
+    ],
+    "29:17": [
+      "Mrs. Jennings"
+    ],
+    "29:18": [
+      "Mrs. Jennings"
+    ],
+    "29:19": [
+      "Mrs. Jennings"
+    ],
+    "29:20": [
+      "Mrs. Jennings"
+    ],
+    "29:21": [
+      "Mrs. Jennings"
+    ],
+    "29:25": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "29:26": [
+      "Mrs. Jennings"
+    ],
+    "29:27": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "29:29": [
+      "Mrs. Jennings",
+      "Mrs. Jennings"
+    ],
+    "29:30": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "29:32": [
+      "Mrs. Jennings"
+    ],
+    "29:34": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "29:35": [
+      "Mrs. Jennings",
+      "Mrs. Jennings"
+    ],
+    "29:36": [
+      "Elinor Dashwood"
+    ],
+    "29:37": [
+      "Mrs. Jennings"
+    ],
+    "29:38": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "29:41": [
+      "Mrs. Jennings"
+    ],
+    "29:42": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "29:43": [
+      "Mrs. Jennings"
+    ],
+    "29:44": [
+      "Colonel Brandon",
+      "Colonel Brandon"
+    ],
+    "29:45": [
+      "Mrs. Jennings"
+    ],
+    "30:2": [
+      "Marianne Dashwood",
+      "Marianne Dashwood"
+    ],
+    "30:5": [
+      "Mrs. Jennings"
+    ],
+    "30:11": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "30:13": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "30:14": [
+      "Elinor Dashwood"
+    ],
+    "30:15": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "30:17": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "30:18": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "30:19": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "30:21": [
+      "Elinor Dashwood"
+    ],
+    "30:22": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "30:26": [
+      "Elinor Dashwood"
+    ],
+    "30:31": [
+      "Elinor Dashwood"
+    ],
+    "30:34": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "30:35": [
+      "Elinor Dashwood"
+    ],
+    "30:37": [
+      "Elinor Dashwood"
+    ],
+    "30:42": [
+      "Elinor Dashwood",
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "30:43": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "30:45": [
+      "Elinor Dashwood"
+    ],
+    "30:46": [
+      "Elinor Dashwood"
+    ],
+    "30:48": [
+      "Colonel Brandon",
+      "Colonel Brandon"
+    ],
+    "30:49": [
+      "Elinor Dashwood"
+    ],
+    "30:50": [
+      "Colonel Brandon"
+    ],
+    "31:9": [
+      "Sir John Middleton"
+    ],
+    "31:10": [
+      "Charlotte Palmer"
+    ],
+    "31:14": [
+      "Lady Middleton"
+    ],
+    "31:22": [
+      "Lucy Steele",
+      "Lucy Steele"
+    ],
+    "31:24": [
+      "Mrs. Jennings",
+      "Mrs. Jennings"
+    ],
+    "31:25": [
+      "Lucy Steele",
+      "Lucy Steele"
+    ],
+    "31:26": [
+      "Mrs. Jennings",
+      "Mrs. Jennings"
+    ],
+    "31:27": [
+      "Lucy Steele",
+      "Lucy Steele"
+    ],
+    "31:28": [
+      "Mrs. Jennings"
+    ],
+    "31:29": [
+      "Lucy Steele",
+      "Lucy Steele"
+    ],
+    "31:31": [
+      "Lucy Steele"
+    ],
+    "31:32": [
+      "Lucy Steele"
+    ],
+    "31:33": [
+      "Lucy Steele"
+    ],
+    "31:35": [
+      "Lucy Steele"
+    ],
+    "31:36": [
+      "Lucy Steele",
+      "Lucy Steele"
+    ],
+    "31:38": [
+      "Lucy Steele",
+      "Lucy Steele"
+    ],
+    "31:39": [
+      "Lucy Steele"
+    ],
+    "31:40": [
+      "Lucy Steele"
+    ],
+    "31:42": [
+      "Lucy Steele",
+      "Lucy Steele"
+    ],
+    "32:9": [
+      "John Dashwood",
+      "John Dashwood"
+    ],
+    "32:10": [
+      "Elinor Dashwood"
+    ],
+    "32:11": [
+      "John Dashwood"
+    ],
+    "32:14": [
+      "John Dashwood"
+    ],
+    "32:16": [
+      "John Dashwood"
+    ],
+    "32:17": [
+      "Elinor Dashwood"
+    ],
+    "32:18": [
+      "John Dashwood"
+    ],
+    "32:19": [
+      "Elinor Dashwood"
+    ],
+    "32:20": [
+      "John Dashwood"
+    ],
+    "32:21": [
+      "Elinor Dashwood"
+    ],
+    "32:22": [
+      "John Dashwood",
+      "John Dashwood"
+    ],
+    "32:23": [
+      "Elinor Dashwood"
+    ],
+    "32:24": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "32:25": [
+      "Elinor Dashwood"
+    ],
+    "32:27": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "32:28": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "32:29": [
+      "Elinor Dashwood"
+    ],
+    "32:31": [
+      "Elinor Dashwood"
+    ],
+    "32:32": [
+      "Elinor Dashwood"
+    ],
+    "32:33": [
+      "Elinor Dashwood"
+    ],
+    "32:34": [
+      "Elinor Dashwood"
+    ],
+    "32:36": [
+      "Elinor Dashwood"
+    ],
+    "32:37": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "32:38": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "32:39": [
+      "Elinor Dashwood"
+    ],
+    "32:40": [
+      "Elinor Dashwood"
+    ],
+    "32:43": [
+      "Elinor Dashwood"
+    ],
+    "32:44": [
+      "Elinor Dashwood"
+    ],
+    "32:45": [
+      "Elinor Dashwood"
+    ],
+    "32:46": [
+      "Elinor Dashwood"
+    ],
+    "32:47": [
+      "Elinor Dashwood"
+    ],
+    "32:48": [
+      "Elinor Dashwood"
+    ],
+    "32:49": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "32:50": [
+      "Elinor Dashwood"
+    ],
+    "32:51": [
+      "Elinor Dashwood"
+    ],
+    "32:54": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "33:13": [
+      "Lucy Steele",
+      "Lucy Steele"
+    ],
+    "33:26": [
+      "Lucy Steele",
+      "Lucy Steele"
+    ],
+    "33:28": [
+      "Mrs. Ferrars",
+      "Mrs. Ferrars"
+    ],
+    "33:30": [
+      "Lucy Steele",
+      "Lucy Steele"
+    ],
+    "33:31": [
+      "Mrs. Ferrars"
+    ],
+    "33:33": [
+      "Lucy Steele"
+    ],
+    "33:35": [
+      "Mrs. Ferrars"
+    ],
+    "33:38": [
+      "Lucy Steele"
+    ],
+    "33:39": [
+      "Mrs. Ferrars"
+    ],
+    "33:41": [
+      "Lucy Steele",
+      "Lucy Steele"
+    ],
+    "34:3": [
+      "Lucy Steele",
+      "Lucy Steele"
+    ],
+    "34:4": [
+      "Lucy Steele"
+    ],
+    "34:5": [
+      "Lucy Steele"
+    ],
+    "34:7": [
+      "Lucy Steele",
+      "Lucy Steele"
+    ],
+    "34:8": [
+      "Lucy Steele",
+      "Lucy Steele"
+    ],
+    "34:10": [
+      "Lucy Steele"
+    ],
+    "34:11": [
+      "Lucy Steele"
+    ],
+    "34:12": [
+      "Lucy Steele"
+    ],
+    "34:14": [
+      "Lucy Steele"
+    ],
+    "34:16": [
+      "Lucy Steele"
+    ],
+    "34:23": [
+      "Lucy Steele",
+      "Lucy Steele"
+    ],
+    "34:25": [
+      "Lucy Steele",
+      "Lucy Steele"
+    ],
+    "34:27": [
+      "Edward Ferrars"
+    ],
+    "34:28": [
+      "Lucy Steele"
+    ],
+    "34:30": [
+      "Edward Ferrars",
+      "Edward Ferrars"
+    ],
+    "34:32": [
+      "Lucy Steele"
+    ],
+    "34:34": [
+      "Edward Ferrars"
+    ],
+    "34:35": [
+      "Lucy Steele"
+    ],
+    "34:36": [
+      "Edward Ferrars"
+    ],
+    "34:37": [
+      "Lucy Steele",
+      "Lucy Steele"
+    ],
+    "34:39": [
+      "Edward Ferrars"
+    ],
+    "34:41": [
+      "Marianne Dashwood",
+      "Marianne Dashwood"
+    ],
+    "34:43": [
+      "Marianne Dashwood",
+      "Marianne Dashwood"
+    ],
+    "34:44": [
+      "Marianne Dashwood"
+    ],
+    "34:45": [
+      "Marianne Dashwood"
+    ],
+    "35:11": [
+      "Anne Steele"
+    ],
+    "35:17": [
+      "Robert Ferrars",
+      "Robert Ferrars"
+    ],
+    "35:19": [
+      "Robert Ferrars",
+      "Robert Ferrars"
+    ],
+    "35:21": [
+      "Robert Ferrars"
+    ],
+    "35:26": [
+      "Fanny Dashwood",
+      "Fanny Dashwood"
+    ],
+    "35:27": [
+      "John Dashwood"
+    ],
+    "35:29": [
+      "Fanny Dashwood"
+    ],
+    "36:2": [
+      "Mrs. Jennings"
+    ],
+    "36:3": [
+      "Elinor Dashwood"
+    ],
+    "36:6": [
+      "Elinor Dashwood"
+    ],
+    "36:19": [
+      "Marianne Dashwood"
+    ],
+    "36:20": [
+      "Elinor Dashwood"
+    ],
+    "36:22": [
+      "Marianne Dashwood"
+    ],
+    "36:24": [
+      "Marianne Dashwood"
+    ],
+    "36:25": [
+      "Elinor Dashwood"
+    ],
+    "36:26": [
+      "Marianne Dashwood",
+      "Marianne Dashwood"
+    ],
+    "36:27": [
+      "Marianne Dashwood"
+    ],
+    "36:29": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "36:30": [
+      "Marianne Dashwood"
+    ],
+    "36:33": [
+      "Marianne Dashwood",
+      "Marianne Dashwood"
+    ],
+    "36:37": [
+      "Marianne Dashwood",
+      "Marianne Dashwood"
+    ],
+    "36:39": [
+      "Marianne Dashwood"
+    ],
+    "36:41": [
+      "Marianne Dashwood",
+      "Marianne Dashwood"
+    ],
+    "36:43": [
+      "Marianne Dashwood"
+    ],
+    "36:48": [
+      "Marianne Dashwood"
+    ],
+    "36:49": [
+      "Marianne Dashwood",
+      "Marianne Dashwood"
+    ],
+    "36:51": [
+      "Marianne Dashwood",
+      "Marianne Dashwood"
+    ],
+    "36:52": [
+      "Mrs. Jennings",
+      "Mrs. Jennings"
+    ],
+    "36:54": [
+      "Marianne Dashwood"
+    ],
+    "36:56": [
+      "Mrs. Jennings",
+      "Mrs. Jennings"
+    ],
+    "36:57": [
+      "Marianne Dashwood"
+    ],
+    "36:58": [
+      "Mrs. Jennings"
+    ],
+    "36:59": [
+      "Marianne Dashwood"
+    ],
+    "36:60": [
+      "Mrs. Jennings",
+      "Mrs. Jennings"
+    ],
+    "36:62": [
+      "John Dashwood",
+      "John Dashwood"
+    ],
+    "36:63": [
+      "Mrs. Jennings",
+      "Mrs. Jennings"
+    ],
+    "36:65": [
+      "Fanny Dashwood",
+      "Fanny Dashwood"
+    ],
+    "37:6": [
+      "Mrs. Jennings"
+    ],
+    "37:8": [
+      "Lucy Steele",
+      "Lucy Steele",
+      "Lucy Steele"
+    ],
+    "37:9": [
+      "Lucy Steele"
+    ],
+    "37:10": [
+      "Lucy Steele"
+    ],
+    "37:11": [
+      "Lucy Steele"
+    ],
+    "37:12": [
+      "Lucy Steele"
+    ],
+    "37:14": [
+      "Lucy Steele",
+      "Lucy Steele"
+    ],
+    "37:15": [
+      "Elinor Dashwood"
+    ],
+    "37:21": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "37:22": [
+      "Elinor Dashwood"
+    ],
+    "37:23": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "37:24": [
+      "Elinor Dashwood"
+    ],
+    "37:26": [
+      "Elinor Dashwood"
+    ],
+    "37:28": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "37:30": [
+      "Elinor Dashwood"
+    ],
+    "37:33": [
+      "Elinor Dashwood"
+    ],
+    "37:39": [
+      "Elinor Dashwood"
+    ],
+    "37:41": [
+      "Elinor Dashwood"
+    ],
+    "38:3": [
+      "Marianne Dashwood",
+      "Marianne Dashwood"
+    ],
+    "38:4": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "38:5": [
+      "Marianne Dashwood"
+    ],
+    "38:8": [
+      "Mrs. Jennings",
+      "Mrs. Jennings"
+    ],
+    "38:11": [
+      "Colonel Brandon"
+    ],
+    "38:12": [
+      "Mrs. Jennings"
+    ],
+    "38:13": [
+      "Mrs. Jennings"
+    ],
+    "38:15": [
+      "Elinor Dashwood"
+    ],
+    "38:18": [
+      "Colonel Brandon",
+      "Colonel Brandon"
+    ],
+    "38:20": [
+      "Colonel Brandon"
+    ],
+    "38:24": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "38:26": [
+      "Colonel Brandon"
+    ],
+    "39:0": [
+      "Mrs. Jennings",
+      "Mrs. Jennings"
+    ],
+    "39:1": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "39:2": [
+      "Mrs. Jennings"
+    ],
+    "39:3": [
+      "Elinor Dashwood"
+    ],
+    "39:4": [
+      "Mrs. Jennings",
+      "Mrs. Jennings"
+    ],
+    "39:5": [
+      "Elinor Dashwood"
+    ],
+    "39:6": [
+      "Mrs. Jennings"
+    ],
+    "39:7": [
+      "Elinor Dashwood"
+    ],
+    "39:8": [
+      "Mrs. Jennings"
+    ],
+    "39:10": [
+      "Elinor Dashwood"
+    ],
+    "39:12": [
+      "Mrs. Jennings"
+    ],
+    "39:13": [
+      "Mrs. Jennings",
+      "Mrs. Jennings"
+    ],
+    "39:14": [
+      "Mrs. Jennings"
+    ],
+    "39:16": [
+      "Mrs. Jennings"
+    ],
+    "39:18": [
+      "Mrs. Jennings"
+    ],
+    "39:19": [
+      "Mrs. Jennings"
+    ],
+    "39:21": [
+      "Mrs. Jennings"
+    ],
+    "39:22": [
+      "Elinor Dashwood"
+    ],
+    "39:26": [
+      "Mrs. Jennings",
+      "Mrs. Jennings"
+    ],
+    "39:27": [
+      "Elinor Dashwood"
+    ],
+    "39:30": [
+      "Mrs. Jennings"
+    ],
+    "39:31": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "39:32": [
+      "Mrs. Jennings"
+    ],
+    "39:33": [
+      "Elinor Dashwood"
+    ],
+    "39:34": [
+      "Mrs. Jennings",
+      "Mrs. Jennings"
+    ],
+    "39:35": [
+      "Elinor Dashwood"
+    ],
+    "39:37": [
+      "Mrs. Jennings"
+    ],
+    "39:38": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "39:40": [
+      "Mrs. Jennings"
+    ],
+    "39:42": [
+      "Elinor Dashwood"
+    ],
+    "39:44": [
+      "Mrs. Jennings",
+      "Mrs. Jennings"
+    ],
+    "39:47": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "39:48": [
+      "Mrs. Jennings"
+    ],
+    "39:49": [
+      "Elinor Dashwood"
+    ],
+    "39:50": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "39:51": [
+      "Mrs. Jennings",
+      "Mrs. Jennings"
+    ],
+    "39:52": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "39:53": [
+      "Mrs. Jennings"
+    ],
+    "39:55": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "39:56": [
+      "Mrs. Jennings"
+    ],
+    "39:57": [
+      "Elinor Dashwood"
+    ],
+    "40:7": [
+      "John Dashwood",
+      "John Dashwood"
+    ],
+    "40:9": [
+      "John Dashwood",
+      "John Dashwood"
+    ],
+    "40:10": [
+      "Elinor Dashwood"
+    ],
+    "40:11": [
+      "John Dashwood"
+    ],
+    "40:12": [
+      "Elinor Dashwood"
+    ],
+    "40:13": [
+      "John Dashwood"
+    ],
+    "40:15": [
+      "John Dashwood",
+      "John Dashwood"
+    ],
+    "40:16": [
+      "Elinor Dashwood"
+    ],
+    "40:17": [
+      "John Dashwood"
+    ],
+    "40:19": [
+      "John Dashwood",
+      "John Dashwood"
+    ],
+    "40:20": [
+      "Elinor Dashwood"
+    ],
+    "40:21": [
+      "Fanny Dashwood",
+      "Fanny Dashwood"
+    ],
+    "40:22": [
+      "Fanny Dashwood"
+    ],
+    "40:23": [
+      "Fanny Dashwood"
+    ],
+    "40:25": [
+      "Fanny Dashwood",
+      "Fanny Dashwood"
+    ],
+    "40:27": [
+      "Fanny Dashwood"
+    ],
+    "40:28": [
+      "Fanny Dashwood"
+    ],
+    "40:29": [
+      "Fanny Dashwood"
+    ],
+    "40:30": [
+      "Fanny Dashwood"
+    ],
+    "40:32": [
+      "Fanny Dashwood"
+    ],
+    "40:37": [
+      "Fanny Dashwood"
+    ],
+    "40:39": [
+      "Fanny Dashwood"
+    ],
+    "42:2": [
+      "Mr. Palmer"
+    ],
+    "42:12": [
+      "Marianne Dashwood"
+    ],
+    "42:13": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "42:14": [
+      "Marianne Dashwood",
+      "Marianne Dashwood"
+    ],
+    "43:1": [
+      "John Willoughby"
+    ],
+    "43:2": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "43:3": [
+      "John Willoughby",
+      "John Willoughby"
+    ],
+    "43:4": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "43:5": [
+      "John Willoughby"
+    ],
+    "43:7": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "43:9": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "43:11": [
+      "Elinor Dashwood"
+    ],
+    "43:12": [
+      "Elinor Dashwood"
+    ],
+    "43:14": [
+      "Elinor Dashwood",
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "43:16": [
+      "Elinor Dashwood"
+    ],
+    "43:17": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "43:18": [
+      "Elinor Dashwood"
+    ],
+    "43:19": [
+      "Elinor Dashwood"
+    ],
+    "43:21": [
+      "Elinor Dashwood"
+    ],
+    "43:22": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "43:23": [
+      "Elinor Dashwood"
+    ],
+    "43:24": [
+      "Elinor Dashwood"
+    ],
+    "43:25": [
+      "Elinor Dashwood"
+    ],
+    "43:26": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "43:28": [
+      "Elinor Dashwood"
+    ],
+    "43:31": [
+      "Elinor Dashwood"
+    ],
+    "43:32": [
+      "Elinor Dashwood"
+    ],
+    "43:34": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "43:36": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "43:37": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "43:38": [
+      "John Willoughby",
+      "John Willoughby"
+    ],
+    "43:39": [
+      "Elinor Dashwood"
+    ],
+    "43:40": [
+      "John Willoughby",
+      "John Willoughby"
+    ],
+    "43:41": [
+      "Elinor Dashwood"
+    ],
+    "43:45": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "43:46": [
+      "Elinor Dashwood"
+    ],
+    "43:50": [
+      "Elinor Dashwood"
+    ],
+    "43:51": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "43:53": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "43:54": [
+      "Elinor Dashwood"
+    ],
+    "43:55": [
+      "Elinor Dashwood"
+    ],
+    "43:56": [
+      "Elinor Dashwood"
+    ],
+    "43:58": [
+      "Elinor Dashwood"
+    ],
+    "43:61": [
+      "Elinor Dashwood"
+    ],
+    "43:66": [
+      "Elinor Dashwood"
+    ],
+    "43:67": [
+      "Elinor Dashwood"
+    ],
+    "43:68": [
+      "Elinor Dashwood"
+    ],
+    "43:69": [
+      "Elinor Dashwood"
+    ],
+    "43:72": [
+      "Elinor Dashwood"
+    ],
+    "43:75": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "43:76": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "43:77": [
+      "Elinor Dashwood"
+    ],
+    "43:78": [
+      "Elinor Dashwood"
+    ],
+    "43:79": [
+      "Elinor Dashwood"
+    ],
+    "43:84": [
+      "Elinor Dashwood"
+    ],
+    "43:85": [
+      "Elinor Dashwood"
+    ],
+    "43:86": [
+      "Elinor Dashwood"
+    ],
+    "43:88": [
+      "Elinor Dashwood"
+    ],
+    "43:90": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "43:92": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "43:93": [
+      "Elinor Dashwood"
+    ],
+    "43:94": [
+      "Elinor Dashwood"
+    ],
+    "43:95": [
+      "Elinor Dashwood"
+    ],
+    "43:96": [
+      "Elinor Dashwood"
+    ],
+    "44:5": [
+      "Elinor Dashwood"
+    ],
+    "44:8": [
+      "Mrs. Dashwood"
+    ],
+    "44:10": [
+      "Mrs. Dashwood"
+    ],
+    "44:12": [
+      "Mrs. Dashwood"
+    ],
+    "44:14": [
+      "Mrs. Dashwood"
+    ],
+    "44:15": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "44:16": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "44:17": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "44:18": [
+      "Elinor Dashwood"
+    ],
+    "44:19": [
+      "Elinor Dashwood"
+    ],
+    "44:20": [
+      "Elinor Dashwood"
+    ],
+    "44:22": [
+      "Elinor Dashwood"
+    ],
+    "44:24": [
+      "Mrs. Dashwood",
+      "Mrs. Dashwood"
+    ],
+    "44:26": [
+      "Elinor Dashwood"
+    ],
+    "45:9": [
+      "Marianne Dashwood"
+    ],
+    "45:14": [
+      "Marianne Dashwood",
+      "Marianne Dashwood"
+    ],
+    "45:16": [
+      "Marianne Dashwood",
+      "Marianne Dashwood"
+    ],
+    "45:18": [
+      "Marianne Dashwood",
+      "Marianne Dashwood"
+    ],
+    "45:20": [
+      "Marianne Dashwood"
+    ],
+    "45:21": [
+      "Marianne Dashwood"
+    ],
+    "45:22": [
+      "Marianne Dashwood",
+      "Marianne Dashwood"
+    ],
+    "45:23": [
+      "Marianne Dashwood"
+    ],
+    "45:25": [
+      "Marianne Dashwood",
+      "Marianne Dashwood"
+    ],
+    "45:26": [
+      "Marianne Dashwood"
+    ],
+    "45:27": [
+      "Marianne Dashwood"
+    ],
+    "45:28": [
+      "Marianne Dashwood"
+    ],
+    "45:34": [
+      "Marianne Dashwood"
+    ],
+    "45:35": [
+      "Marianne Dashwood"
+    ],
+    "45:38": [
+      "Marianne Dashwood"
+    ],
+    "46:3": [
+      "Marianne Dashwood",
+      "Marianne Dashwood"
+    ],
+    "46:5": [
+      "Marianne Dashwood",
+      "Marianne Dashwood"
+    ],
+    "46:6": [
+      "Mrs. Dashwood",
+      "Mrs. Dashwood"
+    ],
+    "46:7": [
+      "Marianne Dashwood"
+    ],
+    "46:8": [
+      "Elinor Dashwood"
+    ],
+    "46:10": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "46:11": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "46:12": [
+      "Elinor Dashwood"
+    ],
+    "46:13": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "46:14": [
+      "Marianne Dashwood",
+      "Marianne Dashwood"
+    ],
+    "46:15": [
+      "Mrs. Dashwood",
+      "Mrs. Dashwood"
+    ],
+    "46:17": [
+      "Marianne Dashwood"
+    ],
+    "46:21": [
+      "Mrs. Dashwood"
+    ],
+    "46:23": [
+      "Marianne Dashwood"
+    ],
+    "46:26": [
+      "Mrs. Dashwood"
+    ],
+    "46:27": [
+      "Marianne Dashwood"
+    ],
+    "46:28": [
+      "Mrs. Dashwood"
+    ],
+    "46:29": [
+      "Marianne Dashwood"
+    ],
+    "46:30": [
+      "Mrs. Dashwood"
+    ],
+    "46:31": [
+      "Marianne Dashwood"
+    ],
+    "46:33": [
+      "Mrs. Dashwood"
+    ],
+    "46:34": [
+      "Marianne Dashwood"
+    ],
+    "46:35": [
+      "Mrs. Dashwood"
+    ],
+    "46:36": [
+      "Marianne Dashwood"
+    ],
+    "46:37": [
+      "Mrs. Dashwood"
+    ],
+    "46:38": [
+      "Marianne Dashwood"
+    ],
+    "46:41": [
+      "Mrs. Dashwood"
+    ],
+    "46:42": [
+      "Marianne Dashwood"
+    ],
+    "46:43": [
+      "Mrs. Dashwood"
+    ],
+    "46:44": [
+      "Marianne Dashwood"
+    ],
+    "47:4": [
+      "Elinor Dashwood"
+    ],
+    "47:5": [
+      "Mrs. Dashwood"
+    ],
+    "47:7": [
+      "Elinor Dashwood"
+    ],
+    "47:16": [
+      "Elinor Dashwood"
+    ],
+    "47:17": [
+      "Edward Ferrars",
+      "Edward Ferrars"
+    ],
+    "47:18": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "47:20": [
+      "Elinor Dashwood"
+    ],
+    "47:21": [
+      "Elinor Dashwood"
+    ],
+    "47:22": [
+      "Elinor Dashwood"
+    ],
+    "47:24": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "48:5": [
+      "Edward Ferrars"
+    ],
+    "48:13": [
+      "Edward Ferrars",
+      "Edward Ferrars",
+      "Edward Ferrars"
+    ],
+    "48:18": [
+      "Lucy Steele"
+    ],
+    "48:19": [
+      "Lucy Steele"
+    ],
+    "48:21": [
+      "Edward Ferrars",
+      "Edward Ferrars"
+    ],
+    "48:22": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "48:23": [
+      "Edward Ferrars"
+    ],
+    "48:26": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "48:27": [
+      "Edward Ferrars"
+    ],
+    "48:30": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "48:32": [
+      "Edward Ferrars"
+    ],
+    "48:34": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "48:41": [
+      "Edward Ferrars"
+    ],
+    "48:44": [
+      "Elinor Dashwood"
+    ],
+    "48:46": [
+      "Edward Ferrars",
+      "Edward Ferrars"
+    ],
+    "48:47": [
+      "Elinor Dashwood",
+      "Elinor Dashwood"
+    ],
+    "48:49": [
+      "Edward Ferrars"
+    ],
+    "48:50": [
+      "Marianne Dashwood",
+      "Marianne Dashwood"
+    ],
+    "49:9": [
+      "Fanny Dashwood"
+    ]
+  }
+}

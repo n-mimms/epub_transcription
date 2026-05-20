@@ -1,0 +1,2780 @@
+{
+  "schemaVersion": 1,
+  "bookId": "northanger-abbey",
+  "source": {
+    "encoder": "google-gemma-4-26b-a4b-it",
+    "generatedAt": "2026-05-15T20:46:43.061Z",
+    "bookJsonSha256": "744ab38a84728d7f81a7b023e12e706440c90d998c2cfdcd82d9312dfb75c313"
+  },
+  "chunks": {
+    "0:2": [
+      null,
+      null
+    ],
+    "0:4": [
+      null
+    ],
+    "0:7": [
+      null
+    ],
+    "0:9": [
+      null
+    ],
+    "0:11": [
+      null
+    ],
+    "0:13": [
+      null
+    ],
+    "0:15": [
+      null
+    ],
+    "0:17": [
+      null
+    ],
+    "1:2": [
+      "Mrs. Morland"
+    ],
+    "1:12": [
+      "Mrs. Allen"
+    ],
+    "1:15": [
+      "Mrs. Allen",
+      "Mrs. Allen"
+    ],
+    "1:16": [
+      "Catherine Morland",
+      "Catherine Morland"
+    ],
+    "1:17": [
+      "Mrs. Allen",
+      "Mrs. Allen"
+    ],
+    "1:18": [
+      "Mrs. Allen"
+    ],
+    "1:19": [
+      "Mrs. Allen"
+    ],
+    "1:20": [
+      "Mrs. Allen"
+    ],
+    "1:21": [
+      "Mrs. Allen"
+    ],
+    "1:22": [
+      "Mrs. Allen"
+    ],
+    "1:23": [
+      "Mrs. Allen"
+    ],
+    "1:24": [
+      "Mrs. Allen"
+    ],
+    "1:25": [
+      "Mrs. Allen"
+    ],
+    "1:27": [
+      "Mrs. Allen",
+      "Mrs. Allen"
+    ],
+    "1:28": [
+      "Mrs. Allen"
+    ],
+    "1:29": [
+      "Mrs. Allen",
+      "Mrs. Allen"
+    ],
+    "1:30": [
+      "Mrs. Allen"
+    ],
+    "2:2": [
+      "Henry Tilney"
+    ],
+    "2:3": [
+      "Catherine Morland"
+    ],
+    "2:4": [
+      "Henry Tilney",
+      "Henry Tilney"
+    ],
+    "2:5": [
+      "Catherine Morland"
+    ],
+    "2:6": [
+      "Catherine Morland"
+    ],
+    "2:7": [
+      "Catherine Morland"
+    ],
+    "2:8": [
+      "Catherine Morland",
+      "Catherine Morland"
+    ],
+    "2:9": [
+      "Catherine Morland"
+    ],
+    "2:10": [
+      "Catherine Morland"
+    ],
+    "2:11": [
+      "Catherine Morland"
+    ],
+    "2:12": [
+      "Catherine Morland"
+    ],
+    "2:13": [
+      "Catherine Morland"
+    ],
+    "2:14": [
+      "Catherine Morland"
+    ],
+    "2:15": [
+      "Catherine Morland"
+    ],
+    "2:16": [
+      "Catherine Morland"
+    ],
+    "2:17": [
+      "Catherine Morland"
+    ],
+    "2:18": [
+      "Catherine Morland"
+    ],
+    "2:19": [
+      "Catherine Morland",
+      "Catherine Morland"
+    ],
+    "2:20": [
+      "Catherine Morland"
+    ],
+    "2:21": [
+      "Catherine Morland"
+    ],
+    "2:22": [
+      "Catherine Morland"
+    ],
+    "2:23": [
+      "Catherine Morland"
+    ],
+    "2:24": [
+      "Catherine Morland"
+    ],
+    "2:25": [
+      "Catherine Morland"
+    ],
+    "2:26": [
+      "Catherine Morland"
+    ],
+    "2:28": [
+      "Catherine Morland"
+    ],
+    "2:29": [
+      "Catherine Morland",
+      "Catherine Morland"
+    ],
+    "2:30": [
+      "Catherine Morland"
+    ],
+    "2:31": [
+      "Catherine Morland"
+    ],
+    "2:32": [
+      "Catherine Morland"
+    ],
+    "2:33": [
+      "Catherine Morland"
+    ],
+    "2:34": [
+      "Catherine Morland"
+    ],
+    "2:35": [
+      "Catherine Morland",
+      "Catherine Morland"
+    ],
+    "2:36": [
+      "Henry Tilney"
+    ],
+    "2:37": [
+      "Catherine Morland"
+    ],
+    "2:38": [
+      "Henry Tilney"
+    ],
+    "2:39": [
+      "Catherine Morland",
+      "Catherine Morland"
+    ],
+    "2:40": [
+      "Henry Tilney"
+    ],
+    "2:41": [
+      "Catherine Morland"
+    ],
+    "2:42": [
+      "Henry Tilney",
+      "Henry Tilney"
+    ],
+    "2:43": [
+      "Catherine Morland",
+      "Catherine Morland",
+      "Catherine Morland"
+    ],
+    "2:44": [
+      "Mrs. Allen",
+      "Mrs. Allen"
+    ],
+    "2:45": [
+      "Catherine Morland"
+    ],
+    "2:46": [
+      "Mrs. Allen"
+    ],
+    "2:47": [
+      "Catherine Morland",
+      "Catherine Morland"
+    ],
+    "2:48": [
+      "Mrs. Allen"
+    ],
+    "2:49": [
+      "Catherine Morland"
+    ],
+    "2:50": [
+      "Mrs. Allen"
+    ],
+    "2:51": [
+      "Catherine Morland"
+    ],
+    "3:0": [
+      "Mrs. Allen",
+      "Mrs. Allen"
+    ],
+    "3:1": [
+      "Mrs. Allen",
+      "Mrs. Allen",
+      "Mrs. Allen"
+    ],
+    "3:4": [
+      "Mrs. Thorpe",
+      "Mrs. Thorpe"
+    ],
+    "3:5": [
+      "Mrs. Allen"
+    ],
+    "3:6": [
+      "Mrs. Thorpe",
+      "Mrs. Thorpe"
+    ],
+    "4:2": [
+      "Isabella Thorpe"
+    ],
+    "4:4": [
+      "Mrs. Allen",
+      "Mrs. Allen"
+    ],
+    "4:7": [
+      null,
+      null,
+      null
+    ],
+    "4:8": [
+      null
+    ],
+    "5:1": [
+      "Isabella Thorpe"
+    ],
+    "5:2": [
+      "Catherine Morland"
+    ],
+    "5:3": [
+      "Isabella Thorpe"
+    ],
+    "5:4": [
+      "Catherine Morland"
+    ],
+    "5:5": [
+      "Isabella Thorpe"
+    ],
+    "5:6": [
+      "Catherine Morland"
+    ],
+    "5:7": [
+      "Isabella Thorpe"
+    ],
+    "5:8": [
+      "Catherine Morland"
+    ],
+    "5:9": [
+      "Isabella Thorpe"
+    ],
+    "5:10": [
+      "Catherine Morland"
+    ],
+    "5:11": [
+      "Isabella Thorpe"
+    ],
+    "5:12": [
+      "Catherine Morland"
+    ],
+    "5:13": [
+      "Isabella Thorpe"
+    ],
+    "5:14": [
+      "Catherine Morland",
+      "Catherine Morland"
+    ],
+    "5:15": [
+      "Catherine Morland",
+      "Catherine Morland",
+      "Catherine Morland"
+    ],
+    "5:16": [
+      "Catherine Morland"
+    ],
+    "5:17": [
+      "Catherine Morland"
+    ],
+    "5:18": [
+      "Catherine Morland"
+    ],
+    "5:19": [
+      "Catherine Morland"
+    ],
+    "5:20": [
+      "Catherine Morland"
+    ],
+    "5:21": [
+      "Catherine Morland"
+    ],
+    "5:22": [
+      "Catherine Morland"
+    ],
+    "5:23": [
+      "Catherine Morland"
+    ],
+    "5:24": [
+      "Catherine Morland"
+    ],
+    "5:25": [
+      "Catherine Morland"
+    ],
+    "5:26": [
+      "Catherine Morland"
+    ],
+    "5:27": [
+      "Catherine Morland"
+    ],
+    "5:28": [
+      "Catherine Morland"
+    ],
+    "5:29": [
+      "Catherine Morland"
+    ],
+    "5:30": [
+      "Catherine Morland"
+    ],
+    "5:31": [
+      "Catherine Morland"
+    ],
+    "5:32": [
+      "Catherine Morland"
+    ],
+    "5:34": [
+      "Catherine Morland"
+    ],
+    "5:36": [
+      "Isabella Thorpe",
+      "Isabella Thorpe"
+    ],
+    "5:37": [
+      "Catherine Morland"
+    ],
+    "5:38": [
+      "Isabella Thorpe"
+    ],
+    "5:39": [
+      "Catherine Morland",
+      "Catherine Morland"
+    ],
+    "5:40": [
+      "Isabella Thorpe"
+    ],
+    "5:41": [
+      "Catherine Morland"
+    ],
+    "5:42": [
+      "Isabella Thorpe"
+    ],
+    "6:2": [
+      "Isabella Thorpe",
+      "Isabella Thorpe",
+      "Isabella Thorpe"
+    ],
+    "6:3": [
+      "Isabella Thorpe"
+    ],
+    "6:5": [
+      "Isabella Thorpe"
+    ],
+    "6:6": [
+      "Isabella Thorpe"
+    ],
+    "6:7": [
+      "Isabella Thorpe",
+      "Isabella Thorpe",
+      "Isabella Thorpe",
+      "Isabella Thorpe"
+    ],
+    "6:8": [
+      "Catherine Morland",
+      "Catherine Morland"
+    ],
+    "6:9": [
+      "Isabella Thorpe",
+      "Isabella Thorpe"
+    ],
+    "6:10": [
+      "Catherine Morland"
+    ],
+    "6:11": [
+      "Isabella Thorpe"
+    ],
+    "6:12": [
+      "Catherine Morland"
+    ],
+    "6:13": [
+      "Isabella Thorpe"
+    ],
+    "6:14": [
+      "Catherine Morland",
+      "Catherine Morland"
+    ],
+    "6:15": [
+      "Isabella Thorpe"
+    ],
+    "6:16": [
+      "Catherine Morland"
+    ],
+    "6:17": [
+      "Isabella Thorpe"
+    ],
+    "6:19": [
+      "Catherine Morland"
+    ],
+    "6:20": [
+      "Catherine Morland",
+      "Catherine Morland"
+    ],
+    "6:21": [
+      "Catherine Morland"
+    ],
+    "6:22": [
+      "Catherine Morland"
+    ],
+    "6:23": [
+      "Catherine Morland"
+    ],
+    "6:24": [
+      "Catherine Morland"
+    ],
+    "6:25": [
+      "Catherine Morland"
+    ],
+    "6:26": [
+      "Catherine Morland"
+    ],
+    "6:27": [
+      "Catherine Morland"
+    ],
+    "6:28": [
+      "Catherine Morland",
+      "Catherine Morland"
+    ],
+    "6:29": [
+      "Catherine Morland"
+    ],
+    "6:30": [
+      "Isabella Thorpe",
+      "Isabella Thorpe"
+    ],
+    "6:31": [
+      "Catherine Morland"
+    ],
+    "6:32": [
+      "Isabella Thorpe"
+    ],
+    "6:33": [
+      "Catherine Morland"
+    ],
+    "6:34": [
+      "Isabella Thorpe"
+    ],
+    "6:35": [
+      "Catherine Morland"
+    ],
+    "6:36": [
+      "Isabella Thorpe"
+    ],
+    "6:37": [
+      "Catherine Morland"
+    ],
+    "6:38": [
+      "Isabella Thorpe"
+    ],
+    "6:39": [
+      "Catherine Morland"
+    ],
+    "6:40": [
+      "Isabella Thorpe"
+    ],
+    "6:41": [
+      "Catherine Morland"
+    ],
+    "6:42": [
+      "Isabella Thorpe"
+    ],
+    "6:43": [
+      "Catherine Morland",
+      "Catherine Morland"
+    ],
+    "6:44": [
+      "Isabella Thorpe"
+    ],
+    "6:45": [
+      "Catherine Morland",
+      "Catherine Morland"
+    ],
+    "6:46": [
+      "Isabella Thorpe"
+    ],
+    "6:47": [
+      "Catherine Morland"
+    ],
+    "6:48": [
+      "Isabella Thorpe",
+      "Isabella Thorpe"
+    ],
+    "6:49": [
+      "Catherine Morland",
+      "Catherine Morland"
+    ],
+    "6:50": [
+      "Isabella Thorpe"
+    ],
+    "6:51": [
+      "Catherine Morland"
+    ],
+    "6:52": [
+      "Isabella Thorpe"
+    ],
+    "6:53": [
+      "Catherine Morland"
+    ],
+    "6:54": [
+      "Isabella Thorpe"
+    ],
+    "7:1": [
+      "Isabella Thorpe",
+      "Isabella Thorpe",
+      "Isabella Thorpe"
+    ],
+    "7:2": [
+      "Isabella Thorpe"
+    ],
+    "7:6": [
+      "Catherine Morland"
+    ],
+    "7:7": [
+      "Mrs. Allen"
+    ],
+    "7:8": [
+      "Henry Tilney"
+    ],
+    "7:9": [
+      "Mrs. Allen"
+    ],
+    "7:10": [
+      "Henry Tilney"
+    ],
+    "7:11": [
+      "Mrs. Allen"
+    ],
+    "7:14": [
+      null,
+      null
+    ],
+    "7:17": [
+      "Isabella Thorpe"
+    ],
+    "7:18": [
+      "Catherine Morland"
+    ],
+    "7:19": [
+      "Isabella Thorpe"
+    ],
+    "7:20": [
+      "Catherine Morland",
+      "Catherine Morland"
+    ],
+    "7:21": [
+      "Isabella Thorpe"
+    ],
+    "7:22": [
+      "James Morland"
+    ],
+    "7:23": [
+      "Isabella Thorpe"
+    ],
+    "7:24": [
+      "James Morland"
+    ],
+    "7:25": [
+      "Isabella Thorpe"
+    ],
+    "7:26": [
+      "Isabella Thorpe",
+      "Isabella Thorpe"
+    ],
+    "7:27": [
+      "James Morland",
+      "James Morland"
+    ],
+    "7:28": [
+      "James Morland"
+    ],
+    "7:29": [
+      "James Morland"
+    ],
+    "7:30": [
+      "Isabella Thorpe",
+      "Isabella Thorpe",
+      "Isabella Thorpe",
+      "Isabella Thorpe"
+    ],
+    "7:31": [
+      "James Morland"
+    ],
+    "7:32": [
+      "Isabella Thorpe"
+    ],
+    "7:33": [
+      "Mrs. Allen"
+    ],
+    "7:34": [
+      "Isabella Thorpe"
+    ],
+    "7:35": [
+      "Mrs. Allen"
+    ],
+    "7:36": [
+      "Catherine Morland"
+    ],
+    "7:37": [
+      "Mrs. Allen",
+      "Mrs. Allen"
+    ],
+    "7:38": [
+      "Mrs. Thorpe",
+      "Mrs. Thorpe"
+    ],
+    "7:39": [
+      "Mrs. Allen"
+    ],
+    "7:40": [
+      "Mrs. Thorpe"
+    ],
+    "7:41": [
+      "Mrs. Allen"
+    ],
+    "7:42": [
+      "Mrs. Thorpe"
+    ],
+    "7:43": [
+      "Mrs. Allen"
+    ],
+    "8:3": [
+      "John Thorpe"
+    ],
+    "8:4": [
+      "Catherine Morland",
+      "Catherine Morland"
+    ],
+    "8:5": [
+      "Catherine Morland"
+    ],
+    "8:6": [
+      "Catherine Morland",
+      "Catherine Morland"
+    ],
+    "8:7": [
+      "Catherine Morland"
+    ],
+    "8:8": [
+      "Catherine Morland"
+    ],
+    "8:9": [
+      "Mrs. Allen",
+      "Mrs. Allen",
+      "Mrs. Allen"
+    ],
+    "8:10": [
+      "Catherine Morland"
+    ],
+    "8:11": [
+      "Isabella Thorpe",
+      "Isabella Thorpe"
+    ],
+    "8:12": [
+      "Catherine Morland"
+    ],
+    "8:13": [
+      "Isabella Thorpe",
+      "Isabella Thorpe"
+    ],
+    "8:14": [
+      "Catherine Morland"
+    ],
+    "8:15": [
+      "Isabella Thorpe"
+    ],
+    "8:16": [
+      "Catherine Morland"
+    ],
+    "8:17": [
+      "Isabella Thorpe"
+    ],
+    "8:18": [
+      "Catherine Morland"
+    ],
+    "8:19": [
+      "Isabella Thorpe"
+    ],
+    "8:20": [
+      "Catherine Morland"
+    ],
+    "8:21": [
+      "Isabella Thorpe"
+    ],
+    "8:22": [
+      "Catherine Morland"
+    ],
+    "8:23": [
+      "Isabella Thorpe"
+    ],
+    "8:24": [
+      "Catherine Morland"
+    ],
+    "8:25": [
+      "Isabella Thorpe"
+    ],
+    "8:26": [
+      "Catherine Morland"
+    ],
+    "8:27": [
+      "Isabella Thorpe"
+    ],
+    "8:28": [
+      "Catherine Morland",
+      "Catherine Morland"
+    ],
+    "8:31": [
+      "Catherine Morland",
+      "Catherine Morland"
+    ],
+    "8:32": [
+      "Catherine Morland"
+    ],
+    "8:33": [
+      "Catherine Morland",
+      "Catherine Morland"
+    ],
+    "8:34": [
+      "Catherine Morland"
+    ],
+    "8:39": [
+      "Catherine Morland"
+    ],
+    "8:41": [
+      "Catherine Morland",
+      "Catherine Morland"
+    ],
+    "8:42": [
+      "Catherine Morland"
+    ],
+    "8:43": [
+      "Catherine Morland"
+    ],
+    "8:44": [
+      "Catherine Morland"
+    ],
+    "8:45": [
+      "Catherine Morland"
+    ],
+    "8:46": [
+      "Catherine Morland"
+    ],
+    "8:47": [
+      "Catherine Morland"
+    ],
+    "8:48": [
+      "Catherine Morland"
+    ],
+    "8:49": [
+      "Catherine Morland"
+    ],
+    "8:50": [
+      "Catherine Morland"
+    ],
+    "8:51": [
+      "Catherine Morland"
+    ],
+    "8:52": [
+      "Catherine Morland"
+    ],
+    "8:53": [
+      "Catherine Morland"
+    ],
+    "8:54": [
+      "Catherine Morland"
+    ],
+    "8:55": [
+      "Catherine Morland"
+    ],
+    "8:56": [
+      "Catherine Morland"
+    ],
+    "8:57": [
+      "Catherine Morland"
+    ],
+    "9:0": [
+      "Isabella Thorpe",
+      "Isabella Thorpe"
+    ],
+    "9:1": [
+      "Isabella Thorpe"
+    ],
+    "9:2": [
+      "Catherine Morland",
+      "Catherine Morland"
+    ],
+    "9:3": [
+      "Catherine Morland"
+    ],
+    "9:4": [
+      "Catherine Morland"
+    ],
+    "9:5": [
+      "Catherine Morland"
+    ],
+    "9:6": [
+      "Catherine Morland"
+    ],
+    "9:11": [
+      "Catherine Morland"
+    ],
+    "9:12": [
+      "Catherine Morland",
+      "Catherine Morland"
+    ],
+    "9:13": [
+      "Catherine Morland",
+      "Catherine Morland",
+      "Catherine Morland"
+    ],
+    "9:14": [
+      "Catherine Morland"
+    ],
+    "9:15": [
+      "Catherine Morland"
+    ],
+    "9:16": [
+      "Catherine Morland"
+    ],
+    "9:17": [
+      "Catherine Morland"
+    ],
+    "9:18": [
+      "Catherine Morland"
+    ],
+    "9:19": [
+      "Catherine Morland"
+    ],
+    "9:20": [
+      "Catherine Morland"
+    ],
+    "9:21": [
+      "Eleanor Tilney",
+      "Catherine Morland"
+    ],
+    "9:22": [
+      "Catherine Morland"
+    ],
+    "9:23": [
+      "Catherine Morland"
+    ],
+    "9:28": [
+      "Catherine Morland",
+      "Catherine Morland"
+    ],
+    "9:30": [
+      "Catherine Morland",
+      "Catherine Morland"
+    ],
+    "9:31": [
+      "Catherine Morland"
+    ],
+    "9:32": [
+      "Catherine Morland"
+    ],
+    "9:33": [
+      "Catherine Morland"
+    ],
+    "9:34": [
+      "Catherine Morland",
+      "Catherine Morland",
+      "Catherine Morland"
+    ],
+    "9:35": [
+      "Catherine Morland"
+    ],
+    "9:36": [
+      "Catherine Morland"
+    ],
+    "9:37": [
+      "Catherine Morland"
+    ],
+    "9:38": [
+      "Catherine Morland"
+    ],
+    "9:39": [
+      "Catherine Morland"
+    ],
+    "9:40": [
+      "Catherine Morland"
+    ],
+    "9:41": [
+      "Catherine Morland"
+    ],
+    "9:42": [
+      "Catherine Morland"
+    ],
+    "9:43": [
+      "Catherine Morland"
+    ],
+    "9:44": [
+      "Catherine Morland"
+    ],
+    "9:45": [
+      "Catherine Morland"
+    ],
+    "9:46": [
+      "Catherine Morland"
+    ],
+    "9:47": [
+      "Catherine Morland"
+    ],
+    "9:48": [
+      "Catherine Morland"
+    ],
+    "9:49": [
+      "Catherine Morland"
+    ],
+    "9:50": [
+      "Catherine Morland"
+    ],
+    "9:51": [
+      "Catherine Morland"
+    ],
+    "9:52": [
+      "Catherine Morland"
+    ],
+    "9:53": [
+      "Catherine Morland"
+    ],
+    "9:54": [
+      "Catherine Morland"
+    ],
+    "9:55": [
+      "Catherine Morland"
+    ],
+    "9:56": [
+      "Catherine Morland"
+    ],
+    "9:57": [
+      "Catherine Morland"
+    ],
+    "9:58": [
+      "Catherine Morland"
+    ],
+    "9:59": [
+      "Catherine Morland"
+    ],
+    "9:60": [
+      "Catherine Morland"
+    ],
+    "9:62": [
+      "Catherine Morland",
+      "Catherine Morland"
+    ],
+    "9:63": [
+      "Catherine Morland"
+    ],
+    "9:64": [
+      "Catherine Morland"
+    ],
+    "9:66": [
+      "Catherine Morland"
+    ],
+    "9:67": [
+      "Catherine Morland",
+      "Catherine Morland",
+      "Catherine Morland"
+    ],
+    "9:68": [
+      "Catherine Morland",
+      "Catherine Morland",
+      "Catherine Morland"
+    ],
+    "10:0": [
+      "Mrs. Allen"
+    ],
+    "10:1": [
+      "Catherine Morland"
+    ],
+    "10:2": [
+      "Mrs. Allen"
+    ],
+    "10:3": [
+      "Mrs. Allen",
+      "Mrs. Allen"
+    ],
+    "10:4": [
+      "Mrs. Allen"
+    ],
+    "10:5": [
+      "Mrs. Allen"
+    ],
+    "10:6": [
+      "Mrs. Allen",
+      "Mrs. Allen"
+    ],
+    "10:7": [
+      "Catherine Morland"
+    ],
+    "10:8": [
+      "Mrs. Allen"
+    ],
+    "10:9": [
+      "Catherine Morland"
+    ],
+    "10:10": [
+      "Mrs. Allen"
+    ],
+    "10:11": [
+      "Catherine Morland"
+    ],
+    "10:12": [
+      "Mrs. Allen"
+    ],
+    "10:13": [
+      "Catherine Morland"
+    ],
+    "10:14": [
+      "Mrs. Allen"
+    ],
+    "10:15": [
+      "Catherine Morland"
+    ],
+    "10:17": [
+      "Mrs. Allen",
+      "Mrs. Allen",
+      "Mrs. Allen"
+    ],
+    "10:18": [
+      "Catherine Morland",
+      "Catherine Morland"
+    ],
+    "10:19": [
+      "Catherine Morland"
+    ],
+    "10:20": [
+      "Isabella Thorpe",
+      "Isabella Thorpe"
+    ],
+    "10:21": [
+      "Catherine Morland",
+      "Catherine Morland"
+    ],
+    "10:22": [
+      "Isabella Thorpe"
+    ],
+    "10:23": [
+      "Catherine Morland"
+    ],
+    "10:24": [
+      "Isabella Thorpe"
+    ],
+    "10:25": [
+      "Catherine Morland"
+    ],
+    "10:26": [
+      "Isabella Thorpe"
+    ],
+    "10:27": [
+      "Catherine Morland"
+    ],
+    "10:28": [
+      "Isabella Thorpe"
+    ],
+    "10:29": [
+      "Catherine Morland"
+    ],
+    "10:30": [
+      "Isabella Thorpe"
+    ],
+    "10:31": [
+      "Catherine Morland",
+      "Catherine Morland"
+    ],
+    "10:32": [
+      "Isabella Thorpe",
+      "Isabella Thorpe"
+    ],
+    "10:33": [
+      "Catherine Morland"
+    ],
+    "10:34": [
+      "Isabella Thorpe"
+    ],
+    "10:35": [
+      "Catherine Morland"
+    ],
+    "10:36": [
+      "Isabella Thorpe"
+    ],
+    "10:37": [
+      "Catherine Morland"
+    ],
+    "10:38": [
+      "Isabella Thorpe"
+    ],
+    "10:39": [
+      "Catherine Morland"
+    ],
+    "10:40": [
+      "Isabella Thorpe"
+    ],
+    "10:41": [
+      "Catherine Morland"
+    ],
+    "10:42": [
+      "Isabella Thorpe"
+    ],
+    "10:43": [
+      "Catherine Morland"
+    ],
+    "10:44": [
+      "Isabella Thorpe"
+    ],
+    "10:45": [
+      "Catherine Morland"
+    ],
+    "10:46": [
+      "Isabella Thorpe"
+    ],
+    "10:47": [
+      "Catherine Morland"
+    ],
+    "10:48": [
+      "Isabella Thorpe",
+      "Isabella Thorpe",
+      "Isabella Thorpe"
+    ],
+    "10:50": [
+      "Catherine Morland"
+    ],
+    "10:51": [
+      "Isabella Thorpe"
+    ],
+    "10:52": [
+      "Catherine Morland",
+      "Catherine Morland",
+      "Catherine Morland",
+      "Catherine Morland"
+    ],
+    "10:53": [
+      "Isabella Thorpe"
+    ],
+    "10:55": [
+      "Catherine Morland"
+    ],
+    "10:56": [
+      "Isabella Thorpe"
+    ],
+    "10:57": [
+      "Catherine Morland",
+      "Catherine Morland"
+    ],
+    "10:58": [
+      "Catherine Morland",
+      "Catherine Morland"
+    ],
+    "10:59": [
+      "Catherine Morland"
+    ],
+    "10:60": [
+      "Catherine Morland"
+    ],
+    "10:61": [
+      "Catherine Morland"
+    ],
+    "10:62": [
+      "Catherine Morland"
+    ],
+    "10:63": [
+      "Catherine Morland"
+    ],
+    "10:65": [
+      "Catherine Morland"
+    ],
+    "10:66": [
+      "Catherine Morland",
+      "Catherine Morland"
+    ],
+    "11:0": [
+      "Catherine Morland",
+      "Catherine Morland"
+    ],
+    "11:1": [
+      "Catherine Morland"
+    ],
+    "11:5": [
+      "Catherine Morland"
+    ],
+    "11:8": [
+      "Catherine Morland"
+    ],
+    "11:9": [
+      "Catherine Morland"
+    ],
+    "11:10": [
+      "Catherine Morland"
+    ],
+    "11:11": [
+      "Catherine Morland"
+    ],
+    "11:12": [
+      "Catherine Morland",
+      "Catherine Morland"
+    ],
+    "11:13": [
+      "Catherine Morland"
+    ],
+    "11:14": [
+      "Catherine Morland"
+    ],
+    "11:15": [
+      "Catherine Morland"
+    ],
+    "11:16": [
+      "Catherine Morland"
+    ],
+    "11:17": [
+      "Catherine Morland"
+    ],
+    "11:18": [
+      "Catherine Morland"
+    ],
+    "11:20": [
+      "Catherine Morland"
+    ],
+    "11:21": [
+      "Catherine Morland"
+    ],
+    "11:22": [
+      "Catherine Morland"
+    ],
+    "11:23": [
+      "Catherine Morland"
+    ],
+    "11:24": [
+      "Catherine Morland"
+    ],
+    "11:25": [
+      "Catherine Morland",
+      "Catherine Morland"
+    ],
+    "12:1": [
+      "Catherine Morland"
+    ],
+    "12:2": [
+      "Isabella Thorpe"
+    ],
+    "12:3": [
+      "Catherine Morland"
+    ],
+    "12:4": [
+      "Isabella Thorpe"
+    ],
+    "12:5": [
+      "Isabella Thorpe"
+    ],
+    "12:6": [
+      "Isabella Thorpe",
+      "Isabella Thorpe",
+      "Isabella Thorpe"
+    ],
+    "12:7": [
+      "James Morland"
+    ],
+    "12:8": [
+      "Isabella Thorpe"
+    ],
+    "12:9": [
+      "Isabella Thorpe",
+      "Isabella Thorpe"
+    ],
+    "12:10": [
+      "Isabella Thorpe"
+    ],
+    "12:12": [
+      "James Morland",
+      "James Morland"
+    ],
+    "12:13": [
+      "Isabella Thorpe",
+      "Isabella Thorpe"
+    ],
+    "12:14": [
+      "Isabella Thorpe",
+      "Isabella Thorpe"
+    ],
+    "12:15": [
+      "Isabella Thorpe"
+    ],
+    "12:16": [
+      "Catherine Morland"
+    ],
+    "12:17": [
+      "Isabella Thorpe"
+    ],
+    "12:19": [
+      "Catherine Morland"
+    ],
+    "12:20": [
+      "Catherine Morland",
+      "Catherine Morland"
+    ],
+    "12:22": [
+      "Catherine Morland"
+    ],
+    "12:24": [
+      "Catherine Morland",
+      "Catherine Morland",
+      "Catherine Morland"
+    ],
+    "12:25": [
+      "Catherine Morland"
+    ],
+    "12:29": [
+      "Catherine Morland"
+    ],
+    "12:31": [
+      "Catherine Morland"
+    ],
+    "12:32": [
+      "Catherine Morland"
+    ],
+    "12:35": [
+      "Catherine Morland",
+      "Catherine Morland"
+    ],
+    "12:36": [
+      "Catherine Morland"
+    ],
+    "12:37": [
+      "Catherine Morland"
+    ],
+    "12:38": [
+      "Catherine Morland"
+    ],
+    "12:39": [
+      "Catherine Morland"
+    ],
+    "12:40": [
+      "Catherine Morland"
+    ],
+    "12:41": [
+      "Catherine Morland",
+      "Catherine Morland"
+    ],
+    "12:42": [
+      "Catherine Morland"
+    ],
+    "12:43": [
+      "Catherine Morland"
+    ],
+    "12:44": [
+      "Mr. Allen",
+      "Mr. Allen"
+    ],
+    "12:45": [
+      "Catherine Morland"
+    ],
+    "12:46": [
+      "Mr. Allen"
+    ],
+    "13:1": [
+      "Catherine Morland",
+      "Catherine Morland"
+    ],
+    "13:2": [
+      "Henry Tilney"
+    ],
+    "13:3": [
+      "Catherine Morland"
+    ],
+    "13:4": [
+      "Henry Tilney"
+    ],
+    "13:5": [
+      "Catherine Morland"
+    ],
+    "13:6": [
+      "Henry Tilney"
+    ],
+    "13:7": [
+      "Eleanor Tilney",
+      "Eleanor Tilney"
+    ],
+    "13:8": [
+      "Henry Tilney"
+    ],
+    "13:9": [
+      "Eleanor Tilney"
+    ],
+    "13:10": [
+      "Henry Tilney"
+    ],
+    "13:11": [
+      "Eleanor Tilney"
+    ],
+    "13:12": [
+      "Henry Tilney"
+    ],
+    "13:13": [
+      "Eleanor Tilney",
+      "Eleanor Tilney"
+    ],
+    "13:14": [
+      "Catherine Morland",
+      "Catherine Morland"
+    ],
+    "13:15": [
+      "Henry Tilney",
+      "Henry Tilney"
+    ],
+    "13:16": [
+      "Catherine Morland",
+      "Catherine Morland"
+    ],
+    "13:17": [
+      "Henry Tilney"
+    ],
+    "13:18": [
+      "Catherine Morland"
+    ],
+    "13:19": [
+      "Henry Tilney"
+    ],
+    "13:20": [
+      "Catherine Morland"
+    ],
+    "13:21": [
+      "Henry Tilney"
+    ],
+    "13:22": [
+      "Eleanor Tilney",
+      "Eleanor Tilney"
+    ],
+    "13:23": [
+      "Henry Tilney"
+    ],
+    "13:24": [
+      "Henry Tilney",
+      "Henry Tilney"
+    ],
+    "13:25": [
+      "Henry Tilney"
+    ],
+    "13:26": [
+      "Henry Tilney"
+    ],
+    "13:31": [
+      "Henry Tilney"
+    ],
+    "13:32": [
+      "Henry Tilney"
+    ],
+    "13:33": [
+      "Henry Tilney"
+    ],
+    "13:34": [
+      "Henry Tilney"
+    ],
+    "13:35": [
+      "Henry Tilney"
+    ],
+    "13:36": [
+      "Henry Tilney"
+    ],
+    "13:37": [
+      "Henry Tilney",
+      "Henry Tilney"
+    ],
+    "13:38": [
+      "Henry Tilney"
+    ],
+    "13:39": [
+      "Henry Tilney"
+    ],
+    "13:40": [
+      "Henry Tilney"
+    ],
+    "13:42": [
+      "Henry Tilney"
+    ],
+    "13:43": [
+      "Eleanor Tilney",
+      "Eleanor Tilney"
+    ],
+    "13:44": [
+      "Henry Tilney"
+    ],
+    "13:45": [
+      "Eleanor Tilney"
+    ],
+    "13:46": [
+      "Henry Tilney"
+    ],
+    "13:47": [
+      "Eleanor Tilney"
+    ],
+    "13:48": [
+      "Henry Tilney"
+    ],
+    "13:49": [
+      "Eleanor Tilney"
+    ],
+    "13:50": [
+      "Henry Tilney"
+    ],
+    "13:51": [
+      "Eleanor Tilney"
+    ],
+    "13:53": [
+      "Anne Thorpe"
+    ],
+    "13:54": [
+      "Eleanor Tilney"
+    ],
+    "13:56": [
+      "Anne Thorpe",
+      "Anne Thorpe"
+    ],
+    "13:57": [
+      "Eleanor Tilney"
+    ],
+    "13:58": [
+      "Anne Thorpe"
+    ],
+    "14:3": [
+      "Isabella Thorpe"
+    ],
+    "14:4": [
+      "Isabella Thorpe"
+    ],
+    "14:6": [
+      "Isabella Thorpe",
+      "Isabella Thorpe"
+    ],
+    "14:7": [
+      "Catherine Morland"
+    ],
+    "14:9": [
+      "Isabella Thorpe"
+    ],
+    "14:11": [
+      "Isabella Thorpe",
+      "Isabella Thorpe"
+    ],
+    "14:13": [
+      "Isabella Thorpe"
+    ],
+    "14:14": [
+      "Isabella Thorpe",
+      "Isabella Thorpe"
+    ],
+    "14:15": [
+      "Isabella Thorpe",
+      "Isabella Thorpe"
+    ],
+    "14:17": [
+      "Isabella Thorpe"
+    ],
+    "14:18": [
+      "Isabella Thorpe"
+    ],
+    "14:19": [
+      "Isabella Thorpe",
+      "Isabella Thorpe"
+    ],
+    "14:20": [
+      "Isabella Thorpe",
+      "Isabella Thorpe"
+    ],
+    "14:21": [
+      "Catherine Morland",
+      "Catherine Morland"
+    ],
+    "14:22": [
+      "Isabella Thorpe"
+    ],
+    "14:24": [
+      "Catherine Morland"
+    ],
+    "14:26": [
+      "Isabella Thorpe"
+    ],
+    "14:27": [
+      "Catherine Morland"
+    ],
+    "14:28": [
+      "Isabella Thorpe",
+      "Isabella Thorpe",
+      "Isabella Thorpe",
+      "Isabella Thorpe"
+    ],
+    "14:30": [
+      "Catherine Morland",
+      "Catherine Morland"
+    ],
+    "14:31": [
+      "Catherine Morland",
+      "Catherine Morland"
+    ],
+    "14:32": [
+      "Catherine Morland"
+    ],
+    "14:33": [
+      "Catherine Morland"
+    ],
+    "14:34": [
+      "Catherine Morland"
+    ],
+    "14:35": [
+      "Catherine Morland",
+      "Catherine Morland"
+    ],
+    "14:36": [
+      "Catherine Morland"
+    ],
+    "14:37": [
+      "Catherine Morland"
+    ],
+    "14:38": [
+      "Catherine Morland"
+    ],
+    "14:39": [
+      "Catherine Morland"
+    ],
+    "14:40": [
+      "Catherine Morland"
+    ],
+    "14:41": [
+      "Catherine Morland"
+    ],
+    "14:42": [
+      "Catherine Morland"
+    ],
+    "14:43": [
+      "Catherine Morland"
+    ],
+    "14:44": [
+      "Catherine Morland"
+    ],
+    "14:45": [
+      "Catherine Morland"
+    ],
+    "14:46": [
+      "Catherine Morland"
+    ],
+    "14:47": [
+      "Catherine Morland"
+    ],
+    "14:48": [
+      "Catherine Morland"
+    ],
+    "15:1": [
+      "Isabella Thorpe"
+    ],
+    "15:2": [
+      "Catherine Morland"
+    ],
+    "15:3": [
+      "Isabella Thorpe"
+    ],
+    "15:4": [
+      "Catherine Morland"
+    ],
+    "15:5": [
+      "Isabella Thorpe"
+    ],
+    "15:6": [
+      "Catherine Morland"
+    ],
+    "15:7": [
+      "Isabella Thorpe"
+    ],
+    "15:8": [
+      "Catherine Morland"
+    ],
+    "15:9": [
+      "Isabella Thorpe"
+    ],
+    "15:10": [
+      "Catherine Morland"
+    ],
+    "15:11": [
+      "Isabella Thorpe"
+    ],
+    "15:12": [
+      "Catherine Morland"
+    ],
+    "15:13": [
+      "Isabella Thorpe"
+    ],
+    "15:19": [
+      "Catherine Morland",
+      "Catherine Morland"
+    ],
+    "15:20": [
+      "Henry Tilney"
+    ],
+    "15:21": [
+      "Catherine Morland"
+    ],
+    "15:22": [
+      "Henry Tilney"
+    ],
+    "15:23": [
+      "Catherine Morland"
+    ],
+    "15:24": [
+      "Henry Tilney"
+    ],
+    "15:25": [
+      "Catherine Morland"
+    ],
+    "15:26": [
+      "Henry Tilney"
+    ],
+    "15:27": [
+      "Catherine Morland"
+    ],
+    "15:28": [
+      "Henry Tilney"
+    ],
+    "15:29": [
+      "Catherine Morland"
+    ],
+    "15:30": [
+      "Henry Tilney"
+    ],
+    "15:33": [
+      "Catherine Morland"
+    ],
+    "15:34": [
+      "Henry Tilney"
+    ],
+    "15:35": [
+      "Catherine Morland"
+    ],
+    "15:36": [
+      "Henry Tilney"
+    ],
+    "15:37": [
+      "Catherine Morland"
+    ],
+    "15:38": [
+      "Henry Tilney"
+    ],
+    "15:39": [
+      "Isabella Thorpe"
+    ],
+    "15:40": [
+      "Catherine Morland"
+    ],
+    "15:41": [
+      "Isabella Thorpe"
+    ],
+    "15:42": [
+      "Catherine Morland"
+    ],
+    "15:43": [
+      "Isabella Thorpe"
+    ],
+    "15:46": [
+      "Isabella Thorpe",
+      "Isabella Thorpe",
+      "Isabella Thorpe"
+    ],
+    "15:47": [
+      "Isabella Thorpe"
+    ],
+    "15:48": [
+      "Isabella Thorpe"
+    ],
+    "15:49": [
+      "Isabella Thorpe"
+    ],
+    "15:50": [
+      "Isabella Thorpe",
+      "Isabella Thorpe"
+    ],
+    "15:51": [
+      "Isabella Thorpe"
+    ],
+    "15:52": [
+      "Mrs. Thorpe",
+      "Mrs. Thorpe"
+    ],
+    "16:1": [
+      "Catherine Morland",
+      "Catherine Morland"
+    ],
+    "16:2": [
+      "Eleanor Tilney"
+    ],
+    "16:3": [
+      "Catherine Morland",
+      "Catherine Morland"
+    ],
+    "16:4": [
+      "Eleanor Tilney",
+      "Eleanor Tilney"
+    ],
+    "16:5": [
+      "Catherine Morland"
+    ],
+    "16:6": [
+      "Eleanor Tilney"
+    ],
+    "16:7": [
+      "Catherine Morland"
+    ],
+    "16:8": [
+      "Eleanor Tilney"
+    ],
+    "16:9": [
+      "Catherine Morland",
+      "Catherine Morland"
+    ],
+    "16:10": [
+      "Eleanor Tilney",
+      "Eleanor Tilney"
+    ],
+    "17:0": [
+      "Isabella Thorpe",
+      "Isabella Thorpe"
+    ],
+    "17:1": [
+      "Catherine Morland"
+    ],
+    "17:2": [
+      "Isabella Thorpe",
+      "Isabella Thorpe"
+    ],
+    "17:3": [
+      "Catherine Morland"
+    ],
+    "17:4": [
+      "Isabella Thorpe"
+    ],
+    "17:5": [
+      "Catherine Morland"
+    ],
+    "17:6": [
+      "Isabella Thorpe"
+    ],
+    "17:7": [
+      "Catherine Morland"
+    ],
+    "17:8": [
+      "Isabella Thorpe"
+    ],
+    "17:9": [
+      "Catherine Morland"
+    ],
+    "17:10": [
+      "Isabella Thorpe"
+    ],
+    "17:11": [
+      "Catherine Morland"
+    ],
+    "17:12": [
+      "Isabella Thorpe"
+    ],
+    "17:13": [
+      "Catherine Morland"
+    ],
+    "17:14": [
+      "Catherine Morland"
+    ],
+    "17:15": [
+      "Isabella Thorpe",
+      "Isabella Thorpe"
+    ],
+    "17:16": [
+      "Catherine Morland"
+    ],
+    "17:17": [
+      "Isabella Thorpe"
+    ],
+    "17:18": [
+      "Catherine Morland"
+    ],
+    "17:19": [
+      "Isabella Thorpe",
+      "Isabella Thorpe"
+    ],
+    "17:20": [
+      "Isabella Thorpe"
+    ],
+    "17:21": [
+      "Isabella Thorpe"
+    ],
+    "17:22": [
+      "Isabella Thorpe"
+    ],
+    "17:23": [
+      "Isabella Thorpe"
+    ],
+    "17:24": [
+      "Isabella Thorpe",
+      "Isabella Thorpe"
+    ],
+    "17:25": [
+      "Isabella Thorpe"
+    ],
+    "17:26": [
+      "Isabella Thorpe"
+    ],
+    "17:27": [
+      "Isabella Thorpe"
+    ],
+    "17:28": [
+      "Isabella Thorpe",
+      "Isabella Thorpe"
+    ],
+    "17:29": [
+      "Isabella Thorpe"
+    ],
+    "18:3": [
+      "Henry Tilney"
+    ],
+    "18:4": [
+      "Catherine Morland"
+    ],
+    "18:5": [
+      "Catherine Morland"
+    ],
+    "18:6": [
+      "Henry Tilney"
+    ],
+    "18:7": [
+      "Catherine Morland"
+    ],
+    "18:8": [
+      "Henry Tilney"
+    ],
+    "18:9": [
+      "Catherine Morland",
+      "Catherine Morland"
+    ],
+    "18:10": [
+      "Catherine Morland"
+    ],
+    "18:11": [
+      "Catherine Morland"
+    ],
+    "18:12": [
+      "Catherine Morland"
+    ],
+    "18:13": [
+      "Catherine Morland"
+    ],
+    "18:14": [
+      "Catherine Morland"
+    ],
+    "18:15": [
+      "Catherine Morland"
+    ],
+    "18:16": [
+      "Catherine Morland"
+    ],
+    "18:17": [
+      "Catherine Morland"
+    ],
+    "18:18": [
+      "Catherine Morland"
+    ],
+    "18:19": [
+      "Catherine Morland"
+    ],
+    "18:20": [
+      "Catherine Morland"
+    ],
+    "18:21": [
+      "Catherine Morland"
+    ],
+    "18:22": [
+      "Catherine Morland"
+    ],
+    "18:23": [
+      "Catherine Morland"
+    ],
+    "18:24": [
+      "Catherine Morland"
+    ],
+    "18:25": [
+      "Catherine Morland"
+    ],
+    "18:26": [
+      "Catherine Morland"
+    ],
+    "18:27": [
+      "Catherine Morland"
+    ],
+    "18:28": [
+      "Catherine Morland"
+    ],
+    "18:29": [
+      "Catherine Morland",
+      "Catherine Morland"
+    ],
+    "18:30": [
+      "Henry Tilney"
+    ],
+    "18:31": [
+      "Catherine Morland"
+    ],
+    "18:32": [
+      "Henry Tilney"
+    ],
+    "19:3": [
+      "Captain Tilney"
+    ],
+    "19:6": [
+      "General Tilney"
+    ],
+    "19:9": [
+      "Catherine Morland",
+      "Catherine Morland"
+    ],
+    "19:10": [
+      "Catherine Morland"
+    ],
+    "19:11": [
+      "Catherine Morland"
+    ],
+    "19:12": [
+      "Catherine Morland"
+    ],
+    "19:13": [
+      "Catherine Morland"
+    ],
+    "19:14": [
+      "Catherine Morland"
+    ],
+    "19:15": [
+      "Catherine Morland"
+    ],
+    "19:16": [
+      "Catherine Morland"
+    ],
+    "19:17": [
+      "Catherine Morland"
+    ],
+    "19:19": [
+      "Catherine Morland"
+    ],
+    "19:20": [
+      "Catherine Morland"
+    ],
+    "19:21": [
+      "Catherine Morland"
+    ],
+    "19:22": [
+      "Catherine Morland"
+    ],
+    "19:24": [
+      "Catherine Morland"
+    ],
+    "19:25": [
+      "Catherine Morland"
+    ],
+    "19:27": [
+      "Catherine Morland"
+    ],
+    "19:28": [
+      "Catherine Morland"
+    ],
+    "19:29": [
+      "Catherine Morland"
+    ],
+    "20:2": [
+      "Catherine Morland"
+    ],
+    "20:6": [
+      "Eleanor Tilney",
+      "Eleanor Tilney"
+    ],
+    "20:7": [
+      "Eleanor Tilney"
+    ],
+    "20:9": [
+      "Eleanor Tilney"
+    ],
+    "20:10": [
+      "Eleanor Tilney",
+      "Eleanor Tilney"
+    ],
+    "20:13": [
+      "Eleanor Tilney",
+      "Eleanor Tilney"
+    ],
+    "20:14": [
+      "Eleanor Tilney"
+    ],
+    "20:18": [
+      "Eleanor Tilney"
+    ],
+    "21:1": [
+      "Catherine Morland"
+    ],
+    "21:5": [
+      "Catherine Morland",
+      "Catherine Morland"
+    ],
+    "21:6": [
+      "Henry Tilney"
+    ],
+    "21:7": [
+      "Catherine Morland"
+    ],
+    "21:8": [
+      "Henry Tilney"
+    ],
+    "21:9": [
+      "Catherine Morland"
+    ],
+    "21:10": [
+      "Henry Tilney"
+    ],
+    "21:13": [
+      "General Tilney",
+      "General Tilney"
+    ],
+    "21:14": [
+      "Catherine Morland"
+    ],
+    "21:16": [
+      "Catherine Morland"
+    ],
+    "21:18": [
+      "Catherine Morland"
+    ],
+    "21:19": [
+      "Catherine Morland",
+      "Catherine Morland"
+    ],
+    "21:24": [
+      "Catherine Morland"
+    ],
+    "21:25": [
+      "Catherine Morland"
+    ],
+    "21:27": [
+      "Catherine Morland"
+    ],
+    "21:28": [
+      "Catherine Morland"
+    ],
+    "21:29": [
+      "General Tilney"
+    ],
+    "21:30": [
+      "Catherine Morland"
+    ],
+    "21:31": [
+      "Eleanor Tilney",
+      "Eleanor Tilney"
+    ],
+    "21:32": [
+      "Catherine Morland"
+    ],
+    "21:33": [
+      "Eleanor Tilney",
+      "Eleanor Tilney"
+    ],
+    "21:35": [
+      "Eleanor Tilney",
+      "Eleanor Tilney"
+    ],
+    "21:36": [
+      "Eleanor Tilney",
+      "Eleanor Tilney",
+      "Eleanor Tilney"
+    ],
+    "21:37": [
+      "Eleanor Tilney",
+      "Eleanor Tilney",
+      "Eleanor Tilney"
+    ],
+    "21:38": [
+      "Eleanor Tilney"
+    ],
+    "21:39": [
+      "Eleanor Tilney"
+    ],
+    "21:40": [
+      "Eleanor Tilney"
+    ],
+    "21:41": [
+      "Eleanor Tilney",
+      "Eleanor Tilney"
+    ],
+    "21:42": [
+      "Eleanor Tilney"
+    ],
+    "22:0": [
+      "Catherine Morland"
+    ],
+    "22:9": [
+      "General Tilney"
+    ],
+    "22:11": [
+      "Eleanor Tilney"
+    ],
+    "22:13": [
+      "Catherine Morland"
+    ],
+    "22:14": [
+      "Eleanor Tilney"
+    ],
+    "22:15": [
+      "Catherine Morland"
+    ],
+    "22:16": [
+      "Eleanor Tilney"
+    ],
+    "22:17": [
+      "Catherine Morland"
+    ],
+    "22:18": [
+      "Eleanor Tilney",
+      "Eleanor Tilney"
+    ],
+    "22:19": [
+      "Eleanor Tilney",
+      "Eleanor Tilney"
+    ],
+    "22:20": [
+      "Eleanor Tilney"
+    ],
+    "22:21": [
+      "Eleanor Tilney",
+      "Eleanor Tilney"
+    ],
+    "23:5": [
+      "General Tilney"
+    ],
+    "23:7": [
+      "Eleanor Tilney"
+    ],
+    "23:12": [
+      "Catherine Morland",
+      "Catherine Morland"
+    ],
+    "23:13": [
+      "Catherine Morland"
+    ],
+    "23:14": [
+      "Henry Tilney",
+      "Henry Tilney"
+    ],
+    "23:15": [
+      "Henry Tilney",
+      "Henry Tilney"
+    ],
+    "23:16": [
+      "Catherine Morland",
+      "Catherine Morland"
+    ],
+    "23:17": [
+      "Catherine Morland"
+    ],
+    "23:18": [
+      "Catherine Morland"
+    ],
+    "23:19": [
+      "Catherine Morland"
+    ],
+    "23:20": [
+      "Catherine Morland"
+    ],
+    "23:21": [
+      "Catherine Morland"
+    ],
+    "23:22": [
+      "Catherine Morland",
+      "Catherine Morland"
+    ],
+    "23:23": [
+      "Henry Tilney",
+      "Henry Tilney"
+    ],
+    "23:24": [
+      "Catherine Morland"
+    ],
+    "23:25": [
+      "Henry Tilney",
+      "Henry Tilney"
+    ],
+    "23:26": [
+      "Catherine Morland"
+    ],
+    "23:27": [
+      "Henry Tilney"
+    ],
+    "23:28": [
+      "Catherine Morland"
+    ],
+    "23:29": [
+      "Henry Tilney"
+    ],
+    "23:30": [
+      "Catherine Morland",
+      "Catherine Morland"
+    ],
+    "23:31": [
+      "Henry Tilney",
+      "Henry Tilney"
+    ],
+    "23:32": [
+      "Catherine Morland",
+      "Catherine Morland",
+      "Catherine Morland",
+      "Catherine Morland"
+    ],
+    "23:33": [
+      "Henry Tilney"
+    ],
+    "23:34": [
+      "Catherine Morland",
+      "Catherine Morland"
+    ],
+    "23:35": [
+      "Henry Tilney"
+    ],
+    "23:36": [
+      "Catherine Morland",
+      "Catherine Morland"
+    ],
+    "23:37": [
+      "Henry Tilney"
+    ],
+    "24:8": [
+      "Catherine Morland"
+    ],
+    "24:11": [
+      "James Morland"
+    ],
+    "24:14": [
+      "Eleanor Tilney"
+    ],
+    "24:15": [
+      "Catherine Morland",
+      "Catherine Morland"
+    ],
+    "24:16": [
+      "Catherine Morland"
+    ],
+    "24:17": [
+      "Henry Tilney",
+      "Henry Tilney"
+    ],
+    "24:18": [
+      "Henry Tilney"
+    ],
+    "24:19": [
+      "Henry Tilney",
+      "Henry Tilney"
+    ],
+    "24:20": [
+      "Catherine Morland",
+      "Catherine Morland"
+    ],
+    "24:21": [
+      "Henry Tilney"
+    ],
+    "24:22": [
+      "Catherine Morland"
+    ],
+    "24:24": [
+      "Catherine Morland",
+      "Catherine Morland"
+    ],
+    "24:25": [
+      "Catherine Morland"
+    ],
+    "24:26": [
+      "Catherine Morland"
+    ],
+    "24:27": [
+      "Catherine Morland"
+    ],
+    "24:28": [
+      "Catherine Morland",
+      "Catherine Morland",
+      "Catherine Morland"
+    ],
+    "24:29": [
+      "Catherine Morland"
+    ],
+    "24:31": [
+      "Catherine Morland"
+    ],
+    "24:32": [
+      "Catherine Morland"
+    ],
+    "24:33": [
+      "Catherine Morland"
+    ],
+    "24:34": [
+      "Catherine Morland"
+    ],
+    "24:35": [
+      "Eleanor Tilney",
+      "Eleanor Tilney",
+      "Eleanor Tilney"
+    ],
+    "24:36": [
+      "Catherine Morland"
+    ],
+    "24:37": [
+      "Eleanor Tilney"
+    ],
+    "24:38": [
+      "Catherine Morland",
+      "Catherine Morland"
+    ],
+    "24:39": [
+      "Henry Tilney",
+      "Henry Tilney"
+    ],
+    "24:40": [
+      "Catherine Morland"
+    ],
+    "24:41": [
+      "Henry Tilney"
+    ],
+    "24:42": [
+      "Catherine Morland"
+    ],
+    "24:43": [
+      "Henry Tilney"
+    ],
+    "24:44": [
+      "Catherine Morland",
+      "Catherine Morland"
+    ],
+    "24:45": [
+      "Henry Tilney"
+    ],
+    "25:2": [
+      "Henry Tilney"
+    ],
+    "25:3": [
+      "Henry Tilney"
+    ],
+    "25:4": [
+      "Catherine Morland"
+    ],
+    "25:5": [
+      "Henry Tilney"
+    ],
+    "25:7": [
+      "Catherine Morland"
+    ],
+    "25:9": [
+      "General Tilney"
+    ],
+    "25:10": [
+      "Henry Tilney"
+    ],
+    "25:11": [
+      "Catherine Morland",
+      "Catherine Morland"
+    ],
+    "25:12": [
+      "Catherine Morland"
+    ],
+    "25:13": [
+      "Catherine Morland"
+    ],
+    "25:14": [
+      "Catherine Morland"
+    ],
+    "25:15": [
+      "Catherine Morland"
+    ],
+    "25:16": [
+      "Catherine Morland"
+    ],
+    "25:17": [
+      "Catherine Morland"
+    ],
+    "25:24": [
+      "Catherine Morland",
+      "Catherine Morland"
+    ],
+    "25:26": [
+      "Catherine Morland"
+    ],
+    "25:27": [
+      "General Tilney",
+      "General Tilney"
+    ],
+    "25:28": [
+      "Catherine Morland"
+    ],
+    "25:29": [
+      "General Tilney"
+    ],
+    "26:8": [
+      "Catherine Morland"
+    ],
+    "26:9": [
+      "Catherine Morland",
+      "Catherine Morland"
+    ],
+    "26:10": [
+      "Henry Tilney"
+    ],
+    "26:11": [
+      "Henry Tilney"
+    ],
+    "26:12": [
+      "Henry Tilney"
+    ],
+    "26:13": [
+      "Henry Tilney"
+    ],
+    "26:14": [
+      "Henry Tilney"
+    ],
+    "26:15": [
+      "Henry Tilney"
+    ],
+    "26:17": [
+      "Henry Tilney"
+    ],
+    "26:18": [
+      "Henry Tilney"
+    ],
+    "26:19": [
+      "Henry Tilney"
+    ],
+    "26:20": [
+      "Henry Tilney"
+    ],
+    "27:2": [
+      "Eleanor Tilney",
+      "Catherine Morland"
+    ],
+    "27:3": [
+      "Eleanor Tilney"
+    ],
+    "27:4": [
+      "Catherine Morland"
+    ],
+    "27:5": [
+      "Eleanor Tilney"
+    ],
+    "27:6": [
+      "Catherine Morland"
+    ],
+    "27:7": [
+      "Eleanor Tilney"
+    ],
+    "27:11": [
+      "Eleanor Tilney",
+      "Eleanor Tilney"
+    ],
+    "27:12": [
+      "Catherine Morland"
+    ],
+    "27:13": [
+      "Eleanor Tilney"
+    ],
+    "27:14": [
+      "Catherine Morland"
+    ],
+    "27:15": [
+      "Eleanor Tilney",
+      "Eleanor Tilney"
+    ],
+    "27:16": [
+      "Eleanor Tilney"
+    ],
+    "27:17": [
+      "Catherine Morland",
+      "Catherine Morland"
+    ],
+    "27:18": [
+      "Catherine Morland"
+    ],
+    "27:19": [
+      "Catherine Morland"
+    ],
+    "27:20": [
+      "Catherine Morland"
+    ],
+    "27:21": [
+      "Catherine Morland"
+    ],
+    "27:22": [
+      "Catherine Morland"
+    ],
+    "27:23": [
+      "Catherine Morland"
+    ],
+    "27:24": [
+      "Catherine Morland"
+    ],
+    "27:25": [
+      "Catherine Morland",
+      "Catherine Morland"
+    ],
+    "27:26": [
+      "Catherine Morland"
+    ],
+    "27:27": [
+      "Catherine Morland",
+      "Catherine Morland"
+    ],
+    "27:34": [
+      "Catherine Morland",
+      "Catherine Morland"
+    ],
+    "27:35": [
+      "Catherine Morland"
+    ],
+    "27:36": [
+      "Catherine Morland",
+      "Catherine Morland"
+    ],
+    "27:38": [
+      "Catherine Morland"
+    ],
+    "28:12": [
+      "Mrs. Morland",
+      "Mrs. Morland",
+      "Mrs. Morland"
+    ],
+    "28:13": [
+      "Sarah Morland",
+      "Sarah Morland"
+    ],
+    "28:14": [
+      "Sarah Morland",
+      "Sarah Morland",
+      "Sarah Morland",
+      "Sarah Morland"
+    ],
+    "28:18": [
+      "Sarah Morland",
+      "Sarah Morland"
+    ],
+    "28:19": [
+      "Sarah Morland"
+    ],
+    "28:20": [
+      "Sarah Morland"
+    ],
+    "28:22": [
+      "Sarah Morland",
+      "Sarah Morland"
+    ],
+    "28:24": [
+      "Sarah Morland",
+      "Sarah Morland"
+    ],
+    "28:25": [
+      "Sarah Morland",
+      "Sarah Morland"
+    ],
+    "28:26": [
+      "Sarah Morland"
+    ],
+    "28:27": [
+      "Catherine Morland"
+    ],
+    "28:28": [
+      "Sarah Morland"
+    ],
+    "28:29": [
+      "Catherine Morland"
+    ],
+    "28:30": [
+      "Sarah Morland"
+    ],
+    "28:31": [
+      "Catherine Morland"
+    ],
+    "29:1": [
+      "Mrs. Morland"
+    ],
+    "29:2": [
+      "Catherine Morland"
+    ],
+    "29:3": [
+      "Mrs. Morland",
+      "Mrs. Morland"
+    ],
+    "29:4": [
+      "Catherine Morland"
+    ],
+    "29:5": [
+      "Mrs. Morland"
+    ],
+    "29:7": [
+      "Catherine Morland"
+    ],
+    "29:11": [
+      "Sarah Morland"
+    ],
+    "30:0": [
+      "Mrs. Morland"
+    ],
+    "30:4": [
+      "General Tilney"
+    ],
+    "30:5": [
+      "General Tilney"
+    ]
+  }
+}

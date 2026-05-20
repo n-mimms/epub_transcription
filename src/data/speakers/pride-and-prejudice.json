@@ -1,0 +1,4487 @@
+{
+  "schemaVersion": 1,
+  "bookId": "pride-and-prejudice",
+  "source": {
+    "encoder": "google-gemini-3.1-flash-lite",
+    "generatedAt": "2026-05-15T18:49:29.148Z",
+    "bookJsonSha256": "b0efa82a92ccf91d58f919e55cdbe4b32f552860b7627ece54578246f5a4d638",
+    "audioSynthAt": "2026-05-18T13:34:37.937Z",
+    "audioProvider": "elevenlabs"
+  },
+  "chunks": {
+    "0:2": [
+      "Mrs. Bennet",
+      "Mrs. Bennet"
+    ],
+    "0:4": [
+      "Mrs. Bennet",
+      "Mrs. Bennet"
+    ],
+    "0:6": [
+      "Mrs. Bennet"
+    ],
+    "0:7": [
+      "Mr. Bennet"
+    ],
+    "0:9": [
+      "Mrs. Bennet"
+    ],
+    "0:10": [
+      "Mr. Bennet"
+    ],
+    "0:11": [
+      "Mrs. Bennet"
+    ],
+    "0:12": [
+      "Mr. Bennet"
+    ],
+    "0:13": [
+      "Mrs. Bennet"
+    ],
+    "0:14": [
+      "Mr. Bennet"
+    ],
+    "0:15": [
+      "Mrs. Bennet",
+      "Mrs. Bennet"
+    ],
+    "0:16": [
+      "Mr. Bennet"
+    ],
+    "0:17": [
+      "Mrs. Bennet"
+    ],
+    "0:18": [
+      "Mr. Bennet"
+    ],
+    "0:19": [
+      "Mrs. Bennet"
+    ],
+    "0:20": [
+      "Mr. Bennet"
+    ],
+    "0:21": [
+      "Mrs. Bennet"
+    ],
+    "0:22": [
+      "Mr. Bennet"
+    ],
+    "0:23": [
+      "Mrs. Bennet"
+    ],
+    "0:24": [
+      "Mr. Bennet"
+    ],
+    "0:25": [
+      "Mrs. Bennet"
+    ],
+    "0:26": [
+      "Mr. Bennet",
+      "Mr. Bennet"
+    ],
+    "0:27": [
+      "Mrs. Bennet"
+    ],
+    "0:28": [
+      "Mr. Bennet"
+    ],
+    "0:29": [
+      "Mrs. Bennet"
+    ],
+    "0:30": [
+      "Mr. Bennet"
+    ],
+    "0:31": [
+      "Mrs. Bennet"
+    ],
+    "0:32": [
+      "Mr. Bennet"
+    ],
+    "1:1": [
+      "Mr. Bennet"
+    ],
+    "1:2": [
+      "Mrs. Bennet",
+      "Mrs. Bennet"
+    ],
+    "1:3": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "1:4": [
+      "Mrs. Bennet"
+    ],
+    "1:5": [
+      "Mr. Bennet",
+      "Mr. Bennet"
+    ],
+    "1:7": [
+      "Mrs. Bennet"
+    ],
+    "1:8": [
+      "Mr. Bennet",
+      "Mr. Bennet"
+    ],
+    "1:9": [
+      "Kitty Bennet",
+      "Kitty Bennet"
+    ],
+    "1:10": [
+      "Elizabeth Bennet"
+    ],
+    "1:11": [
+      "Mrs. Bennet",
+      "Mrs. Bennet"
+    ],
+    "1:12": [
+      "Mr. Bennet"
+    ],
+    "1:13": [
+      "Mrs. Bennet"
+    ],
+    "1:14": [
+      "Mr. Bennet"
+    ],
+    "1:15": [
+      "Mrs. Bennet"
+    ],
+    "1:16": [
+      "Mr. Bennet",
+      "Mr. Bennet"
+    ],
+    "1:18": [
+      "Mrs. Bennet",
+      "Mrs. Bennet"
+    ],
+    "1:19": [
+      "Mrs. Bennet"
+    ],
+    "1:20": [
+      "Mrs. Bennet"
+    ],
+    "1:22": [
+      "Mrs. Bennet"
+    ],
+    "1:23": [
+      "Mr. Bennet"
+    ],
+    "1:24": [
+      "Mrs. Bennet",
+      "Mrs. Bennet"
+    ],
+    "1:25": [
+      "Lydia Bennet",
+      "Lydia Bennet"
+    ],
+    "2:1": [
+      "Mrs. Bennet",
+      "Mrs. Bennet"
+    ],
+    "2:8": [
+      "Mrs. Bennet",
+      "Mrs. Bennet"
+    ],
+    "2:9": [
+      "Mrs. Bennet"
+    ],
+    "2:10": [
+      "Charles Bingley",
+      "Charles Bingley"
+    ],
+    "2:11": [
+      "Fitzwilliam Darcy"
+    ],
+    "2:12": [
+      "Charles Bingley"
+    ],
+    "2:13": [
+      "Fitzwilliam Darcy",
+      "Fitzwilliam Darcy"
+    ],
+    "2:17": [
+      "Charlotte Lucas",
+      "Charlotte Lucas"
+    ],
+    "2:18": [
+      "Fitzwilliam Darcy",
+      "Fitzwilliam Darcy"
+    ],
+    "2:19": [
+      "Mrs. Bennet",
+      "Mrs. Bennet"
+    ],
+    "2:21": [
+      "Fitzwilliam Darcy",
+      "Fitzwilliam Darcy"
+    ],
+    "3:1": [
+      "Jane Bennet",
+      "Jane Bennet"
+    ],
+    "3:2": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "3:3": [
+      "Elizabeth Bennet"
+    ],
+    "3:4": [
+      "Elizabeth Bennet"
+    ],
+    "3:5": [
+      "Elizabeth Bennet"
+    ],
+    "3:6": [
+      "Elizabeth Bennet"
+    ],
+    "3:7": [
+      "Elizabeth Bennet"
+    ],
+    "3:8": [
+      "Elizabeth Bennet"
+    ],
+    "3:9": [
+      "Elizabeth Bennet"
+    ],
+    "4:3": [
+      "Mrs. Bennet",
+      "Mrs. Bennet"
+    ],
+    "4:4": [
+      "Mrs. Bennet"
+    ],
+    "4:5": [
+      "Mrs. Bennet"
+    ],
+    "4:6": [
+      "Mrs. Bennet"
+    ],
+    "4:7": [
+      "Mrs. Bennet"
+    ],
+    "4:8": [
+      "Charlotte Lucas",
+      "Charlotte Lucas"
+    ],
+    "4:9": [
+      "Mrs. Bennet"
+    ],
+    "4:10": [
+      "Jane Bennet",
+      "Jane Bennet"
+    ],
+    "4:11": [
+      "Mrs. Bennet"
+    ],
+    "4:12": [
+      "Jane Bennet",
+      "Jane Bennet"
+    ],
+    "4:13": [
+      "Mrs. Bennet"
+    ],
+    "4:14": [
+      "Charlotte Lucas",
+      "Charlotte Lucas"
+    ],
+    "4:15": [
+      "Mrs. Bennet",
+      "Mrs. Bennet"
+    ],
+    "4:16": [
+      "Charlotte Lucas"
+    ],
+    "4:17": [
+      "Charlotte Lucas",
+      "Charlotte Lucas"
+    ],
+    "4:18": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "4:19": [
+      "Charlotte Lucas",
+      "Charlotte Lucas"
+    ],
+    "4:20": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "4:21": [
+      "Mrs. Bennet",
+      "Mrs. Bennet"
+    ],
+    "5:2": [
+      "Charlotte Lucas",
+      "Charlotte Lucas"
+    ],
+    "5:3": [
+      "Charlotte Lucas"
+    ],
+    "5:4": [
+      "Charlotte Lucas"
+    ],
+    "5:5": [
+      "Charlotte Lucas"
+    ],
+    "5:6": [
+      "Charlotte Lucas"
+    ],
+    "5:7": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "5:8": [
+      "Charlotte Lucas"
+    ],
+    "5:9": [
+      "Elizabeth Bennet"
+    ],
+    "5:10": [
+      "Charlotte Lucas",
+      "Charlotte Lucas"
+    ],
+    "5:11": [
+      "Elizabeth Bennet"
+    ],
+    "5:15": [
+      "Charlotte Lucas",
+      "Charlotte Lucas"
+    ],
+    "5:16": [
+      "Elizabeth Bennet"
+    ],
+    "5:17": [
+      "Charlotte Lucas"
+    ],
+    "5:19": [
+      "Elizabeth Bennet"
+    ],
+    "5:20": [
+      "Charlotte Lucas"
+    ],
+    "5:21": [
+      "Elizabeth Bennet"
+    ],
+    "5:22": [
+      "Charlotte Lucas",
+      "Charlotte Lucas"
+    ],
+    "5:23": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "5:27": [
+      "Charlotte Lucas"
+    ],
+    "5:28": [
+      "Elizabeth Bennet"
+    ],
+    "5:29": [
+      "Charlotte Lucas",
+      "Charlotte Lucas"
+    ],
+    "5:30": [
+      "Elizabeth Bennet"
+    ],
+    "5:31": [
+      "Charlotte Lucas"
+    ],
+    "5:32": [
+      "Elizabeth Bennet"
+    ],
+    "5:33": [
+      "Charlotte Lucas"
+    ],
+    "5:34": [
+      "Elizabeth Bennet"
+    ],
+    "5:35": [
+      "Charlotte Lucas"
+    ],
+    "5:37": [
+      "Elizabeth Bennet"
+    ],
+    "5:39": [
+      "Charlotte Lucas"
+    ],
+    "5:40": [
+      "Elizabeth Bennet"
+    ],
+    "5:42": [
+      "Charlotte Lucas"
+    ],
+    "5:43": [
+      "Elizabeth Bennet"
+    ],
+    "5:44": [
+      "Charlotte Lucas"
+    ],
+    "5:46": [
+      "Elizabeth Bennet"
+    ],
+    "5:47": [
+      "Charlotte Lucas"
+    ],
+    "5:48": [
+      "Elizabeth Bennet"
+    ],
+    "5:49": [
+      "Charlotte Lucas"
+    ],
+    "5:51": [
+      "Elizabeth Bennet"
+    ],
+    "5:52": [
+      "Charlotte Lucas",
+      "Charlotte Lucas"
+    ],
+    "5:53": [
+      "Elizabeth Bennet"
+    ],
+    "5:54": [
+      "Charlotte Lucas"
+    ],
+    "6:5": [
+      "Mr. Bennet"
+    ],
+    "6:7": [
+      "Mrs. Bennet",
+      "Mrs. Bennet"
+    ],
+    "6:8": [
+      "Mrs. Bennet"
+    ],
+    "6:9": [
+      "Mrs. Bennet"
+    ],
+    "6:10": [
+      "Mrs. Bennet"
+    ],
+    "6:11": [
+      "Mrs. Bennet"
+    ],
+    "6:12": [
+      "Lydia Bennet",
+      "Lydia Bennet"
+    ],
+    "6:14": [
+      "Mrs. Bennet"
+    ],
+    "6:15": [
+      "Jane Bennet"
+    ],
+    "6:18": [
+      "Mrs. Bennet"
+    ],
+    "6:19": [
+      "Lydia Bennet",
+      "Lydia Bennet"
+    ],
+    "6:20": [
+      "Mrs. Bennet",
+      "Mrs. Bennet"
+    ],
+    "6:21": [
+      "Jane Bennet"
+    ],
+    "6:22": [
+      "Mrs. Bennet"
+    ],
+    "6:23": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "6:24": [
+      "Mrs. Bennet"
+    ],
+    "6:25": [
+      "Elizabeth Bennet"
+    ],
+    "6:26": [
+      "Mrs. Bennet"
+    ],
+    "6:27": [
+      "Elizabeth Bennet"
+    ],
+    "6:28": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "6:30": [
+      "Mrs. Bennet"
+    ],
+    "6:33": [
+      "Elizabeth Bennet"
+    ],
+    "6:34": [
+      "Mr. Bennet",
+      "Mr. Bennet"
+    ],
+    "6:35": [
+      "Elizabeth Bennet"
+    ],
+    "6:37": [
+      "Mrs. Bennet",
+      "Mrs. Bennet"
+    ],
+    "6:38": [
+      "Elizabeth Bennet"
+    ],
+    "6:39": [
+      "Mr. Bennet",
+      "Mr. Bennet"
+    ],
+    "6:40": [
+      "Elizabeth Bennet"
+    ],
+    "6:41": [
+      "Mr. Bennet",
+      "Mr. Bennet"
+    ],
+    "6:42": [
+      "Elizabeth Bennet"
+    ],
+    "6:43": [
+      "Lydia Bennet",
+      "Lydia Bennet"
+    ],
+    "7:3": [
+      null
+    ],
+    "7:4": [
+      "Caroline Bingley"
+    ],
+    "7:5": [
+      null
+    ],
+    "7:6": [
+      "Charles Bingley",
+      "Charles Bingley"
+    ],
+    "7:7": [
+      "Caroline Bingley",
+      "Caroline Bingley"
+    ],
+    "7:8": [
+      "Charles Bingley"
+    ],
+    "7:9": [
+      "Caroline Bingley"
+    ],
+    "7:10": [
+      "Charles Bingley"
+    ],
+    "7:11": [
+      "Caroline Bingley",
+      "Caroline Bingley"
+    ],
+    "7:12": [
+      "Charles Bingley",
+      "Charles Bingley"
+    ],
+    "7:13": [
+      "Caroline Bingley"
+    ],
+    "7:14": [
+      "Charles Bingley"
+    ],
+    "7:15": [
+      "Caroline Bingley"
+    ],
+    "7:16": [
+      "Charles Bingley"
+    ],
+    "7:17": [
+      "Charles Bingley",
+      "Charles Bingley"
+    ],
+    "7:18": [
+      "Fitzwilliam Darcy"
+    ],
+    "7:21": [
+      "Charles Bingley",
+      "Charles Bingley"
+    ],
+    "7:22": [
+      "Caroline Bingley",
+      "Caroline Bingley"
+    ],
+    "7:23": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "7:24": [
+      "Charles Bingley",
+      "Charles Bingley"
+    ],
+    "7:26": [
+      "Elizabeth Bennet"
+    ],
+    "7:28": [
+      "Caroline Bingley",
+      "Caroline Bingley"
+    ],
+    "7:29": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "7:30": [
+      "Caroline Bingley"
+    ],
+    "7:31": [
+      "Elizabeth Bennet"
+    ],
+    "7:32": [
+      "Caroline Bingley"
+    ],
+    "7:33": [
+      "Elizabeth Bennet"
+    ],
+    "7:34": [
+      "Caroline Bingley"
+    ],
+    "7:35": [
+      "Elizabeth Bennet"
+    ],
+    "7:36": [
+      "Caroline Bingley"
+    ],
+    "7:37": [
+      "Elizabeth Bennet"
+    ],
+    "7:39": [
+      "Caroline Bingley",
+      "Caroline Bingley"
+    ],
+    "7:40": [
+      "Elizabeth Bennet"
+    ],
+    "7:41": [
+      "Caroline Bingley"
+    ],
+    "7:42": [
+      "Charles Bingley",
+      "Charles Bingley"
+    ],
+    "7:43": [
+      "Caroline Bingley"
+    ],
+    "7:44": [
+      "Charles Bingley"
+    ],
+    "7:45": [
+      "Fitzwilliam Darcy",
+      "Fitzwilliam Darcy"
+    ],
+    "7:46": [
+      "Caroline Bingley"
+    ],
+    "7:47": [
+      "Fitzwilliam Darcy",
+      "Fitzwilliam Darcy"
+    ],
+    "7:48": [
+      "Caroline Bingley"
+    ],
+    "7:49": [
+      "Fitzwilliam Darcy",
+      "Fitzwilliam Darcy"
+    ],
+    "7:50": [
+      "Fitzwilliam Darcy",
+      "Fitzwilliam Darcy"
+    ],
+    "7:51": [
+      "Fitzwilliam Darcy"
+    ],
+    "7:52": [
+      "Fitzwilliam Darcy"
+    ],
+    "7:53": [
+      "Fitzwilliam Darcy"
+    ],
+    "7:55": [
+      "Caroline Bingley",
+      "Caroline Bingley"
+    ],
+    "7:56": [
+      "Fitzwilliam Darcy",
+      "Fitzwilliam Darcy"
+    ],
+    "8:2": [
+      "Mrs. Bennet",
+      "Mrs. Bennet"
+    ],
+    "8:3": [
+      "Charles Bingley",
+      "Charles Bingley"
+    ],
+    "8:4": [
+      "Caroline Bingley",
+      "Caroline Bingley"
+    ],
+    "8:6": [
+      "Charles Bingley",
+      "Charles Bingley"
+    ],
+    "8:7": [
+      "Caroline Bingley",
+      "Caroline Bingley"
+    ],
+    "8:8": [
+      "Elizabeth Bennet"
+    ],
+    "8:9": [
+      "Caroline Bingley"
+    ],
+    "8:10": [
+      "Elizabeth Bennet"
+    ],
+    "8:11": [
+      "Caroline Bingley"
+    ],
+    "8:12": [
+      "Elizabeth Bennet"
+    ],
+    "8:13": [
+      "Mrs. Bennet",
+      "Mrs. Bennet"
+    ],
+    "8:14": [
+      "Charles Bingley",
+      "Charles Bingley"
+    ],
+    "8:15": [
+      "Mrs. Bennet"
+    ],
+    "8:16": [
+      "Fitzwilliam Darcy",
+      "Fitzwilliam Darcy"
+    ],
+    "8:17": [
+      "Mrs. Bennet"
+    ],
+    "8:18": [
+      "Mrs. Bennet",
+      "Mrs. Bennet"
+    ],
+    "8:20": [
+      "Mrs. Bennet"
+    ],
+    "8:21": [
+      "Mrs. Bennet",
+      "Mrs. Bennet"
+    ],
+    "8:22": [
+      "Mrs. Bennet",
+      "Mrs. Bennet"
+    ],
+    "8:23": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "8:24": [
+      "Mrs. Bennet"
+    ],
+    "8:26": [
+      "Elizabeth Bennet"
+    ],
+    "8:27": [
+      "Mrs. Bennet"
+    ],
+    "8:28": [
+      "Elizabeth Bennet"
+    ],
+    "8:29": [
+      "Charles Bingley"
+    ],
+    "8:30": [
+      "Elizabeth Bennet"
+    ],
+    "8:31": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "8:32": [
+      "Fitzwilliam Darcy"
+    ],
+    "8:33": [
+      "Elizabeth Bennet"
+    ],
+    "8:36": [
+      "Fitzwilliam Darcy"
+    ],
+    "8:37": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "9:2": [
+      "Caroline Bingley"
+    ],
+    "9:4": [
+      "Caroline Bingley"
+    ],
+    "9:5": [
+      "Fitzwilliam Darcy"
+    ],
+    "9:6": [
+      "Caroline Bingley"
+    ],
+    "9:7": [
+      "Fitzwilliam Darcy"
+    ],
+    "9:8": [
+      "Caroline Bingley"
+    ],
+    "9:9": [
+      "Fitzwilliam Darcy"
+    ],
+    "9:10": [
+      "Caroline Bingley"
+    ],
+    "9:11": [
+      "Fitzwilliam Darcy"
+    ],
+    "9:12": [
+      "Caroline Bingley"
+    ],
+    "9:14": [
+      "Caroline Bingley"
+    ],
+    "9:15": [
+      "Fitzwilliam Darcy"
+    ],
+    "9:16": [
+      "Caroline Bingley"
+    ],
+    "9:17": [
+      "Fitzwilliam Darcy"
+    ],
+    "9:18": [
+      "Caroline Bingley"
+    ],
+    "9:19": [
+      "Charles Bingley",
+      "Charles Bingley"
+    ],
+    "9:20": [
+      "Fitzwilliam Darcy"
+    ],
+    "9:21": [
+      "Caroline Bingley",
+      "Caroline Bingley"
+    ],
+    "9:22": [
+      "Caroline Bingley"
+    ],
+    "9:23": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "9:24": [
+      "Fitzwilliam Darcy",
+      "Fitzwilliam Darcy"
+    ],
+    "9:25": [
+      "Elizabeth Bennet"
+    ],
+    "9:26": [
+      "Fitzwilliam Darcy"
+    ],
+    "9:27": [
+      "Charles Bingley",
+      "Charles Bingley"
+    ],
+    "9:28": [
+      "Fitzwilliam Darcy"
+    ],
+    "9:29": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "9:30": [
+      "Charles Bingley",
+      "Charles Bingley"
+    ],
+    "9:31": [
+      "Elizabeth Bennet"
+    ],
+    "9:32": [
+      "Charles Bingley"
+    ],
+    "9:33": [
+      "Elizabeth Bennet"
+    ],
+    "9:34": [
+      "Charles Bingley"
+    ],
+    "9:35": [
+      "Elizabeth Bennet"
+    ],
+    "9:36": [
+      "Charles Bingley"
+    ],
+    "9:37": [
+      "Elizabeth Bennet"
+    ],
+    "9:38": [
+      "Charles Bingley",
+      "Charles Bingley"
+    ],
+    "9:40": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "9:41": [
+      "Charles Bingley"
+    ],
+    "9:42": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "9:47": [
+      "Charles Bingley"
+    ],
+    "9:49": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "9:50": [
+      "Charles Bingley"
+    ],
+    "9:54": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "9:55": [
+      "Charles Bingley"
+    ],
+    "9:56": [
+      "Elizabeth Bennet"
+    ],
+    "9:57": [
+      "Charles Bingley"
+    ],
+    "9:59": [
+      "Caroline Bingley"
+    ],
+    "9:60": [
+      "Charles Bingley",
+      "Charles Bingley"
+    ],
+    "9:62": [
+      "Caroline Bingley"
+    ],
+    "9:64": [
+      "Charles Bingley"
+    ],
+    "10:1": [
+      null
+    ],
+    "10:3": [
+      "Caroline Bingley"
+    ],
+    "10:5": [
+      "Caroline Bingley"
+    ],
+    "10:6": [
+      "Charles Bingley",
+      "Charles Bingley"
+    ],
+    "10:7": [
+      "Caroline Bingley",
+      "Caroline Bingley"
+    ],
+    "10:8": [
+      "Charles Bingley"
+    ],
+    "10:10": [
+      "Caroline Bingley"
+    ],
+    "10:12": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "10:14": [
+      "Fitzwilliam Darcy",
+      "Fitzwilliam Darcy"
+    ],
+    "10:15": [
+      "Caroline Bingley",
+      "Caroline Bingley"
+    ],
+    "10:16": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "10:17": [
+      "Caroline Bingley"
+    ],
+    "10:18": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "10:19": [
+      "Caroline Bingley",
+      "Caroline Bingley"
+    ],
+    "10:20": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "10:21": [
+      "Caroline Bingley"
+    ],
+    "10:22": [
+      "Elizabeth Bennet"
+    ],
+    "10:23": [
+      "Caroline Bingley"
+    ],
+    "10:25": [
+      "Caroline Bingley",
+      "Caroline Bingley"
+    ],
+    "10:26": [
+      "Caroline Bingley"
+    ],
+    "10:27": [
+      "Fitzwilliam Darcy",
+      "Fitzwilliam Darcy"
+    ],
+    "10:28": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "10:29": [
+      "Fitzwilliam Darcy"
+    ],
+    "10:30": [
+      "Elizabeth Bennet"
+    ],
+    "10:31": [
+      "Fitzwilliam Darcy",
+      "Fitzwilliam Darcy"
+    ],
+    "10:32": [
+      "Caroline Bingley",
+      "Caroline Bingley"
+    ],
+    "12:0": [
+      "Mr. Bennet"
+    ],
+    "12:1": [
+      "Mr. Bennet"
+    ],
+    "12:2": [
+      "Mr. Bennet"
+    ],
+    "12:3": [
+      "Mr. Bennet"
+    ],
+    "12:4": [
+      "Mr. Bennet",
+      "Mr. Bennet"
+    ],
+    "12:6": [
+      "Mr. Bennet"
+    ],
+    "12:7": [
+      "Mrs. Bennet",
+      "Mrs. Bennet"
+    ],
+    "12:9": [
+      "Mr. Bennet",
+      "Mr. Bennet"
+    ],
+    "12:10": [
+      "Mrs. Bennet"
+    ],
+    "12:11": [
+      "Mr. Bennet"
+    ],
+    "12:14": [
+      "Mrs. Bennet"
+    ],
+    "12:17": [
+      "Mr. Bennet"
+    ],
+    "12:18": [
+      "Mr. Bennet",
+      "Mr. Bennet"
+    ],
+    "12:19": [
+      "Mr. Bennet"
+    ],
+    "12:20": [
+      "Jane Bennet",
+      "Jane Bennet"
+    ],
+    "12:22": [
+      "Mr. Bennet",
+      "Mr. Bennet"
+    ],
+    "12:23": [
+      "Jane Bennet"
+    ],
+    "12:24": [
+      "Mary Bennet",
+      "Mary Bennet"
+    ],
+    "12:27": [
+      "Jane Bennet"
+    ],
+    "12:28": [
+      "Mary Bennet"
+    ],
+    "12:29": [
+      "Jane Bennet"
+    ],
+    "12:30": [
+      "Mary Bennet"
+    ],
+    "13:2": [
+      "Mrs. Bennet",
+      "Mrs. Bennet"
+    ],
+    "13:3": [
+      "Mrs. Bennet"
+    ],
+    "13:4": [
+      "Mrs. Bennet"
+    ],
+    "13:5": [
+      "Mrs. Bennet"
+    ],
+    "13:6": [
+      "Mrs. Bennet",
+      "Mrs. Bennet"
+    ],
+    "13:7": [
+      "Mrs. Bennet"
+    ],
+    "13:8": [
+      "Mrs. Bennet"
+    ],
+    "13:9": [
+      "Mrs. Bennet"
+    ],
+    "13:10": [
+      "Mr. Bennet",
+      "Mr. Bennet"
+    ],
+    "13:11": [
+      "Mrs. Bennet"
+    ],
+    "13:14": [
+      "Mr. Bennet"
+    ],
+    "13:15": [
+      "Mrs. Bennet"
+    ],
+    "13:17": [
+      "Mr. Bennet"
+    ],
+    "14:3": [
+      "Mrs. Bennet"
+    ],
+    "14:14": [
+      "Kitty Bennet"
+    ],
+    "15:7": [
+      "William Collins",
+      "William Collins"
+    ],
+    "15:9": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "15:10": [
+      "George Wickham",
+      "George Wickham"
+    ],
+    "15:12": [
+      "Elizabeth Bennet"
+    ],
+    "15:13": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "15:14": [
+      "George Wickham",
+      "George Wickham"
+    ],
+    "15:15": [
+      "Elizabeth Bennet"
+    ],
+    "15:16": [
+      "George Wickham",
+      "George Wickham"
+    ],
+    "15:17": [
+      "Elizabeth Bennet"
+    ],
+    "15:19": [
+      "George Wickham",
+      "George Wickham"
+    ],
+    "15:20": [
+      "Elizabeth Bennet"
+    ],
+    "15:21": [
+      "George Wickham"
+    ],
+    "15:24": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "15:25": [
+      "George Wickham"
+    ],
+    "15:26": [
+      "Elizabeth Bennet"
+    ],
+    "15:27": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "15:28": [
+      "Elizabeth Bennet"
+    ],
+    "15:29": [
+      "Elizabeth Bennet"
+    ],
+    "15:30": [
+      "Elizabeth Bennet"
+    ],
+    "15:32": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "15:33": [
+      "Elizabeth Bennet"
+    ],
+    "15:34": [
+      "Elizabeth Bennet"
+    ],
+    "15:35": [
+      "Elizabeth Bennet"
+    ],
+    "15:36": [
+      "George Wickham",
+      "George Wickham"
+    ],
+    "15:37": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "15:38": [
+      "George Wickham"
+    ],
+    "15:39": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "15:40": [
+      "George Wickham",
+      "George Wickham"
+    ],
+    "15:41": [
+      "Elizabeth Bennet"
+    ],
+    "15:42": [
+      "George Wickham"
+    ],
+    "15:43": [
+      "Elizabeth Bennet"
+    ],
+    "15:44": [
+      "George Wickham"
+    ],
+    "15:46": [
+      "Elizabeth Bennet"
+    ],
+    "15:47": [
+      "George Wickham"
+    ],
+    "15:48": [
+      "Elizabeth Bennet"
+    ],
+    "15:49": [
+      "George Wickham"
+    ],
+    "15:51": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "15:53": [
+      "George Wickham",
+      "George Wickham"
+    ],
+    "15:54": [
+      "Elizabeth Bennet"
+    ],
+    "15:55": [
+      "George Wickham"
+    ],
+    "15:56": [
+      "Elizabeth Bennet"
+    ],
+    "15:58": [
+      "George Wickham",
+      "George Wickham"
+    ],
+    "15:59": [
+      "George Wickham",
+      "George Wickham"
+    ],
+    "16:1": [
+      "Jane Bennet",
+      "Jane Bennet"
+    ],
+    "16:2": [
+      "Elizabeth Bennet"
+    ],
+    "16:3": [
+      "Jane Bennet"
+    ],
+    "16:4": [
+      "Elizabeth Bennet"
+    ],
+    "16:5": [
+      "Jane Bennet"
+    ],
+    "16:6": [
+      "Elizabeth Bennet"
+    ],
+    "16:10": [
+      "Mary Bennet",
+      "Mary Bennet"
+    ],
+    "16:12": [
+      "William Collins",
+      "William Collins"
+    ],
+    "17:1": [
+      "George Wickham"
+    ],
+    "17:5": [
+      "Charlotte Lucas"
+    ],
+    "17:6": [
+      "Elizabeth Bennet"
+    ],
+    "17:8": [
+      "Elizabeth Bennet"
+    ],
+    "17:10": [
+      "Elizabeth Bennet"
+    ],
+    "17:11": [
+      "Fitzwilliam Darcy"
+    ],
+    "17:12": [
+      "Elizabeth Bennet"
+    ],
+    "17:13": [
+      "Fitzwilliam Darcy"
+    ],
+    "17:14": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "17:15": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "17:16": [
+      "Elizabeth Bennet"
+    ],
+    "17:17": [
+      "Elizabeth Bennet"
+    ],
+    "17:19": [
+      "Elizabeth Bennet"
+    ],
+    "17:20": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "17:22": [
+      "Elizabeth Bennet"
+    ],
+    "17:24": [
+      "Elizabeth Bennet"
+    ],
+    "17:25": [
+      "Elizabeth Bennet"
+    ],
+    "17:26": [
+      "Elizabeth Bennet"
+    ],
+    "17:27": [
+      "Elizabeth Bennet"
+    ],
+    "17:28": [
+      "Elizabeth Bennet"
+    ],
+    "17:29": [
+      "Elizabeth Bennet"
+    ],
+    "17:30": [
+      "Elizabeth Bennet"
+    ],
+    "17:31": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "17:32": [
+      "Elizabeth Bennet"
+    ],
+    "17:33": [
+      "Elizabeth Bennet"
+    ],
+    "17:34": [
+      "Elizabeth Bennet"
+    ],
+    "17:35": [
+      "Elizabeth Bennet"
+    ],
+    "17:36": [
+      "Elizabeth Bennet"
+    ],
+    "17:37": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "17:38": [
+      "Elizabeth Bennet"
+    ],
+    "17:39": [
+      "Elizabeth Bennet"
+    ],
+    "17:40": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "17:41": [
+      "Elizabeth Bennet"
+    ],
+    "17:42": [
+      "Elizabeth Bennet"
+    ],
+    "17:45": [
+      "Elizabeth Bennet"
+    ],
+    "17:46": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "17:47": [
+      "Caroline Bingley",
+      "Caroline Bingley"
+    ],
+    "17:48": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "17:49": [
+      "Caroline Bingley",
+      "Caroline Bingley"
+    ],
+    "17:50": [
+      "Jane Bennet",
+      "Jane Bennet"
+    ],
+    "17:51": [
+      "Caroline Bingley"
+    ],
+    "17:52": [
+      "Jane Bennet"
+    ],
+    "17:53": [
+      "Caroline Bingley"
+    ],
+    "17:54": [
+      "Jane Bennet"
+    ],
+    "17:55": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "17:57": [
+      "Jane Bennet",
+      "Jane Bennet"
+    ],
+    "17:58": [
+      "Elizabeth Bennet"
+    ],
+    "17:59": [
+      "Jane Bennet"
+    ],
+    "17:62": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet",
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "17:64": [
+      "Jane Bennet",
+      "Jane Bennet"
+    ],
+    "17:69": [
+      "Elizabeth Bennet"
+    ],
+    "17:70": [
+      "Jane Bennet"
+    ],
+    "17:74": [
+      "Elizabeth Bennet"
+    ],
+    "17:76": [
+      "William Collins"
+    ],
+    "17:77": [
+      "Elizabeth Bennet"
+    ],
+    "17:82": [
+      "William Collins"
+    ],
+    "18:1": [
+      "William Collins"
+    ],
+    "18:3": [
+      "Mrs. Bennet"
+    ],
+    "18:4": [
+      "Elizabeth Bennet"
+    ],
+    "18:5": [
+      "Mrs. Bennet",
+      "Mrs. Bennet"
+    ],
+    "18:7": [
+      "William Collins"
+    ],
+    "18:12": [
+      "William Collins"
+    ],
+    "18:14": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "18:15": [
+      "William Collins",
+      "William Collins"
+    ],
+    "18:16": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "18:17": [
+      "William Collins",
+      "William Collins"
+    ],
+    "18:18": [
+      "Elizabeth Bennet"
+    ],
+    "18:19": [
+      "William Collins"
+    ],
+    "18:20": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "18:21": [
+      "William Collins"
+    ],
+    "18:22": [
+      "Elizabeth Bennet"
+    ],
+    "18:23": [
+      "William Collins",
+      "William Collins"
+    ],
+    "19:2": [
+      "Mrs. Bennet",
+      "Mrs. Bennet"
+    ],
+    "19:3": [
+      "William Collins",
+      "William Collins"
+    ],
+    "19:4": [
+      "Mrs. Bennet",
+      "Mrs. Bennet"
+    ],
+    "19:6": [
+      "William Collins"
+    ],
+    "19:8": [
+      "Mrs. Bennet",
+      "Mrs. Bennet"
+    ],
+    "19:9": [
+      "William Collins"
+    ],
+    "19:10": [
+      "Mrs. Bennet"
+    ],
+    "19:11": [
+      "William Collins"
+    ],
+    "19:12": [
+      "Mrs. Bennet"
+    ],
+    "19:14": [
+      "Mr. Bennet",
+      "Mr. Bennet"
+    ],
+    "19:16": [
+      "Mrs. Bennet"
+    ],
+    "19:17": [
+      "Mr. Bennet"
+    ],
+    "19:18": [
+      "Mrs. Bennet"
+    ],
+    "19:19": [
+      "Mr. Bennet"
+    ],
+    "19:20": [
+      "Mrs. Bennet"
+    ],
+    "19:22": [
+      "Mr. Bennet"
+    ],
+    "19:23": [
+      "Mrs. Bennet",
+      "Mrs. Bennet"
+    ],
+    "19:26": [
+      "Mr. Bennet"
+    ],
+    "19:27": [
+      "Mrs. Bennet",
+      "Mrs. Bennet"
+    ],
+    "19:29": [
+      "Mrs. Bennet",
+      "Mrs. Bennet"
+    ],
+    "19:31": [
+      "Mrs. Bennet"
+    ],
+    "19:33": [
+      "Mrs. Bennet"
+    ],
+    "19:34": [
+      "Mrs. Bennet",
+      "Mrs. Bennet"
+    ],
+    "19:35": [
+      "Mrs. Bennet"
+    ],
+    "20:3": [
+      "George Wickham",
+      "George Wickham"
+    ],
+    "20:6": [
+      "Jane Bennet"
+    ],
+    "20:7": [
+      "Caroline Bingley"
+    ],
+    "20:9": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "20:12": [
+      "Jane Bennet",
+      "Jane Bennet"
+    ],
+    "20:13": [
+      "Jane Bennet"
+    ],
+    "20:15": [
+      "Jane Bennet",
+      "Jane Bennet"
+    ],
+    "20:16": [
+      "Jane Bennet"
+    ],
+    "20:17": [
+      "Jane Bennet"
+    ],
+    "20:18": [
+      "Jane Bennet"
+    ],
+    "20:20": [
+      "Jane Bennet"
+    ],
+    "20:21": [
+      "Jane Bennet",
+      "Jane Bennet"
+    ],
+    "20:22": [
+      "Jane Bennet"
+    ],
+    "20:23": [
+      "Jane Bennet"
+    ],
+    "20:24": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "20:25": [
+      "Jane Bennet",
+      "Jane Bennet"
+    ],
+    "20:26": [
+      "Elizabeth Bennet"
+    ],
+    "20:27": [
+      "Jane Bennet"
+    ],
+    "21:0": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "21:9": [
+      "William Collins",
+      "William Collins"
+    ],
+    "21:11": [
+      "Mr. Bennet"
+    ],
+    "21:12": [
+      "William Collins",
+      "William Collins"
+    ],
+    "21:13": [
+      "William Collins"
+    ],
+    "21:14": [
+      "William Collins"
+    ],
+    "21:17": [
+      "William Collins"
+    ],
+    "21:19": [
+      "William Collins"
+    ],
+    "21:21": [
+      "Charlotte Lucas",
+      "Charlotte Lucas"
+    ],
+    "21:22": [
+      "William Collins"
+    ],
+    "22:1": [
+      "Lydia Bennet"
+    ],
+    "22:18": [
+      "Mrs. Bennet",
+      "Mrs. Bennet"
+    ],
+    "22:19": [
+      "Mr. Bennet"
+    ],
+    "22:21": [
+      "Mrs. Bennet"
+    ],
+    "22:22": [
+      "Mr. Bennet"
+    ],
+    "22:23": [
+      "Mrs. Bennet"
+    ],
+    "22:24": [
+      "Mr. Bennet"
+    ],
+    "22:25": [
+      "Mrs. Bennet"
+    ],
+    "22:26": [
+      "Mr. Bennet"
+    ],
+    "23:5": [
+      "Jane Bennet"
+    ],
+    "23:7": [
+      "Jane Bennet",
+      "Jane Bennet"
+    ],
+    "23:8": [
+      "Jane Bennet"
+    ],
+    "23:9": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "23:11": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "23:12": [
+      "Elizabeth Bennet"
+    ],
+    "23:13": [
+      "Elizabeth Bennet"
+    ],
+    "23:14": [
+      "Jane Bennet",
+      "Jane Bennet"
+    ],
+    "23:15": [
+      "Elizabeth Bennet"
+    ],
+    "23:16": [
+      "Jane Bennet"
+    ],
+    "23:17": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "23:18": [
+      "Jane Bennet"
+    ],
+    "23:19": [
+      "Elizabeth Bennet"
+    ],
+    "23:20": [
+      "Jane Bennet"
+    ],
+    "23:21": [
+      "Elizabeth Bennet"
+    ],
+    "23:22": [
+      "Jane Bennet"
+    ],
+    "23:23": [
+      "Elizabeth Bennet"
+    ],
+    "23:24": [
+      "Jane Bennet",
+      "Jane Bennet"
+    ],
+    "23:27": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "23:28": [
+      "Jane Bennet"
+    ],
+    "23:29": [
+      "Mr. Bennet",
+      "Mr. Bennet"
+    ],
+    "24:3": [
+      "Mrs. Bennet",
+      "Mrs. Bennet"
+    ],
+    "24:5": [
+      "Mrs. Gardiner",
+      "Mrs. Gardiner"
+    ],
+    "24:6": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "24:7": [
+      "Elizabeth Bennet"
+    ],
+    "24:8": [
+      "Elizabeth Bennet"
+    ],
+    "24:9": [
+      "Elizabeth Bennet"
+    ],
+    "24:11": [
+      "Mrs. Gardiner",
+      "Mrs. Gardiner"
+    ],
+    "24:12": [
+      "Elizabeth Bennet"
+    ],
+    "24:13": [
+      "Mrs. Gardiner"
+    ],
+    "24:14": [
+      "Elizabeth Bennet"
+    ],
+    "25:1": [
+      "Mrs. Gardiner"
+    ],
+    "25:2": [
+      "Elizabeth Bennet"
+    ],
+    "25:3": [
+      "Mrs. Gardiner"
+    ],
+    "25:4": [
+      "Elizabeth Bennet"
+    ],
+    "25:5": [
+      "Mrs. Gardiner"
+    ],
+    "25:7": [
+      "Elizabeth Bennet"
+    ],
+    "25:8": [
+      "Mrs. Gardiner"
+    ],
+    "25:9": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "25:11": [
+      "Elizabeth Bennet"
+    ],
+    "25:12": [
+      "Elizabeth Bennet"
+    ],
+    "25:13": [
+      "Elizabeth Bennet"
+    ],
+    "25:14": [
+      "Elizabeth Bennet"
+    ],
+    "25:15": [
+      "Elizabeth Bennet"
+    ],
+    "25:16": [
+      "Elizabeth Bennet"
+    ],
+    "25:18": [
+      "Charlotte Lucas",
+      "Charlotte Lucas"
+    ],
+    "25:23": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "25:24": [
+      "Charlotte Lucas",
+      "Charlotte Lucas"
+    ],
+    "25:30": [
+      "Elizabeth Bennet"
+    ],
+    "25:35": [
+      "Charlotte Lucas"
+    ],
+    "26:8": [
+      "Mrs. Gardiner",
+      "Mrs. Gardiner"
+    ],
+    "26:9": [
+      "Elizabeth Bennet"
+    ],
+    "26:10": [
+      "Mrs. Gardiner"
+    ],
+    "26:11": [
+      "Elizabeth Bennet"
+    ],
+    "26:12": [
+      "Mrs. Gardiner"
+    ],
+    "26:13": [
+      "Elizabeth Bennet"
+    ],
+    "26:14": [
+      "Mrs. Gardiner"
+    ],
+    "26:15": [
+      "Elizabeth Bennet"
+    ],
+    "26:16": [
+      "Mrs. Gardiner"
+    ],
+    "26:17": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "26:18": [
+      "Elizabeth Bennet"
+    ],
+    "26:19": [
+      "Elizabeth Bennet"
+    ],
+    "26:20": [
+      "Elizabeth Bennet"
+    ],
+    "26:22": [
+      "Mrs. Gardiner",
+      "Mrs. Gardiner"
+    ],
+    "26:23": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "27:9": [
+      "William Collins"
+    ],
+    "27:10": [
+      "Charlotte Lucas",
+      "Charlotte Lucas"
+    ],
+    "27:11": [
+      "Charlotte Lucas"
+    ],
+    "27:14": [
+      "Charlotte Lucas"
+    ],
+    "27:16": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "27:17": [
+      "Maria Lucas",
+      "Maria Lucas"
+    ],
+    "27:18": [
+      "Elizabeth Bennet"
+    ],
+    "27:19": [
+      "Maria Lucas"
+    ],
+    "27:20": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "28:1": [
+      "William Collins",
+      "William Collins"
+    ],
+    "28:2": [
+      null,
+      null
+    ],
+    "28:5": [
+      "William Collins"
+    ],
+    "28:17": [
+      "Lady Catherine de Bourgh",
+      "Lady Catherine de Bourgh"
+    ],
+    "28:18": [
+      "Elizabeth Bennet"
+    ],
+    "28:19": [
+      "Lady Catherine de Bourgh"
+    ],
+    "28:20": [
+      "Elizabeth Bennet"
+    ],
+    "28:21": [
+      "Lady Catherine de Bourgh"
+    ],
+    "28:22": [
+      "Elizabeth Bennet"
+    ],
+    "28:23": [
+      "Lady Catherine de Bourgh"
+    ],
+    "28:24": [
+      "Elizabeth Bennet"
+    ],
+    "28:25": [
+      "Lady Catherine de Bourgh"
+    ],
+    "28:26": [
+      "Elizabeth Bennet"
+    ],
+    "28:27": [
+      "Lady Catherine de Bourgh"
+    ],
+    "28:28": [
+      "Elizabeth Bennet"
+    ],
+    "28:29": [
+      "Lady Catherine de Bourgh"
+    ],
+    "28:31": [
+      "Lady Catherine de Bourgh"
+    ],
+    "28:32": [
+      "Elizabeth Bennet"
+    ],
+    "28:33": [
+      "Lady Catherine de Bourgh"
+    ],
+    "28:34": [
+      "Elizabeth Bennet"
+    ],
+    "28:35": [
+      "Lady Catherine de Bourgh"
+    ],
+    "28:36": [
+      "Elizabeth Bennet"
+    ],
+    "28:37": [
+      "Lady Catherine de Bourgh",
+      "Lady Catherine de Bourgh"
+    ],
+    "28:38": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "28:40": [
+      "Elizabeth Bennet"
+    ],
+    "28:41": [
+      "Elizabeth Bennet"
+    ],
+    "29:9": [
+      "Charlotte Lucas"
+    ],
+    "29:12": [
+      "Elizabeth Bennet"
+    ],
+    "30:3": [
+      "Lady Catherine de Bourgh"
+    ],
+    "30:4": [
+      "Colonel Fitzwilliam"
+    ],
+    "30:5": [
+      "Lady Catherine de Bourgh"
+    ],
+    "30:7": [
+      "Lady Catherine de Bourgh",
+      "Lady Catherine de Bourgh"
+    ],
+    "30:8": [
+      "Lady Catherine de Bourgh",
+      "Lady Catherine de Bourgh"
+    ],
+    "30:9": [
+      "Lady Catherine de Bourgh"
+    ],
+    "30:12": [
+      "Lady Catherine de Bourgh"
+    ],
+    "30:13": [
+      "Lady Catherine de Bourgh",
+      "Lady Catherine de Bourgh"
+    ],
+    "30:14": [
+      "Lady Catherine de Bourgh"
+    ],
+    "30:15": [
+      "Lady Catherine de Bourgh"
+    ],
+    "30:16": [
+      "Colonel Fitzwilliam",
+      "Colonel Fitzwilliam"
+    ],
+    "30:17": [
+      "Lady Catherine de Bourgh"
+    ],
+    "30:18": [
+      "Colonel Fitzwilliam"
+    ],
+    "30:19": [
+      "Lady Catherine de Bourgh"
+    ],
+    "30:20": [
+      "Fitzwilliam Darcy",
+      "Fitzwilliam Darcy"
+    ],
+    "30:21": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "30:22": [
+      "Colonel Fitzwilliam",
+      "Colonel Fitzwilliam"
+    ],
+    "30:23": [
+      "Fitzwilliam Darcy",
+      "Fitzwilliam Darcy"
+    ],
+    "30:24": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "30:25": [
+      "Fitzwilliam Darcy"
+    ],
+    "30:27": [
+      "Elizabeth Bennet"
+    ],
+    "31:3": [
+      "Elizabeth Bennet"
+    ],
+    "31:4": [
+      "Fitzwilliam Darcy"
+    ],
+    "31:6": [
+      "Elizabeth Bennet"
+    ],
+    "31:7": [
+      "Fitzwilliam Darcy"
+    ],
+    "31:8": [
+      "Elizabeth Bennet"
+    ],
+    "31:9": [
+      "Fitzwilliam Darcy",
+      "Fitzwilliam Darcy"
+    ],
+    "31:11": [
+      "Fitzwilliam Darcy"
+    ],
+    "31:12": [
+      "Fitzwilliam Darcy"
+    ],
+    "31:13": [
+      "Fitzwilliam Darcy"
+    ],
+    "31:14": [
+      "Fitzwilliam Darcy"
+    ],
+    "31:15": [
+      "Fitzwilliam Darcy"
+    ],
+    "31:16": [
+      "Fitzwilliam Darcy"
+    ],
+    "31:17": [
+      "Fitzwilliam Darcy"
+    ],
+    "31:18": [
+      "Elizabeth Bennet",
+      "Charlotte Lucas"
+    ],
+    "31:19": [
+      "Fitzwilliam Darcy"
+    ],
+    "31:21": [
+      "Charlotte Lucas"
+    ],
+    "31:22": [
+      "Fitzwilliam Darcy"
+    ],
+    "31:24": [
+      "Charlotte Lucas"
+    ],
+    "31:26": [
+      "Charlotte Lucas",
+      "Charlotte Lucas"
+    ],
+    "32:3": [
+      "Elizabeth Bennet"
+    ],
+    "32:4": [
+      "Colonel Fitzwilliam",
+      "Colonel Fitzwilliam"
+    ],
+    "32:5": [
+      "Elizabeth Bennet"
+    ],
+    "32:7": [
+      "Elizabeth Bennet"
+    ],
+    "32:8": [
+      "Colonel Fitzwilliam"
+    ],
+    "32:9": [
+      "Elizabeth Bennet"
+    ],
+    "32:10": [
+      "Colonel Fitzwilliam",
+      "Colonel Fitzwilliam"
+    ],
+    "32:11": [
+      "Colonel Fitzwilliam"
+    ],
+    "32:12": [
+      "Colonel Fitzwilliam"
+    ],
+    "32:13": [
+      "Colonel Fitzwilliam"
+    ],
+    "32:14": [
+      "Colonel Fitzwilliam"
+    ],
+    "32:15": [
+      "Colonel Fitzwilliam",
+      "Colonel Fitzwilliam",
+      "Colonel Fitzwilliam"
+    ],
+    "32:17": [
+      "Colonel Fitzwilliam"
+    ],
+    "32:18": [
+      "Colonel Fitzwilliam",
+      "Colonel Fitzwilliam"
+    ],
+    "32:19": [
+      "Colonel Fitzwilliam"
+    ],
+    "32:21": [
+      "Colonel Fitzwilliam"
+    ],
+    "32:22": [
+      "Colonel Fitzwilliam"
+    ],
+    "32:23": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "32:24": [
+      "Colonel Fitzwilliam"
+    ],
+    "32:25": [
+      "Elizabeth Bennet"
+    ],
+    "32:26": [
+      "Colonel Fitzwilliam"
+    ],
+    "32:27": [
+      "Elizabeth Bennet"
+    ],
+    "32:28": [
+      "Colonel Fitzwilliam"
+    ],
+    "32:29": [
+      "Elizabeth Bennet"
+    ],
+    "32:30": [
+      "Colonel Fitzwilliam"
+    ],
+    "32:31": [
+      "Elizabeth Bennet"
+    ],
+    "32:32": [
+      "Colonel Fitzwilliam",
+      "Colonel Fitzwilliam"
+    ],
+    "32:34": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "32:35": [
+      "Colonel Fitzwilliam"
+    ],
+    "32:36": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "32:37": [
+      "Colonel Fitzwilliam",
+      "Colonel Fitzwilliam"
+    ],
+    "32:40": [
+      "Elizabeth Bennet"
+    ],
+    "32:41": [
+      "Colonel Fitzwilliam",
+      "Colonel Fitzwilliam"
+    ],
+    "33:4": [
+      "Fitzwilliam Darcy"
+    ],
+    "33:7": [
+      "Elizabeth Bennet"
+    ],
+    "33:9": [
+      "Fitzwilliam Darcy"
+    ],
+    "33:10": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "33:12": [
+      "Elizabeth Bennet"
+    ],
+    "33:14": [
+      "Elizabeth Bennet"
+    ],
+    "33:15": [
+      "Fitzwilliam Darcy"
+    ],
+    "33:17": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "33:18": [
+      "Fitzwilliam Darcy"
+    ],
+    "33:19": [
+      "Fitzwilliam Darcy"
+    ],
+    "33:20": [
+      "Fitzwilliam Darcy",
+      "Fitzwilliam Darcy"
+    ],
+    "33:21": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "33:22": [
+      "Fitzwilliam Darcy",
+      "Fitzwilliam Darcy"
+    ],
+    "33:23": [
+      "Elizabeth Bennet"
+    ],
+    "33:25": [
+      "Fitzwilliam Darcy"
+    ],
+    "33:27": [
+      "Elizabeth Bennet"
+    ],
+    "33:29": [
+      "Fitzwilliam Darcy"
+    ],
+    "33:30": [
+      "Elizabeth Bennet"
+    ],
+    "34:2": [
+      "Fitzwilliam Darcy"
+    ],
+    "34:21": [
+      "Fitzwilliam Darcy"
+    ],
+    "35:2": [
+      "Elizabeth Bennet"
+    ],
+    "35:14": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "36:1": [
+      "Elizabeth Bennet"
+    ],
+    "36:2": [
+      "Lady Catherine de Bourgh",
+      "Lady Catherine de Bourgh"
+    ],
+    "36:5": [
+      "Lady Catherine de Bourgh"
+    ],
+    "36:6": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "36:7": [
+      "Lady Catherine de Bourgh"
+    ],
+    "36:8": [
+      "Elizabeth Bennet"
+    ],
+    "36:9": [
+      "Lady Catherine de Bourgh"
+    ],
+    "36:10": [
+      "Elizabeth Bennet"
+    ],
+    "36:11": [
+      "Lady Catherine de Bourgh"
+    ],
+    "36:12": [
+      "Elizabeth Bennet"
+    ],
+    "36:13": [
+      "Lady Catherine de Bourgh"
+    ],
+    "37:1": [
+      "William Collins",
+      "William Collins"
+    ],
+    "37:3": [
+      "William Collins"
+    ],
+    "37:5": [
+      "William Collins"
+    ],
+    "37:8": [
+      "William Collins",
+      "William Collins"
+    ],
+    "37:10": [
+      "Maria Lucas",
+      "Maria Lucas"
+    ],
+    "37:11": [
+      "Maria Lucas"
+    ],
+    "37:12": [
+      "Maria Lucas"
+    ],
+    "37:13": [
+      "Maria Lucas"
+    ],
+    "38:1": [
+      "Lydia Bennet"
+    ],
+    "38:2": [
+      "Lydia Bennet",
+      "Lydia Bennet",
+      "Lydia Bennet"
+    ],
+    "38:3": [
+      "Lydia Bennet"
+    ],
+    "38:4": [
+      "Elizabeth Bennet"
+    ],
+    "38:5": [
+      "Lydia Bennet"
+    ],
+    "38:6": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "38:7": [
+      "Lydia Bennet",
+      "Lydia Bennet"
+    ],
+    "38:9": [
+      "Elizabeth Bennet"
+    ],
+    "38:10": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "38:11": [
+      "Elizabeth Bennet"
+    ],
+    "38:12": [
+      "Jane Bennet"
+    ],
+    "38:13": [
+      "Elizabeth Bennet"
+    ],
+    "38:16": [
+      "Lydia Bennet"
+    ],
+    "38:17": [
+      "Elizabeth Bennet"
+    ],
+    "38:20": [
+      "Lydia Bennet"
+    ],
+    "38:22": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "38:23": [
+      "Lydia Bennet"
+    ],
+    "39:2": [
+      "Jane Bennet",
+      "Jane Bennet"
+    ],
+    "39:3": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "39:4": [
+      "Elizabeth Bennet"
+    ],
+    "39:5": [
+      "Elizabeth Bennet"
+    ],
+    "39:6": [
+      "Elizabeth Bennet"
+    ],
+    "39:7": [
+      "Elizabeth Bennet"
+    ],
+    "39:9": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "39:11": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "39:12": [
+      "Elizabeth Bennet"
+    ],
+    "39:13": [
+      "Elizabeth Bennet"
+    ],
+    "39:14": [
+      "Elizabeth Bennet"
+    ],
+    "39:15": [
+      "Elizabeth Bennet"
+    ],
+    "39:16": [
+      "Elizabeth Bennet"
+    ],
+    "39:17": [
+      "Elizabeth Bennet"
+    ],
+    "39:18": [
+      "Elizabeth Bennet"
+    ],
+    "39:19": [
+      "Elizabeth Bennet"
+    ],
+    "39:20": [
+      "Elizabeth Bennet"
+    ],
+    "39:21": [
+      "Elizabeth Bennet"
+    ],
+    "39:22": [
+      "Elizabeth Bennet"
+    ],
+    "39:23": [
+      "Elizabeth Bennet"
+    ],
+    "39:24": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "39:26": [
+      "Mrs. Bennet",
+      "Mrs. Bennet"
+    ],
+    "39:27": [
+      "Elizabeth Bennet"
+    ],
+    "39:28": [
+      "Mrs. Bennet"
+    ],
+    "39:30": [
+      "Mrs. Bennet",
+      "Mrs. Bennet"
+    ],
+    "39:31": [
+      "Mrs. Bennet"
+    ],
+    "39:32": [
+      "Mrs. Bennet"
+    ],
+    "39:33": [
+      "Mrs. Bennet"
+    ],
+    "39:34": [
+      "Mrs. Bennet"
+    ],
+    "40:1": [
+      "Lydia Bennet",
+      "Lydia Bennet"
+    ],
+    "40:3": [
+      "Mrs. Bennet",
+      "Mrs. Bennet"
+    ],
+    "40:4": [
+      "Lydia Bennet"
+    ],
+    "40:5": [
+      "Lydia Bennet"
+    ],
+    "40:6": [
+      "Lydia Bennet"
+    ],
+    "40:7": [
+      "Lydia Bennet"
+    ],
+    "40:8": [
+      "Kitty Bennet"
+    ],
+    "40:12": [
+      "Lydia Bennet",
+      "Lydia Bennet"
+    ],
+    "40:14": [
+      "Kitty Bennet"
+    ],
+    "40:15": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "40:16": [
+      "Kitty Bennet",
+      "Kitty Bennet"
+    ],
+    "40:18": [
+      "Elizabeth Bennet"
+    ],
+    "40:20": [
+      "Kitty Bennet"
+    ],
+    "40:27": [
+      "Elizabeth Bennet"
+    ],
+    "40:28": [
+      "Kitty Bennet"
+    ],
+    "40:29": [
+      "Elizabeth Bennet"
+    ],
+    "40:30": [
+      "Kitty Bennet"
+    ],
+    "40:31": [
+      "Elizabeth Bennet"
+    ],
+    "40:32": [
+      "Kitty Bennet"
+    ],
+    "40:33": [
+      "George Wickham",
+      "George Wickham",
+      "George Wickham",
+      "George Wickham"
+    ],
+    "40:34": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "40:36": [
+      "George Wickham"
+    ],
+    "40:38": [
+      "Elizabeth Bennet"
+    ],
+    "41:5": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "41:11": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "41:15": [
+      "Mrs. Gardiner",
+      "Mrs. Gardiner"
+    ],
+    "41:17": [
+      "Mrs. Gardiner",
+      "Mrs. Gardiner"
+    ],
+    "42:6": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "42:8": [
+      null
+    ],
+    "42:9": [
+      null,
+      null
+    ],
+    "42:11": [
+      null,
+      null
+    ],
+    "42:12": [
+      "Mrs. Gardiner",
+      "Mrs. Gardiner"
+    ],
+    "42:14": [
+      "Mrs. Gardiner"
+    ],
+    "42:15": [
+      "Mrs. Gardiner"
+    ],
+    "42:16": [
+      "Mrs. Gardiner"
+    ],
+    "42:17": [
+      "Mrs. Gardiner"
+    ],
+    "42:18": [
+      "Mrs. Gardiner"
+    ],
+    "42:21": [
+      "Mr. Gardiner"
+    ],
+    "42:22": [
+      "Mrs. Gardiner"
+    ],
+    "42:24": [
+      "Mr. Gardiner"
+    ],
+    "42:25": [
+      "Mrs. Gardiner"
+    ],
+    "42:26": [
+      "Mr. Gardiner",
+      "Mr. Gardiner"
+    ],
+    "42:27": [
+      "Mrs. Gardiner"
+    ],
+    "42:28": [
+      "Mr. Gardiner"
+    ],
+    "42:29": [
+      "Mrs. Gardiner"
+    ],
+    "42:30": [
+      "Mr. Gardiner",
+      "Mr. Gardiner"
+    ],
+    "42:32": [
+      "Mrs. Gardiner"
+    ],
+    "42:33": [
+      "Mr. Gardiner"
+    ],
+    "42:34": [
+      "Mrs. Gardiner"
+    ],
+    "42:35": [
+      "Mrs. Gardiner"
+    ],
+    "42:36": [
+      "Mrs. Gardiner"
+    ],
+    "42:38": [
+      "Mrs. Gardiner",
+      "Mrs. Gardiner"
+    ],
+    "42:39": [
+      "Mrs. Gardiner"
+    ],
+    "42:40": [
+      "Mrs. Gardiner",
+      "Mrs. Gardiner"
+    ],
+    "42:41": [
+      "Mrs. Gardiner"
+    ],
+    "42:42": [
+      "Mrs. Gardiner"
+    ],
+    "42:44": [
+      "Elizabeth Bennet"
+    ],
+    "42:45": [
+      "Mrs. Gardiner",
+      "Mrs. Gardiner"
+    ],
+    "42:61": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "42:62": [
+      "Mrs. Gardiner",
+      "Mrs. Gardiner"
+    ],
+    "42:64": [
+      "Elizabeth Bennet"
+    ],
+    "42:65": [
+      "Mrs. Gardiner",
+      "Mrs. Gardiner"
+    ],
+    "42:66": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "42:68": [
+      "Mrs. Gardiner",
+      "Mrs. Gardiner"
+    ],
+    "42:74": [
+      "Elizabeth Bennet"
+    ],
+    "42:75": [
+      "Mrs. Gardiner",
+      "Mrs. Gardiner"
+    ],
+    "42:76": [
+      "Elizabeth Bennet"
+    ],
+    "42:77": [
+      "Mrs. Gardiner",
+      "Mrs. Gardiner"
+    ],
+    "42:79": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "42:81": [
+      "Mrs. Gardiner",
+      "Mrs. Gardiner"
+    ],
+    "43:9": [
+      "Charles Bingley",
+      "Charles Bingley"
+    ],
+    "44:9": [
+      "Caroline Bingley"
+    ],
+    "44:14": [
+      "Caroline Bingley",
+      "Caroline Bingley"
+    ],
+    "44:16": [
+      "Caroline Bingley",
+      "Caroline Bingley"
+    ],
+    "44:18": [
+      "Caroline Bingley"
+    ],
+    "44:19": [
+      "Fitzwilliam Darcy",
+      "Fitzwilliam Darcy"
+    ],
+    "45:3": [
+      "Jane Bennet"
+    ],
+    "45:8": [
+      "Jane Bennet"
+    ],
+    "45:9": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "45:10": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "45:12": [
+      "Elizabeth Bennet"
+    ],
+    "45:13": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "45:15": [
+      "Elizabeth Bennet"
+    ],
+    "45:17": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "45:18": [
+      "Fitzwilliam Darcy",
+      "Fitzwilliam Darcy"
+    ],
+    "45:19": [
+      "Elizabeth Bennet"
+    ],
+    "45:20": [
+      "Fitzwilliam Darcy"
+    ],
+    "45:21": [
+      "Elizabeth Bennet"
+    ],
+    "45:23": [
+      "Fitzwilliam Darcy"
+    ],
+    "45:26": [
+      "Elizabeth Bennet"
+    ],
+    "45:27": [
+      "Fitzwilliam Darcy"
+    ],
+    "45:34": [
+      "Mrs. Gardiner",
+      "Mrs. Gardiner"
+    ],
+    "45:35": [
+      "Fitzwilliam Darcy"
+    ],
+    "45:36": [
+      "Mrs. Gardiner",
+      "Mrs. Gardiner"
+    ],
+    "46:0": [
+      "Mr. Gardiner",
+      "Mr. Gardiner"
+    ],
+    "46:1": [
+      "Elizabeth Bennet"
+    ],
+    "46:2": [
+      "Mrs. Gardiner",
+      "Mrs. Gardiner"
+    ],
+    "46:3": [
+      "Elizabeth Bennet"
+    ],
+    "46:4": [
+      "Mr. Gardiner",
+      "Mr. Gardiner"
+    ],
+    "46:5": [
+      "Elizabeth Bennet"
+    ],
+    "46:6": [
+      "Mr. Gardiner"
+    ],
+    "46:8": [
+      "Elizabeth Bennet"
+    ],
+    "46:9": [
+      "Mr. Gardiner"
+    ],
+    "46:10": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "46:11": [
+      "Mr. Gardiner",
+      "Mr. Gardiner"
+    ],
+    "46:12": [
+      "Elizabeth Bennet"
+    ],
+    "46:13": [
+      "Mrs. Gardiner"
+    ],
+    "46:14": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "46:15": [
+      "Mrs. Gardiner"
+    ],
+    "46:16": [
+      "Elizabeth Bennet"
+    ],
+    "46:17": [
+      "Mrs. Gardiner"
+    ],
+    "46:18": [
+      "Elizabeth Bennet"
+    ],
+    "46:24": [
+      "Jane Bennet",
+      "Jane Bennet"
+    ],
+    "46:25": [
+      "Elizabeth Bennet"
+    ],
+    "46:26": [
+      "Jane Bennet"
+    ],
+    "46:27": [
+      "Elizabeth Bennet"
+    ],
+    "46:28": [
+      "Jane Bennet"
+    ],
+    "46:29": [
+      "Elizabeth Bennet"
+    ],
+    "46:30": [
+      "Jane Bennet"
+    ],
+    "46:31": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "46:35": [
+      "Jane Bennet",
+      "Jane Bennet"
+    ],
+    "46:37": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "46:38": [
+      "Mrs. Bennet",
+      "Mrs. Bennet"
+    ],
+    "46:42": [
+      "Elizabeth Bennet"
+    ],
+    "46:43": [
+      "Mrs. Bennet"
+    ],
+    "46:45": [
+      "Elizabeth Bennet"
+    ],
+    "46:46": [
+      "Mrs. Bennet"
+    ],
+    "46:47": [
+      "Elizabeth Bennet"
+    ],
+    "46:48": [
+      "Mrs. Bennet"
+    ],
+    "46:49": [
+      "Elizabeth Bennet"
+    ],
+    "46:50": [
+      "Mrs. Bennet"
+    ],
+    "46:51": [
+      "Elizabeth Bennet"
+    ],
+    "46:52": [
+      "Mrs. Bennet"
+    ],
+    "46:53": [
+      "Elizabeth Bennet"
+    ],
+    "46:54": [
+      "Mrs. Bennet"
+    ],
+    "46:55": [
+      "Elizabeth Bennet"
+    ],
+    "46:56": [
+      "Mrs. Bennet"
+    ],
+    "46:57": [
+      "Elizabeth Bennet"
+    ],
+    "46:58": [
+      "Mrs. Bennet"
+    ],
+    "46:59": [
+      "Elizabeth Bennet"
+    ],
+    "46:60": [
+      "Mrs. Bennet"
+    ],
+    "46:65": [
+      "Elizabeth Bennet"
+    ],
+    "46:66": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "46:67": [
+      "Elizabeth Bennet"
+    ],
+    "46:68": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "46:69": [
+      "Elizabeth Bennet"
+    ],
+    "46:70": [
+      "Elizabeth Bennet"
+    ],
+    "46:71": [
+      "Elizabeth Bennet"
+    ],
+    "46:72": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "46:74": [
+      "Jane Bennet",
+      "Jane Bennet"
+    ],
+    "47:5": [
+      "Mr. Gardiner"
+    ],
+    "47:14": [
+      "William Collins"
+    ],
+    "47:16": [
+      "Jane Bennet",
+      "Jane Bennet"
+    ],
+    "47:18": [
+      "Mrs. Bennet",
+      "Mrs. Bennet"
+    ],
+    "47:23": [
+      "Mr. Bennet"
+    ],
+    "47:24": [
+      "Elizabeth Bennet"
+    ],
+    "47:25": [
+      "Elizabeth Bennet"
+    ],
+    "47:26": [
+      "Elizabeth Bennet"
+    ],
+    "47:27": [
+      "Elizabeth Bennet"
+    ],
+    "47:28": [
+      "Kitty Bennet"
+    ],
+    "47:29": [
+      "Mr. Bennet",
+      "Mr. Bennet"
+    ],
+    "47:30": [
+      "Kitty Bennet"
+    ],
+    "47:32": [
+      "Mr. Bennet",
+      "Mr. Bennet"
+    ],
+    "47:33": [
+      "Kitty Bennet",
+      "Kitty Bennet"
+    ],
+    "47:34": [
+      "Mr. Bennet"
+    ],
+    "47:36": [
+      "Kitty Bennet",
+      "Kitty Bennet"
+    ],
+    "48:0": [
+      null
+    ],
+    "48:1": [
+      "Elizabeth Bennet"
+    ],
+    "48:2": [
+      null,
+      null
+    ],
+    "48:4": [
+      null
+    ],
+    "48:7": [
+      "Elizabeth Bennet"
+    ],
+    "48:8": [
+      "Mr. Bennet"
+    ],
+    "48:9": [
+      "Elizabeth Bennet"
+    ],
+    "48:10": [
+      "Mr. Bennet",
+      null
+    ],
+    "48:12": [
+      "Mr. Bennet",
+      null
+    ],
+    "48:15": [
+      "Mr. Gardiner"
+    ],
+    "48:16": [
+      "Jane Bennet",
+      "Jane Bennet"
+    ],
+    "48:19": [
+      "Jane Bennet"
+    ],
+    "48:20": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "48:21": [
+      "Jane Bennet",
+      "Jane Bennet"
+    ],
+    "48:22": [
+      "Elizabeth Bennet"
+    ],
+    "48:23": [
+      "Jane Bennet"
+    ],
+    "48:25": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "48:26": [
+      "Jane Bennet",
+      "Jane Bennet"
+    ],
+    "48:27": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "48:29": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "48:30": [
+      "Elizabeth Bennet"
+    ],
+    "48:31": [
+      "Elizabeth Bennet"
+    ],
+    "48:32": [
+      "Elizabeth Bennet"
+    ],
+    "48:33": [
+      "Jane Bennet",
+      "Jane Bennet"
+    ],
+    "48:34": [
+      "Elizabeth Bennet"
+    ],
+    "48:35": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "48:36": [
+      "Mr. Bennet",
+      "Mr. Bennet"
+    ],
+    "48:37": [
+      "Elizabeth Bennet"
+    ],
+    "48:39": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "48:40": [
+      "Jane Bennet",
+      "Jane Bennet"
+    ],
+    "48:41": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "48:42": [
+      "Jane Bennet",
+      "Jane Bennet"
+    ],
+    "48:43": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "48:45": [
+      "Jane Bennet"
+    ],
+    "48:46": [
+      "Elizabeth Bennet"
+    ],
+    "48:47": [
+      "Jane Bennet"
+    ],
+    "48:49": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "48:51": [
+      "Jane Bennet",
+      "Jane Bennet"
+    ],
+    "48:52": [
+      "Mrs. Bennet",
+      "Mrs. Bennet"
+    ],
+    "48:54": [
+      "Jane Bennet",
+      "Jane Bennet"
+    ],
+    "49:8": [
+      "Mrs. Bennet",
+      "Mrs. Bennet"
+    ],
+    "49:9": [
+      "Mr. Bennet"
+    ],
+    "49:19": [
+      "Mr. Gardiner"
+    ],
+    "49:21": [
+      "Mr. Gardiner"
+    ],
+    "49:23": [
+      "Mrs. Bennet",
+      "Mrs. Bennet"
+    ],
+    "50:7": [
+      "Lydia Bennet",
+      "Lydia Bennet"
+    ],
+    "50:9": [
+      "Lydia Bennet"
+    ],
+    "50:11": [
+      "Lydia Bennet"
+    ],
+    "50:12": [
+      "Lydia Bennet"
+    ],
+    "50:13": [
+      "Lydia Bennet",
+      "Lydia Bennet"
+    ],
+    "50:14": [
+      "Mrs. Bennet"
+    ],
+    "50:15": [
+      "Lydia Bennet"
+    ],
+    "50:16": [
+      "Mrs. Bennet"
+    ],
+    "50:17": [
+      "Mrs. Bennet"
+    ],
+    "50:18": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "50:24": [
+      "Mrs. Bennet"
+    ],
+    "50:25": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "50:29": [
+      "Mrs. Bennet"
+    ],
+    "50:30": [
+      "Elizabeth Bennet"
+    ],
+    "50:31": [
+      "Mrs. Bennet"
+    ],
+    "50:32": [
+      "Jane Bennet",
+      "Jane Bennet"
+    ],
+    "50:33": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "50:34": [
+      "Lydia Bennet",
+      "Lydia Bennet"
+    ],
+    "50:37": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "50:38": [
+      "Lydia Bennet",
+      "Lydia Bennet"
+    ],
+    "51:14": [
+      "Mrs. Gardiner"
+    ],
+    "51:19": [
+      "George Wickham"
+    ],
+    "51:20": [
+      "Elizabeth Bennet",
+      null
+    ],
+    "51:21": [
+      "George Wickham"
+    ],
+    "51:22": [
+      "Elizabeth Bennet"
+    ],
+    "51:23": [
+      "George Wickham"
+    ],
+    "51:25": [
+      "George Wickham"
+    ],
+    "51:26": [
+      "Elizabeth Bennet"
+    ],
+    "51:27": [
+      "George Wickham"
+    ],
+    "51:28": [
+      "Elizabeth Bennet"
+    ],
+    "51:29": [
+      "George Wickham"
+    ],
+    "51:30": [
+      "George Wickham"
+    ],
+    "51:31": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "51:32": [
+      "Elizabeth Bennet"
+    ],
+    "51:33": [
+      "Elizabeth Bennet"
+    ],
+    "51:34": [
+      "Elizabeth Bennet"
+    ],
+    "51:35": [
+      "Elizabeth Bennet"
+    ],
+    "51:36": [
+      "Elizabeth Bennet"
+    ],
+    "51:37": [
+      "Elizabeth Bennet"
+    ],
+    "51:38": [
+      "Elizabeth Bennet"
+    ],
+    "51:39": [
+      "Elizabeth Bennet"
+    ],
+    "51:40": [
+      "Elizabeth Bennet"
+    ],
+    "51:41": [
+      "Elizabeth Bennet"
+    ],
+    "51:42": [
+      "Elizabeth Bennet"
+    ],
+    "51:43": [
+      "Elizabeth Bennet"
+    ],
+    "51:44": [
+      "Elizabeth Bennet"
+    ],
+    "51:45": [
+      "Elizabeth Bennet"
+    ],
+    "51:46": [
+      "Elizabeth Bennet"
+    ],
+    "51:48": [
+      "Elizabeth Bennet"
+    ],
+    "52:2": [
+      "Mrs. Bennet",
+      "Mrs. Bennet"
+    ],
+    "52:3": [
+      "Lydia Bennet"
+    ],
+    "52:4": [
+      "Lydia Bennet"
+    ],
+    "52:5": [
+      "Lydia Bennet"
+    ],
+    "52:7": [
+      "Mr. Bennet",
+      "Mr. Bennet"
+    ],
+    "52:9": [
+      "Mr. Bennet",
+      "Mr. Bennet"
+    ],
+    "52:10": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "52:11": [
+      "Mr. Bennet"
+    ],
+    "52:13": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "52:14": [
+      "Mr. Bennet",
+      "Mr. Bennet"
+    ],
+    "52:16": [
+      "Elizabeth Bennet"
+    ],
+    "52:18": [
+      "Mr. Bennet",
+      "Mr. Bennet"
+    ],
+    "52:21": [
+      "Mrs. Bennet",
+      "Mrs. Bennet"
+    ],
+    "52:22": [
+      "Mr. Bennet"
+    ],
+    "52:24": [
+      "Mrs. Bennet",
+      "Mrs. Bennet"
+    ],
+    "52:25": [
+      "Mr. Bennet"
+    ],
+    "52:27": [
+      "Mrs. Bennet",
+      "Mrs. Bennet"
+    ],
+    "52:28": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "52:31": [
+      "Kitty Bennet",
+      "Kitty Bennet"
+    ],
+    "52:32": [
+      "Elizabeth Bennet"
+    ],
+    "52:33": [
+      "Kitty Bennet",
+      "Kitty Bennet"
+    ],
+    "52:34": [
+      "Elizabeth Bennet"
+    ],
+    "52:38": [
+      "Kitty Bennet",
+      "Kitty Bennet"
+    ],
+    "52:44": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "52:47": [
+      "Mrs. Bennet"
+    ],
+    "52:49": [
+      "Elizabeth Bennet"
+    ],
+    "52:51": [
+      "Mrs. Bennet",
+      "Mrs. Bennet"
+    ],
+    "52:53": [
+      "Mrs. Bennet",
+      "Mrs. Bennet"
+    ],
+    "52:55": [
+      "Mrs. Bennet",
+      "Mrs. Bennet"
+    ],
+    "52:58": [
+      "Mrs. Bennet",
+      "Mrs. Bennet"
+    ],
+    "53:1": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "53:3": [
+      "Elizabeth Bennet"
+    ],
+    "53:5": [
+      "Jane Bennet",
+      "Jane Bennet"
+    ],
+    "53:6": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "53:7": [
+      "Elizabeth Bennet"
+    ],
+    "53:8": [
+      "Elizabeth Bennet"
+    ],
+    "53:15": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "53:17": [
+      "Elizabeth Bennet"
+    ],
+    "53:19": [
+      "Elizabeth Bennet"
+    ],
+    "53:21": [
+      "Elizabeth Bennet"
+    ],
+    "53:22": [
+      "Elizabeth Bennet"
+    ],
+    "53:23": [
+      "Elizabeth Bennet"
+    ],
+    "53:24": [
+      "Elizabeth Bennet"
+    ],
+    "53:28": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "53:30": [
+      "Jane Bennet",
+      "Jane Bennet"
+    ],
+    "53:32": [
+      "Elizabeth Bennet"
+    ],
+    "53:33": [
+      "Jane Bennet",
+      "Jane Bennet"
+    ],
+    "53:34": [
+      "Elizabeth Bennet"
+    ],
+    "53:35": [
+      "Jane Bennet"
+    ],
+    "54:1": [
+      "Mrs. Bennet",
+      "Mrs. Bennet"
+    ],
+    "54:3": [
+      "Mrs. Bennet"
+    ],
+    "54:6": [
+      "Mrs. Bennet"
+    ],
+    "54:7": [
+      "Jane Bennet",
+      "Jane Bennet"
+    ],
+    "54:8": [
+      "Jane Bennet"
+    ],
+    "54:10": [
+      "Jane Bennet"
+    ],
+    "54:11": [
+      "Jane Bennet"
+    ],
+    "54:12": [
+      "Jane Bennet"
+    ],
+    "54:13": [
+      "Jane Bennet"
+    ],
+    "54:15": [
+      "Mrs. Bennet",
+      "Mrs. Bennet"
+    ],
+    "54:23": [
+      "Jane Bennet",
+      "Jane Bennet"
+    ],
+    "54:25": [
+      "Mrs. Bennet",
+      "Mrs. Bennet"
+    ],
+    "54:28": [
+      "Jane Bennet",
+      "Jane Bennet"
+    ],
+    "54:30": [
+      "Mrs. Bennet"
+    ],
+    "54:31": [
+      "Jane Bennet"
+    ],
+    "54:35": [
+      "Mrs. Bennet"
+    ],
+    "54:37": [
+      "Jane Bennet",
+      "Jane Bennet"
+    ],
+    "54:38": [
+      "Mrs. Bennet"
+    ],
+    "54:39": [
+      "Mrs. Bennet",
+      "Mrs. Bennet",
+      "Mrs. Bennet"
+    ],
+    "54:44": [
+      "Mrs. Bennet",
+      "Mrs. Bennet"
+    ],
+    "54:45": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "54:46": [
+      "Mrs. Bennet"
+    ],
+    "54:47": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "54:48": [
+      "Mrs. Bennet"
+    ],
+    "54:49": [
+      "Elizabeth Bennet"
+    ],
+    "54:52": [
+      "Jane Bennet",
+      "Jane Bennet"
+    ],
+    "54:53": [
+      "Elizabeth Bennet"
+    ],
+    "55:4": [
+      "Lady Catherine de Bourgh"
+    ],
+    "55:6": [
+      "Lady Catherine de Bourgh"
+    ],
+    "55:7": [
+      "Mrs. Bennet",
+      "Mrs. Bennet"
+    ],
+    "55:8": [
+      "Mrs. Bennet"
+    ],
+    "55:9": [
+      "Mrs. Bennet"
+    ],
+    "55:10": [
+      "Mrs. Bennet"
+    ],
+    "55:12": [
+      "Mrs. Bennet"
+    ],
+    "55:13": [
+      "Mrs. Bennet"
+    ],
+    "55:16": [
+      "Mrs. Bennet"
+    ],
+    "55:17": [
+      "Mrs. Bennet",
+      "Mrs. Bennet"
+    ],
+    "55:20": [
+      "Mrs. Bennet"
+    ],
+    "55:22": [
+      "Mrs. Bennet"
+    ],
+    "55:24": [
+      "Mrs. Bennet"
+    ],
+    "55:25": [
+      "Mrs. Bennet",
+      "Mrs. Bennet"
+    ],
+    "55:26": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "55:27": [
+      "Mrs. Bennet"
+    ],
+    "55:28": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "55:29": [
+      "Mrs. Bennet"
+    ],
+    "55:30": [
+      "Elizabeth Bennet"
+    ],
+    "55:31": [
+      "Mrs. Bennet"
+    ],
+    "55:32": [
+      "Elizabeth Bennet"
+    ],
+    "55:33": [
+      "Mrs. Bennet"
+    ],
+    "55:34": [
+      "Elizabeth Bennet"
+    ],
+    "55:35": [
+      "Mrs. Bennet"
+    ],
+    "55:36": [
+      "Elizabeth Bennet"
+    ],
+    "55:37": [
+      "Mrs. Bennet"
+    ],
+    "55:38": [
+      "Elizabeth Bennet"
+    ],
+    "55:39": [
+      "Mrs. Bennet"
+    ],
+    "55:40": [
+      "Elizabeth Bennet"
+    ],
+    "55:42": [
+      "Mrs. Bennet"
+    ],
+    "55:43": [
+      "Elizabeth Bennet"
+    ],
+    "55:44": [
+      "Mrs. Bennet"
+    ],
+    "55:45": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "55:46": [
+      "Mrs. Bennet"
+    ],
+    "55:47": [
+      "Elizabeth Bennet"
+    ],
+    "55:48": [
+      "Mrs. Bennet"
+    ],
+    "55:49": [
+      "Elizabeth Bennet"
+    ],
+    "55:50": [
+      "Mrs. Bennet"
+    ],
+    "55:51": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "55:52": [
+      "Mrs. Bennet"
+    ],
+    "55:54": [
+      "Elizabeth Bennet"
+    ],
+    "55:56": [
+      "Mrs. Bennet"
+    ],
+    "55:57": [
+      "Elizabeth Bennet"
+    ],
+    "55:58": [
+      "Mrs. Bennet"
+    ],
+    "55:59": [
+      "Elizabeth Bennet"
+    ],
+    "55:60": [
+      "Mrs. Bennet"
+    ],
+    "55:61": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "55:63": [
+      "Mrs. Bennet"
+    ],
+    "55:64": [
+      "Elizabeth Bennet"
+    ],
+    "55:65": [
+      "Mrs. Bennet"
+    ],
+    "55:66": [
+      "Elizabeth Bennet"
+    ],
+    "55:67": [
+      "Mrs. Bennet"
+    ],
+    "55:68": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "55:69": [
+      "Mrs. Bennet"
+    ],
+    "55:71": [
+      "Elizabeth Bennet"
+    ],
+    "55:73": [
+      "Mrs. Bennet",
+      "Mrs. Bennet"
+    ],
+    "55:74": [
+      "Elizabeth Bennet"
+    ],
+    "56:4": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "56:7": [
+      "Mr. Bennet",
+      "Mr. Bennet"
+    ],
+    "56:10": [
+      "Mr. Bennet"
+    ],
+    "56:12": [
+      "Mr. Bennet"
+    ],
+    "56:13": [
+      "Elizabeth Bennet"
+    ],
+    "56:16": [
+      "Mr. Bennet"
+    ],
+    "56:18": [
+      "Mr. Bennet"
+    ],
+    "56:19": [
+      "Elizabeth Bennet"
+    ],
+    "56:21": [
+      "Mr. Bennet"
+    ],
+    "56:22": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "56:23": [
+      "Lady Catherine de Bourgh"
+    ],
+    "57:2": [
+      "Elizabeth Bennet"
+    ],
+    "57:3": [
+      "Fitzwilliam Darcy",
+      "Fitzwilliam Darcy"
+    ],
+    "57:4": [
+      "Fitzwilliam Darcy"
+    ],
+    "57:5": [
+      "Fitzwilliam Darcy",
+      "Fitzwilliam Darcy"
+    ],
+    "57:6": [
+      "Fitzwilliam Darcy"
+    ],
+    "57:9": [
+      "Fitzwilliam Darcy",
+      "Fitzwilliam Darcy"
+    ],
+    "57:10": [
+      "Fitzwilliam Darcy"
+    ],
+    "57:11": [
+      "Fitzwilliam Darcy"
+    ],
+    "57:12": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "57:13": [
+      "Fitzwilliam Darcy"
+    ],
+    "57:14": [
+      "Elizabeth Bennet"
+    ],
+    "57:15": [
+      "Fitzwilliam Darcy"
+    ],
+    "57:16": [
+      "Elizabeth Bennet"
+    ],
+    "57:17": [
+      "Fitzwilliam Darcy",
+      "Fitzwilliam Darcy"
+    ],
+    "57:19": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "57:20": [
+      "Fitzwilliam Darcy"
+    ],
+    "57:21": [
+      "Fitzwilliam Darcy",
+      "Fitzwilliam Darcy"
+    ],
+    "57:22": [
+      "Fitzwilliam Darcy"
+    ],
+    "57:24": [
+      "Fitzwilliam Darcy"
+    ],
+    "57:25": [
+      "Fitzwilliam Darcy"
+    ],
+    "57:26": [
+      "Fitzwilliam Darcy"
+    ],
+    "57:27": [
+      "Fitzwilliam Darcy"
+    ],
+    "57:28": [
+      "Fitzwilliam Darcy"
+    ],
+    "57:29": [
+      "Fitzwilliam Darcy"
+    ],
+    "57:30": [
+      "Fitzwilliam Darcy"
+    ],
+    "57:31": [
+      "Fitzwilliam Darcy"
+    ],
+    "57:32": [
+      "Fitzwilliam Darcy",
+      "Fitzwilliam Darcy"
+    ],
+    "57:36": [
+      "Fitzwilliam Darcy"
+    ],
+    "57:37": [
+      "Elizabeth Bennet"
+    ],
+    "57:38": [
+      "Fitzwilliam Darcy"
+    ],
+    "57:39": [
+      "Elizabeth Bennet"
+    ],
+    "57:40": [
+      "Fitzwilliam Darcy",
+      "Fitzwilliam Darcy"
+    ],
+    "57:42": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "57:43": [
+      "Fitzwilliam Darcy"
+    ],
+    "57:44": [
+      "Elizabeth Bennet"
+    ],
+    "57:45": [
+      "Fitzwilliam Darcy"
+    ],
+    "58:0": [
+      "Jane Bennet"
+    ],
+    "58:3": [
+      "Jane Bennet"
+    ],
+    "58:4": [
+      "Elizabeth Bennet"
+    ],
+    "58:5": [
+      "Jane Bennet"
+    ],
+    "58:6": [
+      "Elizabeth Bennet"
+    ],
+    "58:8": [
+      "Jane Bennet",
+      "Jane Bennet"
+    ],
+    "58:9": [
+      "Jane Bennet"
+    ],
+    "58:10": [
+      "Jane Bennet"
+    ],
+    "58:11": [
+      "Jane Bennet"
+    ],
+    "58:12": [
+      "Jane Bennet"
+    ],
+    "58:13": [
+      "Jane Bennet"
+    ],
+    "58:14": [
+      "Jane Bennet"
+    ],
+    "58:15": [
+      "Jane Bennet"
+    ],
+    "58:17": [
+      "Jane Bennet",
+      "Jane Bennet"
+    ],
+    "58:19": [
+      "Mrs. Bennet",
+      "Mrs. Bennet"
+    ],
+    "58:21": [
+      "Jane Bennet"
+    ],
+    "58:22": [
+      "Mrs. Bennet",
+      "Mrs. Bennet"
+    ],
+    "58:23": [
+      "Charles Bingley",
+      "Charles Bingley"
+    ],
+    "58:25": [
+      "Mrs. Bennet"
+    ],
+    "58:27": [
+      "Charles Bingley"
+    ],
+    "58:28": [
+      "Mrs. Bennet",
+      "Mrs. Bennet"
+    ],
+    "58:30": [
+      "Charles Bingley"
+    ],
+    "58:31": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "58:32": [
+      "Charles Bingley"
+    ],
+    "58:33": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "58:34": [
+      "Mr. Bennet",
+      "Mr. Bennet"
+    ],
+    "58:36": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "58:38": [
+      "Mr. Bennet"
+    ],
+    "58:39": [
+      "Elizabeth Bennet"
+    ],
+    "58:42": [
+      "Mr. Bennet"
+    ],
+    "58:44": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "58:47": [
+      "Mr. Bennet",
+      "Mr. Bennet"
+    ],
+    "59:0": [
+      "Elizabeth Bennet",
+      "Elizabeth Bennet"
+    ],
+    "59:1": [
+      "Fitzwilliam Darcy"
+    ],
+    "59:2": [
+      "Elizabeth Bennet"
+    ],
+    "59:3": [
+      "Fitzwilliam Darcy"
+    ],
+    "59:4": [
+      "Elizabeth Bennet"
+    ],
+    "59:5": [
+      "Fitzwilliam Darcy"
+    ],
+    "59:6": [
+      "Elizabeth Bennet"
+    ],
+    "59:7": [
+      "Fitzwilliam Darcy"
+    ],
+    "59:8": [
+      "Elizabeth Bennet"
+    ],
+    "59:9": [
+      "Fitzwilliam Darcy"
+    ],
+    "59:10": [
+      "Elizabeth Bennet"
+    ],
+    "59:11": [
+      "Fitzwilliam Darcy"
+    ],
+    "59:12": [
+      "Elizabeth Bennet"
+    ],
+    "59:13": [
+      "Fitzwilliam Darcy"
+    ],
+    "59:14": [
+      "Elizabeth Bennet"
+    ],
+    "59:15": [
+      "Fitzwilliam Darcy"
+    ],
+    "59:16": [
+      "Elizabeth Bennet"
+    ],
+    "59:17": [
+      "Fitzwilliam Darcy"
+    ],
+    "59:18": [
+      "Elizabeth Bennet"
+    ],
+    "59:20": [
+      "Elizabeth Bennet"
+    ],
+    "59:24": [
+      "Mr. Bennet"
+    ],
+    "60:8": [
+      "Lydia Bennet"
+    ]
+  },
+  "audioChunks": {
+    "1:1": [
+      "audio/pride-and-prejudice/ch01-p001-0.mp3"
+    ],
+    "1:2": [
+      "audio/pride-and-prejudice/ch01-p002-0.mp3",
+      "audio/pride-and-prejudice/ch01-p002-1.mp3"
+    ],
+    "1:3": [
+      "audio/pride-and-prejudice/ch01-p003-0.mp3",
+      "audio/pride-and-prejudice/ch01-p003-1.mp3"
+    ],
+    "1:4": [
+      "audio/pride-and-prejudice/ch01-p004-0.mp3"
+    ],
+    "1:5": [
+      "audio/pride-and-prejudice/ch01-p005-0.mp3",
+      "audio/pride-and-prejudice/ch01-p005-1.mp3"
+    ],
+    "1:7": [
+      "audio/pride-and-prejudice/ch01-p007-0.mp3"
+    ],
+    "1:8": [
+      "audio/pride-and-prejudice/ch01-p008-0.mp3",
+      "audio/pride-and-prejudice/ch01-p008-1.mp3"
+    ],
+    "1:9": [
+      "audio/pride-and-prejudice/ch01-p009-0.mp3",
+      "audio/pride-and-prejudice/ch01-p009-1.mp3"
+    ],
+    "1:10": [
+      "audio/pride-and-prejudice/ch01-p010-0.mp3"
+    ],
+    "1:11": [
+      "audio/pride-and-prejudice/ch01-p011-0.mp3",
+      "audio/pride-and-prejudice/ch01-p011-1.mp3"
+    ],
+    "1:12": [
+      "audio/pride-and-prejudice/ch01-p012-0.mp3"
+    ],
+    "1:13": [
+      "audio/pride-and-prejudice/ch01-p013-0.mp3"
+    ],
+    "1:14": [
+      "audio/pride-and-prejudice/ch01-p014-0.mp3"
+    ],
+    "1:15": [
+      "audio/pride-and-prejudice/ch01-p015-0.mp3"
+    ],
+    "1:16": [
+      "audio/pride-and-prejudice/ch01-p016-0.mp3",
+      "audio/pride-and-prejudice/ch01-p016-1.mp3"
+    ],
+    "1:18": [
+      "audio/pride-and-prejudice/ch01-p018-0.mp3",
+      "audio/pride-and-prejudice/ch01-p018-1.mp3"
+    ],
+    "1:19": [
+      "audio/pride-and-prejudice/ch01-p019-0.mp3"
+    ],
+    "1:20": [
+      "audio/pride-and-prejudice/ch01-p020-0.mp3"
+    ],
+    "1:22": [
+      "audio/pride-and-prejudice/ch01-p022-0.mp3"
+    ],
+    "1:23": [
+      "audio/pride-and-prejudice/ch01-p023-0.mp3"
+    ],
+    "1:24": [
+      "audio/pride-and-prejudice/ch01-p024-0.mp3",
+      "audio/pride-and-prejudice/ch01-p024-1.mp3"
+    ],
+    "1:25": [
+      "audio/pride-and-prejudice/ch01-p025-0.mp3",
+      "audio/pride-and-prejudice/ch01-p025-1.mp3"
+    ]
+  },
+  "deliveryChunks": {
+    "1:1": [
+      "normal"
+    ],
+    "1:2": [
+      "normal",
+      "normal"
+    ],
+    "1:3": [
+      "normal",
+      "normal"
+    ],
+    "1:4": [
+      "normal"
+    ],
+    "1:5": [
+      "normal",
+      "normal"
+    ],
+    "1:7": [
+      "normal"
+    ],
+    "1:8": [
+      "normal",
+      "normal"
+    ],
+    "1:9": [
+      "normal",
+      "normal"
+    ],
+    "1:10": [
+      "normal"
+    ],
+    "1:11": [
+      "normal",
+      "normal"
+    ],
+    "1:12": [
+      "normal"
+    ],
+    "1:13": [
+      "normal"
+    ],
+    "1:14": [
+      "normal"
+    ],
+    "1:15": [
+      "normal"
+    ],
+    "1:16": [
+      "normal",
+      "normal"
+    ],
+    "1:18": [
+      "normal",
+      "normal"
+    ],
+    "1:19": [
+      "normal"
+    ],
+    "1:20": [
+      "normal"
+    ],
+    "1:22": [
+      "normal"
+    ],
+    "1:23": [
+      "normal"
+    ],
+    "1:24": [
+      "normal",
+      "normal"
+    ],
+    "1:25": [
+      "normal",
+      "normal"
+    ]
+  }
+}

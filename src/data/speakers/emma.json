@@ -1,0 +1,5235 @@
+{
+  "schemaVersion": 1,
+  "bookId": "emma",
+  "source": {
+    "encoder": "google-gemini-3.1-flash-lite",
+    "generatedAt": "2026-05-15T19:02:14.990Z",
+    "bookJsonSha256": "2933c39fe6c402ab48973145cfeb98ce1bd33faec7eab3b4abaaab6afb3293a2"
+  },
+  "chunks": {
+    "0:12": [
+      "Mr. Woodhouse"
+    ],
+    "0:13": [
+      "Emma Woodhouse"
+    ],
+    "0:14": [
+      "Mr. Woodhouse"
+    ],
+    "0:15": [
+      "Emma Woodhouse"
+    ],
+    "0:16": [
+      "Mr. Woodhouse"
+    ],
+    "0:17": [
+      "Emma Woodhouse"
+    ],
+    "0:18": [
+      "Mr. Woodhouse"
+    ],
+    "0:19": [
+      "Emma Woodhouse"
+    ],
+    "0:20": [
+      "Mr. Woodhouse"
+    ],
+    "0:22": [
+      "Mr. Woodhouse",
+      "Mr. Woodhouse"
+    ],
+    "0:23": [
+      "George Knightley"
+    ],
+    "0:24": [
+      "Mr. Woodhouse"
+    ],
+    "0:25": [
+      "George Knightley"
+    ],
+    "0:26": [
+      "Mr. Woodhouse"
+    ],
+    "0:27": [
+      "George Knightley"
+    ],
+    "0:28": [
+      "Mr. Woodhouse"
+    ],
+    "0:29": [
+      "George Knightley"
+    ],
+    "0:30": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "0:31": [
+      "Mr. Woodhouse",
+      "Mr. Woodhouse"
+    ],
+    "0:32": [
+      "Mr. Woodhouse"
+    ],
+    "0:34": [
+      "George Knightley",
+      "George Knightley"
+    ],
+    "0:35": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "0:36": [
+      "George Knightley",
+      "George Knightley"
+    ],
+    "0:37": [
+      "George Knightley",
+      "George Knightley"
+    ],
+    "0:38": [
+      "Emma Woodhouse",
+      "Mr. Weston"
+    ],
+    "0:39": [
+      "George Knightley"
+    ],
+    "0:41": [
+      "Mr. Weston"
+    ],
+    "0:42": [
+      "George Knightley",
+      "George Knightley"
+    ],
+    "0:43": [
+      "Mr. Weston"
+    ],
+    "0:44": [
+      "George Knightley"
+    ],
+    "0:45": [
+      "Mr. Weston",
+      "Mr. Weston"
+    ],
+    "0:46": [
+      "George Knightley"
+    ],
+    "0:47": [
+      "Mr. Weston"
+    ],
+    "0:48": [
+      "George Knightley",
+      "George Knightley"
+    ],
+    "1:9": [
+      "Miss Bates"
+    ],
+    "1:12": [
+      "Mr. Woodhouse"
+    ],
+    "2:16": [
+      "Mr. Woodhouse"
+    ],
+    "3:4": [
+      "Harriet Smith"
+    ],
+    "3:8": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "3:9": [
+      "Harriet Smith"
+    ],
+    "3:10": [
+      "Emma Woodhouse"
+    ],
+    "3:11": [
+      "Harriet Smith"
+    ],
+    "3:13": [
+      "Emma Woodhouse"
+    ],
+    "3:14": [
+      "Harriet Smith"
+    ],
+    "3:15": [
+      "Emma Woodhouse"
+    ],
+    "3:16": [
+      "Harriet Smith"
+    ],
+    "3:17": [
+      "Emma Woodhouse"
+    ],
+    "3:18": [
+      "Harriet Smith"
+    ],
+    "3:19": [
+      "Emma Woodhouse"
+    ],
+    "3:20": [
+      "Harriet Smith"
+    ],
+    "3:21": [
+      "Emma Woodhouse"
+    ],
+    "3:22": [
+      "Harriet Smith"
+    ],
+    "3:23": [
+      "Emma Woodhouse"
+    ],
+    "3:24": [
+      "Harriet Smith"
+    ],
+    "3:25": [
+      "Emma Woodhouse"
+    ],
+    "3:26": [
+      "Harriet Smith"
+    ],
+    "3:30": [
+      "Harriet Smith"
+    ],
+    "3:31": [
+      "Emma Woodhouse"
+    ],
+    "3:32": [
+      "Harriet Smith",
+      "Harriet Smith"
+    ],
+    "3:33": [
+      "Harriet Smith"
+    ],
+    "3:34": [
+      "Harriet Smith"
+    ],
+    "3:35": [
+      "Harriet Smith"
+    ],
+    "3:36": [
+      "Harriet Smith"
+    ],
+    "3:37": [
+      "Harriet Smith"
+    ],
+    "3:38": [
+      "Harriet Smith"
+    ],
+    "3:39": [
+      "Harriet Smith"
+    ],
+    "3:40": [
+      "Harriet Smith"
+    ],
+    "3:41": [
+      "Harriet Smith"
+    ],
+    "3:42": [
+      "Harriet Smith"
+    ],
+    "3:44": [
+      "Harriet Smith"
+    ],
+    "4:0": [
+      "George Knightley",
+      "George Knightley"
+    ],
+    "4:1": [
+      "George Knightley"
+    ],
+    "4:2": [
+      "George Knightley"
+    ],
+    "4:3": [
+      "George Knightley"
+    ],
+    "4:4": [
+      "George Knightley"
+    ],
+    "4:5": [
+      "George Knightley"
+    ],
+    "4:6": [
+      "George Knightley"
+    ],
+    "4:7": [
+      "Mrs. Weston",
+      "Mrs. Weston"
+    ],
+    "4:8": [
+      "George Knightley",
+      "George Knightley",
+      "George Knightley"
+    ],
+    "4:9": [
+      "Mrs. Weston"
+    ],
+    "4:10": [
+      "George Knightley",
+      "George Knightley"
+    ],
+    "4:11": [
+      "Mrs. Weston"
+    ],
+    "4:12": [
+      "George Knightley"
+    ],
+    "4:13": [
+      "Mrs. Weston"
+    ],
+    "4:15": [
+      "George Knightley"
+    ],
+    "4:16": [
+      "Mrs. Weston"
+    ],
+    "4:17": [
+      "George Knightley"
+    ],
+    "4:18": [
+      "Mrs. Weston"
+    ],
+    "4:19": [
+      "George Knightley"
+    ],
+    "4:20": [
+      "Mrs. Weston"
+    ],
+    "4:21": [
+      "George Knightley",
+      "George Knightley"
+    ],
+    "4:22": [
+      "Mrs. Weston"
+    ],
+    "4:23": [
+      "George Knightley"
+    ],
+    "4:24": [
+      "Mrs. Weston"
+    ],
+    "4:25": [
+      "George Knightley",
+      "George Knightley"
+    ],
+    "4:26": [
+      "Mrs. Weston"
+    ],
+    "4:27": [
+      "George Knightley",
+      "George Knightley"
+    ],
+    "4:28": [
+      "Mrs. Weston",
+      "Mrs. Weston"
+    ],
+    "4:29": [
+      "George Knightley"
+    ],
+    "4:30": [
+      "Mrs. Weston",
+      "Mrs. Weston"
+    ],
+    "4:31": [
+      "George Knightley"
+    ],
+    "5:1": [
+      "George Knightley",
+      "George Knightley"
+    ],
+    "5:2": [
+      "Emma Woodhouse"
+    ],
+    "5:3": [
+      "Philip Elton"
+    ],
+    "5:4": [
+      "Emma Woodhouse"
+    ],
+    "5:5": [
+      "Philip Elton"
+    ],
+    "5:6": [
+      "Emma Woodhouse"
+    ],
+    "5:7": [
+      "Philip Elton"
+    ],
+    "5:8": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "5:10": [
+      "Harriet Smith"
+    ],
+    "5:12": [
+      "Emma Woodhouse"
+    ],
+    "5:13": [
+      "Philip Elton",
+      "Philip Elton"
+    ],
+    "5:14": [
+      "Philip Elton"
+    ],
+    "5:15": [
+      "Philip Elton"
+    ],
+    "5:16": [
+      "Philip Elton"
+    ],
+    "5:17": [
+      "Philip Elton"
+    ],
+    "5:21": [
+      "Emma Woodhouse"
+    ],
+    "5:22": [
+      "Philip Elton"
+    ],
+    "5:23": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "5:24": [
+      "Philip Elton"
+    ],
+    "5:27": [
+      "Emma Woodhouse"
+    ],
+    "5:31": [
+      "Philip Elton"
+    ],
+    "5:33": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "5:34": [
+      "Philip Elton",
+      "Philip Elton"
+    ],
+    "5:35": [
+      "George Knightley"
+    ],
+    "5:37": [
+      "Philip Elton"
+    ],
+    "5:38": [
+      "Mr. Woodhouse",
+      "Mr. Woodhouse"
+    ],
+    "5:39": [
+      "Philip Elton"
+    ],
+    "5:40": [
+      "Mr. Woodhouse"
+    ],
+    "5:41": [
+      "Philip Elton",
+      "Philip Elton"
+    ],
+    "5:42": [
+      "Mr. Woodhouse"
+    ],
+    "5:43": [
+      "Philip Elton"
+    ],
+    "5:45": [
+      "Mr. Woodhouse"
+    ],
+    "5:46": [
+      "Philip Elton",
+      "Philip Elton"
+    ],
+    "6:1": [
+      "Harriet Smith"
+    ],
+    "6:2": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "6:3": [
+      "Harriet Smith",
+      "Harriet Smith"
+    ],
+    "6:4": [
+      "Harriet Smith",
+      "Harriet Smith"
+    ],
+    "6:5": [
+      "Harriet Smith",
+      "Harriet Smith"
+    ],
+    "6:6": [
+      "Harriet Smith",
+      "Harriet Smith"
+    ],
+    "6:7": [
+      "Harriet Smith"
+    ],
+    "6:8": [
+      "Harriet Smith"
+    ],
+    "6:9": [
+      "Harriet Smith"
+    ],
+    "6:10": [
+      "Harriet Smith"
+    ],
+    "6:11": [
+      "Harriet Smith"
+    ],
+    "6:12": [
+      "Harriet Smith"
+    ],
+    "6:13": [
+      "Harriet Smith"
+    ],
+    "6:15": [
+      "Harriet Smith"
+    ],
+    "6:16": [
+      "Harriet Smith"
+    ],
+    "6:17": [
+      "Harriet Smith"
+    ],
+    "6:18": [
+      "Harriet Smith"
+    ],
+    "6:19": [
+      "Harriet Smith"
+    ],
+    "6:20": [
+      "Harriet Smith"
+    ],
+    "6:21": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "6:23": [
+      "Harriet Smith"
+    ],
+    "6:24": [
+      "Emma Woodhouse"
+    ],
+    "6:26": [
+      "Harriet Smith",
+      "Harriet Smith"
+    ],
+    "6:27": [
+      "Emma Woodhouse"
+    ],
+    "6:28": [
+      "Harriet Smith"
+    ],
+    "6:29": [
+      "Emma Woodhouse"
+    ],
+    "6:30": [
+      "Harriet Smith",
+      "Harriet Smith"
+    ],
+    "6:31": [
+      "Emma Woodhouse"
+    ],
+    "6:32": [
+      "Harriet Smith"
+    ],
+    "6:33": [
+      "Emma Woodhouse"
+    ],
+    "6:34": [
+      "Harriet Smith"
+    ],
+    "6:37": [
+      "Emma Woodhouse"
+    ],
+    "6:38": [
+      "Harriet Smith"
+    ],
+    "6:39": [
+      "Emma Woodhouse"
+    ],
+    "6:40": [
+      "Harriet Smith"
+    ],
+    "6:41": [
+      "Emma Woodhouse"
+    ],
+    "6:43": [
+      "Harriet Smith",
+      "Harriet Smith"
+    ],
+    "6:44": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "6:45": [
+      "Harriet Smith"
+    ],
+    "6:46": [
+      "Emma Woodhouse"
+    ],
+    "7:2": [
+      "Mr. Woodhouse"
+    ],
+    "7:3": [
+      "George Knightley"
+    ],
+    "7:4": [
+      "Mr. Woodhouse"
+    ],
+    "7:5": [
+      "George Knightley"
+    ],
+    "7:6": [
+      "Mr. Woodhouse"
+    ],
+    "7:7": [
+      "George Knightley"
+    ],
+    "7:9": [
+      "George Knightley",
+      "George Knightley"
+    ],
+    "7:10": [
+      "Emma Woodhouse"
+    ],
+    "7:11": [
+      "George Knightley",
+      "George Knightley"
+    ],
+    "7:12": [
+      "Emma Woodhouse"
+    ],
+    "7:13": [
+      "George Knightley"
+    ],
+    "7:14": [
+      "Emma Woodhouse"
+    ],
+    "7:15": [
+      "George Knightley"
+    ],
+    "7:16": [
+      "Emma Woodhouse"
+    ],
+    "7:17": [
+      "George Knightley"
+    ],
+    "7:19": [
+      "George Knightley"
+    ],
+    "7:20": [
+      "Emma Woodhouse"
+    ],
+    "7:21": [
+      "George Knightley"
+    ],
+    "7:22": [
+      "Emma Woodhouse"
+    ],
+    "7:24": [
+      "George Knightley",
+      "George Knightley"
+    ],
+    "7:25": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "7:27": [
+      "Emma Woodhouse"
+    ],
+    "7:28": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "7:29": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "7:30": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "7:32": [
+      "Emma Woodhouse"
+    ],
+    "7:33": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "7:34": [
+      "Emma Woodhouse"
+    ],
+    "7:35": [
+      "Emma Woodhouse"
+    ],
+    "7:36": [
+      "Emma Woodhouse"
+    ],
+    "7:37": [
+      "Emma Woodhouse"
+    ],
+    "7:38": [
+      "George Knightley"
+    ],
+    "7:39": [
+      "Emma Woodhouse"
+    ],
+    "7:40": [
+      "George Knightley"
+    ],
+    "7:41": [
+      "Emma Woodhouse"
+    ],
+    "7:42": [
+      "George Knightley"
+    ],
+    "7:43": [
+      "George Knightley"
+    ],
+    "7:44": [
+      "George Knightley"
+    ],
+    "7:48": [
+      "George Knightley"
+    ],
+    "7:49": [
+      "George Knightley"
+    ],
+    "7:50": [
+      "George Knightley",
+      "George Knightley"
+    ],
+    "7:51": [
+      "George Knightley"
+    ],
+    "7:52": [
+      "George Knightley"
+    ],
+    "7:54": [
+      "George Knightley"
+    ],
+    "7:55": [
+      "George Knightley",
+      "George Knightley"
+    ],
+    "7:57": [
+      "George Knightley"
+    ],
+    "7:59": [
+      "George Knightley"
+    ],
+    "7:60": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "7:61": [
+      "George Knightley"
+    ],
+    "7:68": [
+      "Emma Woodhouse"
+    ],
+    "8:4": [
+      "Mr. Woodhouse",
+      "Mr. Woodhouse"
+    ],
+    "8:9": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "8:10": [
+      "Philip Elton",
+      "Philip Elton"
+    ],
+    "8:12": [
+      "Philip Elton",
+      "Philip Elton"
+    ],
+    "8:14": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "8:39": [
+      "Emma Woodhouse"
+    ],
+    "8:40": [
+      "Emma Woodhouse"
+    ],
+    "8:41": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "8:42": [
+      "Harriet Smith",
+      "Harriet Smith"
+    ],
+    "8:43": [
+      "Emma Woodhouse"
+    ],
+    "8:44": [
+      "Harriet Smith"
+    ],
+    "8:48": [
+      "Emma Woodhouse"
+    ],
+    "8:49": [
+      "Harriet Smith"
+    ],
+    "8:50": [
+      "Emma Woodhouse"
+    ],
+    "8:51": [
+      "Harriet Smith"
+    ],
+    "8:52": [
+      "Emma Woodhouse"
+    ],
+    "8:53": [
+      "Harriet Smith"
+    ],
+    "8:54": [
+      "Emma Woodhouse"
+    ],
+    "8:55": [
+      "Harriet Smith"
+    ],
+    "8:57": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "8:59": [
+      "Harriet Smith",
+      "Harriet Smith"
+    ],
+    "8:60": [
+      "Emma Woodhouse"
+    ],
+    "8:61": [
+      "Harriet Smith"
+    ],
+    "8:62": [
+      "Emma Woodhouse"
+    ],
+    "8:63": [
+      "Harriet Smith"
+    ],
+    "8:64": [
+      "Emma Woodhouse"
+    ],
+    "8:66": [
+      "Harriet Smith"
+    ],
+    "8:67": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "8:69": [
+      "Harriet Smith"
+    ],
+    "8:70": [
+      "Emma Woodhouse"
+    ],
+    "8:71": [
+      "Harriet Smith"
+    ],
+    "8:72": [
+      "Emma Woodhouse"
+    ],
+    "8:74": [
+      "Harriet Smith"
+    ],
+    "8:79": [
+      "Emma Woodhouse"
+    ],
+    "8:83": [
+      "Harriet Smith"
+    ],
+    "8:84": [
+      "Emma Woodhouse"
+    ],
+    "8:85": [
+      "Harriet Smith"
+    ],
+    "8:86": [
+      "Emma Woodhouse"
+    ],
+    "8:87": [
+      "Harriet Smith"
+    ],
+    "8:88": [
+      "Emma Woodhouse"
+    ],
+    "8:89": [
+      "Harriet Smith"
+    ],
+    "8:90": [
+      "Emma Woodhouse"
+    ],
+    "8:92": [
+      "Harriet Smith"
+    ],
+    "8:93": [
+      "Emma Woodhouse"
+    ],
+    "8:95": [
+      "Harriet Smith"
+    ],
+    "8:96": [
+      "Emma Woodhouse"
+    ],
+    "8:97": [
+      "Harriet Smith"
+    ],
+    "8:98": [
+      "Emma Woodhouse"
+    ],
+    "8:99": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "8:100": [
+      "Emma Woodhouse"
+    ],
+    "8:101": [
+      "Emma Woodhouse"
+    ],
+    "8:102": [
+      "Emma Woodhouse"
+    ],
+    "8:103": [
+      "Emma Woodhouse"
+    ],
+    "8:106": [
+      "Emma Woodhouse"
+    ],
+    "8:107": [
+      "Emma Woodhouse"
+    ],
+    "8:108": [
+      "Emma Woodhouse"
+    ],
+    "8:109": [
+      "Philip Elton",
+      "Philip Elton"
+    ],
+    "9:2": [
+      "Emma Woodhouse"
+    ],
+    "9:3": [
+      "Harriet Smith"
+    ],
+    "9:4": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "9:6": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "9:8": [
+      "Emma Woodhouse"
+    ],
+    "9:10": [
+      "Emma Woodhouse"
+    ],
+    "9:11": [
+      "Emma Woodhouse"
+    ],
+    "9:12": [
+      "Emma Woodhouse"
+    ],
+    "9:13": [
+      "Emma Woodhouse"
+    ],
+    "9:14": [
+      "Emma Woodhouse"
+    ],
+    "9:15": [
+      "Emma Woodhouse"
+    ],
+    "9:16": [
+      "Emma Woodhouse"
+    ],
+    "9:17": [
+      "Emma Woodhouse"
+    ],
+    "9:19": [
+      "Emma Woodhouse"
+    ],
+    "9:20": [
+      "Emma Woodhouse"
+    ],
+    "9:22": [
+      "Emma Woodhouse"
+    ],
+    "9:23": [
+      "Emma Woodhouse"
+    ],
+    "9:24": [
+      "Emma Woodhouse"
+    ],
+    "9:26": [
+      "Emma Woodhouse"
+    ],
+    "9:27": [
+      "Harriet Smith",
+      "Harriet Smith"
+    ],
+    "9:28": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "9:29": [
+      "Harriet Smith"
+    ],
+    "9:31": [
+      "Emma Woodhouse"
+    ],
+    "9:32": [
+      "Harriet Smith"
+    ],
+    "9:33": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "9:37": [
+      "Harriet Smith",
+      "Harriet Smith"
+    ],
+    "9:39": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "9:42": [
+      "Harriet Smith",
+      "Harriet Smith"
+    ],
+    "10:8": [
+      "Mr. Woodhouse",
+      "Mr. Woodhouse"
+    ],
+    "10:9": [
+      "Isabella Knightley",
+      "Isabella Knightley"
+    ],
+    "10:10": [
+      "Mr. Woodhouse"
+    ],
+    "10:12": [
+      "Emma Woodhouse"
+    ],
+    "10:13": [
+      "John Knightley"
+    ],
+    "10:14": [
+      "Isabella Knightley"
+    ],
+    "10:15": [
+      "Isabella Knightley"
+    ],
+    "10:16": [
+      "Isabella Knightley"
+    ],
+    "10:17": [
+      "John Knightley",
+      "John Knightley"
+    ],
+    "10:18": [
+      "Mr. Woodhouse",
+      "Mr. Woodhouse"
+    ],
+    "10:19": [
+      "John Knightley"
+    ],
+    "10:20": [
+      "John Knightley",
+      "John Knightley"
+    ],
+    "10:21": [
+      "John Knightley",
+      "John Knightley"
+    ],
+    "10:22": [
+      "John Knightley",
+      "John Knightley"
+    ],
+    "10:23": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "10:24": [
+      "John Knightley",
+      "John Knightley"
+    ],
+    "10:25": [
+      "Emma Woodhouse"
+    ],
+    "10:26": [
+      "John Knightley"
+    ],
+    "10:27": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "10:28": [
+      "John Knightley",
+      "John Knightley"
+    ],
+    "11:2": [
+      "Emma Woodhouse"
+    ],
+    "11:3": [
+      "George Knightley"
+    ],
+    "11:4": [
+      "Emma Woodhouse"
+    ],
+    "11:5": [
+      "George Knightley",
+      "George Knightley"
+    ],
+    "11:6": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "11:7": [
+      "George Knightley"
+    ],
+    "11:8": [
+      "Emma Woodhouse"
+    ],
+    "11:9": [
+      "George Knightley"
+    ],
+    "11:10": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "11:11": [
+      "George Knightley"
+    ],
+    "11:12": [
+      "Emma Woodhouse"
+    ],
+    "11:13": [
+      "John Knightley",
+      "George Knightley"
+    ],
+    "11:17": [
+      "Mr. Woodhouse",
+      "Mr. Woodhouse"
+    ],
+    "11:19": [
+      "Mr. Woodhouse"
+    ],
+    "11:20": [
+      "Isabella Knightley"
+    ],
+    "11:21": [
+      "Mr. Woodhouse"
+    ],
+    "11:22": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "11:23": [
+      "Emma Woodhouse"
+    ],
+    "11:24": [
+      "Emma Woodhouse"
+    ],
+    "11:25": [
+      "Emma Woodhouse"
+    ],
+    "11:26": [
+      "Emma Woodhouse"
+    ],
+    "11:27": [
+      "Emma Woodhouse"
+    ],
+    "11:29": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "11:30": [
+      "Emma Woodhouse"
+    ],
+    "11:31": [
+      "Emma Woodhouse"
+    ],
+    "11:32": [
+      "Emma Woodhouse"
+    ],
+    "11:33": [
+      "Emma Woodhouse"
+    ],
+    "11:35": [
+      "Emma Woodhouse"
+    ],
+    "11:36": [
+      "Emma Woodhouse"
+    ],
+    "11:37": [
+      "Emma Woodhouse"
+    ],
+    "11:38": [
+      "Emma Woodhouse"
+    ],
+    "11:39": [
+      "Emma Woodhouse"
+    ],
+    "11:40": [
+      "John Knightley"
+    ],
+    "11:41": [
+      "Emma Woodhouse"
+    ],
+    "11:42": [
+      "John Knightley",
+      "John Knightley"
+    ],
+    "11:43": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "11:45": [
+      "Isabella Knightley",
+      "Isabella Knightley"
+    ],
+    "11:47": [
+      "Emma Woodhouse"
+    ],
+    "11:48": [
+      "Isabella Knightley"
+    ],
+    "11:50": [
+      "Mr. Woodhouse",
+      "Mr. Woodhouse"
+    ],
+    "11:51": [
+      "Isabella Knightley"
+    ],
+    "11:52": [
+      "Mr. Woodhouse"
+    ],
+    "11:53": [
+      "Isabella Knightley"
+    ],
+    "11:54": [
+      "Mr. Woodhouse"
+    ],
+    "11:55": [
+      "Isabella Knightley"
+    ],
+    "11:56": [
+      "Mr. Woodhouse"
+    ],
+    "11:57": [
+      "Isabella Knightley"
+    ],
+    "11:59": [
+      "Mr. Woodhouse",
+      "Mr. Woodhouse",
+      "Mr. Woodhouse"
+    ],
+    "11:60": [
+      "George Knightley",
+      "George Knightley"
+    ],
+    "12:6": [
+      "Emma Woodhouse"
+    ],
+    "12:7": [
+      "Philip Elton"
+    ],
+    "12:9": [
+      "Emma Woodhouse"
+    ],
+    "12:10": [
+      "Philip Elton"
+    ],
+    "12:11": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "12:13": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "12:16": [
+      "John Knightley"
+    ],
+    "12:17": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "12:18": [
+      "John Knightley",
+      "John Knightley"
+    ],
+    "12:19": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "12:20": [
+      "John Knightley"
+    ],
+    "12:21": [
+      "Emma Woodhouse"
+    ],
+    "12:22": [
+      "John Knightley"
+    ],
+    "12:23": [
+      "Emma Woodhouse"
+    ],
+    "12:26": [
+      "John Knightley"
+    ],
+    "12:27": [
+      "Emma Woodhouse"
+    ],
+    "12:28": [
+      "John Knightley"
+    ],
+    "12:29": [
+      "Emma Woodhouse"
+    ],
+    "12:30": [
+      "John Knightley",
+      "John Knightley"
+    ],
+    "12:32": [
+      "Emma Woodhouse"
+    ],
+    "12:33": [
+      "John Knightley"
+    ],
+    "12:34": [
+      "Emma Woodhouse"
+    ],
+    "12:35": [
+      "John Knightley"
+    ],
+    "12:36": [
+      "Emma Woodhouse"
+    ],
+    "12:38": [
+      "John Knightley",
+      "John Knightley"
+    ],
+    "12:39": [
+      "John Knightley",
+      "John Knightley"
+    ],
+    "12:40": [
+      "John Knightley",
+      "John Knightley"
+    ],
+    "12:42": [
+      "John Knightley"
+    ],
+    "12:44": [
+      "John Knightley",
+      "John Knightley"
+    ],
+    "12:45": [
+      "John Knightley"
+    ],
+    "12:46": [
+      "John Knightley"
+    ],
+    "12:47": [
+      "John Knightley",
+      "John Knightley"
+    ],
+    "13:4": [
+      "Emma Woodhouse"
+    ],
+    "13:5": [
+      "Mr. Weston",
+      "Mr. Weston",
+      "Mr. Weston"
+    ],
+    "13:8": [
+      "Mr. Weston"
+    ],
+    "13:10": [
+      "Mr. Weston",
+      "Mr. Weston"
+    ],
+    "13:11": [
+      "Mr. Weston"
+    ],
+    "13:13": [
+      "Mr. Weston"
+    ],
+    "13:14": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "13:15": [
+      "Mr. Weston"
+    ],
+    "13:16": [
+      "Emma Woodhouse"
+    ],
+    "13:17": [
+      "Mr. Weston"
+    ],
+    "13:18": [
+      "Mrs. Weston",
+      "Mrs. Weston",
+      "Mrs. Weston"
+    ],
+    "13:19": [
+      "Isabella Knightley",
+      "Isabella Knightley"
+    ],
+    "13:22": [
+      "Mrs. Weston"
+    ],
+    "13:23": [
+      "Isabella Knightley"
+    ],
+    "13:24": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "13:25": [
+      "Mrs. Weston",
+      "Mrs. Weston"
+    ],
+    "13:26": [
+      "Emma Woodhouse"
+    ],
+    "13:27": [
+      "Mrs. Weston"
+    ],
+    "13:28": [
+      "Emma Woodhouse"
+    ],
+    "13:29": [
+      "Mrs. Weston",
+      "Mrs. Weston"
+    ],
+    "14:2": [
+      "Philip Elton"
+    ],
+    "14:4": [
+      "Philip Elton"
+    ],
+    "14:5": [
+      "Philip Elton",
+      "Philip Elton"
+    ],
+    "14:8": [
+      "John Knightley"
+    ],
+    "14:10": [
+      "John Knightley",
+      "John Knightley"
+    ],
+    "14:12": [
+      "Mr. Woodhouse"
+    ],
+    "14:14": [
+      "Isabella Knightley",
+      "Isabella Knightley"
+    ],
+    "14:15": [
+      "John Knightley",
+      "John Knightley"
+    ],
+    "14:18": [
+      "George Knightley"
+    ],
+    "14:19": [
+      "Emma Woodhouse"
+    ],
+    "14:20": [
+      "George Knightley"
+    ],
+    "14:21": [
+      "Emma Woodhouse"
+    ],
+    "14:23": [
+      "Mr. Woodhouse"
+    ],
+    "14:27": [
+      "Emma Woodhouse"
+    ],
+    "14:28": [
+      "Philip Elton"
+    ],
+    "14:29": [
+      "Emma Woodhouse"
+    ],
+    "14:32": [
+      "Emma Woodhouse"
+    ],
+    "14:33": [
+      "Philip Elton",
+      "Philip Elton"
+    ],
+    "14:35": [
+      "Philip Elton"
+    ],
+    "14:36": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "14:37": [
+      "Philip Elton",
+      "Philip Elton"
+    ],
+    "14:38": [
+      "Emma Woodhouse"
+    ],
+    "15:1": [
+      "Emma Woodhouse"
+    ],
+    "15:3": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "15:12": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "15:20": [
+      "Mr. Woodhouse"
+    ],
+    "16:1": [
+      "Philip Elton"
+    ],
+    "17:0": [
+      "Frank Churchill"
+    ],
+    "17:5": [
+      "George Knightley",
+      "George Knightley"
+    ],
+    "17:6": [
+      "George Knightley"
+    ],
+    "17:7": [
+      "George Knightley"
+    ],
+    "17:8": [
+      "George Knightley"
+    ],
+    "17:9": [
+      "George Knightley"
+    ],
+    "17:10": [
+      "George Knightley"
+    ],
+    "17:11": [
+      "George Knightley"
+    ],
+    "17:12": [
+      "George Knightley"
+    ],
+    "17:13": [
+      "George Knightley"
+    ],
+    "17:14": [
+      "George Knightley"
+    ],
+    "17:15": [
+      "George Knightley"
+    ],
+    "17:16": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "17:17": [
+      "George Knightley"
+    ],
+    "17:18": [
+      "Emma Woodhouse"
+    ],
+    "17:19": [
+      "George Knightley"
+    ],
+    "17:20": [
+      "Emma Woodhouse"
+    ],
+    "17:21": [
+      "George Knightley"
+    ],
+    "17:22": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "17:23": [
+      "George Knightley"
+    ],
+    "17:24": [
+      "Emma Woodhouse"
+    ],
+    "17:25": [
+      "George Knightley"
+    ],
+    "17:26": [
+      "Emma Woodhouse"
+    ],
+    "17:27": [
+      "George Knightley",
+      "George Knightley"
+    ],
+    "17:28": [
+      "Emma Woodhouse"
+    ],
+    "17:29": [
+      "George Knightley"
+    ],
+    "17:30": [
+      "Emma Woodhouse"
+    ],
+    "17:31": [
+      "George Knightley",
+      "George Knightley"
+    ],
+    "17:32": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "17:33": [
+      "George Knightley"
+    ],
+    "17:34": [
+      "Emma Woodhouse"
+    ],
+    "17:35": [
+      "George Knightley"
+    ],
+    "18:0": [
+      "Harriet Smith"
+    ],
+    "18:3": [
+      "Miss Bates"
+    ],
+    "18:6": [
+      "Miss Bates"
+    ],
+    "18:8": [
+      "Emma Woodhouse"
+    ],
+    "18:9": [
+      "Miss Bates"
+    ],
+    "18:10": [
+      "Miss Bates"
+    ],
+    "18:12": [
+      "Miss Bates",
+      "Miss Bates",
+      "Miss Bates"
+    ],
+    "18:14": [
+      "Miss Bates"
+    ],
+    "18:15": [
+      "Miss Bates"
+    ],
+    "18:16": [
+      "Miss Bates"
+    ],
+    "18:17": [
+      "Miss Bates"
+    ],
+    "18:18": [
+      "Miss Bates"
+    ],
+    "18:19": [
+      "Miss Bates"
+    ],
+    "18:22": [
+      "Miss Bates"
+    ],
+    "18:24": [
+      "Miss Bates"
+    ],
+    "18:26": [
+      "Miss Bates"
+    ],
+    "18:27": [
+      "Miss Bates"
+    ],
+    "18:28": [
+      "Miss Bates"
+    ],
+    "18:29": [
+      "Miss Bates"
+    ],
+    "18:30": [
+      "Miss Bates"
+    ],
+    "18:31": [
+      "Miss Bates"
+    ],
+    "18:32": [
+      "Miss Bates"
+    ],
+    "18:33": [
+      "Miss Bates"
+    ],
+    "18:35": [
+      "Miss Bates"
+    ],
+    "18:36": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "19:13": [
+      "Emma Woodhouse"
+    ],
+    "19:19": [
+      "Emma Woodhouse"
+    ],
+    "19:22": [
+      "Emma Woodhouse",
+      "Jane Fairfax",
+      "Emma Woodhouse",
+      "Jane Fairfax",
+      "Emma Woodhouse",
+      "Jane Fairfax"
+    ],
+    "20:1": [
+      "George Knightley",
+      "George Knightley"
+    ],
+    "20:2": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "20:3": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "20:4": [
+      "George Knightley",
+      "George Knightley"
+    ],
+    "20:5": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "20:6": [
+      "George Knightley"
+    ],
+    "20:7": [
+      "Emma Woodhouse"
+    ],
+    "20:8": [
+      "George Knightley",
+      "George Knightley"
+    ],
+    "20:9": [
+      "Emma Woodhouse"
+    ],
+    "20:10": [
+      "George Knightley"
+    ],
+    "20:11": [
+      "Mr. Woodhouse",
+      "Mr. Woodhouse"
+    ],
+    "20:12": [
+      "George Knightley"
+    ],
+    "20:14": [
+      "Mr. Woodhouse"
+    ],
+    "20:16": [
+      "George Knightley"
+    ],
+    "20:17": [
+      "Mr. Woodhouse"
+    ],
+    "20:18": [
+      "George Knightley"
+    ],
+    "20:19": [
+      "George Knightley",
+      "George Knightley"
+    ],
+    "20:20": [
+      "George Knightley"
+    ],
+    "20:22": [
+      "George Knightley"
+    ],
+    "20:23": [
+      "George Knightley"
+    ],
+    "20:25": [
+      "George Knightley"
+    ],
+    "20:26": [
+      "Miss Bates",
+      "Miss Bates"
+    ],
+    "20:27": [
+      "George Knightley"
+    ],
+    "20:28": [
+      "Miss Bates"
+    ],
+    "20:29": [
+      "Mr. Woodhouse",
+      "Mr. Woodhouse"
+    ],
+    "20:30": [
+      "Miss Bates"
+    ],
+    "20:31": [
+      "Mr. Woodhouse",
+      "Mr. Woodhouse"
+    ],
+    "20:32": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "20:33": [
+      "Mr. Woodhouse",
+      "Mr. Woodhouse"
+    ],
+    "20:34": [
+      "Miss Bates",
+      "Miss Bates"
+    ],
+    "20:36": [
+      "Mr. Woodhouse",
+      "Mr. Woodhouse"
+    ],
+    "20:37": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "20:39": [
+      "Mr. Woodhouse",
+      "Mr. Woodhouse"
+    ],
+    "20:40": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "20:42": [
+      "Mr. Woodhouse"
+    ],
+    "20:43": [
+      "Jane Fairfax",
+      "Jane Fairfax"
+    ],
+    "20:44": [
+      "Miss Bates",
+      "Miss Bates"
+    ],
+    "20:45": [
+      "Jane Fairfax"
+    ],
+    "20:46": [
+      "Miss Bates"
+    ],
+    "20:47": [
+      "Jane Fairfax"
+    ],
+    "20:48": [
+      "Miss Bates"
+    ],
+    "20:49": [
+      "Jane Fairfax"
+    ],
+    "20:50": [
+      "Miss Bates"
+    ],
+    "20:52": [
+      "Jane Fairfax"
+    ],
+    "20:53": [
+      "Miss Bates"
+    ],
+    "20:57": [
+      "Jane Fairfax"
+    ],
+    "20:60": [
+      "Miss Bates",
+      "Miss Bates"
+    ],
+    "20:61": [
+      "Jane Fairfax",
+      "Jane Fairfax"
+    ],
+    "22:6": [
+      null
+    ],
+    "22:7": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "22:8": [
+      "Emma Woodhouse"
+    ],
+    "22:11": [
+      "Emma Woodhouse"
+    ],
+    "22:13": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "22:14": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "22:16": [
+      "Emma Woodhouse"
+    ],
+    "22:17": [
+      "Emma Woodhouse"
+    ],
+    "22:18": [
+      "Emma Woodhouse"
+    ],
+    "22:21": [
+      "Emma Woodhouse",
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "22:25": [
+      "Mr. Weston",
+      "Mr. Weston"
+    ],
+    "22:26": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "22:28": [
+      "Mr. Weston"
+    ],
+    "22:29": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "22:31": [
+      "Mr. Weston",
+      "Mr. Weston"
+    ],
+    "22:32": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "22:33": [
+      "Mr. Weston",
+      "Mr. Weston"
+    ],
+    "22:38": [
+      "Emma Woodhouse"
+    ],
+    "22:39": [
+      "Mr. Weston"
+    ],
+    "22:40": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "22:41": [
+      "Mr. Weston",
+      "Mr. Weston"
+    ],
+    "22:42": [
+      "Emma Woodhouse"
+    ],
+    "22:44": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "22:45": [
+      "Emma Woodhouse"
+    ],
+    "22:46": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "22:47": [
+      "Mr. Woodhouse",
+      "Mr. Woodhouse"
+    ],
+    "22:48": [
+      "Emma Woodhouse"
+    ],
+    "22:49": [
+      "Mr. Woodhouse"
+    ],
+    "22:50": [
+      "Emma Woodhouse"
+    ],
+    "23:0": [
+      "Frank Churchill"
+    ],
+    "23:9": [
+      "Frank Churchill",
+      "Frank Churchill"
+    ],
+    "23:10": [
+      "Emma Woodhouse"
+    ],
+    "23:11": [
+      "Frank Churchill"
+    ],
+    "23:12": [
+      "Emma Woodhouse"
+    ],
+    "23:13": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "23:14": [
+      "Emma Woodhouse"
+    ],
+    "23:15": [
+      "Emma Woodhouse"
+    ],
+    "23:16": [
+      "Emma Woodhouse"
+    ],
+    "23:17": [
+      "Emma Woodhouse"
+    ],
+    "23:18": [
+      "Emma Woodhouse",
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "23:19": [
+      "Emma Woodhouse"
+    ],
+    "23:20": [
+      "Emma Woodhouse"
+    ],
+    "23:21": [
+      "Emma Woodhouse"
+    ],
+    "23:22": [
+      "Emma Woodhouse"
+    ],
+    "23:23": [
+      "Emma Woodhouse"
+    ],
+    "23:24": [
+      "Emma Woodhouse"
+    ],
+    "23:25": [
+      "Mrs. Weston",
+      "Mrs. Weston"
+    ],
+    "23:26": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "23:28": [
+      "Frank Churchill"
+    ],
+    "23:29": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "23:30": [
+      "Frank Churchill"
+    ],
+    "23:31": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "23:32": [
+      "Frank Churchill"
+    ],
+    "23:33": [
+      "Emma Woodhouse"
+    ],
+    "23:34": [
+      "Frank Churchill"
+    ],
+    "23:35": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "23:36": [
+      "Frank Churchill"
+    ],
+    "23:37": [
+      "Emma Woodhouse"
+    ],
+    "23:38": [
+      "Frank Churchill"
+    ],
+    "23:39": [
+      "Emma Woodhouse"
+    ],
+    "23:40": [
+      "Frank Churchill",
+      "Frank Churchill"
+    ],
+    "23:41": [
+      "Emma Woodhouse"
+    ],
+    "23:42": [
+      "Frank Churchill",
+      "Frank Churchill"
+    ],
+    "23:43": [
+      "Emma Woodhouse"
+    ],
+    "24:1": [
+      "Mrs. Weston"
+    ],
+    "24:4": [
+      "Mrs. Weston"
+    ],
+    "24:5": [
+      "George Knightley"
+    ],
+    "24:9": [
+      "Mrs. Weston"
+    ],
+    "24:11": [
+      "Emma Woodhouse"
+    ],
+    "24:12": [
+      "Emma Woodhouse"
+    ],
+    "24:14": [
+      "Mr. Woodhouse",
+      "Mr. Woodhouse",
+      "Mr. Woodhouse"
+    ],
+    "24:15": [
+      "Mr. Weston",
+      "Mr. Weston"
+    ],
+    "24:17": [
+      "Mr. Weston"
+    ],
+    "24:18": [
+      "Mr. Weston"
+    ],
+    "24:19": [
+      "Mr. Weston"
+    ],
+    "24:20": [
+      "Mr. Weston"
+    ],
+    "24:21": [
+      "Mr. Weston",
+      "Mr. Weston"
+    ],
+    "24:22": [
+      "Mr. Woodhouse",
+      "Mr. Woodhouse"
+    ],
+    "24:23": [
+      "Mr. Weston"
+    ],
+    "24:24": [
+      "Mr. Woodhouse"
+    ],
+    "24:25": [
+      "Mr. Weston"
+    ],
+    "25:2": [
+      "Emma Woodhouse"
+    ],
+    "25:7": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "25:8": [
+      "George Knightley"
+    ],
+    "25:9": [
+      "Emma Woodhouse"
+    ],
+    "25:10": [
+      "George Knightley"
+    ],
+    "25:14": [
+      "Augusta Elton",
+      "Augusta Elton"
+    ],
+    "25:17": [
+      "Augusta Elton"
+    ],
+    "25:19": [
+      "Emma Woodhouse"
+    ],
+    "25:20": [
+      "Frank Churchill"
+    ],
+    "25:21": [
+      "Emma Woodhouse"
+    ],
+    "25:22": [
+      "Frank Churchill"
+    ],
+    "25:23": [
+      "Emma Woodhouse"
+    ],
+    "25:24": [
+      "Frank Churchill"
+    ],
+    "25:25": [
+      "Emma Woodhouse"
+    ],
+    "25:26": [
+      "Frank Churchill"
+    ],
+    "25:27": [
+      "Emma Woodhouse"
+    ],
+    "25:28": [
+      "Frank Churchill"
+    ],
+    "25:29": [
+      "Emma Woodhouse"
+    ],
+    "25:30": [
+      "Frank Churchill"
+    ],
+    "25:31": [
+      "Emma Woodhouse"
+    ],
+    "25:32": [
+      "Frank Churchill"
+    ],
+    "25:34": [
+      "Emma Woodhouse"
+    ],
+    "25:35": [
+      "Frank Churchill"
+    ],
+    "25:36": [
+      "Emma Woodhouse"
+    ],
+    "25:37": [
+      "Frank Churchill"
+    ],
+    "25:38": [
+      "Emma Woodhouse"
+    ],
+    "25:39": [
+      "Frank Churchill"
+    ],
+    "25:41": [
+      "Emma Woodhouse"
+    ],
+    "25:42": [
+      "Frank Churchill"
+    ],
+    "25:43": [
+      "Emma Woodhouse"
+    ],
+    "25:44": [
+      "Frank Churchill"
+    ],
+    "25:48": [
+      "Augusta Elton"
+    ],
+    "25:50": [
+      "Frank Churchill",
+      "Harriet Smith"
+    ],
+    "25:55": [
+      "Frank Churchill",
+      "Frank Churchill"
+    ],
+    "25:56": [
+      "Emma Woodhouse"
+    ],
+    "25:57": [
+      "Frank Churchill",
+      "Frank Churchill"
+    ],
+    "25:59": [
+      "Emma Woodhouse"
+    ],
+    "25:60": [
+      "Frank Churchill",
+      "Frank Churchill"
+    ],
+    "25:63": [
+      "Mrs. Weston",
+      "Mrs. Weston"
+    ],
+    "25:64": [
+      "Emma Woodhouse"
+    ],
+    "25:65": [
+      "Mrs. Weston"
+    ],
+    "25:66": [
+      "Emma Woodhouse"
+    ],
+    "25:68": [
+      "Mrs. Weston"
+    ],
+    "25:69": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "25:70": [
+      "Mrs. Weston",
+      "Mrs. Weston"
+    ],
+    "25:71": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "25:72": [
+      "Mrs. Weston"
+    ],
+    "25:73": [
+      "Emma Woodhouse"
+    ],
+    "25:74": [
+      "Mrs. Weston"
+    ],
+    "25:75": [
+      "Emma Woodhouse"
+    ],
+    "25:76": [
+      "Mrs. Weston"
+    ],
+    "25:77": [
+      "Emma Woodhouse"
+    ],
+    "25:78": [
+      "Mrs. Weston"
+    ],
+    "25:79": [
+      "Emma Woodhouse"
+    ],
+    "25:80": [
+      "Mrs. Weston"
+    ],
+    "25:81": [
+      "Emma Woodhouse"
+    ],
+    "25:82": [
+      "Mrs. Weston",
+      "Mrs. Weston"
+    ],
+    "25:83": [
+      "Emma Woodhouse"
+    ],
+    "25:85": [
+      "Mrs. Weston"
+    ],
+    "25:86": [
+      "Emma Woodhouse"
+    ],
+    "25:87": [
+      "Mrs. Weston"
+    ],
+    "25:88": [
+      "Emma Woodhouse"
+    ],
+    "25:89": [
+      "Mrs. Weston"
+    ],
+    "25:90": [
+      "Emma Woodhouse"
+    ],
+    "25:96": [
+      "Mrs. Weston",
+      "Mrs. Weston"
+    ],
+    "25:97": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "25:98": [
+      "Mrs. Weston",
+      "Mrs. Weston"
+    ],
+    "25:99": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "25:101": [
+      "Mrs. Weston",
+      "Mrs. Weston"
+    ],
+    "25:102": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "25:104": [
+      "Mrs. Weston",
+      "Mrs. Weston",
+      "Mrs. Weston"
+    ],
+    "25:109": [
+      "Frank Churchill",
+      "Jane Fairfax"
+    ],
+    "26:4": [
+      "Harriet Smith"
+    ],
+    "26:5": [
+      "Emma Woodhouse"
+    ],
+    "26:6": [
+      "Harriet Smith"
+    ],
+    "26:7": [
+      "Emma Woodhouse"
+    ],
+    "26:8": [
+      "Harriet Smith"
+    ],
+    "26:9": [
+      "Emma Woodhouse"
+    ],
+    "26:10": [
+      "Harriet Smith"
+    ],
+    "26:11": [
+      "Emma Woodhouse"
+    ],
+    "26:12": [
+      "Harriet Smith",
+      "Harriet Smith"
+    ],
+    "26:14": [
+      "Harriet Smith"
+    ],
+    "26:15": [
+      "Emma Woodhouse"
+    ],
+    "26:16": [
+      "Harriet Smith"
+    ],
+    "26:17": [
+      "Emma Woodhouse"
+    ],
+    "26:18": [
+      "Harriet Smith"
+    ],
+    "26:19": [
+      "Emma Woodhouse"
+    ],
+    "26:20": [
+      "Harriet Smith"
+    ],
+    "26:21": [
+      "Emma Woodhouse"
+    ],
+    "26:25": [
+      "Mrs. Weston",
+      "Mrs. Weston"
+    ],
+    "26:26": [
+      "Frank Churchill",
+      "Frank Churchill"
+    ],
+    "26:28": [
+      "Frank Churchill"
+    ],
+    "26:29": [
+      "Frank Churchill"
+    ],
+    "26:30": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "26:31": [
+      "Frank Churchill"
+    ],
+    "26:32": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "26:33": [
+      "Mrs. Weston",
+      "Mrs. Weston"
+    ],
+    "26:35": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "26:36": [
+      "Mrs. Weston"
+    ],
+    "26:37": [
+      "Emma Woodhouse"
+    ],
+    "26:38": [
+      "Mrs. Weston"
+    ],
+    "26:39": [
+      "Emma Woodhouse"
+    ],
+    "26:40": [
+      "Mrs. Weston"
+    ],
+    "26:41": [
+      "Harriet Smith",
+      "Harriet Smith"
+    ],
+    "26:43": [
+      "Mrs. Weston",
+      "Mrs. Weston"
+    ],
+    "26:44": [
+      "Harriet Smith"
+    ],
+    "26:47": [
+      "Mrs. Weston"
+    ],
+    "26:48": [
+      "Harriet Smith"
+    ],
+    "26:49": [
+      "Mrs. Weston"
+    ],
+    "26:50": [
+      "Harriet Smith"
+    ],
+    "26:56": [
+      "Mrs. Weston"
+    ],
+    "26:58": [
+      "Harriet Smith"
+    ],
+    "27:2": [
+      "Frank Churchill",
+      "Frank Churchill"
+    ],
+    "27:3": [
+      "Mrs. Weston",
+      "Mrs. Weston"
+    ],
+    "27:4": [
+      "Mrs. Weston",
+      "Mrs. Weston"
+    ],
+    "27:7": [
+      "Frank Churchill",
+      "Frank Churchill"
+    ],
+    "27:9": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "27:11": [
+      "Frank Churchill"
+    ],
+    "27:13": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "27:14": [
+      "Frank Churchill"
+    ],
+    "27:16": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "27:18": [
+      "Frank Churchill"
+    ],
+    "27:20": [
+      "Emma Woodhouse"
+    ],
+    "27:23": [
+      "Frank Churchill"
+    ],
+    "27:24": [
+      "Emma Woodhouse"
+    ],
+    "27:25": [
+      "Frank Churchill"
+    ],
+    "27:26": [
+      "Emma Woodhouse"
+    ],
+    "27:27": [
+      "Frank Churchill"
+    ],
+    "27:28": [
+      "Emma Woodhouse"
+    ],
+    "27:30": [
+      "Frank Churchill"
+    ],
+    "27:32": [
+      "Emma Woodhouse"
+    ],
+    "27:34": [
+      "Frank Churchill"
+    ],
+    "27:36": [
+      "Emma Woodhouse"
+    ],
+    "27:38": [
+      "Frank Churchill"
+    ],
+    "27:39": [
+      "Emma Woodhouse"
+    ],
+    "27:40": [
+      "Frank Churchill"
+    ],
+    "27:41": [
+      "Emma Woodhouse"
+    ],
+    "27:42": [
+      "Frank Churchill",
+      "Frank Churchill"
+    ],
+    "27:43": [
+      "Emma Woodhouse"
+    ],
+    "27:44": [
+      "Frank Churchill"
+    ],
+    "27:45": [
+      "Emma Woodhouse"
+    ],
+    "27:46": [
+      "Frank Churchill"
+    ],
+    "27:47": [
+      "Emma Woodhouse"
+    ],
+    "27:48": [
+      "Frank Churchill"
+    ],
+    "27:49": [
+      "Emma Woodhouse"
+    ],
+    "27:50": [
+      "Frank Churchill"
+    ],
+    "27:51": [
+      "Emma Woodhouse"
+    ],
+    "27:52": [
+      "Jane Fairfax",
+      "Jane Fairfax"
+    ],
+    "27:53": [
+      "Emma Woodhouse"
+    ],
+    "28:3": [
+      "Frank Churchill",
+      "Frank Churchill"
+    ],
+    "28:5": [
+      "Emma Woodhouse"
+    ],
+    "28:7": [
+      "Emma Woodhouse"
+    ],
+    "28:9": [
+      "Emma Woodhouse"
+    ],
+    "28:10": [
+      "Mr. Woodhouse",
+      "Mr. Woodhouse"
+    ],
+    "28:12": [
+      "Frank Churchill",
+      "Frank Churchill"
+    ],
+    "28:13": [
+      "Emma Woodhouse"
+    ],
+    "28:14": [
+      "Frank Churchill",
+      "Frank Churchill"
+    ],
+    "28:15": [
+      "Frank Churchill"
+    ],
+    "28:16": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "28:17": [
+      "Frank Churchill",
+      "Frank Churchill"
+    ],
+    "28:20": [
+      "Frank Churchill",
+      "Frank Churchill"
+    ],
+    "28:21": [
+      "Emma Woodhouse"
+    ],
+    "28:22": [
+      "Frank Churchill"
+    ],
+    "28:23": [
+      "Emma Woodhouse"
+    ],
+    "28:25": [
+      "Mr. Woodhouse"
+    ],
+    "28:26": [
+      "Frank Churchill",
+      "Frank Churchill"
+    ],
+    "28:27": [
+      "Mr. Woodhouse",
+      "Mr. Woodhouse"
+    ],
+    "28:28": [
+      "Frank Churchill"
+    ],
+    "28:29": [
+      "Mr. Woodhouse"
+    ],
+    "28:30": [
+      "Frank Churchill"
+    ],
+    "28:31": [
+      "Mr. Woodhouse"
+    ],
+    "28:32": [
+      "Frank Churchill"
+    ],
+    "28:33": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "28:34": [
+      "Frank Churchill"
+    ],
+    "28:35": [
+      "Emma Woodhouse"
+    ],
+    "28:36": [
+      "Frank Churchill"
+    ],
+    "28:37": [
+      "Emma Woodhouse"
+    ],
+    "28:38": [
+      "Frank Churchill",
+      "Frank Churchill"
+    ],
+    "28:40": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "28:41": [
+      "Frank Churchill",
+      "Frank Churchill"
+    ],
+    "28:42": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "28:45": [
+      "Frank Churchill"
+    ],
+    "28:47": [
+      "Emma Woodhouse"
+    ],
+    "28:48": [
+      "Mrs. Weston",
+      "Mrs. Weston"
+    ],
+    "28:49": [
+      "Frank Churchill",
+      "Frank Churchill"
+    ],
+    "28:50": [
+      "Mrs. Weston",
+      "Mrs. Weston"
+    ],
+    "28:51": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "28:52": [
+      "Mrs. Weston"
+    ],
+    "28:54": [
+      "Emma Woodhouse"
+    ],
+    "28:55": [
+      "Mrs. Weston"
+    ],
+    "28:56": [
+      "Emma Woodhouse"
+    ],
+    "28:57": [
+      "Mrs. Weston"
+    ],
+    "28:59": [
+      "Emma Woodhouse"
+    ],
+    "29:2": [
+      "George Knightley"
+    ],
+    "29:4": [
+      "Jane Fairfax"
+    ],
+    "29:8": [
+      "Mrs. Weston"
+    ],
+    "29:9": [
+      "Emma Woodhouse"
+    ],
+    "29:12": [
+      "Frank Churchill"
+    ],
+    "29:13": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "29:14": [
+      "Emma Woodhouse"
+    ],
+    "29:15": [
+      "Emma Woodhouse"
+    ],
+    "29:16": [
+      "Emma Woodhouse"
+    ],
+    "29:17": [
+      "Emma Woodhouse"
+    ],
+    "29:18": [
+      "Emma Woodhouse"
+    ],
+    "29:20": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "29:21": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "29:23": [
+      "Emma Woodhouse"
+    ],
+    "29:24": [
+      "Emma Woodhouse"
+    ],
+    "29:25": [
+      "Emma Woodhouse"
+    ],
+    "29:26": [
+      "Emma Woodhouse"
+    ],
+    "29:28": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "29:30": [
+      "Emma Woodhouse"
+    ],
+    "29:32": [
+      "Emma Woodhouse"
+    ],
+    "29:34": [
+      "Emma Woodhouse"
+    ],
+    "29:35": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "29:36": [
+      "Emma Woodhouse"
+    ],
+    "29:38": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "29:40": [
+      "Emma Woodhouse"
+    ],
+    "30:2": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "30:5": [
+      "Emma Woodhouse"
+    ],
+    "30:7": [
+      "Frank Churchill"
+    ],
+    "30:8": [
+      "Frank Churchill"
+    ],
+    "30:9": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "30:10": [
+      null
+    ],
+    "30:12": [
+      "Harriet Smith"
+    ],
+    "30:13": [
+      "Emma Woodhouse"
+    ],
+    "30:15": [
+      "Emma Woodhouse"
+    ],
+    "30:17": [
+      "Harriet Smith"
+    ],
+    "30:19": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "31:2": [
+      "Emma Woodhouse"
+    ],
+    "31:5": [
+      "Harriet Smith",
+      "Harriet Smith"
+    ],
+    "31:7": [
+      "Harriet Smith"
+    ],
+    "31:8": [
+      "Harriet Smith"
+    ],
+    "31:9": [
+      "Harriet Smith"
+    ],
+    "31:10": [
+      "Harriet Smith"
+    ],
+    "31:11": [
+      "Harriet Smith"
+    ],
+    "31:12": [
+      "Harriet Smith",
+      "Harriet Smith"
+    ],
+    "31:13": [
+      "Harriet Smith"
+    ],
+    "31:14": [
+      "Harriet Smith",
+      "Harriet Smith"
+    ],
+    "31:17": [
+      "Harriet Smith",
+      "Harriet Smith",
+      "Harriet Smith"
+    ],
+    "31:18": [
+      "Harriet Smith"
+    ],
+    "31:20": [
+      "Harriet Smith"
+    ],
+    "31:22": [
+      "Harriet Smith"
+    ],
+    "31:23": [
+      "Harriet Smith"
+    ],
+    "31:24": [
+      "Harriet Smith"
+    ],
+    "31:25": [
+      "Augusta Elton",
+      "Augusta Elton"
+    ],
+    "31:27": [
+      "Augusta Elton"
+    ],
+    "31:28": [
+      "Augusta Elton"
+    ],
+    "31:29": [
+      "Augusta Elton"
+    ],
+    "31:31": [
+      "Augusta Elton"
+    ],
+    "31:32": [
+      "Augusta Elton"
+    ],
+    "31:33": [
+      "Augusta Elton"
+    ],
+    "31:35": [
+      "Augusta Elton"
+    ],
+    "31:36": [
+      "Augusta Elton"
+    ],
+    "31:39": [
+      "Augusta Elton"
+    ],
+    "31:40": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "31:41": [
+      "Augusta Elton"
+    ],
+    "31:42": [
+      "Emma Woodhouse"
+    ],
+    "31:43": [
+      "Augusta Elton"
+    ],
+    "31:44": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "31:45": [
+      "Augusta Elton",
+      "Augusta Elton"
+    ],
+    "31:47": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "31:49": [
+      "Augusta Elton"
+    ],
+    "31:50": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "31:51": [
+      "Augusta Elton"
+    ],
+    "31:53": [
+      "Augusta Elton",
+      "Augusta Elton"
+    ],
+    "31:55": [
+      "Augusta Elton"
+    ],
+    "31:56": [
+      "Augusta Elton"
+    ],
+    "31:58": [
+      "Augusta Elton",
+      "Augusta Elton"
+    ],
+    "31:59": [
+      "Augusta Elton"
+    ],
+    "31:60": [
+      "Augusta Elton"
+    ],
+    "31:61": [
+      "Augusta Elton"
+    ],
+    "31:62": [
+      "Augusta Elton"
+    ],
+    "31:63": [
+      "Augusta Elton"
+    ],
+    "31:64": [
+      "Augusta Elton"
+    ],
+    "32:1": [
+      "Emma Woodhouse"
+    ],
+    "32:8": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "32:9": [
+      "Augusta Elton"
+    ],
+    "32:10": [
+      "Emma Woodhouse"
+    ],
+    "32:12": [
+      "Augusta Elton"
+    ],
+    "32:13": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "32:14": [
+      "Augusta Elton"
+    ],
+    "32:16": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "32:18": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "32:20": [
+      "Mrs. Weston"
+    ],
+    "32:21": [
+      "George Knightley",
+      "George Knightley"
+    ],
+    "32:23": [
+      "George Knightley"
+    ],
+    "32:24": [
+      "Mrs. Weston",
+      "Mrs. Weston"
+    ],
+    "32:26": [
+      "George Knightley"
+    ],
+    "32:27": [
+      "Mrs. Weston"
+    ],
+    "32:28": [
+      "George Knightley",
+      "George Knightley"
+    ],
+    "32:29": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "32:31": [
+      "George Knightley"
+    ],
+    "32:33": [
+      "Emma Woodhouse"
+    ],
+    "32:35": [
+      "George Knightley"
+    ],
+    "32:37": [
+      "Emma Woodhouse"
+    ],
+    "32:38": [
+      "George Knightley"
+    ],
+    "32:39": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "32:40": [
+      "George Knightley",
+      "George Knightley"
+    ],
+    "32:41": [
+      "Emma Woodhouse"
+    ],
+    "32:43": [
+      "George Knightley"
+    ],
+    "32:44": [
+      "George Knightley",
+      "George Knightley"
+    ],
+    "32:45": [
+      "George Knightley",
+      "George Knightley"
+    ],
+    "32:46": [
+      "George Knightley"
+    ],
+    "33:1": [
+      "Augusta Elton",
+      "Augusta Elton"
+    ],
+    "33:4": [
+      "Harriet Smith"
+    ],
+    "33:6": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "33:11": [
+      "John Knightley"
+    ],
+    "33:12": [
+      "Jane Fairfax",
+      "Jane Fairfax"
+    ],
+    "33:13": [
+      "John Knightley"
+    ],
+    "33:14": [
+      "Jane Fairfax"
+    ],
+    "33:16": [
+      "John Knightley"
+    ],
+    "33:18": [
+      "Jane Fairfax"
+    ],
+    "33:19": [
+      "John Knightley"
+    ],
+    "33:20": [
+      "Jane Fairfax"
+    ],
+    "33:21": [
+      "John Knightley",
+      "John Knightley"
+    ],
+    "33:22": [
+      "Jane Fairfax"
+    ],
+    "33:23": [
+      "John Knightley",
+      "John Knightley"
+    ],
+    "33:24": [
+      "John Knightley"
+    ],
+    "33:25": [
+      "John Knightley"
+    ],
+    "33:26": [
+      "John Knightley"
+    ],
+    "33:27": [
+      "John Knightley"
+    ],
+    "33:30": [
+      "John Knightley"
+    ],
+    "33:32": [
+      "John Knightley"
+    ],
+    "33:33": [
+      "Mrs. Weston",
+      "Mrs. Weston"
+    ],
+    "33:34": [
+      "John Knightley",
+      "John Knightley",
+      "John Knightley"
+    ],
+    "33:35": [
+      "Jane Fairfax",
+      "Jane Fairfax"
+    ],
+    "33:36": [
+      "John Knightley"
+    ],
+    "33:37": [
+      "Jane Fairfax",
+      "Jane Fairfax"
+    ],
+    "33:38": [
+      "John Knightley"
+    ],
+    "33:40": [
+      "Jane Fairfax",
+      "Jane Fairfax"
+    ],
+    "33:41": [
+      "John Knightley"
+    ],
+    "33:42": [
+      "Jane Fairfax"
+    ],
+    "33:43": [
+      "John Knightley",
+      "John Knightley"
+    ],
+    "33:45": [
+      "John Knightley",
+      "John Knightley"
+    ],
+    "33:46": [
+      "John Knightley",
+      "John Knightley"
+    ],
+    "33:47": [
+      "Mr. Woodhouse",
+      "Mr. Woodhouse"
+    ],
+    "33:48": [
+      "John Knightley",
+      "John Knightley"
+    ],
+    "33:49": [
+      "Mr. Woodhouse"
+    ],
+    "33:50": [
+      "George Knightley",
+      "George Knightley"
+    ],
+    "33:51": [
+      "Mr. Woodhouse"
+    ],
+    "33:52": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "33:53": [
+      "Mr. Woodhouse"
+    ],
+    "33:54": [
+      "Emma Woodhouse"
+    ],
+    "33:55": [
+      "George Knightley",
+      "George Knightley"
+    ],
+    "33:57": [
+      "Emma Woodhouse"
+    ],
+    "34:1": [
+      "Augusta Elton",
+      "Augusta Elton"
+    ],
+    "34:2": [
+      "Jane Fairfax"
+    ],
+    "34:3": [
+      "Augusta Elton"
+    ],
+    "34:4": [
+      "Jane Fairfax"
+    ],
+    "34:5": [
+      "Augusta Elton"
+    ],
+    "34:6": [
+      "Jane Fairfax",
+      "Jane Fairfax"
+    ],
+    "34:7": [
+      "Jane Fairfax"
+    ],
+    "34:8": [
+      "Jane Fairfax",
+      "Jane Fairfax"
+    ],
+    "34:9": [
+      "Jane Fairfax"
+    ],
+    "34:10": [
+      "Jane Fairfax"
+    ],
+    "34:11": [
+      "Jane Fairfax"
+    ],
+    "34:12": [
+      "Jane Fairfax"
+    ],
+    "34:13": [
+      "Jane Fairfax"
+    ],
+    "34:14": [
+      "Jane Fairfax",
+      "Jane Fairfax"
+    ],
+    "34:15": [
+      "Jane Fairfax",
+      "Jane Fairfax"
+    ],
+    "34:16": [
+      "Jane Fairfax"
+    ],
+    "34:17": [
+      "Jane Fairfax"
+    ],
+    "34:18": [
+      "Jane Fairfax",
+      "Jane Fairfax"
+    ],
+    "34:19": [
+      "Augusta Elton",
+      "Augusta Elton"
+    ],
+    "34:22": [
+      "Jane Fairfax"
+    ],
+    "34:24": [
+      "Augusta Elton"
+    ],
+    "34:26": [
+      "Jane Fairfax",
+      "Jane Fairfax"
+    ],
+    "34:28": [
+      "Augusta Elton"
+    ],
+    "35:0": [
+      "Mr. Weston"
+    ],
+    "35:2": [
+      "Mr. Weston",
+      "Mr. Weston"
+    ],
+    "35:3": [
+      "Mr. Weston"
+    ],
+    "35:4": [
+      "Mr. Weston"
+    ],
+    "35:5": [
+      "Mr. Weston"
+    ],
+    "35:6": [
+      "Mr. Weston"
+    ],
+    "35:7": [
+      "Mr. Weston"
+    ],
+    "35:8": [
+      "Mr. Weston"
+    ],
+    "35:9": [
+      "Mr. Weston"
+    ],
+    "35:10": [
+      "Mr. Weston",
+      "Mr. Weston"
+    ],
+    "35:11": [
+      "Mr. Weston"
+    ],
+    "35:12": [
+      "Mr. Weston"
+    ],
+    "35:14": [
+      "Mr. Weston"
+    ],
+    "35:15": [
+      "Mr. Weston"
+    ],
+    "35:17": [
+      "Mr. Weston"
+    ],
+    "35:18": [
+      "Mr. Weston",
+      "Mr. Weston"
+    ],
+    "35:19": [
+      "Mr. Weston"
+    ],
+    "35:20": [
+      "Mr. Weston"
+    ],
+    "35:21": [
+      "Mr. Weston"
+    ],
+    "35:23": [
+      "Mr. Weston"
+    ],
+    "35:25": [
+      "Mr. Weston",
+      "Mr. Weston"
+    ],
+    "35:26": [
+      "Mr. Weston"
+    ],
+    "35:29": [
+      "Mr. Weston"
+    ],
+    "35:30": [
+      "Mr. Weston"
+    ],
+    "35:32": [
+      "Mr. Weston"
+    ],
+    "35:33": [
+      "Mr. Weston"
+    ],
+    "35:35": [
+      "Mr. Weston"
+    ],
+    "35:39": [
+      "Mr. Weston"
+    ],
+    "35:40": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "35:41": [
+      "Mr. Weston"
+    ],
+    "35:42": [
+      "Emma Woodhouse"
+    ],
+    "35:43": [
+      "Mr. Weston"
+    ],
+    "35:44": [
+      "Emma Woodhouse"
+    ],
+    "35:45": [
+      "Mr. Weston"
+    ],
+    "35:46": [
+      "Emma Woodhouse"
+    ],
+    "35:47": [
+      "Mr. Weston"
+    ],
+    "35:48": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "35:49": [
+      "Mr. Weston"
+    ],
+    "35:50": [
+      "George Knightley",
+      "George Knightley"
+    ],
+    "35:51": [
+      "Emma Woodhouse"
+    ],
+    "35:52": [
+      "George Knightley"
+    ],
+    "36:3": [
+      "Frank Churchill"
+    ],
+    "37:2": [
+      "Emma Woodhouse"
+    ],
+    "37:6": [
+      "Frank Churchill",
+      "Frank Churchill"
+    ],
+    "37:8": [
+      "Frank Churchill"
+    ],
+    "37:10": [
+      "Mr. Weston",
+      "Mr. Weston"
+    ],
+    "37:12": [
+      "Mr. Weston",
+      "Mr. Weston"
+    ],
+    "37:13": [
+      "Mr. Weston"
+    ],
+    "37:15": [
+      "Mr. Weston"
+    ],
+    "37:17": [
+      "Mr. Weston"
+    ],
+    "37:20": [
+      "Mr. Weston"
+    ],
+    "37:21": [
+      "Mr. Weston"
+    ],
+    "37:22": [
+      "Mr. Weston"
+    ],
+    "37:24": [
+      "Mr. Weston"
+    ],
+    "37:25": [
+      "Mr. Weston",
+      "Mr. Weston"
+    ],
+    "37:26": [
+      "Mr. Weston"
+    ],
+    "37:27": [
+      "Mr. Weston"
+    ],
+    "37:28": [
+      "Mr. Weston"
+    ],
+    "37:29": [
+      "Mr. Weston",
+      "Mr. Weston"
+    ],
+    "37:31": [
+      "Mr. Weston",
+      "Mr. Weston"
+    ],
+    "37:37": [
+      "Mr. Weston",
+      "Mr. Weston"
+    ],
+    "37:38": [
+      "Mr. Weston"
+    ],
+    "37:39": [
+      "Mr. Weston",
+      "Mr. Weston"
+    ],
+    "37:40": [
+      "Mr. Weston",
+      "Mr. Weston"
+    ],
+    "37:46": [
+      "Mr. Weston"
+    ],
+    "37:51": [
+      "Mr. Weston"
+    ],
+    "37:53": [
+      "Mr. Weston",
+      "Mr. Weston"
+    ],
+    "37:54": [
+      "Mr. Weston"
+    ],
+    "37:55": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "37:57": [
+      "Mr. Weston"
+    ],
+    "37:58": [
+      "Emma Woodhouse"
+    ],
+    "37:59": [
+      "Mr. Weston"
+    ],
+    "37:60": [
+      "Emma Woodhouse"
+    ],
+    "37:61": [
+      "Mr. Weston"
+    ],
+    "37:63": [
+      "Emma Woodhouse"
+    ],
+    "37:64": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "37:65": [
+      "George Knightley"
+    ],
+    "37:66": [
+      "Emma Woodhouse"
+    ],
+    "37:67": [
+      "George Knightley"
+    ],
+    "37:68": [
+      "Emma Woodhouse"
+    ],
+    "37:69": [
+      "George Knightley"
+    ],
+    "39:1": [
+      "Harriet Smith"
+    ],
+    "39:3": [
+      "Harriet Smith",
+      "Harriet Smith"
+    ],
+    "39:4": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "39:5": [
+      "Harriet Smith"
+    ],
+    "39:6": [
+      "Emma Woodhouse"
+    ],
+    "39:7": [
+      "Harriet Smith"
+    ],
+    "39:8": [
+      "Emma Woodhouse"
+    ],
+    "39:10": [
+      "Harriet Smith",
+      "Harriet Smith"
+    ],
+    "39:11": [
+      "Emma Woodhouse"
+    ],
+    "39:12": [
+      "Harriet Smith"
+    ],
+    "39:13": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "39:14": [
+      "Harriet Smith"
+    ],
+    "39:15": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "39:16": [
+      "Harriet Smith",
+      "Harriet Smith"
+    ],
+    "39:18": [
+      "Harriet Smith",
+      "Harriet Smith"
+    ],
+    "39:19": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "39:20": [
+      "Harriet Smith"
+    ],
+    "39:21": [
+      "Emma Woodhouse"
+    ],
+    "39:22": [
+      "Harriet Smith"
+    ],
+    "39:23": [
+      "Emma Woodhouse"
+    ],
+    "39:24": [
+      "Harriet Smith"
+    ],
+    "39:25": [
+      "Emma Woodhouse"
+    ],
+    "39:26": [
+      "Harriet Smith",
+      "Harriet Smith"
+    ],
+    "39:27": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "39:28": [
+      "Harriet Smith",
+      "Harriet Smith"
+    ],
+    "39:30": [
+      "Emma Woodhouse"
+    ],
+    "39:31": [
+      "Harriet Smith"
+    ],
+    "39:32": [
+      "Emma Woodhouse"
+    ],
+    "39:33": [
+      "Harriet Smith",
+      "Harriet Smith",
+      "Harriet Smith"
+    ],
+    "39:35": [
+      "Emma Woodhouse"
+    ],
+    "39:36": [
+      "Harriet Smith"
+    ],
+    "39:37": [
+      "Emma Woodhouse"
+    ],
+    "39:38": [
+      "Harriet Smith"
+    ],
+    "39:40": [
+      "Emma Woodhouse"
+    ],
+    "40:3": [
+      "George Knightley"
+    ],
+    "40:7": [
+      "Frank Churchill",
+      "Frank Churchill"
+    ],
+    "40:8": [
+      "Frank Churchill"
+    ],
+    "40:9": [
+      "Frank Churchill"
+    ],
+    "40:10": [
+      "Frank Churchill"
+    ],
+    "40:11": [
+      "Frank Churchill"
+    ],
+    "40:12": [
+      "Frank Churchill"
+    ],
+    "40:13": [
+      "Frank Churchill"
+    ],
+    "40:14": [
+      "Mr. Weston",
+      "Mr. Weston"
+    ],
+    "40:15": [
+      "Frank Churchill",
+      "Frank Churchill"
+    ],
+    "40:16": [
+      "Mr. Weston",
+      "Mr. Weston"
+    ],
+    "40:18": [
+      "Miss Bates"
+    ],
+    "40:19": [
+      "Mr. Weston"
+    ],
+    "40:22": [
+      "Frank Churchill",
+      "Frank Churchill"
+    ],
+    "40:23": [
+      "Mr. Weston"
+    ],
+    "40:26": [
+      "Frank Churchill",
+      "Frank Churchill",
+      "Frank Churchill"
+    ],
+    "40:27": [
+      "Mr. Weston"
+    ],
+    "40:29": [
+      "Frank Churchill",
+      "Frank Churchill"
+    ],
+    "40:32": [
+      "Mr. Weston",
+      "Mr. Weston"
+    ],
+    "40:34": [
+      "Frank Churchill",
+      "Frank Churchill"
+    ],
+    "40:35": [
+      "Mr. Weston",
+      "Mr. Weston"
+    ],
+    "40:37": [
+      "Frank Churchill",
+      "Frank Churchill"
+    ],
+    "40:38": [
+      "Mr. Weston"
+    ],
+    "40:39": [
+      "Frank Churchill"
+    ],
+    "40:40": [
+      "Mr. Weston",
+      "Mr. Weston"
+    ],
+    "40:41": [
+      "Frank Churchill"
+    ],
+    "40:42": [
+      "Mr. Weston"
+    ],
+    "41:5": [
+      "Mr. Weston",
+      "Mr. Weston"
+    ],
+    "41:8": [
+      "Augusta Elton",
+      "Augusta Elton"
+    ],
+    "41:9": [
+      "George Knightley",
+      "George Knightley"
+    ],
+    "41:10": [
+      "George Knightley"
+    ],
+    "41:11": [
+      "George Knightley",
+      "George Knightley"
+    ],
+    "41:12": [
+      "George Knightley",
+      "George Knightley"
+    ],
+    "41:13": [
+      "George Knightley"
+    ],
+    "41:14": [
+      "George Knightley",
+      "George Knightley"
+    ],
+    "41:15": [
+      "George Knightley"
+    ],
+    "41:16": [
+      "George Knightley",
+      "George Knightley"
+    ],
+    "41:17": [
+      "Augusta Elton"
+    ],
+    "41:18": [
+      "George Knightley"
+    ],
+    "41:19": [
+      "Augusta Elton",
+      "Augusta Elton"
+    ],
+    "41:20": [
+      "George Knightley"
+    ],
+    "41:21": [
+      "Augusta Elton"
+    ],
+    "41:22": [
+      "George Knightley"
+    ],
+    "41:23": [
+      "Augusta Elton"
+    ],
+    "41:24": [
+      "George Knightley"
+    ],
+    "41:25": [
+      "Augusta Elton"
+    ],
+    "41:26": [
+      "George Knightley"
+    ],
+    "41:27": [
+      "Augusta Elton"
+    ],
+    "41:28": [
+      "George Knightley"
+    ],
+    "41:29": [
+      "Augusta Elton"
+    ],
+    "41:31": [
+      "George Knightley"
+    ],
+    "41:38": [
+      "Augusta Elton"
+    ],
+    "41:41": [
+      "George Knightley"
+    ],
+    "41:46": [
+      "Augusta Elton"
+    ],
+    "41:47": [
+      "George Knightley"
+    ],
+    "41:50": [
+      "Augusta Elton",
+      "Augusta Elton"
+    ],
+    "41:51": [
+      "George Knightley"
+    ],
+    "41:52": [
+      "Augusta Elton"
+    ],
+    "41:53": [
+      "George Knightley"
+    ],
+    "41:54": [
+      "Augusta Elton"
+    ],
+    "41:55": [
+      "George Knightley"
+    ],
+    "41:56": [
+      "Augusta Elton",
+      "Augusta Elton"
+    ],
+    "41:57": [
+      "George Knightley"
+    ],
+    "41:58": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "41:61": [
+      "Emma Woodhouse"
+    ],
+    "41:62": [
+      "Emma Woodhouse"
+    ],
+    "41:64": [
+      "Emma Woodhouse"
+    ],
+    "41:65": [
+      "Emma Woodhouse"
+    ],
+    "41:67": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "41:68": [
+      "Emma Woodhouse"
+    ],
+    "41:69": [
+      "Emma Woodhouse"
+    ],
+    "41:70": [
+      "Emma Woodhouse"
+    ],
+    "41:71": [
+      "Emma Woodhouse"
+    ],
+    "41:72": [
+      "Emma Woodhouse"
+    ],
+    "41:73": [
+      "Emma Woodhouse"
+    ],
+    "41:74": [
+      "Emma Woodhouse"
+    ],
+    "41:75": [
+      "Emma Woodhouse"
+    ],
+    "41:76": [
+      "Emma Woodhouse"
+    ],
+    "41:77": [
+      "Emma Woodhouse"
+    ],
+    "41:78": [
+      "Emma Woodhouse"
+    ],
+    "41:79": [
+      "Emma Woodhouse"
+    ],
+    "41:80": [
+      "Emma Woodhouse"
+    ],
+    "41:82": [
+      "Emma Woodhouse"
+    ],
+    "42:3": [
+      "Frank Churchill"
+    ],
+    "42:5": [
+      "Frank Churchill",
+      "Frank Churchill"
+    ],
+    "42:6": [
+      "Emma Woodhouse"
+    ],
+    "42:7": [
+      "Frank Churchill"
+    ],
+    "42:8": [
+      "Emma Woodhouse"
+    ],
+    "42:9": [
+      "Frank Churchill"
+    ],
+    "42:10": [
+      "Emma Woodhouse"
+    ],
+    "42:11": [
+      "Frank Churchill"
+    ],
+    "42:12": [
+      "Emma Woodhouse"
+    ],
+    "42:13": [
+      "Frank Churchill"
+    ],
+    "42:14": [
+      "Emma Woodhouse"
+    ],
+    "42:15": [
+      "Frank Churchill"
+    ],
+    "42:16": [
+      "Emma Woodhouse"
+    ],
+    "42:17": [
+      "Frank Churchill",
+      "Frank Churchill",
+      "Frank Churchill"
+    ],
+    "42:19": [
+      "George Knightley"
+    ],
+    "42:20": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "42:21": [
+      "Augusta Elton",
+      "Augusta Elton"
+    ],
+    "42:23": [
+      "Emma Woodhouse"
+    ],
+    "42:24": [
+      "Augusta Elton",
+      "Augusta Elton"
+    ],
+    "42:25": [
+      "Miss Bates",
+      "Miss Bates"
+    ],
+    "42:27": [
+      "Augusta Elton"
+    ],
+    "42:29": [
+      "Miss Bates"
+    ],
+    "42:30": [
+      "Mr. Weston",
+      "Mr. Weston"
+    ],
+    "42:31": [
+      "Miss Bates",
+      "Miss Bates"
+    ],
+    "42:32": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "42:33": [
+      "Mr. Weston",
+      "Mr. Weston"
+    ],
+    "42:34": [
+      "Emma Woodhouse"
+    ],
+    "42:35": [
+      "Mr. Weston"
+    ],
+    "42:37": [
+      "Emma Woodhouse"
+    ],
+    "42:38": [
+      "Augusta Elton"
+    ],
+    "42:39": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "42:40": [
+      "Augusta Elton"
+    ],
+    "42:41": [
+      "Frank Churchill",
+      "Frank Churchill"
+    ],
+    "42:43": [
+      "Augusta Elton"
+    ],
+    "42:44": [
+      "Frank Churchill"
+    ],
+    "42:45": [
+      "Augusta Elton"
+    ],
+    "42:47": [
+      "Frank Churchill"
+    ],
+    "42:48": [
+      "Augusta Elton"
+    ],
+    "42:49": [
+      "Frank Churchill"
+    ],
+    "42:50": [
+      "Augusta Elton"
+    ],
+    "42:51": [
+      "Frank Churchill"
+    ],
+    "42:53": [
+      "Augusta Elton",
+      "Augusta Elton"
+    ],
+    "42:54": [
+      "Frank Churchill"
+    ],
+    "42:57": [
+      "Augusta Elton"
+    ],
+    "42:59": [
+      "Frank Churchill"
+    ],
+    "42:60": [
+      "Augusta Elton"
+    ],
+    "42:61": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "42:62": [
+      "Augusta Elton"
+    ],
+    "42:63": [
+      "Emma Woodhouse"
+    ],
+    "43:0": [
+      "Emma Woodhouse"
+    ],
+    "43:3": [
+      "Miss Bates"
+    ],
+    "43:4": [
+      "Miss Bates"
+    ],
+    "43:6": [
+      "Mrs. Bates",
+      "Mrs. Bates"
+    ],
+    "43:7": [
+      "Miss Bates"
+    ],
+    "43:10": [
+      "Miss Bates"
+    ],
+    "43:11": [
+      "Emma Woodhouse"
+    ],
+    "43:12": [
+      "Miss Bates",
+      "Miss Bates"
+    ],
+    "43:13": [
+      "Miss Bates"
+    ],
+    "43:14": [
+      "Miss Bates"
+    ],
+    "43:15": [
+      "Miss Bates"
+    ],
+    "43:16": [
+      "Miss Bates"
+    ],
+    "43:18": [
+      "Miss Bates"
+    ],
+    "43:19": [
+      "Miss Bates"
+    ],
+    "43:20": [
+      "Miss Bates"
+    ],
+    "43:21": [
+      "Miss Bates"
+    ],
+    "43:22": [
+      "Miss Bates"
+    ],
+    "43:23": [
+      "Miss Bates"
+    ],
+    "43:24": [
+      "Miss Bates"
+    ],
+    "43:25": [
+      "Miss Bates"
+    ],
+    "43:26": [
+      "Miss Bates"
+    ],
+    "43:27": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "43:28": [
+      "Miss Bates"
+    ],
+    "43:29": [
+      "Emma Woodhouse"
+    ],
+    "43:30": [
+      "Miss Bates"
+    ],
+    "43:31": [
+      "Emma Woodhouse"
+    ],
+    "43:33": [
+      "Miss Bates"
+    ],
+    "43:37": [
+      "Emma Woodhouse"
+    ],
+    "44:1": [
+      "George Knightley"
+    ],
+    "44:2": [
+      "Emma Woodhouse"
+    ],
+    "44:3": [
+      "George Knightley"
+    ],
+    "44:5": [
+      "Mr. Woodhouse"
+    ],
+    "44:11": [
+      "Mr. Woodhouse"
+    ],
+    "44:14": [
+      "Emma Woodhouse",
+      "Mr. Weston"
+    ],
+    "44:19": [
+      "Miss Bates"
+    ],
+    "44:22": [
+      "Miss Bates"
+    ],
+    "44:24": [
+      "Miss Bates"
+    ],
+    "44:26": [
+      "Miss Bates"
+    ],
+    "45:0": [
+      "Mr. Weston"
+    ],
+    "45:1": [
+      "Mr. Weston"
+    ],
+    "45:2": [
+      "Emma Woodhouse"
+    ],
+    "45:3": [
+      "Mr. Weston"
+    ],
+    "45:4": [
+      "Emma Woodhouse"
+    ],
+    "45:5": [
+      "Mr. Weston"
+    ],
+    "45:7": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "45:8": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "45:9": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "45:10": [
+      "Emma Woodhouse"
+    ],
+    "45:11": [
+      "Emma Woodhouse"
+    ],
+    "45:12": [
+      "Emma Woodhouse"
+    ],
+    "45:13": [
+      "Emma Woodhouse"
+    ],
+    "45:14": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "45:16": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "45:18": [
+      "Emma Woodhouse"
+    ],
+    "45:19": [
+      "Emma Woodhouse"
+    ],
+    "45:20": [
+      "Emma Woodhouse"
+    ],
+    "45:21": [
+      "Emma Woodhouse"
+    ],
+    "45:23": [
+      "Emma Woodhouse"
+    ],
+    "45:24": [
+      "Emma Woodhouse",
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "45:26": [
+      "Emma Woodhouse"
+    ],
+    "45:27": [
+      "Mrs. Weston",
+      "Mrs. Weston"
+    ],
+    "45:28": [
+      "Emma Woodhouse"
+    ],
+    "45:29": [
+      "Mrs. Weston",
+      "Mrs. Weston"
+    ],
+    "45:31": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "45:33": [
+      "Mrs. Weston"
+    ],
+    "45:34": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "45:36": [
+      "Mrs. Weston",
+      "Mrs. Weston"
+    ],
+    "45:37": [
+      "Emma Woodhouse"
+    ],
+    "45:38": [
+      "Mrs. Weston"
+    ],
+    "45:40": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "45:42": [
+      "Mrs. Weston",
+      "Mrs. Weston"
+    ],
+    "45:43": [
+      "Emma Woodhouse"
+    ],
+    "45:44": [
+      "Mrs. Weston"
+    ],
+    "45:45": [
+      "Emma Woodhouse"
+    ],
+    "45:46": [
+      "Mrs. Weston"
+    ],
+    "45:47": [
+      "Emma Woodhouse"
+    ],
+    "45:48": [
+      "Mrs. Weston"
+    ],
+    "45:49": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "45:50": [
+      "Mrs. Weston"
+    ],
+    "45:52": [
+      "Mrs. Weston",
+      "Mrs. Weston"
+    ],
+    "45:53": [
+      "Mrs. Weston",
+      "Mrs. Weston"
+    ],
+    "45:54": [
+      "Mrs. Weston"
+    ],
+    "45:55": [
+      "Mrs. Weston",
+      "Mrs. Weston"
+    ],
+    "45:56": [
+      "Mrs. Weston"
+    ],
+    "45:57": [
+      "Mrs. Weston"
+    ],
+    "45:59": [
+      "Mrs. Weston"
+    ],
+    "45:60": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "45:61": [
+      "Mrs. Weston",
+      "Mrs. Weston"
+    ],
+    "45:62": [
+      "Emma Woodhouse"
+    ],
+    "45:63": [
+      "Mrs. Weston"
+    ],
+    "45:64": [
+      "Emma Woodhouse"
+    ],
+    "45:65": [
+      "Mrs. Weston",
+      "Mrs. Weston"
+    ],
+    "45:67": [
+      "Emma Woodhouse"
+    ],
+    "46:0": [
+      "Emma Woodhouse"
+    ],
+    "46:1": [
+      "George Knightley"
+    ],
+    "46:2": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "46:5": [
+      "Mrs. Weston"
+    ],
+    "46:7": [
+      "Harriet Smith",
+      "Harriet Smith"
+    ],
+    "46:8": [
+      "Emma Woodhouse"
+    ],
+    "46:9": [
+      "Harriet Smith"
+    ],
+    "46:10": [
+      "Emma Woodhouse"
+    ],
+    "46:11": [
+      "Harriet Smith"
+    ],
+    "46:13": [
+      "Harriet Smith",
+      "Harriet Smith"
+    ],
+    "46:14": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "46:15": [
+      "Harriet Smith",
+      "Harriet Smith"
+    ],
+    "46:16": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "46:17": [
+      "Harriet Smith"
+    ],
+    "46:18": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "46:21": [
+      "Harriet Smith"
+    ],
+    "46:22": [
+      "Emma Woodhouse"
+    ],
+    "46:23": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "46:24": [
+      "Emma Woodhouse"
+    ],
+    "46:25": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "46:26": [
+      "Emma Woodhouse"
+    ],
+    "46:27": [
+      "Emma Woodhouse"
+    ],
+    "46:28": [
+      "Harriet Smith",
+      "Harriet Smith"
+    ],
+    "46:29": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "46:30": [
+      "Harriet Smith"
+    ],
+    "46:32": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "46:34": [
+      "Harriet Smith"
+    ],
+    "46:35": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "46:47": [
+      "Harriet Smith"
+    ],
+    "46:49": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "46:51": [
+      "Harriet Smith"
+    ],
+    "46:52": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "47:8": [
+      "Mr. Weston",
+      "Mr. Weston"
+    ],
+    "47:11": [
+      "Mrs. Weston",
+      "Mrs. Weston"
+    ],
+    "47:12": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "47:13": [
+      "Mrs. Weston"
+    ],
+    "47:14": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "47:15": [
+      "Mrs. Weston"
+    ],
+    "47:16": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "47:17": [
+      "Mrs. Weston"
+    ],
+    "47:18": [
+      "Emma Woodhouse"
+    ],
+    "47:19": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "47:20": [
+      "Emma Woodhouse"
+    ],
+    "47:21": [
+      "Emma Woodhouse"
+    ],
+    "47:22": [
+      "Emma Woodhouse"
+    ],
+    "48:1": [
+      "Emma Woodhouse",
+      "George Knightley"
+    ],
+    "48:3": [
+      "Emma Woodhouse"
+    ],
+    "48:4": [
+      "George Knightley",
+      "George Knightley"
+    ],
+    "48:5": [
+      "Emma Woodhouse"
+    ],
+    "48:7": [
+      "George Knightley"
+    ],
+    "48:8": [
+      "Emma Woodhouse"
+    ],
+    "48:9": [
+      "Emma Woodhouse"
+    ],
+    "48:11": [
+      "Emma Woodhouse"
+    ],
+    "48:13": [
+      "Emma Woodhouse",
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "48:15": [
+      "Emma Woodhouse"
+    ],
+    "48:16": [
+      "Emma Woodhouse",
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "48:17": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "48:20": [
+      "Emma Woodhouse"
+    ],
+    "48:22": [
+      "Emma Woodhouse"
+    ],
+    "48:23": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "48:24": [
+      "Emma Woodhouse"
+    ],
+    "48:25": [
+      "Emma Woodhouse"
+    ],
+    "48:26": [
+      "Emma Woodhouse"
+    ],
+    "48:27": [
+      "Emma Woodhouse"
+    ],
+    "48:29": [
+      "Emma Woodhouse"
+    ],
+    "48:30": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "48:31": [
+      "Emma Woodhouse"
+    ],
+    "48:33": [
+      "Emma Woodhouse"
+    ],
+    "48:34": [
+      "Emma Woodhouse",
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "48:35": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "48:37": [
+      "Emma Woodhouse",
+      "Emma Woodhouse",
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "48:39": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "49:9": [
+      "Mrs. Weston"
+    ],
+    "50:2": [
+      "George Knightley",
+      "George Knightley"
+    ],
+    "50:4": [
+      "George Knightley",
+      "George Knightley"
+    ],
+    "50:5": [
+      "George Knightley"
+    ],
+    "50:6": [
+      "George Knightley"
+    ],
+    "50:7": [
+      "George Knightley",
+      "George Knightley"
+    ],
+    "50:8": [
+      "Emma Woodhouse"
+    ],
+    "50:10": [
+      "George Knightley",
+      "George Knightley"
+    ],
+    "50:11": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "50:12": [
+      "Emma Woodhouse"
+    ],
+    "50:14": [
+      "Emma Woodhouse"
+    ],
+    "50:16": [
+      "Emma Woodhouse"
+    ],
+    "50:17": [
+      "Emma Woodhouse"
+    ],
+    "50:19": [
+      "Emma Woodhouse",
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "50:21": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "50:22": [
+      "Emma Woodhouse"
+    ],
+    "50:23": [
+      "George Knightley",
+      "George Knightley"
+    ],
+    "50:24": [
+      "Emma Woodhouse"
+    ],
+    "50:25": [
+      "George Knightley"
+    ],
+    "50:26": [
+      "Emma Woodhouse"
+    ],
+    "50:27": [
+      "George Knightley"
+    ],
+    "50:28": [
+      "Emma Woodhouse"
+    ],
+    "50:29": [
+      "George Knightley"
+    ],
+    "50:30": [
+      "Emma Woodhouse"
+    ],
+    "50:33": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "51:7": [
+      null
+    ],
+    "51:9": [
+      "Jane Fairfax"
+    ],
+    "51:14": [
+      "Augusta Elton"
+    ],
+    "51:17": [
+      "Augusta Elton"
+    ],
+    "51:19": [
+      "Augusta Elton",
+      "Augusta Elton"
+    ],
+    "51:20": [
+      "Augusta Elton",
+      "Augusta Elton"
+    ],
+    "51:22": [
+      "Miss Bates"
+    ],
+    "51:23": [
+      "Augusta Elton"
+    ],
+    "51:24": [
+      "Miss Bates"
+    ],
+    "51:25": [
+      "Augusta Elton",
+      "Augusta Elton"
+    ],
+    "51:27": [
+      "Augusta Elton"
+    ],
+    "51:28": [
+      "Emma Woodhouse"
+    ],
+    "51:29": [
+      "Augusta Elton"
+    ],
+    "51:30": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "51:31": [
+      "Emma Woodhouse",
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "51:32": [
+      "Jane Fairfax"
+    ],
+    "51:33": [
+      "Emma Woodhouse"
+    ],
+    "51:34": [
+      "Jane Fairfax"
+    ],
+    "51:35": [
+      "Emma Woodhouse"
+    ],
+    "51:38": [
+      "Jane Fairfax"
+    ],
+    "51:40": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "51:41": [
+      "Jane Fairfax",
+      "Jane Fairfax"
+    ],
+    "51:42": [
+      "Emma Woodhouse"
+    ],
+    "51:44": [
+      "Augusta Elton",
+      "Augusta Elton"
+    ],
+    "51:45": [
+      "Philip Elton",
+      "Philip Elton"
+    ],
+    "51:48": [
+      "Augusta Elton"
+    ],
+    "51:49": [
+      "Jane Fairfax",
+      "Jane Fairfax"
+    ],
+    "51:50": [
+      "Augusta Elton",
+      "Augusta Elton"
+    ],
+    "51:51": [
+      "Jane Fairfax"
+    ],
+    "51:52": [
+      "Augusta Elton"
+    ],
+    "51:53": [
+      "Jane Fairfax"
+    ],
+    "51:54": [
+      "Augusta Elton"
+    ],
+    "51:55": [
+      "Jane Fairfax"
+    ],
+    "51:56": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "51:58": [
+      "Jane Fairfax"
+    ],
+    "51:59": [
+      "Emma Woodhouse"
+    ],
+    "52:1": [
+      "Mrs. Weston",
+      "Mrs. Weston"
+    ],
+    "52:2": [
+      "George Knightley",
+      "George Knightley"
+    ],
+    "52:3": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "52:4": [
+      "George Knightley"
+    ],
+    "52:5": [
+      "Emma Woodhouse"
+    ],
+    "52:6": [
+      "George Knightley"
+    ],
+    "52:7": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "52:8": [
+      "George Knightley"
+    ],
+    "52:9": [
+      "Emma Woodhouse"
+    ],
+    "52:10": [
+      "George Knightley"
+    ],
+    "52:11": [
+      "Emma Woodhouse"
+    ],
+    "52:12": [
+      "George Knightley"
+    ],
+    "52:13": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "52:16": [
+      "George Knightley",
+      "George Knightley"
+    ],
+    "52:18": [
+      "George Knightley",
+      "George Knightley"
+    ],
+    "52:19": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "52:20": [
+      "George Knightley"
+    ],
+    "52:21": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "52:22": [
+      "George Knightley"
+    ],
+    "52:23": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "52:24": [
+      "George Knightley",
+      "George Knightley"
+    ],
+    "52:25": [
+      "Emma Woodhouse"
+    ],
+    "52:26": [
+      "George Knightley"
+    ],
+    "52:35": [
+      "Emma Woodhouse"
+    ],
+    "52:38": [
+      "George Knightley",
+      "George Knightley"
+    ],
+    "52:40": [
+      "Emma Woodhouse",
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "52:41": [
+      "George Knightley"
+    ],
+    "53:1": [
+      "George Knightley"
+    ],
+    "53:2": [
+      "Emma Woodhouse"
+    ],
+    "53:3": [
+      "George Knightley"
+    ],
+    "53:4": [
+      "Emma Woodhouse"
+    ],
+    "53:5": [
+      "George Knightley",
+      "George Knightley"
+    ],
+    "53:6": [
+      "Emma Woodhouse"
+    ],
+    "53:7": [
+      "George Knightley",
+      "George Knightley",
+      "George Knightley"
+    ],
+    "53:9": [
+      "George Knightley",
+      "George Knightley"
+    ],
+    "53:10": [
+      "Emma Woodhouse"
+    ],
+    "53:11": [
+      "George Knightley"
+    ],
+    "53:12": [
+      "Emma Woodhouse"
+    ],
+    "53:13": [
+      "George Knightley",
+      "George Knightley"
+    ],
+    "53:15": [
+      "George Knightley"
+    ],
+    "53:16": [
+      "George Knightley",
+      "George Knightley"
+    ],
+    "53:17": [
+      "George Knightley",
+      "George Knightley"
+    ],
+    "53:18": [
+      "George Knightley",
+      "George Knightley",
+      "George Knightley"
+    ],
+    "53:20": [
+      "George Knightley"
+    ],
+    "53:22": [
+      "George Knightley"
+    ],
+    "53:24": [
+      "George Knightley"
+    ],
+    "53:25": [
+      "George Knightley",
+      "George Knightley"
+    ],
+    "53:26": [
+      "George Knightley"
+    ],
+    "53:27": [
+      "George Knightley"
+    ],
+    "53:28": [
+      "George Knightley",
+      "George Knightley"
+    ],
+    "53:29": [
+      "George Knightley"
+    ],
+    "53:30": [
+      "George Knightley",
+      "George Knightley"
+    ],
+    "53:31": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "53:32": [
+      "George Knightley"
+    ],
+    "53:33": [
+      "Emma Woodhouse"
+    ],
+    "53:34": [
+      "George Knightley"
+    ],
+    "53:35": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "53:45": [
+      "Mrs. Weston",
+      "Mrs. Weston"
+    ],
+    "53:47": [
+      "Emma Woodhouse"
+    ],
+    "53:48": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "53:50": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "53:52": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "53:53": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "53:54": [
+      "Emma Woodhouse"
+    ],
+    "53:55": [
+      "Emma Woodhouse"
+    ],
+    "53:56": [
+      "Emma Woodhouse"
+    ],
+    "53:57": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "53:59": [
+      "Emma Woodhouse",
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "53:61": [
+      "Emma Woodhouse"
+    ],
+    "53:62": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "53:63": [
+      "Emma Woodhouse"
+    ],
+    "53:65": [
+      "Emma Woodhouse"
+    ],
+    "53:66": [
+      "Emma Woodhouse"
+    ],
+    "53:67": [
+      "Emma Woodhouse"
+    ],
+    "53:69": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "53:70": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "53:71": [
+      "Emma Woodhouse"
+    ],
+    "53:72": [
+      "Emma Woodhouse"
+    ],
+    "53:73": [
+      "Emma Woodhouse"
+    ],
+    "53:75": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "53:77": [
+      "Emma Woodhouse",
+      "Emma Woodhouse"
+    ],
+    "53:79": [
+      "Emma Woodhouse"
+    ],
+    "54:11": [
+      "Augusta Elton"
+    ]
+  }
+}

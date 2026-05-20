@@ -1,0 +1,1892 @@
+{
+  "schemaVersion": 1,
+  "bookId": "persuasion",
+  "source": {
+    "encoder": "google-gemini-3.1-flash-lite",
+    "generatedAt": "2026-05-16T10:12:01.350Z",
+    "bookJsonSha256": "0e7889c3b032f7430f56fef5a81e9b0e9c6d14adec604a237daa87fe48aea78b"
+  },
+  "chunks": {
+    "0:2": [
+      null
+    ],
+    "0:3": [
+      "Sir Walter Elliot"
+    ],
+    "0:4": [
+      null
+    ],
+    "0:5": [
+      "Sir Walter Elliot"
+    ],
+    "0:20": [
+      "Sir Walter Elliot",
+      "Sir Walter Elliot"
+    ],
+    "0:25": [
+      "Sir Walter Elliot"
+    ],
+    "1:4": [
+      "Lady Russell"
+    ],
+    "1:5": [
+      "Lady Russell"
+    ],
+    "1:7": [
+      "Lady Russell"
+    ],
+    "1:8": [
+      "Lady Russell",
+      "Lady Russell",
+      "Lady Russell"
+    ],
+    "1:15": [
+      "Lady Russell"
+    ],
+    "2:0": [
+      "Mr. Shepherd",
+      "Mr. Shepherd"
+    ],
+    "2:1": [
+      "Sir Walter Elliot",
+      "Sir Walter Elliot"
+    ],
+    "2:4": [
+      "Mr. Shepherd"
+    ],
+    "2:6": [
+      "Sir Walter Elliot"
+    ],
+    "2:7": [
+      "Mrs. Clay",
+      "Mrs. Clay"
+    ],
+    "2:8": [
+      "Sir Walter Elliot",
+      "Sir Walter Elliot"
+    ],
+    "2:10": [
+      "Mrs. Clay"
+    ],
+    "2:12": [
+      "Sir Walter Elliot"
+    ],
+    "2:13": [
+      "Mrs. Clay",
+      "Mrs. Clay"
+    ],
+    "2:14": [
+      "Sir Walter Elliot"
+    ],
+    "2:15": [
+      "Mrs. Clay"
+    ],
+    "2:18": [
+      "Sir Walter Elliot"
+    ],
+    "2:19": [
+      "Mrs. Clay",
+      "Mrs. Clay"
+    ],
+    "2:20": [
+      "Sir Walter Elliot"
+    ],
+    "2:23": [
+      "Mrs. Clay"
+    ],
+    "2:25": [
+      "Sir Walter Elliot"
+    ],
+    "2:26": [
+      "Mrs. Clay",
+      "Mrs. Clay"
+    ],
+    "2:29": [
+      "Sir Walter Elliot",
+      "Sir Walter Elliot"
+    ],
+    "2:31": [
+      "Mrs. Clay"
+    ],
+    "2:32": [
+      "Sir Walter Elliot"
+    ],
+    "2:34": [
+      "Anne Elliot"
+    ],
+    "2:36": [
+      "Sir Walter Elliot"
+    ],
+    "2:37": [
+      "Anne Elliot"
+    ],
+    "2:40": [
+      "Sir Walter Elliot"
+    ],
+    "2:42": [
+      "Anne Elliot"
+    ],
+    "4:2": [
+      "Mr. Shepherd"
+    ],
+    "4:3": [
+      "Admiral Croft"
+    ],
+    "4:7": [
+      "Mary Musgrove",
+      "Elizabeth Elliot"
+    ],
+    "4:14": [
+      "Elizabeth Elliot"
+    ],
+    "4:15": [
+      "Anne Elliot"
+    ],
+    "4:16": [
+      "Anne Elliot",
+      "Anne Elliot"
+    ],
+    "4:17": [
+      "Elizabeth Elliot",
+      "Elizabeth Elliot"
+    ],
+    "4:22": [
+      "Anne Elliot"
+    ],
+    "4:24": [
+      "Elizabeth Elliot"
+    ],
+    "4:25": [
+      "Anne Elliot",
+      "Anne Elliot"
+    ],
+    "4:26": [
+      "Elizabeth Elliot"
+    ],
+    "4:27": [
+      "Anne Elliot"
+    ],
+    "4:28": [
+      "Elizabeth Elliot"
+    ],
+    "4:29": [
+      "Anne Elliot"
+    ],
+    "4:30": [
+      "Anne Elliot",
+      "Anne Elliot"
+    ],
+    "4:31": [
+      "Anne Elliot"
+    ],
+    "4:32": [
+      "Anne Elliot"
+    ],
+    "4:33": [
+      "Anne Elliot"
+    ],
+    "4:34": [
+      "Anne Elliot"
+    ],
+    "4:35": [
+      "Anne Elliot"
+    ],
+    "4:36": [
+      "Anne Elliot"
+    ],
+    "4:37": [
+      "Anne Elliot",
+      "Anne Elliot"
+    ],
+    "4:38": [
+      "Anne Elliot"
+    ],
+    "4:39": [
+      "Anne Elliot"
+    ],
+    "4:40": [
+      "Anne Elliot"
+    ],
+    "4:41": [
+      "Anne Elliot"
+    ],
+    "4:43": [
+      "Anne Elliot",
+      "Anne Elliot"
+    ],
+    "4:44": [
+      "Anne Elliot",
+      "Anne Elliot"
+    ],
+    "4:45": [
+      "Anne Elliot"
+    ],
+    "5:1": [
+      "Mr. Musgrove"
+    ],
+    "5:2": [
+      "Henrietta Musgrove",
+      "Mary Musgrove"
+    ],
+    "5:8": [
+      "Charles Musgrove",
+      "Mary Musgrove",
+      null
+    ],
+    "5:9": [
+      "Charles Musgrove",
+      "Mary Musgrove"
+    ],
+    "5:10": [
+      "Mary Musgrove"
+    ],
+    "5:11": [
+      "Mrs. Musgrove",
+      "Mrs. Musgrove"
+    ],
+    "5:12": [
+      "Mary Musgrove"
+    ],
+    "5:13": [
+      "Mrs. Musgrove"
+    ],
+    "5:15": [
+      "Henrietta Musgrove"
+    ],
+    "5:20": [
+      "Mrs. Musgrove"
+    ],
+    "5:21": [
+      "Mary Musgrove"
+    ],
+    "5:22": [
+      "Mary Musgrove"
+    ],
+    "5:25": [
+      "Mrs. Croft"
+    ],
+    "5:27": [
+      "Mrs. Croft"
+    ],
+    "5:30": [
+      "Mrs. Croft"
+    ],
+    "5:33": [
+      "Mrs. Croft"
+    ],
+    "5:34": [
+      "Mrs. Croft"
+    ],
+    "5:36": [
+      "Mrs. Croft"
+    ],
+    "5:41": [
+      "Mrs. Croft"
+    ],
+    "6:6": [
+      "Mr. Musgrove"
+    ],
+    "6:7": [
+      "Charles Musgrove",
+      "Mary Musgrove"
+    ],
+    "6:9": [
+      "Charles Musgrove",
+      "Charles Musgrove"
+    ],
+    "6:11": [
+      "Mary Musgrove"
+    ],
+    "6:12": [
+      "Anne Elliot"
+    ],
+    "6:13": [
+      "Mary Musgrove"
+    ],
+    "6:14": [
+      "Anne Elliot"
+    ],
+    "6:15": [
+      "Mary Musgrove"
+    ],
+    "6:16": [
+      "Anne Elliot"
+    ],
+    "6:17": [
+      "Mary Musgrove",
+      "Mary Musgrove"
+    ],
+    "6:19": [
+      "Mary Musgrove"
+    ],
+    "6:20": [
+      "Mary Musgrove",
+      "Mary Musgrove"
+    ],
+    "6:27": [
+      "Mary Musgrove",
+      "Mary Musgrove"
+    ],
+    "6:33": [
+      "Mary Musgrove"
+    ],
+    "6:35": [
+      "Mary Musgrove"
+    ],
+    "6:36": [
+      "Mary Musgrove"
+    ],
+    "6:40": [
+      "Mary Musgrove"
+    ],
+    "6:41": [
+      "Mary Musgrove"
+    ],
+    "6:42": [
+      "Mary Musgrove",
+      "Mary Musgrove"
+    ],
+    "7:1": [
+      "Captain Wentworth",
+      "Captain Wentworth"
+    ],
+    "7:5": [
+      "Mrs. Musgrove"
+    ],
+    "7:8": [
+      "Louisa Musgrove"
+    ],
+    "7:9": [
+      "Captain Wentworth"
+    ],
+    "7:11": [
+      "Captain Wentworth",
+      "Captain Wentworth"
+    ],
+    "7:12": [
+      "Admiral Croft",
+      "Admiral Croft"
+    ],
+    "7:13": [
+      "Captain Wentworth",
+      "Captain Wentworth"
+    ],
+    "7:14": [
+      "Captain Wentworth"
+    ],
+    "7:15": [
+      "Louisa Musgrove",
+      "Louisa Musgrove"
+    ],
+    "7:16": [
+      "Captain Wentworth"
+    ],
+    "7:17": [
+      "Louisa Musgrove"
+    ],
+    "7:18": [
+      "Mrs. Musgrove",
+      "Mrs. Musgrove",
+      "Mrs. Musgrove"
+    ],
+    "7:19": [
+      "Louisa Musgrove"
+    ],
+    "7:20": [
+      "Mrs. Musgrove"
+    ],
+    "7:23": [
+      "Louisa Musgrove"
+    ],
+    "7:24": [
+      "Mrs. Musgrove",
+      "Mrs. Musgrove"
+    ],
+    "7:26": [
+      "Louisa Musgrove",
+      "Louisa Musgrove"
+    ],
+    "7:27": [
+      "Mrs. Musgrove",
+      "Mrs. Musgrove"
+    ],
+    "7:32": [
+      "Louisa Musgrove"
+    ],
+    "7:33": [
+      "Mrs. Musgrove"
+    ],
+    "7:35": [
+      "Louisa Musgrove",
+      "Louisa Musgrove"
+    ],
+    "7:37": [
+      "Mrs. Musgrove",
+      "Mrs. Musgrove"
+    ],
+    "7:38": [
+      "Louisa Musgrove",
+      "Louisa Musgrove"
+    ],
+    "7:39": [
+      "Mrs. Musgrove"
+    ],
+    "7:40": [
+      "Louisa Musgrove"
+    ],
+    "7:41": [
+      "Mrs. Musgrove"
+    ],
+    "7:42": [
+      "Louisa Musgrove"
+    ],
+    "7:43": [
+      "Mrs. Musgrove"
+    ],
+    "7:44": [
+      "Louisa Musgrove"
+    ],
+    "7:45": [
+      "Mrs. Musgrove"
+    ],
+    "7:46": [
+      "Louisa Musgrove",
+      "Louisa Musgrove"
+    ],
+    "7:47": [
+      "Mrs. Musgrove"
+    ],
+    "7:48": [
+      "Captain Wentworth",
+      "Captain Wentworth"
+    ],
+    "7:50": [
+      "Mrs. Musgrove"
+    ],
+    "7:51": [
+      "Captain Wentworth"
+    ],
+    "7:53": [
+      "Mrs. Musgrove"
+    ],
+    "7:54": [
+      "Captain Wentworth"
+    ],
+    "7:55": [
+      "Mrs. Musgrove",
+      "Mrs. Musgrove"
+    ],
+    "7:58": [
+      "Captain Wentworth"
+    ],
+    "7:59": [
+      "Mrs. Musgrove"
+    ],
+    "8:5": [
+      "Mr. Musgrove"
+    ],
+    "8:9": [
+      "Charles Musgrove"
+    ],
+    "8:10": [
+      "Mary Musgrove",
+      "Mary Musgrove"
+    ],
+    "8:12": [
+      "Mary Musgrove",
+      "Mary Musgrove"
+    ],
+    "8:14": [
+      "Mary Musgrove"
+    ],
+    "8:15": [
+      "Mary Musgrove"
+    ],
+    "8:16": [
+      "Mary Musgrove",
+      "Mary Musgrove"
+    ],
+    "8:21": [
+      "Mary Musgrove"
+    ],
+    "8:23": [
+      "Mary Musgrove"
+    ],
+    "8:24": [
+      "Mary Musgrove"
+    ],
+    "8:25": [
+      "Mary Musgrove"
+    ],
+    "8:27": [
+      "Mary Musgrove"
+    ],
+    "8:31": [
+      "Mary Musgrove",
+      "Mary Musgrove"
+    ],
+    "8:32": [
+      "Charles Hayter",
+      "Charles Hayter"
+    ],
+    "8:36": [
+      "Mary Musgrove"
+    ],
+    "9:4": [
+      "Mary Musgrove"
+    ],
+    "9:5": [
+      "Mary Musgrove",
+      "Mary Musgrove"
+    ],
+    "9:9": [
+      "Mary Musgrove"
+    ],
+    "9:10": [
+      "Louisa Musgrove",
+      "Louisa Musgrove"
+    ],
+    "9:12": [
+      "Mary Musgrove",
+      "Mary Musgrove"
+    ],
+    "9:13": [
+      "Louisa Musgrove"
+    ],
+    "9:16": [
+      "Mary Musgrove"
+    ],
+    "9:17": [
+      "Charles Musgrove",
+      "Charles Musgrove"
+    ],
+    "9:18": [
+      "Mary Musgrove"
+    ],
+    "9:20": [
+      "Charles Musgrove"
+    ],
+    "9:24": [
+      "Mary Musgrove"
+    ],
+    "9:25": [
+      "Charles Musgrove"
+    ],
+    "9:26": [
+      "Mary Musgrove"
+    ],
+    "9:28": [
+      "Charles Musgrove",
+      "Charles Musgrove",
+      "Charles Musgrove",
+      "Charles Musgrove"
+    ],
+    "9:30": [
+      "Mary Musgrove",
+      "Mary Musgrove"
+    ],
+    "9:32": [
+      "Charles Musgrove"
+    ],
+    "9:33": [
+      "Mary Musgrove"
+    ],
+    "9:34": [
+      "Charles Musgrove"
+    ],
+    "9:35": [
+      "Mary Musgrove"
+    ],
+    "9:43": [
+      "Mrs. Croft",
+      "Mrs. Croft"
+    ],
+    "9:46": [
+      "Mary Musgrove"
+    ],
+    "9:47": [
+      "Mrs. Croft",
+      "Mrs. Croft"
+    ],
+    "9:48": [
+      "Mrs. Croft",
+      "Mrs. Croft"
+    ],
+    "9:49": [
+      "Mrs. Croft"
+    ],
+    "9:50": [
+      "Mrs. Croft",
+      "Mrs. Croft"
+    ],
+    "10:15": [
+      "Anne Elliot",
+      "Anne Elliot"
+    ],
+    "10:18": [
+      "Anne Elliot"
+    ],
+    "10:23": [
+      "Mrs. Musgrove",
+      "Mrs. Musgrove",
+      "Mrs. Musgrove"
+    ],
+    "11:2": [
+      "Henrietta Musgrove"
+    ],
+    "11:4": [
+      "Henrietta Musgrove",
+      "Henrietta Musgrove"
+    ],
+    "11:6": [
+      "Henrietta Musgrove"
+    ],
+    "11:10": [
+      "Captain Wentworth",
+      "Captain Wentworth"
+    ],
+    "11:12": [
+      "Captain Wentworth",
+      "Captain Wentworth"
+    ],
+    "11:13": [
+      "Captain Wentworth"
+    ],
+    "11:14": [
+      "Captain Wentworth"
+    ],
+    "11:15": [
+      "Mary Musgrove",
+      "Mary Musgrove",
+      "Mary Musgrove"
+    ],
+    "11:16": [
+      "Captain Wentworth"
+    ],
+    "11:17": [
+      "Mary Musgrove",
+      "Mary Musgrove"
+    ],
+    "11:18": [
+      "Captain Wentworth",
+      "Captain Wentworth"
+    ],
+    "11:21": [
+      "Mary Musgrove",
+      "Mary Musgrove"
+    ],
+    "11:25": [
+      "Captain Wentworth",
+      "Captain Wentworth"
+    ],
+    "11:26": [
+      "Anne Elliot",
+      "Anne Elliot"
+    ],
+    "11:27": [
+      "Captain Wentworth",
+      "Captain Wentworth"
+    ],
+    "11:28": [
+      "Anne Elliot"
+    ],
+    "11:29": [
+      "Captain Wentworth",
+      "Captain Wentworth"
+    ],
+    "11:32": [
+      "Anne Elliot"
+    ],
+    "11:33": [
+      "Captain Wentworth"
+    ],
+    "11:35": [
+      "Anne Elliot"
+    ],
+    "11:36": [
+      "Captain Wentworth"
+    ],
+    "11:37": [
+      "Anne Elliot",
+      "Anne Elliot"
+    ],
+    "11:39": [
+      "Captain Wentworth"
+    ],
+    "11:40": [
+      "Anne Elliot"
+    ],
+    "11:41": [
+      "Captain Wentworth"
+    ],
+    "11:42": [
+      "Anne Elliot"
+    ],
+    "11:46": [
+      "Charles Musgrove",
+      "Charles Musgrove"
+    ],
+    "11:48": [
+      "Anne Elliot"
+    ],
+    "11:49": [
+      "Charles Musgrove",
+      "Charles Musgrove"
+    ],
+    "11:55": [
+      "Anne Elliot"
+    ],
+    "11:58": [
+      "Charles Musgrove"
+    ],
+    "11:59": [
+      "Anne Elliot"
+    ],
+    "11:60": [
+      "Charles Musgrove"
+    ],
+    "11:63": [
+      "Captain Wentworth",
+      "Captain Wentworth"
+    ],
+    "11:65": [
+      "Charles Musgrove",
+      "Charles Musgrove"
+    ],
+    "11:73": [
+      "Captain Wentworth",
+      "Captain Wentworth"
+    ],
+    "11:76": [
+      "Charles Musgrove"
+    ],
+    "12:1": [
+      "Charles Musgrove"
+    ],
+    "12:4": [
+      "Anne Elliot"
+    ],
+    "12:15": [
+      "Lady Russell"
+    ],
+    "12:17": [
+      "Anne Elliot"
+    ],
+    "12:19": [
+      "Anne Elliot"
+    ],
+    "12:23": [
+      "Admiral Croft"
+    ],
+    "12:25": [
+      "Admiral Croft",
+      "Admiral Croft"
+    ],
+    "12:26": [
+      "Anne Elliot"
+    ],
+    "12:27": [
+      "Admiral Croft",
+      "Admiral Croft"
+    ],
+    "12:29": [
+      "Admiral Croft",
+      "Admiral Croft"
+    ],
+    "12:30": [
+      "Admiral Croft"
+    ],
+    "12:32": [
+      "Admiral Croft"
+    ],
+    "13:4": [
+      "Mary Musgrove"
+    ],
+    "13:5": [
+      "Charles Musgrove",
+      "Charles Musgrove"
+    ],
+    "13:7": [
+      "Charles Musgrove",
+      "Charles Musgrove",
+      "Charles Musgrove"
+    ],
+    "13:8": [
+      "Charles Musgrove",
+      "Charles Musgrove"
+    ],
+    "13:9": [
+      "Mary Musgrove",
+      "Mary Musgrove"
+    ],
+    "13:10": [
+      "Lady Russell"
+    ],
+    "13:11": [
+      "Charles Musgrove",
+      "Charles Musgrove"
+    ],
+    "13:12": [
+      "Lady Russell"
+    ],
+    "13:13": [
+      "Mary Musgrove",
+      "Mary Musgrove"
+    ],
+    "13:14": [
+      "Lady Russell"
+    ],
+    "13:15": [
+      "Mary Musgrove"
+    ],
+    "13:16": [
+      "Anne Elliot",
+      "Anne Elliot"
+    ],
+    "13:17": [
+      "Charles Musgrove",
+      "Charles Musgrove"
+    ],
+    "13:18": [
+      "Mary Musgrove",
+      "Mary Musgrove"
+    ],
+    "13:19": [
+      "Charles Musgrove",
+      "Charles Musgrove"
+    ],
+    "13:20": [
+      "Mary Musgrove"
+    ],
+    "13:22": [
+      "Lady Russell",
+      "Lady Russell"
+    ],
+    "13:31": [
+      "Lady Russell",
+      "Lady Russell"
+    ],
+    "13:34": [
+      "Lady Russell"
+    ],
+    "14:1": [
+      "Anne Elliot"
+    ],
+    "14:12": [
+      "Elizabeth Elliot",
+      "Sir Walter Elliot",
+      "Sir Walter Elliot"
+    ],
+    "14:13": [
+      "Elizabeth Elliot",
+      "Captain Wentworth"
+    ],
+    "14:14": [
+      "Sir Walter Elliot"
+    ],
+    "14:16": [
+      "Sir Walter Elliot",
+      "Sir Walter Elliot"
+    ],
+    "14:17": [
+      "Sir Walter Elliot"
+    ],
+    "14:18": [
+      "Sir Walter Elliot"
+    ],
+    "14:19": [
+      "Sir Walter Elliot"
+    ],
+    "14:20": [
+      "Sir Walter Elliot",
+      "Sir Walter Elliot"
+    ],
+    "14:23": [
+      "Sir Walter Elliot"
+    ],
+    "14:24": [
+      "Sir Walter Elliot",
+      "Sir Walter Elliot"
+    ],
+    "14:26": [
+      "Sir Walter Elliot"
+    ],
+    "14:27": [
+      "Sir Walter Elliot"
+    ],
+    "15:0": [
+      "Mrs. Clay",
+      "Elizabeth Elliot"
+    ],
+    "15:1": [
+      "Sir Walter Elliot"
+    ],
+    "15:3": [
+      "Sir Walter Elliot",
+      "Anne Elliot",
+      "Sir Walter Elliot",
+      "Anne Elliot",
+      "Sir Walter Elliot",
+      "Sir Walter Elliot"
+    ],
+    "15:6": [
+      "Lady Russell"
+    ],
+    "15:8": [
+      "Anne Elliot",
+      "Lady Russell"
+    ],
+    "15:9": [
+      "Elizabeth Elliot"
+    ],
+    "15:12": [
+      "Sir Walter Elliot",
+      "Elizabeth Elliot"
+    ],
+    "15:14": [
+      "William Elliot"
+    ],
+    "15:15": [
+      "Lady Dalrymple",
+      "Sir Walter Elliot",
+      "Sir Walter Elliot"
+    ],
+    "15:16": [
+      "Lady Dalrymple"
+    ],
+    "15:17": [
+      "Lady Russell"
+    ],
+    "15:18": [
+      "Anne Elliot"
+    ],
+    "15:19": [
+      "William Elliot",
+      "William Elliot",
+      "William Elliot"
+    ],
+    "15:20": [
+      "Anne Elliot",
+      "Anne Elliot",
+      "Anne Elliot",
+      "Anne Elliot"
+    ],
+    "15:21": [
+      "William Elliot"
+    ],
+    "15:22": [
+      "Anne Elliot",
+      "Anne Elliot"
+    ],
+    "15:23": [
+      "Anne Elliot",
+      "Anne Elliot",
+      "Anne Elliot"
+    ],
+    "16:10": [
+      null
+    ],
+    "16:11": [
+      null
+    ],
+    "16:12": [
+      "Anne Elliot"
+    ],
+    "16:13": [
+      null,
+      null,
+      null
+    ],
+    "16:15": [
+      null
+    ],
+    "16:16": [
+      "Anne Elliot"
+    ],
+    "16:17": [
+      "Sir Walter Elliot",
+      "Sir Walter Elliot"
+    ],
+    "16:18": [
+      "Anne Elliot"
+    ],
+    "16:19": [
+      "Elizabeth Elliot"
+    ],
+    "16:20": [
+      "Anne Elliot",
+      "Anne Elliot"
+    ],
+    "16:21": [
+      "Elizabeth Elliot",
+      "Elizabeth Elliot"
+    ],
+    "16:26": [
+      "Lady Russell",
+      "Lady Russell"
+    ],
+    "16:27": [
+      "Anne Elliot",
+      "Anne Elliot"
+    ],
+    "16:28": [
+      "Lady Russell"
+    ],
+    "16:29": [
+      "Anne Elliot",
+      "Anne Elliot"
+    ],
+    "17:2": [
+      "Sir Walter Elliot",
+      "Sir Walter Elliot"
+    ],
+    "17:3": [
+      "Sir Walter Elliot"
+    ],
+    "17:4": [
+      "Sir Walter Elliot"
+    ],
+    "17:12": [
+      "Sir Walter Elliot"
+    ],
+    "17:16": [
+      "Sir Walter Elliot"
+    ],
+    "17:18": [
+      "Elizabeth Elliot",
+      "Elizabeth Elliot"
+    ],
+    "17:19": [
+      "Sir Walter Elliot"
+    ],
+    "17:20": [
+      "Sir Walter Elliot",
+      "Sir Walter Elliot"
+    ],
+    "17:21": [
+      "Elizabeth Elliot"
+    ],
+    "17:22": [
+      "Sir Walter Elliot"
+    ],
+    "17:23": [
+      "Sir Walter Elliot",
+      "Sir Walter Elliot"
+    ],
+    "17:24": [
+      "Sir Walter Elliot"
+    ],
+    "17:36": [
+      "Sir Walter Elliot",
+      "Sir Walter Elliot",
+      "Sir Walter Elliot"
+    ],
+    "17:37": [
+      "Sir Walter Elliot"
+    ],
+    "17:38": [
+      "Sir Walter Elliot"
+    ],
+    "17:39": [
+      "Sir Walter Elliot"
+    ],
+    "17:41": [
+      "Sir Walter Elliot"
+    ],
+    "17:43": [
+      "Sir Walter Elliot"
+    ],
+    "17:44": [
+      "Sir Walter Elliot"
+    ],
+    "17:45": [
+      "Sir Walter Elliot"
+    ],
+    "17:46": [
+      "Sir Walter Elliot"
+    ],
+    "17:47": [
+      "Sir Walter Elliot"
+    ],
+    "17:48": [
+      "Anne Elliot",
+      "Anne Elliot"
+    ],
+    "17:49": [
+      "Sir Walter Elliot"
+    ],
+    "17:50": [
+      "Anne Elliot"
+    ],
+    "17:51": [
+      "Sir Walter Elliot"
+    ],
+    "17:52": [
+      "Anne Elliot"
+    ],
+    "17:53": [
+      "Sir Walter Elliot"
+    ],
+    "17:54": [
+      "Anne Elliot"
+    ],
+    "17:55": [
+      "Sir Walter Elliot"
+    ],
+    "17:57": [
+      "Anne Elliot"
+    ],
+    "17:58": [
+      "Sir Walter Elliot"
+    ],
+    "17:59": [
+      "Anne Elliot"
+    ],
+    "17:61": [
+      "Sir Walter Elliot",
+      "Sir Walter Elliot"
+    ],
+    "18:12": [
+      "Anne Elliot",
+      "Anne Elliot"
+    ],
+    "18:13": [
+      "Captain Wentworth"
+    ],
+    "18:14": [
+      "Anne Elliot"
+    ],
+    "18:15": [
+      "Captain Wentworth",
+      "Captain Wentworth"
+    ],
+    "18:16": [
+      "Anne Elliot"
+    ],
+    "18:17": [
+      "Anne Elliot"
+    ],
+    "18:19": [
+      "Mrs. Croft"
+    ],
+    "18:20": [
+      "Mrs. Croft"
+    ],
+    "18:21": [
+      "Mrs. Croft"
+    ],
+    "18:22": [
+      "Mrs. Croft"
+    ],
+    "18:23": [
+      "Mrs. Croft"
+    ],
+    "18:24": [
+      "Mrs. Croft"
+    ],
+    "18:31": [
+      "Anne Elliot"
+    ],
+    "18:32": [
+      "Lady Russell",
+      "Lady Russell"
+    ],
+    "18:37": [
+      null,
+      null
+    ],
+    "18:38": [
+      null
+    ],
+    "19:0": [
+      "Anne Elliot"
+    ],
+    "19:3": [
+      "Captain Wentworth"
+    ],
+    "19:5": [
+      "Captain Wentworth",
+      "Captain Wentworth",
+      "Captain Wentworth"
+    ],
+    "19:6": [
+      "Anne Elliot"
+    ],
+    "19:7": [
+      "Captain Wentworth",
+      "Captain Wentworth"
+    ],
+    "19:9": [
+      "Captain Wentworth"
+    ],
+    "19:11": [
+      "Anne Elliot"
+    ],
+    "19:12": [
+      "Captain Wentworth"
+    ],
+    "19:13": [
+      "Anne Elliot"
+    ],
+    "19:14": [
+      "Anne Elliot"
+    ],
+    "19:15": [
+      "Anne Elliot",
+      "Anne Elliot",
+      "Anne Elliot"
+    ],
+    "19:16": [
+      "Anne Elliot"
+    ],
+    "19:18": [
+      "Anne Elliot"
+    ],
+    "19:26": [
+      "Anne Elliot",
+      "Anne Elliot"
+    ],
+    "19:27": [
+      "Anne Elliot"
+    ],
+    "19:28": [
+      "Anne Elliot"
+    ],
+    "19:29": [
+      "Anne Elliot",
+      "Anne Elliot"
+    ],
+    "19:30": [
+      "Anne Elliot"
+    ],
+    "19:31": [
+      "William Elliot",
+      "William Elliot"
+    ],
+    "19:32": [
+      "Anne Elliot"
+    ],
+    "19:33": [
+      "William Elliot"
+    ],
+    "19:35": [
+      "Anne Elliot"
+    ],
+    "19:37": [
+      "William Elliot",
+      "William Elliot"
+    ],
+    "19:39": [
+      "Sir Walter Elliot",
+      "Sir Walter Elliot"
+    ],
+    "19:40": [
+      "Lady Dalrymple",
+      "Lady Dalrymple"
+    ],
+    "19:41": [
+      "Sir Walter Elliot"
+    ],
+    "19:50": [
+      "Lady Dalrymple"
+    ],
+    "19:51": [
+      "Anne Elliot"
+    ],
+    "19:52": [
+      "Lady Dalrymple",
+      "Lady Dalrymple"
+    ],
+    "20:5": [
+      "Mrs. Musgrove",
+      "Mrs. Musgrove"
+    ],
+    "20:6": [
+      "Anne Elliot"
+    ],
+    "20:7": [
+      "Mrs. Musgrove"
+    ],
+    "20:8": [
+      "Anne Elliot"
+    ],
+    "20:9": [
+      "Mrs. Musgrove"
+    ],
+    "20:10": [
+      "Anne Elliot"
+    ],
+    "20:11": [
+      "Mrs. Musgrove"
+    ],
+    "20:12": [
+      "Anne Elliot"
+    ],
+    "20:13": [
+      "Anne Elliot"
+    ],
+    "20:14": [
+      "Anne Elliot"
+    ],
+    "20:15": [
+      "Anne Elliot"
+    ],
+    "20:17": [
+      "Anne Elliot",
+      "Anne Elliot"
+    ],
+    "20:19": [
+      "Anne Elliot",
+      "Anne Elliot"
+    ],
+    "20:20": [
+      "Anne Elliot",
+      "Anne Elliot"
+    ],
+    "20:21": [
+      "Anne Elliot",
+      "Anne Elliot"
+    ],
+    "20:22": [
+      "Anne Elliot"
+    ],
+    "20:23": [
+      "Anne Elliot",
+      "Anne Elliot"
+    ],
+    "20:24": [
+      "Anne Elliot",
+      "Anne Elliot"
+    ],
+    "20:26": [
+      "Anne Elliot"
+    ],
+    "20:27": [
+      "Anne Elliot",
+      "Anne Elliot"
+    ],
+    "20:29": [
+      "Anne Elliot"
+    ],
+    "20:30": [
+      "Anne Elliot"
+    ],
+    "20:31": [
+      "Anne Elliot",
+      "Anne Elliot"
+    ],
+    "20:32": [
+      "Anne Elliot",
+      "Anne Elliot"
+    ],
+    "20:34": [
+      "Anne Elliot"
+    ],
+    "20:35": [
+      "Anne Elliot",
+      "Anne Elliot"
+    ],
+    "20:36": [
+      "Anne Elliot"
+    ],
+    "20:37": [
+      "Anne Elliot"
+    ],
+    "20:38": [
+      "Anne Elliot"
+    ],
+    "20:39": [
+      "Anne Elliot"
+    ],
+    "20:40": [
+      "Anne Elliot",
+      "Anne Elliot"
+    ],
+    "20:42": [
+      "Anne Elliot",
+      "Anne Elliot"
+    ],
+    "20:43": [
+      "Anne Elliot"
+    ],
+    "20:44": [
+      "Anne Elliot"
+    ],
+    "20:45": [
+      "Anne Elliot"
+    ],
+    "20:46": [
+      "Anne Elliot"
+    ],
+    "20:47": [
+      "Anne Elliot"
+    ],
+    "20:48": [
+      "Anne Elliot"
+    ],
+    "20:49": [
+      "Anne Elliot"
+    ],
+    "20:50": [
+      "Anne Elliot"
+    ],
+    "20:51": [
+      "Anne Elliot"
+    ],
+    "20:52": [
+      "Anne Elliot"
+    ],
+    "20:53": [
+      "Anne Elliot"
+    ],
+    "20:56": [
+      "Anne Elliot"
+    ],
+    "20:57": [
+      "Anne Elliot",
+      "Anne Elliot"
+    ],
+    "20:58": [
+      "Anne Elliot",
+      "Anne Elliot"
+    ],
+    "20:59": [
+      "Anne Elliot",
+      "Anne Elliot"
+    ],
+    "20:60": [
+      "Anne Elliot",
+      "Anne Elliot"
+    ],
+    "20:61": [
+      "Anne Elliot",
+      "Anne Elliot"
+    ],
+    "20:62": [
+      "Anne Elliot"
+    ],
+    "20:64": [
+      "Anne Elliot",
+      "Anne Elliot"
+    ],
+    "20:65": [
+      "Anne Elliot"
+    ],
+    "20:66": [
+      "Anne Elliot"
+    ],
+    "20:68": [
+      "Anne Elliot"
+    ],
+    "20:69": [
+      "Anne Elliot",
+      "Anne Elliot"
+    ],
+    "20:70": [
+      "Anne Elliot"
+    ],
+    "20:72": [
+      "Anne Elliot"
+    ],
+    "20:73": [
+      "Anne Elliot"
+    ],
+    "20:77": [
+      "Anne Elliot"
+    ],
+    "20:79": [
+      "Anne Elliot"
+    ],
+    "20:81": [
+      "Anne Elliot"
+    ],
+    "20:82": [
+      "Anne Elliot"
+    ],
+    "20:83": [
+      "Anne Elliot"
+    ],
+    "20:84": [
+      "Anne Elliot"
+    ],
+    "20:85": [
+      "Anne Elliot"
+    ],
+    "20:86": [
+      "Anne Elliot"
+    ],
+    "20:87": [
+      "Anne Elliot"
+    ],
+    "20:88": [
+      "Anne Elliot"
+    ],
+    "20:89": [
+      "Anne Elliot"
+    ],
+    "20:90": [
+      "Anne Elliot"
+    ],
+    "20:91": [
+      "Anne Elliot"
+    ],
+    "20:92": [
+      "Anne Elliot"
+    ],
+    "20:93": [
+      "Anne Elliot"
+    ],
+    "20:97": [
+      "Anne Elliot"
+    ],
+    "20:98": [
+      "Anne Elliot",
+      "Anne Elliot"
+    ],
+    "20:99": [
+      "Anne Elliot"
+    ],
+    "20:100": [
+      "Anne Elliot"
+    ],
+    "20:101": [
+      "Anne Elliot",
+      "Anne Elliot"
+    ],
+    "20:109": [
+      "Anne Elliot"
+    ],
+    "20:110": [
+      "Anne Elliot",
+      "Anne Elliot"
+    ],
+    "21:3": [
+      "Elizabeth Elliot",
+      "Elizabeth Elliot"
+    ],
+    "21:4": [
+      "Elizabeth Elliot"
+    ],
+    "21:5": [
+      "Elizabeth Elliot",
+      "Elizabeth Elliot"
+    ],
+    "21:6": [
+      "Mrs. Clay",
+      "Mrs. Clay"
+    ],
+    "21:7": [
+      "Elizabeth Elliot"
+    ],
+    "21:8": [
+      "Mrs. Clay"
+    ],
+    "21:9": [
+      "Elizabeth Elliot"
+    ],
+    "21:16": [
+      "Elizabeth Elliot",
+      "Elizabeth Elliot"
+    ],
+    "21:17": [
+      "Sir Walter Elliot",
+      "Sir Walter Elliot"
+    ],
+    "21:18": [
+      "Elizabeth Elliot"
+    ],
+    "21:22": [
+      "Sir Walter Elliot"
+    ],
+    "21:23": [
+      "Elizabeth Elliot",
+      "Elizabeth Elliot"
+    ],
+    "21:24": [
+      "Anne Elliot",
+      "Anne Elliot"
+    ],
+    "21:25": [
+      "Elizabeth Elliot"
+    ],
+    "21:26": [
+      "Anne Elliot",
+      "Anne Elliot"
+    ],
+    "21:27": [
+      "Elizabeth Elliot"
+    ],
+    "21:28": [
+      "Anne Elliot",
+      "Anne Elliot"
+    ],
+    "21:29": [
+      "Elizabeth Elliot"
+    ],
+    "21:33": [
+      "Anne Elliot"
+    ],
+    "21:38": [
+      "Elizabeth Elliot"
+    ],
+    "21:39": [
+      "Mary Musgrove",
+      "Mary Musgrove"
+    ],
+    "21:40": [
+      "Anne Elliot",
+      "Anne Elliot"
+    ],
+    "21:43": [
+      "Mary Musgrove",
+      "Mary Musgrove"
+    ],
+    "21:44": [
+      "Anne Elliot"
+    ],
+    "21:46": [
+      "Mary Musgrove"
+    ],
+    "21:48": [
+      "Anne Elliot"
+    ],
+    "21:49": [
+      "Charles Musgrove",
+      "Charles Musgrove"
+    ],
+    "21:50": [
+      "Anne Elliot"
+    ],
+    "21:51": [
+      "Charles Musgrove"
+    ],
+    "21:52": [
+      "Anne Elliot"
+    ],
+    "21:53": [
+      "Charles Musgrove",
+      "Charles Musgrove"
+    ],
+    "21:55": [
+      "Anne Elliot"
+    ],
+    "21:57": [
+      "Charles Musgrove"
+    ],
+    "21:60": [
+      "Anne Elliot",
+      "Anne Elliot"
+    ],
+    "21:61": [
+      "Charles Musgrove"
+    ],
+    "21:62": [
+      "Anne Elliot"
+    ],
+    "21:63": [
+      "Anne Elliot",
+      "Anne Elliot"
+    ],
+    "21:67": [
+      "Anne Elliot",
+      "Anne Elliot"
+    ],
+    "21:70": [
+      "Anne Elliot",
+      "Anne Elliot"
+    ],
+    "21:75": [
+      "Anne Elliot"
+    ],
+    "22:3": [
+      "Captain Wentworth"
+    ],
+    "22:5": [
+      "Mrs. Musgrove"
+    ],
+    "22:7": [
+      "Mrs. Musgrove",
+      "Mrs. Musgrove"
+    ],
+    "22:8": [
+      "Mrs. Croft",
+      "Mrs. Croft"
+    ],
+    "22:9": [
+      "Mrs. Musgrove",
+      "Mrs. Musgrove"
+    ],
+    "22:10": [
+      "Mrs. Croft",
+      "Mrs. Croft"
+    ],
+    "22:13": [
+      "Mrs. Musgrove"
+    ],
+    "22:14": [
+      "Mrs. Croft",
+      "Mrs. Croft"
+    ],
+    "22:15": [
+      "Mrs. Musgrove"
+    ],
+    "22:16": [
+      "Mrs. Croft",
+      "Mrs. Croft",
+      "Mrs. Croft",
+      "Mrs. Croft"
+    ],
+    "22:17": [
+      "Anne Elliot",
+      "Anne Elliot"
+    ],
+    "22:18": [
+      "Mrs. Croft"
+    ],
+    "22:19": [
+      "Anne Elliot"
+    ],
+    "22:20": [
+      "Mrs. Croft",
+      "Mrs. Croft"
+    ],
+    "22:21": [
+      "Anne Elliot"
+    ],
+    "22:22": [
+      "Anne Elliot",
+      "Anne Elliot"
+    ],
+    "22:23": [
+      "Anne Elliot"
+    ],
+    "22:24": [
+      "Anne Elliot",
+      "Anne Elliot",
+      "Anne Elliot"
+    ],
+    "22:25": [
+      "Anne Elliot"
+    ],
+    "22:26": [
+      "Captain Harville"
+    ],
+    "22:27": [
+      "Anne Elliot"
+    ],
+    "22:28": [
+      "Captain Harville",
+      "Captain Harville",
+      "Captain Harville"
+    ],
+    "22:29": [
+      "Anne Elliot"
+    ],
+    "22:30": [
+      "Captain Harville"
+    ],
+    "22:31": [
+      "Anne Elliot"
+    ],
+    "22:32": [
+      "Captain Harville",
+      "Captain Harville"
+    ],
+    "22:34": [
+      "Anne Elliot",
+      "Anne Elliot"
+    ],
+    "22:36": [
+      "Captain Harville",
+      "Captain Harville"
+    ],
+    "22:38": [
+      "Anne Elliot",
+      "Anne Elliot",
+      "Anne Elliot"
+    ],
+    "22:40": [
+      "Captain Harville",
+      "Captain Harville"
+    ],
+    "22:41": [
+      "Anne Elliot"
+    ],
+    "22:43": [
+      "Captain Harville"
+    ],
+    "22:47": [
+      "Anne Elliot"
+    ],
+    "22:50": [
+      "Mrs. Musgrove",
+      "Mrs. Musgrove"
+    ],
+    "22:53": [
+      "Anne Elliot"
+    ],
+    "22:54": [
+      "Mrs. Musgrove"
+    ],
+    "22:55": [
+      "Anne Elliot"
+    ],
+    "22:56": [
+      "Mrs. Musgrove"
+    ],
+    "22:59": [
+      "Anne Elliot"
+    ],
+    "22:60": [
+      "Captain Wentworth"
+    ],
+    "22:61": [
+      "Anne Elliot"
+    ],
+    "22:68": [
+      "Captain Wentworth",
+      "Captain Wentworth"
+    ],
+    "22:70": [
+      "Anne Elliot",
+      "Anne Elliot"
+    ],
+    "22:73": [
+      "Captain Wentworth",
+      "Captain Wentworth"
+    ],
+    "22:75": [
+      "Anne Elliot",
+      "Anne Elliot"
+    ],
+    "22:76": [
+      "Anne Elliot",
+      "Anne Elliot"
+    ],
+    "22:77": [
+      "Anne Elliot",
+      "Anne Elliot"
+    ],
+    "22:78": [
+      "Anne Elliot",
+      "Anne Elliot"
+    ],
+    "22:79": [
+      "Anne Elliot"
+    ],
+    "22:85": [
+      "Anne Elliot"
+    ],
+    "22:87": [
+      "Anne Elliot"
+    ],
+    "22:88": [
+      "Anne Elliot"
+    ],
+    "22:89": [
+      "Anne Elliot",
+      "Anne Elliot",
+      "Anne Elliot"
+    ]
+  }
+}

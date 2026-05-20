@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 2,
+  "bookId": "pride-and-prejudice",
+  "defaultProvider": "elevenlabs",
+  "elevenlabs": {
+    "modelId": "eleven_v3",
+    "defaultVoiceId": "21m00Tcm4TlvDq8ikWAM"
+  },
+  "polly": {
+    "defaultVoice": {
+      "pollyVoiceId": "Joanna",
+      "pollyEngine": "neural"
+    }
+  },
+  "characters": {
+    "Mr. Bennet": {
+      "elevenlabsVoiceId": "xMbuK87PhVQsd5pttnB7",
+      "polly": { "pollyVoiceId": "Matthew", "pollyEngine": "neural" }
+    },
+    "Mrs. Bennet": {
+      "elevenlabsVoiceId": "BIAImi9MbRQIO2hhacp1",
+      "polly": { "pollyVoiceId": "Joanna", "pollyEngine": "neural" }
+    },
+    "Elizabeth Bennet": {
+      "elevenlabsVoiceId": "FWllg5P4t0kvLayStTbu",
+      "polly": { "pollyVoiceId": "Ruth", "pollyEngine": "neural" }
+    },
+    "Jane Bennet": {
+      "elevenlabsVoiceId": "FWllg5P4t0kvLayStTbu",
+      "polly": { "pollyVoiceId": "Amy", "pollyEngine": "neural" }
+    },
+    "Lydia Bennet": {
+      "elevenlabsVoiceId": "FWllg5P4t0kvLayStTbu",
+      "polly": { "pollyVoiceId": "Kendra", "pollyEngine": "neural" }
+    },
+    "Mary Bennet": {
+      "polly": { "pollyVoiceId": "Ivy", "pollyEngine": "neural" }
+    },
+    "Kitty Bennet": {
+      "elevenlabsVoiceId": "FWllg5P4t0kvLayStTbu",
+      "polly": { "pollyVoiceId": "Danielle", "pollyEngine": "neural" }
+    },
+    "Fitzwilliam Darcy": {
+      "elevenlabsVoiceId": "onwK4e9ZLuTAKqWW03F9",
+      "polly": { "pollyVoiceId": "Stephen", "pollyEngine": "neural" }
+    },
+    "Charles Bingley": {
+      "polly": { "pollyVoiceId": "Gregory", "pollyEngine": "neural" }
+    },
+    "George Wickham": {
+      "polly": { "pollyVoiceId": "Brian", "pollyEngine": "neural" }
+    },
+    "William Collins": {
+      "polly": { "pollyVoiceId": "Arthur", "pollyEngine": "neural" }
+    },
+    "Charlotte Lucas": {
+      "polly": { "pollyVoiceId": "Salli", "pollyEngine": "neural" }
+    },
+    "Caroline Bingley": {
+      "polly": { "pollyVoiceId": "Kimberly", "pollyEngine": "neural" }
+    },
+    "Lady Catherine de Bourgh": {
+      "polly": { "pollyVoiceId": "Ruth", "pollyEngine": "neural" }
+    }
+  }
+}

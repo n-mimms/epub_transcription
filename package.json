@@ -1,0 +1,35 @@
+{
+  "name": "epub-transcription",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Gutenberg extract, speaker attribution, and ARPP EPUB export for Austen reader apps",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "extract-books": "node scripts/extract-gutenberg-books.mjs",
+    "build-speakers": "node scripts/build-speakers.mjs",
+    "validate-speakers": "node scripts/build-speakers.mjs --validate",
+    "encode-speakers": "node scripts/run-encode-speakers.mjs",
+    "benchmark-speaker-prompts": "node scripts/run-benchmark-speaker-prompts.mjs",
+    "export-arpp": "node scripts/run-export-arpp.mjs",
+    "export-arpp:all": "node scripts/run-export-arpp.mjs --all",
+    "import-arpp": "node scripts/run-import-arpp.mjs",
+    "import-arpp:all": "node scripts/import-arpp-all.mjs",
+    "verify-arpp": "node scripts/verify-arpp-roundtrip.mjs",
+    "synth-dialogue-audio": "node scripts/run-synth-dialogue-audio.mjs",
+    "validate-dialogue-audio": "node scripts/validate-dialogue-audio.mjs",
+    "pilot:pp-ch1-2": "npm run synth-dialogue-audio -- --book=pride-and-prejudice --chapters=0,1 && npm run export-arpp -- --book=pride-and-prejudice",
+    "publish:all": "npm run export-arpp:all"
+  },
+  "devDependencies": {
+    "@aws-sdk/client-polly": "^3.812.0",
+    "@google/genai": "^2.3.0",
+    "@types/node": "^22.16.5",
+    "cheerio": "^1.2.0",
+    "jszip": "^3.10.1",
+    "tsx": "^4.21.0",
+    "typescript": "^5.8.3",
+    "vitest": "^3.2.4"
+  }
+}
