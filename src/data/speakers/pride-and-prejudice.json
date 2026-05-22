@@ -3,10 +3,12 @@
   "bookId": "pride-and-prejudice",
   "source": {
     "encoder": "google-gemini-3.1-flash-lite@vote3",
-    "generatedAt": "2026-05-22T12:09:13.944Z",
+    "generatedAt": "2026-05-22T12:23:57.083Z",
     "bookJsonSha256": "b0efa82a92ccf91d58f919e55cdbe4b32f552860b7627ece54578246f5a4d638",
     "voteRuns": 3,
-    "voteTemperature": 0.5
+    "voteTemperature": 0.5,
+    "audioSynthAt": "2026-05-22T12:26:01.519Z",
+    "audioProvider": "elevenlabs"
   },
   "chunks": {
     "0:2": [
@@ -4328,6 +4330,172 @@
       "Lydia Bennet"
     ]
   },
+  "audioChunks": {
+    "1:1": [
+      "audio/pride-and-prejudice/ch01-p001-0.mp3"
+    ],
+    "1:2": [
+      "audio/pride-and-prejudice/ch01-p002-0.mp3",
+      "audio/pride-and-prejudice/ch01-p002-1.mp3"
+    ],
+    "1:3": [
+      "audio/pride-and-prejudice/ch01-p003-0.mp3",
+      "audio/pride-and-prejudice/ch01-p003-1.mp3"
+    ],
+    "1:4": [
+      "audio/pride-and-prejudice/ch01-p004-0.mp3"
+    ],
+    "1:5": [
+      "audio/pride-and-prejudice/ch01-p005-0.mp3",
+      "audio/pride-and-prejudice/ch01-p005-1.mp3"
+    ],
+    "1:7": [
+      "audio/pride-and-prejudice/ch01-p007-0.mp3"
+    ],
+    "1:8": [
+      "audio/pride-and-prejudice/ch01-p008-0.mp3",
+      "audio/pride-and-prejudice/ch01-p008-1.mp3"
+    ],
+    "1:9": [
+      "audio/pride-and-prejudice/ch01-p009-0.mp3",
+      "audio/pride-and-prejudice/ch01-p009-1.mp3"
+    ],
+    "1:10": [
+      "audio/pride-and-prejudice/ch01-p010-0.mp3"
+    ],
+    "1:11": [
+      "audio/pride-and-prejudice/ch01-p011-0.mp3",
+      "audio/pride-and-prejudice/ch01-p011-1.mp3"
+    ],
+    "1:12": [
+      "audio/pride-and-prejudice/ch01-p012-0.mp3"
+    ],
+    "1:13": [
+      "audio/pride-and-prejudice/ch01-p013-0.mp3"
+    ],
+    "1:14": [
+      "audio/pride-and-prejudice/ch01-p014-0.mp3"
+    ],
+    "1:15": [
+      "audio/pride-and-prejudice/ch01-p015-0.mp3"
+    ],
+    "1:16": [
+      "audio/pride-and-prejudice/ch01-p016-0.mp3",
+      "audio/pride-and-prejudice/ch01-p016-1.mp3"
+    ],
+    "1:18": [
+      "audio/pride-and-prejudice/ch01-p018-0.mp3",
+      "audio/pride-and-prejudice/ch01-p018-1.mp3"
+    ],
+    "1:19": [
+      "audio/pride-and-prejudice/ch01-p019-0.mp3"
+    ],
+    "1:20": [
+      "audio/pride-and-prejudice/ch01-p020-0.mp3"
+    ],
+    "1:22": [
+      "audio/pride-and-prejudice/ch01-p022-0.mp3"
+    ],
+    "1:23": [
+      "audio/pride-and-prejudice/ch01-p023-0.mp3"
+    ],
+    "1:24": [
+      "audio/pride-and-prejudice/ch01-p024-0.mp3",
+      "audio/pride-and-prejudice/ch01-p024-1.mp3"
+    ],
+    "1:25": [
+      "audio/pride-and-prejudice/ch01-p025-0.mp3",
+      "audio/pride-and-prejudice/ch01-p025-1.mp3"
+    ],
+    "0:2": [
+      "audio/pride-and-prejudice/ch00-p002-0.mp3",
+      "audio/pride-and-prejudice/ch00-p002-1.mp3"
+    ],
+    "0:4": [
+      "audio/pride-and-prejudice/ch00-p004-0.mp3",
+      "audio/pride-and-prejudice/ch00-p004-1.mp3"
+    ],
+    "0:6": [
+      "audio/pride-and-prejudice/ch00-p006-0.mp3"
+    ],
+    "0:7": [
+      "audio/pride-and-prejudice/ch00-p007-0.mp3"
+    ],
+    "0:9": [
+      "audio/pride-and-prejudice/ch00-p009-0.mp3"
+    ],
+    "0:10": [
+      "audio/pride-and-prejudice/ch00-p010-0.mp3"
+    ],
+    "0:11": [
+      "audio/pride-and-prejudice/ch00-p011-0.mp3"
+    ],
+    "0:12": [
+      "audio/pride-and-prejudice/ch00-p012-0.mp3"
+    ],
+    "0:13": [
+      "audio/pride-and-prejudice/ch00-p013-0.mp3"
+    ],
+    "0:14": [
+      "audio/pride-and-prejudice/ch00-p014-0.mp3"
+    ],
+    "0:15": [
+      "audio/pride-and-prejudice/ch00-p015-0.mp3",
+      "audio/pride-and-prejudice/ch00-p015-1.mp3"
+    ],
+    "0:16": [
+      "audio/pride-and-prejudice/ch00-p016-0.mp3"
+    ],
+    "0:17": [
+      "audio/pride-and-prejudice/ch00-p017-0.mp3"
+    ],
+    "0:18": [
+      "audio/pride-and-prejudice/ch00-p018-0.mp3"
+    ],
+    "0:19": [
+      "audio/pride-and-prejudice/ch00-p019-0.mp3"
+    ],
+    "0:20": [
+      "audio/pride-and-prejudice/ch00-p020-0.mp3"
+    ],
+    "0:21": [
+      "audio/pride-and-prejudice/ch00-p021-0.mp3"
+    ],
+    "0:22": [
+      "audio/pride-and-prejudice/ch00-p022-0.mp3"
+    ],
+    "0:23": [
+      "audio/pride-and-prejudice/ch00-p023-0.mp3"
+    ],
+    "0:24": [
+      "audio/pride-and-prejudice/ch00-p024-0.mp3"
+    ],
+    "0:25": [
+      "audio/pride-and-prejudice/ch00-p025-0.mp3"
+    ],
+    "0:26": [
+      "audio/pride-and-prejudice/ch00-p026-0.mp3",
+      "audio/pride-and-prejudice/ch00-p026-1.mp3"
+    ],
+    "0:27": [
+      "audio/pride-and-prejudice/ch00-p027-0.mp3"
+    ],
+    "0:28": [
+      "audio/pride-and-prejudice/ch00-p028-0.mp3"
+    ],
+    "0:29": [
+      "audio/pride-and-prejudice/ch00-p029-0.mp3"
+    ],
+    "0:30": [
+      "audio/pride-and-prejudice/ch00-p030-0.mp3"
+    ],
+    "0:31": [
+      "audio/pride-and-prejudice/ch00-p031-0.mp3"
+    ],
+    "0:32": [
+      "audio/pride-and-prejudice/ch00-p032-0.mp3"
+    ]
+  },
   "deliveryChunks": {
     "1:1": [
       "normal"
@@ -4414,7 +4582,7 @@
       "normal"
     ],
     "0:6": [
-      "sarcastic"
+      "normal"
     ],
     "0:7": [
       "normal"
@@ -4439,13 +4607,13 @@
     ],
     "0:15": [
       "normal",
-      "sarcastic"
+      "normal"
     ],
     "0:16": [
       "normal"
     ],
     "0:17": [
-      "sarcastic"
+      "normal"
     ],
     "0:18": [
       "sarcastic"
@@ -4466,17 +4634,17 @@
       "normal"
     ],
     "0:24": [
-      "sarcastic"
+      "normal"
     ],
     "0:25": [
-      "sarcastic"
+      "normal"
     ],
     "0:26": [
       "normal",
       "normal"
     ],
     "0:27": [
-      "sarcastic"
+      "normal"
     ],
     "0:28": [
       "sarcastic"
@@ -4533,84 +4701,6 @@
     "2:21": [
       "normal",
       "normal"
-    ]
-  },
-  "audioChunks": {
-    "1:1": [
-      "audio/pride-and-prejudice/ch01-p001-0.mp3"
-    ],
-    "1:2": [
-      "audio/pride-and-prejudice/ch01-p002-0.mp3",
-      "audio/pride-and-prejudice/ch01-p002-1.mp3"
-    ],
-    "1:3": [
-      "audio/pride-and-prejudice/ch01-p003-0.mp3",
-      "audio/pride-and-prejudice/ch01-p003-1.mp3"
-    ],
-    "1:4": [
-      "audio/pride-and-prejudice/ch01-p004-0.mp3"
-    ],
-    "1:5": [
-      "audio/pride-and-prejudice/ch01-p005-0.mp3",
-      "audio/pride-and-prejudice/ch01-p005-1.mp3"
-    ],
-    "1:7": [
-      "audio/pride-and-prejudice/ch01-p007-0.mp3"
-    ],
-    "1:8": [
-      "audio/pride-and-prejudice/ch01-p008-0.mp3",
-      "audio/pride-and-prejudice/ch01-p008-1.mp3"
-    ],
-    "1:9": [
-      "audio/pride-and-prejudice/ch01-p009-0.mp3",
-      "audio/pride-and-prejudice/ch01-p009-1.mp3"
-    ],
-    "1:10": [
-      "audio/pride-and-prejudice/ch01-p010-0.mp3"
-    ],
-    "1:11": [
-      "audio/pride-and-prejudice/ch01-p011-0.mp3",
-      "audio/pride-and-prejudice/ch01-p011-1.mp3"
-    ],
-    "1:12": [
-      "audio/pride-and-prejudice/ch01-p012-0.mp3"
-    ],
-    "1:13": [
-      "audio/pride-and-prejudice/ch01-p013-0.mp3"
-    ],
-    "1:14": [
-      "audio/pride-and-prejudice/ch01-p014-0.mp3"
-    ],
-    "1:15": [
-      "audio/pride-and-prejudice/ch01-p015-0.mp3"
-    ],
-    "1:16": [
-      "audio/pride-and-prejudice/ch01-p016-0.mp3",
-      "audio/pride-and-prejudice/ch01-p016-1.mp3"
-    ],
-    "1:18": [
-      "audio/pride-and-prejudice/ch01-p018-0.mp3",
-      "audio/pride-and-prejudice/ch01-p018-1.mp3"
-    ],
-    "1:19": [
-      "audio/pride-and-prejudice/ch01-p019-0.mp3"
-    ],
-    "1:20": [
-      "audio/pride-and-prejudice/ch01-p020-0.mp3"
-    ],
-    "1:22": [
-      "audio/pride-and-prejudice/ch01-p022-0.mp3"
-    ],
-    "1:23": [
-      "audio/pride-and-prejudice/ch01-p023-0.mp3"
-    ],
-    "1:24": [
-      "audio/pride-and-prejudice/ch01-p024-0.mp3",
-      "audio/pride-and-prejudice/ch01-p024-1.mp3"
-    ],
-    "1:25": [
-      "audio/pride-and-prejudice/ch01-p025-0.mp3",
-      "audio/pride-and-prejudice/ch01-p025-1.mp3"
     ]
   }
 }
