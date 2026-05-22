@@ -15,6 +15,7 @@
  * Env (Windows-friendly if flags do not reach the script):
  *   GOOGLE_API_KEY, GEMINI_MODEL (default gemini-2.5-flash), GEMINI_FALLBACK_MODEL (default gemma-4-26b-a4b-it on 429)
  *   ENCODE_BOOK, ENCODE_CHAPTER, ENCODE_DRY_RUN, ENCODE_SKIP_CHAPTERS, ENCODE_FORCE_VALIDATED
+ *   ENCODE_VOTE_RUNS (default 1), ENCODE_VOTE_TEMPERATURE (default 0.5 when voting)
  *   Or set these in repo-root `.env` (gitignored).
  */
 
@@ -42,22 +43,18 @@ import {
   resolveGeminiFallbackModel,
   resolveGeminiModel,
 } from "../src/lib/speakerEncodeGemini";
-import { attributeChapterWithHeuristics } from "../src/lib/speakerHeuristics";
-
-function mergeHeuristicAndLlm(
-  heuristic: Record<string, (string | null)[]>,
-  llm: Record<string, (string | null)[]>,
-): Record<string, (string | null)[]> {
-  const out = { ...llm };
-  for (const [key, hRow] of Object.entries(heuristic)) {
-    if (!(key in out)) {
-      out[key] = hRow;
-      continue;
-    }
-    out[key] = out[key].map((llmVal, i) => (hRow[i] != null ? hRow[i] : llmVal));
-  }
-  return out;
-}
+import {
+  attributeChapterWithConsensus,
+  resolveVoteRuns,
+  resolveVoteTemperature,
+  voteEncoderSuffix,
+} from "../src/lib/speakerConsensus";
+import { printEncodeSpeakersHelp, wantsCliHelp } from "../src/lib/speakerCliHelp";
+import {
+  attributeChapterWithHeuristics,
+  mergeHeuristicAndLlm,
+  tieBreakHintsFromHeuristics,
+} from "../src/lib/speakerHeuristics";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.join(__dirname, "..");
@@ -88,6 +85,18 @@ function parseSkipChapters(argv: string[]): Set<number> {
   return skip;
 }
 
+function parseVoteRuns(argv: string[]): number {
+  const env = (process.env.ENCODE_VOTE_RUNS ?? "").trim();
+  let fromArgv: number | undefined;
+  for (const a of argv) {
+    if (a.startsWith("--vote-runs=")) {
+      const n = Number(a.slice("--vote-runs=".length));
+      if (Number.isFinite(n)) fromArgv = Math.trunc(n);
+    }
+  }
+  return resolveVoteRuns(fromArgv ?? (env && Number.isFinite(Number(env)) ? Number(env) : undefined));
+}
+
 function parseArgs(argv: string[]): {
   book?: string;
   chapter?: number;
@@ -95,6 +104,7 @@ function parseArgs(argv: string[]): {
   showProgress: boolean;
   skipChapters: Set<number>;
   forceValidated: boolean;
+  voteRuns: number;
 } {
   let book =
     (process.env.ENCODE_BOOK || process.env.npm_config_book || "").trim() || undefined;
@@ -119,7 +129,15 @@ function parseArgs(argv: string[]): {
       chapter = Number.isFinite(n) ? Math.trunc(n) : undefined;
     }
   }
-  return { book, chapter, dryRun, showProgress, skipChapters: parseSkipChapters(argv), forceValidated };
+  return {
+    book,
+    chapter,
+    dryRun,
+    showProgress,
+    skipChapters: parseSkipChapters(argv),
+    forceValidated,
+    voteRuns: parseVoteRuns(argv),
+  };
 }
 
 function writeProgressLine(bookId: string, chapterIndex1: number, totalChapters: number, note: string) {
@@ -149,7 +167,12 @@ export function mergeSpeakerFile(
   bookId: string,
   bookJsonPath: string,
   newChunks: Record<string, (string | null)[]>,
-  mergeOpts: { forceValidated: boolean; encoder: string },
+  mergeOpts: {
+    forceValidated: boolean;
+    encoder: string;
+    voteRuns?: number;
+    voteTemperature?: number;
+  },
   newDeliveryChunks?: Record<string, DialogueDelivery[]>,
 ): SpeakerAttributionFile {
   const outPath = path.join(speakersDir, `${bookId}.json`);
@@ -179,6 +202,9 @@ export function mergeSpeakerFile(
       encoder: mergeOpts.encoder,
       generatedAt: new Date().toISOString(),
       bookJsonSha256: sha256File(bookJsonPath),
+      ...(mergeOpts.voteRuns != null && mergeOpts.voteRuns > 1
+        ? { voteRuns: mergeOpts.voteRuns, voteTemperature: mergeOpts.voteTemperature }
+        : {}),
     },
     chunks: mergedChunks,
     ...(Object.keys(mergedDelivery).length > 0 ? { deliveryChunks: mergedDelivery } : {}),
@@ -199,6 +225,7 @@ async function processChapter(
     apiKey: string;
     model: string;
     fallbackModel: string;
+    voteRuns: number;
     onModelSwitch?: (nextModel: string) => void;
   },
 ): Promise<{
@@ -250,20 +277,46 @@ async function processChapter(
     return { chunks, deliveryChunks, warnings };
   }
 
-  const heuristicChunks = attributeChapterWithHeuristics(bookId, chapterIndex, cells);
+  const heuristicResult = attributeChapterWithHeuristics(bookId, chapterIndex, cells);
   const heuristicsOnly =
     process.env.ENCODE_HEURISTICS_ONLY === "1" || process.env.ENCODE_HEURISTICS_ONLY === "true";
 
   if (heuristicsOnly) {
-    Object.assign(chunks, heuristicChunks);
+    Object.assign(chunks, heuristicResult.chunks);
     return { chunks, deliveryChunks, warnings };
   }
 
   const t0 = Date.now();
   let llmModel = opts.model;
-  let response;
+  const voteRuns = opts.voteRuns;
+  const tieBreakHints = tieBreakHintsFromHeuristics(heuristicResult);
+
+  const runAttribution = async (model: string) => {
+    if (voteRuns > 1) {
+      return attributeChapterWithConsensus(
+        opts.apiKey,
+        model,
+        bookId,
+        chapterIndex,
+        chunkCountsByParagraph,
+        systemPrompt,
+        userPrompt,
+        { runs: voteRuns, tieBreakHints },
+      );
+    }
+    const response = await attributeChapterWithGemini(opts.apiKey, model, systemPrompt, userPrompt);
+    return applyLlmAttributions(
+      bookId,
+      chapterIndex,
+      chunkCountsByParagraph,
+      response.attributions,
+      warnings,
+    );
+  };
+
+  let mapped: { chunks: Record<string, (string | null)[]>; deliveryChunks: Record<string, DialogueDelivery[]> };
   try {
-    response = await attributeChapterWithGemini(opts.apiKey, llmModel, systemPrompt, userPrompt);
+    mapped = await runAttribution(llmModel);
   } catch (err) {
     const fallback = opts.fallbackModel;
     const tryFallback =
@@ -274,16 +327,22 @@ async function processChapter(
       announceRateLimitSwitch(llmModel, fallback);
       llmModel = fallback;
       opts.onModelSwitch?.(fallback);
-      response = await attributeChapterWithGemini(opts.apiKey, llmModel, systemPrompt, userPrompt);
+      mapped = await runAttribution(llmModel);
     } else {
       throw err;
     }
   }
   const sec = ((Date.now() - t0) / 1000).toFixed(1);
-  console.log(`[${bookId}] ch ${chapterIndex} attributed ${totalChunks} chunks in ${sec}s (${llmModel})`);
+  const voteNote = voteRuns > 1 ? ` vote×${voteRuns}` : "";
+  console.log(
+    `[${bookId}] ch ${chapterIndex} attributed ${totalChunks} chunks in ${sec}s (${llmModel}${voteNote})`,
+  );
 
-  const mapped = applyLlmAttributions(bookId, chapterIndex, chunkCountsByParagraph, response.attributions, warnings);
-  const mergedSpeakers = mergeHeuristicAndLlm(heuristicChunks, mapped.chunks);
+  const mergedSpeakers = mergeHeuristicAndLlm(
+    heuristicResult.chunks,
+    mapped.chunks,
+    heuristicResult.sources,
+  );
   Object.assign(chunks, mergedSpeakers);
   Object.assign(deliveryChunks, mapped.deliveryChunks);
 
@@ -302,6 +361,7 @@ async function processBook(
     fallbackModel: string;
     onModelSwitch?: (nextModel: string) => void;
     forceValidated: boolean;
+    voteRuns: number;
     onChapterDone?: (
       bookId: string,
       bookPath: string,
@@ -363,6 +423,7 @@ async function processBook(
       apiKey: opts.apiKey,
       model: activeModel,
       fallbackModel: opts.fallbackModel,
+      voteRuns: opts.voteRuns,
       onModelSwitch: (next) => {
         activeModel = next;
         opts.onModelSwitch?.(next);
@@ -392,13 +453,18 @@ async function processBook(
 }
 
 async function main() {
-  const { book, chapter, dryRun, showProgress, skipChapters, forceValidated } = parseArgs(
-    process.argv.slice(2),
-  );
+  const argv = process.argv.slice(2);
+  if (wantsCliHelp(argv)) {
+    printEncodeSpeakersHelp(root);
+    return;
+  }
+
+  const { book, chapter, dryRun, showProgress, skipChapters, forceValidated, voteRuns } = parseArgs(argv);
   const model = resolveGeminiModel();
   const fallbackModel = resolveGeminiFallbackModel();
   const apiKey = (process.env.GOOGLE_API_KEY || "").trim();
-  let encoderLabel = `google-${model}`;
+  const voteTemperature = voteRuns > 1 ? resolveVoteTemperature() : undefined;
+  let encoderLabel = `google-${model}${voteEncoderSuffix(voteRuns)}`;
 
   if (!dryRun && !apiKey) {
     console.error(
@@ -422,6 +488,8 @@ async function main() {
     skipChapters.size ? [...skipChapters].sort((a, b) => a - b).join(",") : "(none)",
     "force-validated:",
     forceValidated ? "yes" : "no",
+    "vote-runs:",
+    String(voteRuns),
   );
 
   const names = fs.readdirSync(booksDir).filter((f) => f.endsWith(".json"));
@@ -469,16 +537,19 @@ async function main() {
       model,
       fallbackModel,
       onModelSwitch: (next) => {
-        encoderLabel = `google-${next}`;
+        encoderLabel = `google-${next}${voteEncoderSuffix(voteRuns)}`;
         console.log(`[encode-speakers] active model is now ${next}`);
       },
       forceValidated,
+      voteRuns,
       onChapterDone: dryRun
         ? undefined
         : (bid, bPath, chapterChunks, chapterDeliveries) => {
             const merged = mergeSpeakerFile(bid, bPath, chapterChunks, {
               forceValidated,
               encoder: encoderLabel,
+              voteRuns: voteRuns > 1 ? voteRuns : undefined,
+              voteTemperature,
             }, chapterDeliveries);
             const outPath = path.join(speakersDir, `${bid}.json`);
             fs.writeFileSync(outPath, JSON.stringify(merged, null, 2) + "\n", "utf8");
@@ -493,6 +564,8 @@ async function main() {
       const merged = mergeSpeakerFile(id, bookPath, chunks, {
         forceValidated,
         encoder: encoderLabel,
+        voteRuns: voteRuns > 1 ? voteRuns : undefined,
+        voteTemperature,
       }, deliveryChunks);
       const outPath = path.join(speakersDir, `${id}.json`);
       fs.writeFileSync(outPath, JSON.stringify(merged, null, 2) + "\n", "utf8");

@@ -38,7 +38,7 @@ describe("P&P Chapter II manual ground truth (sidecar)", () => {
     const bookPath = path.join(root, "src/data/books/pride-and-prejudice.json");
     const book = JSON.parse(fs.readFileSync(bookPath, "utf8"));
     const cells = cellsForChapter(book.chapters[PRIDE_AND_PREJUDICE_CHAPTER_II.chapterIndex].paragraphs);
-    const chunks = attributeChapterWithHeuristics(
+    const { chunks } = attributeChapterWithHeuristics(
       PRIDE_AND_PREJUDICE_CHAPTER_II.bookId,
       PRIDE_AND_PREJUDICE_CHAPTER_II.chapterIndex,
       cells,

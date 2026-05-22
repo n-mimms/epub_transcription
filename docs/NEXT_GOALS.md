@@ -12,8 +12,9 @@ Example: regency_letter.png
 
 # Improve quotation attribution
 
-Use offline LLM
-Have it run multiple times, and have it vote on 
+~~Have it run multiple times, and have it vote~~ — **done:** opt-in `ENCODE_VOTE_RUNS` / `--vote-runs` in `encode-speakers` ([`docs/encode-speakers.md`](encode-speakers.md), [`src/lib/speakerConsensus.ts`](../src/lib/speakerConsensus.ts)).
+
+Use offline LLM (future)
 
 # Improve speaker
 

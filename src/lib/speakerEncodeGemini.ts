@@ -395,26 +395,41 @@ function resolveMaxRetries(override?: number): number {
   return 6;
 }
 
+export interface AttributeChapterGeminiOptions {
+  /** Sampling temperature (0–2). Omitted = model default (deterministic-ish). */
+  temperature?: number;
+}
+
 export async function attributeChapterWithGemini(
   apiKey: string,
   model: string,
   systemPrompt: string,
   userPrompt: string,
   maxRetries?: number,
+  geminiOpts?: AttributeChapterGeminiOptions,
 ): Promise<LlmAttributionResponse> {
   const ai = new GoogleGenAI({ apiKey });
   const retries = resolveMaxRetries(maxRetries);
   let lastErr: unknown;
+  const temperature = geminiOpts?.temperature;
 
   for (let attempt = 0; attempt < retries; attempt++) {
     try {
+      const config: {
+        responseMimeType: string;
+        responseJsonSchema: typeof RESPONSE_SCHEMA;
+        temperature?: number;
+      } = {
+        responseMimeType: "application/json",
+        responseJsonSchema: RESPONSE_SCHEMA,
+      };
+      if (temperature != null && Number.isFinite(temperature)) {
+        config.temperature = Math.max(0, Math.min(2, temperature));
+      }
       const response = await ai.models.generateContent({
         model,
         contents: [{ role: "user", parts: [{ text: `${systemPrompt}\n\n${userPrompt}` }] }],
-        config: {
-          responseMimeType: "application/json",
-          responseJsonSchema: RESPONSE_SCHEMA,
-        },
+        config,
       });
 
       const text = response.text;

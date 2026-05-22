@@ -122,16 +122,64 @@ function pingPongSpeaker(lastTwo: [string | null, string | null]): string | null
   return null;
 }
 
+export type HeuristicSource = "tag" | "addresser" | "pingpong";
+
+export interface HeuristicChapterResult {
+  chunks: Record<string, (string | null)[]>;
+  /** Parallel to each chunk in `chunks`; null when the value is not from a high-confidence rule. */
+  sources: Record<string, (HeuristicSource | null)[]>;
+}
+
 export interface HeuristicAttributionContext {
   lastTwo: [string | null, string | null];
+}
+
+/** Tag/addresser speakers only — for consensus tie-breaking, not merge override. */
+export function tieBreakHintsFromHeuristics(result: HeuristicChapterResult): Record<string, (string | null)[]> {
+  const hints: Record<string, (string | null)[]> = {};
+  for (const [key, row] of Object.entries(result.chunks)) {
+    const src = result.sources[key];
+    if (!src) continue;
+    hints[key] = row.map((speaker, i) => {
+      const s = src[i];
+      return s === "tag" || s === "addresser" ? speaker : null;
+    });
+  }
+  return hints;
+}
+
+/** Merge LLM/consensus output with heuristics; only tag and addresser override the model. */
+export function mergeHeuristicAndLlm(
+  heuristic: Record<string, (string | null)[]>,
+  llm: Record<string, (string | null)[]>,
+  sources?: Record<string, (HeuristicSource | null)[]>,
+): Record<string, (string | null)[]> {
+  const out = { ...llm };
+  for (const [key, hRow] of Object.entries(heuristic)) {
+    if (!(key in out)) {
+      out[key] = hRow;
+      continue;
+    }
+    const srcRow = sources?.[key];
+    out[key] = out[key].map((llmVal, i) => {
+      const hVal = hRow[i];
+      if (hVal == null) return llmVal;
+      if (!srcRow) return hVal;
+      const src = srcRow[i];
+      if (src === "tag" || src === "addresser") return hVal;
+      return llmVal;
+    });
+  }
+  return out;
 }
 
 export function attributeChapterWithHeuristics(
   bookId: string,
   chapterIndex: number,
   cells: ParagraphCell[],
-): Record<string, (string | null)[]> {
+): HeuristicChapterResult {
   const chunks: Record<string, (string | null)[]> = {};
+  const sources: Record<string, (HeuristicSource | null)[]> = {};
   const ctx: HeuristicAttributionContext = { lastTwo: [null, null] };
 
   const pushSpeaker = (name: string | null) => {
@@ -143,25 +191,39 @@ export function attributeChapterWithHeuristics(
     const n = listDialogueChunkTexts(cells[pi].text, cells[pi].c).length;
     if (n === 0) continue;
 
-    let row: (string | null)[] | null = speakersFromSpeechTags(bookId, cells[pi].text, cells[pi].c);
+    let row: (string | null)[] | null = null;
+    let source: HeuristicSource | null = null;
+
+    const fromTags = speakersFromSpeechTags(bookId, cells[pi].text, cells[pi].c);
+    if (fromTags) {
+      row = fromTags;
+      source = "tag";
+    }
 
     if (!row && pi > 0) {
       const addresser = resolveAddresserFromPriorParagraph(bookId, cells[pi - 1].text);
-      if (addresser) row = Array(n).fill(addresser);
+      if (addresser) {
+        row = Array(n).fill(addresser);
+        source = "addresser";
+      }
     }
 
     if (!row) {
       const alt = pingPongSpeaker(ctx.lastTwo);
-      if (alt) row = Array(n).fill(alt);
+      if (alt) {
+        row = Array(n).fill(alt);
+        source = "pingpong";
+      }
     }
 
     if (!row) row = Array(n).fill(null);
 
     const key = `${chapterIndex}:${pi}`;
     chunks[key] = row;
+    sources[key] = source ? Array(n).fill(source) : Array(n).fill(null);
     const lastNamed = [...row].reverse().find((s) => s != null) ?? null;
     pushSpeaker(lastNamed);
   }
 
-  return chunks;
+  return { chunks, sources };
 }

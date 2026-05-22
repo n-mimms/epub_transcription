@@ -59,6 +59,10 @@ export interface SpeakerAttributionSource {
   audioProvider?: string;
   /** Optional fingerprint of the book JSON used when this file was produced */
   bookJsonSha256?: string;
+  /** LLM runs per chapter when majority voting was used (e.g. 3). */
+  voteRuns?: number;
+  /** Sampling temperature used for voting runs. */
+  voteTemperature?: number;
 }
 
 /** One manually reviewed chapter; keys in the sidecar file are decimal chapter indexes (`"0"`, `"1"`, …). */

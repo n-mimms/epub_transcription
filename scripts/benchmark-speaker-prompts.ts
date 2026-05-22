@@ -7,6 +7,7 @@
  *   GOOGLE_API_KEY=... npm run benchmark-speaker-compare-models
  *   GOOGLE_API_KEY=... npx tsx scripts/benchmark-speaker-prompts.ts --compare-models
  *   GOOGLE_API_KEY=... npx tsx scripts/benchmark-speaker-prompts.ts --variant=current --models=gemini-2.5-flash,gemini-3.1-flash-lite,gemma-4-26b-a4b-it
+ *   GOOGLE_API_KEY=... npx tsx scripts/benchmark-speaker-prompts.ts --variant=current --vote-runs=3
  */
 
 import fs from "fs";
@@ -14,6 +15,10 @@ import path from "path";
 import { fileURLToPath } from "url";
 import { loadEnvFile } from "./load-env.mjs";
 import type { Book } from "../src/lib/bookTypes";
+import {
+  attributeChapterWithConsensus,
+  resolveVoteRuns,
+} from "../src/lib/speakerConsensus";
 import {
   applyLlmAttributions,
   attributeChapterWithGemini,
@@ -24,7 +29,12 @@ import {
   formatCharacterRosterForPrompt,
   labelGeminiModel,
 } from "../src/lib/speakerEncodeGemini";
-import { attributeChapterWithHeuristics } from "../src/lib/speakerHeuristics";
+import {
+  attributeChapterWithHeuristics,
+  mergeHeuristicAndLlm,
+  tieBreakHintsFromHeuristics,
+} from "../src/lib/speakerHeuristics";
+import { printBenchmarkSpeakerPromptsHelp, wantsCliHelp } from "../src/lib/speakerCliHelp";
 import {
   PRIDE_AND_PREJUDICE_CHAPTER_II,
   prideAndPrejudiceChapterIiGroundTruth,
@@ -151,6 +161,12 @@ function applySkipModels(models: string[], skip: Set<string>): string[] {
   return models.filter((m) => !skip.has(m));
 }
 
+function parseVoteRuns(): number {
+  const fromArg = argValue("--vote-runs");
+  const n = fromArg != null && Number.isFinite(Number(fromArg)) ? Math.trunc(Number(fromArg)) : undefined;
+  return resolveVoteRuns(n);
+}
+
 function parseModels(compareModels: boolean): string[] {
   const skip = parseSkipModels();
   const modelsArg = argValue("--models");
@@ -173,6 +189,12 @@ function parseModels(compareModels: boolean): string[] {
 }
 
 async function main() {
+  const argv = process.argv.slice(2);
+  if (wantsCliHelp(argv)) {
+    printBenchmarkSpeakerPromptsHelp(root);
+    return;
+  }
+
   const heuristicsOnly = process.argv.includes("--heuristics-only");
   const compareModels = process.argv.includes("--compare-models");
   const variantFilter = argValue("--variant")
@@ -231,21 +253,28 @@ async function main() {
   }
   console.log("");
 
+  const voteRuns = parseVoteRuns();
+  const heuristicResult = attributeChapterWithHeuristics(BOOK_ID, CHAPTER_INDEX, cells);
+  const tieBreakHints = tieBreakHintsFromHeuristics(heuristicResult);
+
   const results: { id: string; score: string; mismatches: string[] }[] = [];
 
   {
-    const hChunks = attributeChapterWithHeuristics(BOOK_ID, CHAPTER_INDEX, cells);
-    const hScore = scoreResult(hChunks);
+    const hScore = scoreResult(heuristicResult.chunks);
     results.push({
       id: "heuristics-only",
       score: `${hScore.correct}/${hScore.total}`,
       mismatches: hScore.mismatches,
     });
     console.log("--- heuristics-only (no API) ---");
-    for (const [k, v] of Object.entries(hChunks).filter(([k]) => k in GROUND_TRUTH)) {
+    for (const [k, v] of Object.entries(heuristicResult.chunks).filter(([k]) => k in GROUND_TRUTH)) {
       console.log(`  ${k}: ${JSON.stringify(v)}`);
     }
     console.log(`Score: ${hScore.correct}/${hScore.total}\n`);
+  }
+
+  if (voteRuns > 1) {
+    console.log(`[benchmark] vote-runs: ${voteRuns} (consensus path scored when API runs)\n`);
   }
 
   if (heuristicsOnly || !apiKey) {
@@ -258,37 +287,96 @@ async function main() {
     return;
   }
 
+  async function scorePaths(
+    baseId: string,
+    llmChunks: Record<string, (string | null)[]>,
+    logProduction: boolean,
+  ) {
+    const llmScore = scoreResult(llmChunks);
+    results.push({
+      id: `${baseId} [llm-only]`,
+      score: `${llmScore.correct}/${llmScore.total}`,
+      mismatches: llmScore.mismatches,
+    });
+    console.log(`  llm-only: ${llmScore.correct}/${llmScore.total}`);
+
+    const merged = mergeHeuristicAndLlm(
+      heuristicResult.chunks,
+      llmChunks,
+      heuristicResult.sources,
+    );
+    const prodScore = scoreResult(merged);
+    results.push({
+      id: `${baseId} [production]`,
+      score: `${prodScore.correct}/${prodScore.total}`,
+      mismatches: prodScore.mismatches,
+    });
+    console.log(`  production (tag/addresser merge): ${prodScore.correct}/${prodScore.total}`);
+
+    if (logProduction) {
+      for (const key of Object.keys(GROUND_TRUTH)) {
+        console.log(`  ${key}: ${JSON.stringify(merged[key] ?? null)}`);
+      }
+      if (prodScore.mismatches.length) {
+        console.log("  Mismatches:", prodScore.mismatches.join("; "));
+      }
+    }
+  }
+
   for (const variant of variantsToRun) {
     if (variant.id === "heuristics-only") continue;
 
     for (const model of models) {
-      const runId = models.length > 1 ? `${variant.id}@${model}` : variant.id;
+      const baseId = models.length > 1 ? `${variant.id}@${model}` : variant.id;
       const label = models.length > 1 ? labelGeminiModel(model) : variant.id;
-      console.log(`--- ${runId} (${label}) ---`);
+      console.log(`--- ${baseId} (${label}) ---`);
       const { systemPrompt, userPrompt, chunkCountsByParagraph } = variant.build(book, cells);
       const warnings: string[] = [];
 
       try {
         const response = await attributeChapterWithGemini(apiKey, model, systemPrompt, userPrompt);
-        const { chunks } = applyLlmAttributions(
+        const { chunks: llmChunks } = applyLlmAttributions(
           BOOK_ID,
           CHAPTER_INDEX,
           chunkCountsByParagraph,
           response.attributions,
           warnings,
         );
-        const s = scoreResult(chunks);
-        results.push({ id: runId, score: `${s.correct}/${s.total}`, mismatches: s.mismatches });
+        await scorePaths(baseId, llmChunks, true);
+        if (warnings.length) console.log("  Warnings:", warnings.join("; "));
 
-        for (const key of Object.keys(GROUND_TRUTH)) {
-          console.log(`  ${key}: ${JSON.stringify(chunks[key] ?? null)}`);
+        if (voteRuns > 1) {
+          const consensus = await attributeChapterWithConsensus(
+            apiKey,
+            model,
+            BOOK_ID,
+            CHAPTER_INDEX,
+            chunkCountsByParagraph,
+            systemPrompt,
+            userPrompt,
+            { runs: voteRuns, tieBreakHints },
+          );
+          const mergedConsensus = mergeHeuristicAndLlm(
+            heuristicResult.chunks,
+            consensus.chunks,
+            heuristicResult.sources,
+          );
+          const voteScore = scoreResult(mergedConsensus);
+          results.push({
+            id: `${baseId} [vote${voteRuns}+production]`,
+            score: `${voteScore.correct}/${voteScore.total}`,
+            mismatches: voteScore.mismatches,
+          });
+          console.log(
+            `  consensus vote×${voteRuns} + production: ${voteScore.correct}/${voteScore.total}`,
+          );
+          if (consensus.warnings.length) {
+            console.log("  Consensus warnings:", consensus.warnings.join("; "));
+          }
         }
-        console.log(`Score: ${s.correct}/${s.total}`);
-        if (s.mismatches.length) console.log("Mismatches:", s.mismatches.join("; "));
-        if (warnings.length) console.log("Warnings:", warnings.join("; "));
       } catch (err) {
         console.error(`  FAILED: ${err instanceof Error ? err.message : err}`);
-        results.push({ id: runId, score: "error", mismatches: [] });
+        results.push({ id: `${baseId} [llm-only]`, score: "error", mismatches: [] });
       }
       console.log("");
       await sleep(1500);

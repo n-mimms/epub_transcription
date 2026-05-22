@@ -23,10 +23,18 @@ Fill `src/data/speakers/{bookId}.json` with **Google Gemini** dialogue attributi
 3. Optional: **`GEMINI_MODEL`** (default `gemini-2.5-flash`). Also supported: `gemini-3.1-flash-lite`, `gemma-4-26b-a4b-it`.
 4. Optional: **`GEMINI_FALLBACK_MODEL`** (default `gemma-4-26b-a4b-it`) — after retries are exhausted on a **429**, the encoder prints a loud banner and switches to this model for the rest of the run.
 5. Optional: **`GEMINI_MAX_RETRIES`** or **`ENCODE_MAX_RETRIES`** (default `6`) — exponential backoff on transient 429/503 (not billing quota exhaustion; those fail immediately and may switch to `GEMINI_FALLBACK_MODEL`).
+6. Optional: **`ENCODE_VOTE_RUNS`** / `--vote-runs=N` (default `1`) — run Gemini **N times** per chapter and take a **majority vote** per dialogue chunk. Costs ~N× API calls. Use `ENCODE_VOTE_TEMPERATURE` (default `0.5`) for sampling when N > 1.
 
 ## Commands
 
 From the project root:
+
+```bash
+# Full flag / model / env reference (npm may intercept --help; use :help scripts)
+npm run encode-speakers:help
+npm run benchmark-speaker-prompts:help
+# Or: node scripts/run-encode-speakers.mjs -help
+```
 
 ```bash
 # Smoke test (no API call): chapter stats + prompt size
@@ -66,6 +74,8 @@ cmd /c "npm run encode-speakers -- --book=pride-and-prejudice --chapter=1"
 | `--dry-run` | `ENCODE_DRY_RUN=1` | No API calls; log stats |
 | `--skip-chapters=0,1` | `ENCODE_SKIP_CHAPTERS` | Skip chapter indexes |
 | `--force-validated` | `ENCODE_FORCE_VALIDATED=1` | Overwrite `chapterManualValidation` chapters |
+| `--vote-runs=N` | `ENCODE_VOTE_RUNS` | Majority vote across N LLM runs per chapter (default 1) |
+| — | `ENCODE_VOTE_TEMPERATURE` | Sampling temperature when `vote-runs` > 1 (default 0.5) |
 | `--no-progress` | — | One log line per chapter |
 
 The script writes the sidecar **after each chapter** so a mid-run failure keeps prior chapters.
@@ -74,9 +84,24 @@ The script writes the sidecar **after each chapter** so a mid-run failure keeps 
 
 Chapters listed in sidecar `chapterManualValidation` are skipped on re-encode unless you pass `--force-validated`.
 
+## Majority voting (opt-in)
+
+Default encoding uses **one** Gemini call per chapter. For harder chapters, enable voting:
+
+```powershell
+$env:ENCODE_VOTE_RUNS = "3"
+npm run encode-speakers -- --book=pride-and-prejudice --chapter=1
+```
+
+Or: `node scripts/run-encode-speakers.mjs --book=pride-and-prejudice --chapter=1 --vote-runs=3`
+
+Sidecar `source.encoder` becomes e.g. `google-gemini-2.5-flash@vote3` with `source.voteRuns` and `source.voteTemperature` recorded.
+
+Implementation: [`src/lib/speakerConsensus.ts`](../src/lib/speakerConsensus.ts).
+
 ## Cost and rate limits
 
-- One API call per chapter (not per paragraph).
+- One API call per chapter by default (not per paragraph). With `--vote-runs=N`, expect **N calls** per chapter.
 - Gemini Flash is typically fast and inexpensive vs batch CoreNLP on CPU.
 - On HTTP 429 the encoder retries with backoff; if retries are still exhausted, it **switches to `GEMINI_FALLBACK_MODEL`** (Gemma 4 26B by default) for remaining chapters.
 
@@ -84,7 +109,7 @@ Chapters listed in sidecar `chapterManualValidation` are skipped on re-encode un
 
 Sidecar `source.encoder` is set to `google-gemini-2.5-flash` (or your `GEMINI_MODEL` value). Character names are canonicalized via [`src/lib/characters.ts`](../src/lib/characters.ts) and [`canonicalizeSpeaker`](../src/lib/speakerAttribution.ts).
 
-**Hybrid attribution:** each chapter runs rule-based heuristics first ([`speakerHeuristics.ts`](../src/lib/speakerHeuristics.ts) — speech tags, orphan “addressed … with”, ping-pong for untagged quotes), then Gemini. Heuristic results **override** the model where they are non-null (fixes cases like `1:1` → Mr. Bennet, not Elizabeth).
+**Hybrid attribution:** each chapter runs rule-based heuristics first ([`speakerHeuristics.ts`](../src/lib/speakerHeuristics.ts) — speech tags, orphan “addressed … with”, ping-pong for untagged quotes), then Gemini (or majority vote when enabled). Only **speech-tag** and **addresser** heuristics override the model; **ping-pong** guesses do not (reduces Elizabeth over-attribution on untagged lines).
 
 Compare prompt variants on P&P Chapter II against **manual labels** in `src/data/speakers/pride-and-prejudice.json` (keys `1:*`):
 
@@ -92,7 +117,10 @@ Compare prompt variants on P&P Chapter II against **manual labels** in `src/data
 npm run benchmark-speaker-prompts -- --heuristics-only   # no API
 GOOGLE_API_KEY=... npm run benchmark-speaker-prompts     # all prompt variants
 GOOGLE_API_KEY=... npm run benchmark-speaker-compare-models   # baseline + Gemini 3.1 Flash Lite + Gemma 4 26B
+GOOGLE_API_KEY=... npm run benchmark-speaker-prompts -- --variant=current --vote-runs=3
 ```
+
+Each LLM variant reports **`[llm-only]`**, **`[production]`** (tag/addresser merge), and when `--vote-runs` > 1, **`[voteN+production]`**.
 
 `benchmark-speaker-compare-models` runs the **`current`** prompt on:
 

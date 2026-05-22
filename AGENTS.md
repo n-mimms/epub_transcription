@@ -101,6 +101,8 @@ Per-`bookId` canonical names, aliases, `colorVar` (`--char-1` … `--char-20`). 
 | `npm run build-speakers` | Refresh sidecar shells (preserve `chunks`, `audioChunks`, …) |
 | `npm run validate-speakers` | `chunks[*].length` vs dialogue chunk count |
 | `npm run encode-speakers` | Gemini + heuristics (`GOOGLE_API_KEY`); fills `deliveryChunks` |
+| `npm run encode-speakers:help` | CLI flags, models, env vars |
+| `npm run benchmark-speaker-prompts:help` | Benchmark variants, models, scoring columns |
 | `npm run synth-dialogue-audio` | MP3s → `src/data/audio/` (ElevenLabs default; `.env`) |
 | `npm run validate-dialogue-audio` | Audio files + array lengths |
 | `npm run export-arpp:all` | All books → `exports/arpp/` |
@@ -112,7 +114,7 @@ Windows argv: launchers use `npm_config_*` + env fallbacks. See [`docs/DIALOGUE_
 
 ## Encoder merge rule
 
-[`scripts/encode-speakers.ts`](scripts/encode-speakers.ts): **non-null heuristic speakers override** Gemini for that chunk index ([`speakerHeuristics.ts`](src/lib/speakerHeuristics.ts)).
+[`scripts/encode-speakers.ts`](scripts/encode-speakers.ts): **tag/addresser heuristics override** Gemini; ping-pong does not ([`speakerHeuristics.ts`](src/lib/speakerHeuristics.ts)). Opt-in majority vote: `ENCODE_VOTE_RUNS` / `--vote-runs` ([`speakerConsensus.ts`](src/lib/speakerConsensus.ts)).
 
 ## Gutenberg extract
 
