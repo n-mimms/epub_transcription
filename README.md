@@ -67,7 +67,7 @@ npm run export-arpp --book=pride-and-prejudice
 npm run verify-arpp
 ```
 
-Look for `export-arpp: SUCCESS` and `embedded: N MP3 file(s)` in the log.
+Look for `export-arpp: SUCCESS` and `embedded: N MP3 file(s)` in the log. If `src/data/theatric/{bookId}.json` exists, the log also lists `theatric:` and the EPUB includes `metadata/theatric.json`.
 
 Copy `exports/arpp/*.epub` → `../austen/publications/arpp/`, then in the ereader repo: `npm run dev`.
 
@@ -105,6 +105,7 @@ npm run verify-arpp
 |------|---------|
 | [`src/data/books/`](src/data/books/) | Canonical text JSON per title |
 | [`src/data/speakers/`](src/data/speakers/) | Speaker + delivery + audio path sidecars |
+| [`src/data/theatric/`](src/data/theatric/) | Optional scenes / letters / soundscape hooks (`theatric.json` in EPUB) |
 | [`src/data/voices/`](src/data/voices/) | ElevenLabs / Polly voice map per book |
 | [`src/data/audio/`](src/data/audio/) | Generated dialogue MP3s (gitignored in practice) |
 | [`src/lib/arpp/`](src/lib/arpp/) | ARPP export / import library |

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "bookId": "pride-and-prejudice",
+  "scenes": [
+    {
+      "id": "ch03-dinnerparty-soundscape",
+      "startBlockId": "ch02-p000",
+      "endBlockId": "ch02-p021",
+      "doNow": [
+        "Ereader: loop this bed under Chapter III (spine ch02.xhtml) when theatric scenes ship"
+      ],
+      "soundscape": {
+        "description": "Social gathering / dinner-party room tone for Chapter III",
+        "file": "audio/pride-and-prejudice/ch02-dinnerparty-soundscape.mp3"
+      },
+      "setting": {
+        "locationDescription": "Longbourn / neighbourhood social context (Chapter III)"
+      }
+    }
+  ]
+}

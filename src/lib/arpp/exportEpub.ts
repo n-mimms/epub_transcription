@@ -16,6 +16,7 @@ import { ARPP_META_PROPERTY, ARPP_PROFILE_URI, ARPP_VERSION } from "@/lib/arpp/c
 import { buildCharacterIdMap } from "@/lib/arpp/characterIds";
 import { blockId, chunkMapKey } from "@/lib/arpp/blockIds";
 import { chapterXhtml, navXhtml, paragraphBodyXhtml } from "@/lib/arpp/xhtml";
+import { collectTheatricSoundscapeEpubHrefs, type TheatricProfile } from "@/lib/arpp/theatricProfile";
 
 function cellParts(cell: ParagraphCell): { text: string; dialogueContinuation: boolean } {
   if (typeof cell === "string") return { text: cell, dialogueContinuation: false };
@@ -85,6 +86,8 @@ export interface ExportArppOptions {
   includeSpeakersSidecar?: boolean;
   /** Optional `metadata/publication.json` (chapter media descriptors). */
   publicationJson?: Record<string, unknown>;
+  /** Optional `metadata/theatric.json` (scenes, letters, soundscape hooks). */
+  theatricProfile?: TheatricProfile | null;
   /** Root of `src/data` (for copying `audio/{bookId}/*.mp3`). */
   dataRoot?: string;
   /** Root of `src/data/voices` (voice map JSON per book). */
@@ -180,6 +183,10 @@ export async function exportBookToArppEpub(
     metaFolder.file("publication.json", JSON.stringify(options.publicationJson, null, 2));
   }
 
+  if (options.theatricProfile) {
+    metaFolder.file("theatric.json", JSON.stringify(options.theatricProfile, null, 2));
+  }
+
   const dialogueAudioByBlock: Record<string, string[]> = {};
   if (speakers?.audioChunks && Object.keys(speakers.audioChunks).length > 0) {
     if (!options.dataRoot) {
@@ -210,7 +217,27 @@ export async function exportBookToArppEpub(
     }
   }
 
+  const theatricSoundscapeHrefs = options.theatricProfile
+    ? collectTheatricSoundscapeEpubHrefs(options.theatricProfile)
+    : [];
+  if (theatricSoundscapeHrefs.length > 0 && !options.dataRoot) {
+    throw new Error(
+      "exportBookToArppEpub: dataRoot is required when theatric profiles reference soundscape.file",
+    );
+  }
+  for (const href of theatricSoundscapeHrefs) {
+    const diskPath = epubHrefToDiskPath(options.dataRoot!, href);
+    if (!fs.existsSync(diskPath)) {
+      throw new Error(`Missing theatric soundscape file: ${diskPath}`);
+    }
+    const bytes = fs.readFileSync(diskPath);
+    oebps.file(href, bytes);
+  }
+
   oebps.file("nav.xhtml", navXhtml(book.title, navChapters));
+
+  const dialogueMp3Hrefs = new Set(Object.values(dialogueAudioByBlock).flat());
+  const allBundledMp3Hrefs = new Set<string>([...dialogueMp3Hrefs, ...theatricSoundscapeHrefs]);
 
   const manifestExtras: { id: string; href: string; mediaType: string; properties?: string }[] = [
     { id: "characters", href: "metadata/characters.json", mediaType: "application/json" },
@@ -229,20 +256,27 @@ export async function exportBookToArppEpub(
       mediaType: "application/json",
     });
   }
+  if (options.theatricProfile) {
+    manifestExtras.push({
+      id: "theatric",
+      href: "metadata/theatric.json",
+      mediaType: "application/json",
+    });
+  }
   if (Object.keys(dialogueAudioByBlock).length > 0) {
     manifestExtras.push({
       id: "dialogue-audio",
       href: "metadata/dialogue-audio.json",
       mediaType: "application/json",
     });
-    for (const href of new Set(Object.values(dialogueAudioByBlock).flat())) {
-      const manifestId = href.replace(/[^a-zA-Z0-9]+/g, "_").replace(/^_|_$/g, "");
-      manifestExtras.push({
-        id: manifestId,
-        href,
-        mediaType: "audio/mpeg",
-      });
-    }
+  }
+  for (const href of allBundledMp3Hrefs) {
+    const manifestId = href.replace(/[^a-zA-Z0-9]+/g, "_").replace(/^_|_$/g, "");
+    manifestExtras.push({
+      id: manifestId,
+      href,
+      mediaType: "audio/mpeg",
+    });
   }
 
   oebps.file("content.opf", buildOpf(book, spineIds, manifestExtras));

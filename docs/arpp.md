@@ -1,6 +1,6 @@
 # Austen Reader Publication Profile (ARPP)
 
-ARPP is an [EPUB 3](https://www.w3.org/publishing/epub32/) publication profile used as the **handoff format** between the converter repo (Gutenberg extract, LLM speaker encoding) and the ereader repo. Authoring stays in **book JSON + speakers JSON**; EPUB is produced **after** attribution validates.
+ARPP is an [EPUB 3](https://www.w3.org/publishing/epub32/) publication profile used as the **handoff format** between the converter repo (Gutenberg extract, LLM speaker encoding) and the ereader repo. Authoring stays in **book JSON + speakers JSON** (optional **theatric JSON**); EPUB is produced **after** attribution validates.
 
 **Profile version:** `1` (OPF `meta property="arpp:version"`).
 
@@ -15,6 +15,7 @@ OEBPS/ch00.xhtml … chNN.xhtml
 OEBPS/metadata/characters.json
 OEBPS/metadata/speakers.json          (optional but recommended)
 OEBPS/metadata/publication.json       (optional — chapter media)
+OEBPS/metadata/theatric.json        (optional — scenes, letters, soundscape hooks)
 OEBPS/audio/…  OEBPS/images/…         (optional manifest assets)
 ```
 
@@ -74,12 +75,62 @@ Chapter-level enrichment (ambient audio, cover image) referencing manifest paths
 }
 ```
 
+## metadata/theatric.json (optional)
+
+Theatric reading data: **scenes** (contiguous block-id spans with `doNow` notes, optional `soundscape` / `setting`) and **embedded texts** (letters, clippings, …). Authored in the converter repo as `src/data/theatric/{bookId}.json`; `npm run export-arpp` validates spans against book JSON and bundles this file.
+
+```json
+{
+  "schemaVersion": 1,
+  "bookId": "pride-and-prejudice",
+  "scenes": [
+    {
+      "id": "ch34-evening",
+      "startBlockId": "ch33-p000",
+      "endBlockId": "ch33-p120",
+      "doNow": [
+        "Soundscape: add ambient file when ready",
+        "Map: Longbourn drawing room (later)"
+      ],
+      "soundscape": {
+        "description": "Quiet evening, distant carriage",
+        "file": null
+      },
+      "setting": {
+        "locationDescription": "Longbourn",
+        "timeOfDay": "evening"
+      },
+      "embeddedTexts": [
+        {
+          "id": "darcy-letter",
+          "startBlockId": "ch33-p015",
+          "endBlockId": "ch33-p090",
+          "kind": "letter",
+          "senderCharacterId": "fitzwilliam_darcy",
+          "recipientCharacterId": "elizabeth_bennet",
+          "summary": "Darcy's letter to Elizabeth",
+          "presentation": { "openInteraction": "wax_seal" },
+          "doNow": ["Ereader: seal swipe + parchment typography"]
+        }
+      ]
+    }
+  ],
+  "embeddedTexts": []
+}
+```
+
+- **`doNow`**: implementation checklist strings (not rendered in the book file).
+- **Top-level `embeddedTexts`**: optional spans not scoped to a single scene (usually prefer scene-local entries).
+- **`kind`**: free string; common values include `letter`, `diary_entry`, `newspaper_excerpt`, `telegram`, `ship_log`, `other`.
+- **`soundscape.file`**: when set to a non-null string (`audio/{bookId}/…mp3`), export copies bytes from `src/data/audio/` into the EPUB and registers the path in the package manifest (alongside dialogue MP3s).
+
 ## Canonical authoring formats (converter repo)
 
 | File | Role |
 |------|------|
 | `src/data/books/{id}.json` | `{ id, title, author, chapters: [{ title, paragraphs }] }` |
 | `src/data/speakers/{id}.json` | `chunks["chapter:paragraph"] → speakers[]` |
+| `src/data/theatric/{id}.json` | Scenes + embedded texts (`theatric.json` in EPUB) — optional |
 
 Do **not** run the LLM encoder on EPUB HTML; keep encoding on plain paragraph strings.
 

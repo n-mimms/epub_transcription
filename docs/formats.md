@@ -38,10 +38,28 @@ See [`DIALOGUE_AUDIO.md`](DIALOGUE_AUDIO.md) for synth, voice map, and ARPP expo
 
 **Dialogue chunk:** each match of `/([“"][^”"]*[”"])/g` on probed paragraph text (prepend `\u201c` when `c: true`).
 
+## Theatric — `src/data/theatric/{bookId}.json`
+
+Optional. Exported as `OEBPS/metadata/theatric.json` when present. See [`arpp.md`](arpp.md) § metadata/theatric.json and [`src/data/theatric/README.md`](../src/data/theatric/README.md).
+
+| Field | Type | Required |
+|-------|------|----------|
+| `schemaVersion` | `1` | yes |
+| `bookId` | string | must match book file |
+| `scenes` | array | yes (may be empty) |
+| `scenes[].startBlockId` / `endBlockId` | string | ARPP block ids (`ch02-p014`); span must exist in book |
+| `scenes[].doNow` | string[] | optional implementation notes |
+| `scenes[].soundscape` | object | optional (`description`, `file`) |
+| `scenes[].setting` | object | optional (location/time hints) |
+| `scenes[].embeddedTexts` | array | optional letter-like spans |
+| `embeddedTexts` | array | optional top-level spans |
+
+`npm run export-arpp` parses and validates spans against `books/{id}.json` before writing the EPUB. Scene **`soundscape.file`** paths are copied from `src/data/audio/` into the package (same as dialogue MP3s).
+
 ## Validation
 
 `npm run validate-speakers` — fails if any `chunks` array length ≠ `countDialogueChunks` for that paragraph.
 
 ## ARPP export
 
-Does not change authoring keys; export adds block ids (`ch02-p014`) and optional inline `data-ar-speaker` in XHTML. Sidecar inside EPUB may use block-id keys; ereader import maps back to `chapter:paragraph`.
+Does not change authoring keys; export adds block ids (`ch02-p014`) and optional inline `data-ar-speaker` in XHTML. Sidecar inside EPUB may use block-id keys; ereader import maps back to `chapter:paragraph`. Optional **`metadata/theatric.json`** is copied from `src/data/theatric/{bookId}.json` when that file exists.

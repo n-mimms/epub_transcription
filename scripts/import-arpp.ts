@@ -1,10 +1,12 @@
 #!/usr/bin/env node
 /**
- * Import ARPP EPUB → book JSON + speakers JSON (for ereader bundling or round-trip checks).
+ * Import ARPP EPUB → book JSON + speakers JSON (+ optional theatric JSON) for ereader bundling or round-trip checks.
  *
  * Usage:
  *   npm run import-arpp -- --epub=exports/arpp/pride-and-prejudice.epub
  *   npm run import-arpp -- --epub=exports/arpp/pride-and-prejudice.epub --out-dir=src/data/imported
+ *
+ * When `metadata/theatric.json` is present and valid, also writes `{bookId}-theatric.json`.
  */
 
 import fs from "fs";
@@ -35,7 +37,7 @@ async function main(): Promise<void> {
     : path.join(root, "src", "data", "imported");
 
   const buf = fs.readFileSync(epubPath);
-  const { book, speakerAttribution } = await importArppEpub(buf);
+  const { book, speakerAttribution, theatric } = await importArppEpub(buf);
 
   fs.mkdirSync(outDir, { recursive: true });
   const bookPath = path.join(outDir, `${book.id}.json`);
@@ -46,6 +48,12 @@ async function main(): Promise<void> {
     const speakersPath = path.join(outDir, `${book.id}-speakers.json`);
     fs.writeFileSync(speakersPath, JSON.stringify(speakerAttribution, null, 2));
     console.log(`Wrote ${speakersPath}`);
+  }
+
+  if (theatric) {
+    const theatricPath = path.join(outDir, `${book.id}-theatric.json`);
+    fs.writeFileSync(theatricPath, JSON.stringify(theatric, null, 2));
+    console.log(`Wrote ${theatricPath}`);
   }
 
   console.log(`Wrote ${bookPath}`);

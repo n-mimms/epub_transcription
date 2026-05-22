@@ -1,6 +1,6 @@
 # Agent notes — epub_transcription (converter)
 
-This repo **produces** ARPP EPUBs and maintains canonical **book + speaker JSON**. It does **not** ship a React UI. The sibling ereader ([`../austen`](../austen)) consumes `exports/arpp/*.epub` at build time.
+This repo **produces** ARPP EPUBs and maintains canonical **book + speaker JSON** (optional **theatric JSON** for scenes / letters). It does **not** ship a React UI. The sibling ereader ([`../austen`](../austen)) consumes `exports/arpp/*.epub` at build time.
 
 Human overview: [`README.md`](README.md). JSON schemas: [`docs/formats.md`](docs/formats.md). ARPP wire format: [`docs/arpp.md`](docs/arpp.md). Encoder: [`docs/encode-speakers.md`](docs/encode-speakers.md). **Dialogue audio (synth + EPUB):** [`docs/DIALOGUE_AUDIO.md`](docs/DIALOGUE_AUDIO.md). **Ereader playback plan:** [`../austen/docs/PLAN_THEATRIC_SPEAK_ALOUD.md`](../austen/docs/PLAN_THEATRIC_SPEAK_ALOUD.md). Historical plan: [`docs/POLLY_THEATRIC_AUDIO_PLAN.md`](docs/POLLY_THEATRIC_AUDIO_PLAN.md).
 
@@ -13,7 +13,7 @@ Gutenberg HTML
   → validate + chapterManualValidation (human)
   → npm run synth-dialogue-audio   → src/data/audio/{id}/*.mp3
   → npm run validate-dialogue-audio
-  → npm run export-arpp:all        → exports/arpp/{id}.epub (bundles audio)
+  → npm run export-arpp:all        → exports/arpp/{id}.epub (bundles audio; optional `src/data/theatric/{id}.json`)
   → npm run verify-arpp
   → copy *.epub to ereader publications/arpp/
 ```
@@ -124,7 +124,7 @@ Windows argv: launchers use `npm_config_*` + env fallbacks. See [`docs/DIALOGUE_
 |------|------------|
 | New novel in corpus | `extract-books`, [`characters.ts`](src/lib/characters.ts), `bookLoader` N/A here |
 | Fix wrong speaker | Edit `speakers/{id}.json` `chunks`, or re-`encode-speakers` |
-| ARPP / EPUB bug | [`src/lib/arpp/`](src/lib/arpp/), `npm run verify-arpp` |
+| Theatric scenes / letters | [`src/data/theatric/README.md`](src/data/theatric/README.md), [`docs/arpp.md`](docs/arpp.md) § theatric |
 | Prompt / Gemini | [`speakerEncodeGemini.ts`](src/lib/speakerEncodeGemini.ts), [`docs/encode-speakers.md`](docs/encode-speakers.md) |
 | Benchmark P&P Ch. II | [`speakerBenchmarkGroundTruth.ts`](src/lib/speakerBenchmarkGroundTruth.ts), `npm run benchmark-speaker-prompts` |
 

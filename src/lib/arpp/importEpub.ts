@@ -9,6 +9,8 @@ import { listDialogueChunkTexts } from "@/lib/dialogueChunks";
 import { ARPP_CONTINUATION_ATTR, ARPP_SPEAKER_ATTR, ARPP_VERSION } from "@/lib/arpp/constants";
 import { nameFromCharacterId, type ArppCharacterEntry } from "@/lib/arpp/characterIds";
 import { chunkMapKeyFromBlockId, parseBlockId } from "@/lib/arpp/blockIds";
+import type { TheatricProfile } from "@/lib/arpp/theatricProfile";
+import { tryParseTheatricProfile } from "@/lib/arpp/theatricProfile";
 
 function decodeXmlText(s: string): string {
   return s
@@ -77,6 +79,8 @@ export interface ImportArppResult {
   book: Book;
   speakerAttribution: SpeakerAttributionFile | null;
   characters: ArppCharacterEntry[];
+  /** Present when EPUB contains valid `metadata/theatric.json` (schema v1). */
+  theatric: TheatricProfile | null;
 }
 
 export async function importArppEpub(buffer: Buffer): Promise<ImportArppResult> {
@@ -132,6 +136,17 @@ export async function importArppEpub(buffer: Buffer): Promise<ImportArppResult> 
       chapterManualValidation: parsed.chapterManualValidation,
     };
     if (parsed.bookId) resolvedBookId = parsed.bookId;
+  }
+
+  const theatricPath = `${opfDir}metadata/theatric.json`.replace(/\/+/g, "/");
+  const theatricRaw = await readZipTextAsync(zip, theatricPath);
+  let theatric: TheatricProfile | null = null;
+  if (theatricRaw) {
+    try {
+      theatric = tryParseTheatricProfile(JSON.parse(theatricRaw));
+    } catch {
+      theatric = null;
+    }
   }
 
   const { spineHrefs } = parseOpfSpine(opfXml);
@@ -197,5 +212,5 @@ export async function importArppEpub(buffer: Buffer): Promise<ImportArppResult> 
         }
       : null;
 
-  return { book, speakerAttribution, characters: roster };
+  return { book, speakerAttribution, characters: roster, theatric };
 }

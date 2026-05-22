@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 /**
  * Export book JSON + speakers sidecar → ARPP EPUB.
+ * Optional `src/data/theatric/{bookId}.json` → `OEBPS/metadata/theatric.json` (validated).
  *
  * Usage:
  *   npm run export-arpp --book=pride-and-prejudice
@@ -18,11 +19,17 @@ import {
   parseSpeakerAttribution,
   type SpeakerAttributionFile,
 } from "../src/lib/speakerAttribution";
+import {
+  parseTheatricProfile,
+  validateTheatricAgainstBook,
+  type TheatricProfile,
+} from "../src/lib/arpp/theatricProfile";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.join(__dirname, "..");
 const booksDir = path.join(root, "src", "data", "books");
 const speakersDir = path.join(root, "src", "data", "speakers");
+const theatricDir = path.join(root, "src", "data", "theatric");
 const dataRoot = path.join(root, "src", "data");
 const voicesDir = path.join(dataRoot, "voices");
 const defaultOutDir = path.join(root, "exports", "arpp");
@@ -74,9 +81,20 @@ async function exportOne(bookId: string, outPath: string): Promise<{ audioFiles:
     ? Object.values(speakers.audioChunks).reduce((n, row) => n + row.length, 0)
     : 0;
 
+  let theatricProfile: TheatricProfile | null = null;
+  const theatricPath = path.join(theatricDir, `${bookId}.json`);
+  if (fs.existsSync(theatricPath)) {
+    const rawTheatric = JSON.parse(fs.readFileSync(theatricPath, "utf8"));
+    theatricProfile = parseTheatricProfile(rawTheatric);
+    validateTheatricAgainstBook(book, theatricProfile);
+  }
+
   console.log(`\n[export-arpp] ${bookId}`);
   console.log(`  book:     ${path.relative(root, bookPath)}`);
   console.log(`  speakers: ${fs.existsSync(spPath) ? path.relative(root, spPath) : "(none)"}`);
+  console.log(
+    `  theatric: ${fs.existsSync(theatricPath) ? path.relative(root, theatricPath) : "(none)"}`,
+  );
   if (audioPaths > 0) {
     console.log(`  audio:    ${audioPaths} chunk path(s) in sidecar (${audioKeys} paragraphs)`);
   } else {
@@ -87,6 +105,7 @@ async function exportOne(bookId: string, outPath: string): Promise<{ audioFiles:
     includeSpeakersSidecar: !hasFlag("no-speakers-sidecar"),
     dataRoot,
     voicesDir,
+    ...(theatricProfile ? { theatricProfile } : {}),
   });
 
   fs.mkdirSync(path.dirname(outPath), { recursive: true });
