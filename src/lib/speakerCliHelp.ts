@@ -91,6 +91,10 @@ USAGE
   node scripts/run-encode-speakers.mjs -help
   npm run encode-speakers -- [options]
 
+  Windows (when argv is dropped after --):
+  npm run encode-speakers --chapter=0 --book=pride-and-prejudice
+  node scripts/run-encode-speakers.mjs --book=pride-and-prejudice --chapter=0
+
   Help aliases: -help, --help, -h
 
 PREREQUISITES

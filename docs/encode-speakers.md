@@ -53,17 +53,22 @@ npm run encode-speakers
 npm run validate-speakers
 ```
 
-**Windows / npm:** use the launcher directly if flags are dropped:
+**Windows / npm:** PowerShell often drops flags after `--`, so the script sees `argv: (none)` and would encode **all chapters**. Use one of:
 
 ```powershell
-node scripts/run-encode-speakers.mjs --book=pride-and-prejudice --chapter=1
+# Reliable: call launcher directly
+node scripts/run-encode-speakers.mjs --book=pride-and-prejudice --chapter=0
+
+# Or pass flags as npm config (no -- separator)
+npm run encode-speakers --book=pride-and-prejudice --chapter=0
+
+# Or env
+$env:ENCODE_BOOK = "pride-and-prejudice"
+$env:ENCODE_CHAPTER = "0"
+npm run encode-speakers
 ```
 
-Or:
-
-```powershell
-cmd /c "npm run encode-speakers -- --book=pride-and-prejudice --chapter=1"
-```
+Chapter index **0** is valid (Chapter I). Confirm the log shows `chapter: 0`, not `(all)`.
 
 ### Flags and env
 

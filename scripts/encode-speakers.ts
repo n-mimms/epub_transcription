@@ -108,7 +108,7 @@ function parseArgs(argv: string[]): {
 } {
   let book =
     (process.env.ENCODE_BOOK || process.env.npm_config_book || "").trim() || undefined;
-  const chEnv = (process.env.ENCODE_CHAPTER ?? "").trim();
+  const chEnv = (process.env.ENCODE_CHAPTER ?? process.env.npm_config_chapter ?? "").trim();
   let chapter: number | undefined =
     chEnv !== "" && Number.isFinite(Number(chEnv)) ? Math.trunc(Number(chEnv)) : undefined;
   let dryRun =
@@ -117,7 +117,9 @@ function parseArgs(argv: string[]): {
     process.env.npm_config_dry_run === "true";
   let showProgress = true;
   let forceValidated =
-    process.env.ENCODE_FORCE_VALIDATED === "1" || process.env.ENCODE_FORCE_VALIDATED === "true";
+    process.env.ENCODE_FORCE_VALIDATED === "1" ||
+    process.env.ENCODE_FORCE_VALIDATED === "true" ||
+    process.env.npm_config_force_validated === "true";
 
   for (const a of argv) {
     if (a === "--dry-run") dryRun = true;
